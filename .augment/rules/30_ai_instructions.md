@@ -44,9 +44,15 @@ If a transaction is missing a receipt, record a "missing_document" flag and list
 - Do NOT assume FY2024 treatment applies to FY2025 without verifying source documents.
 - If using FY2024 patterns, label the result as "suggested (based on FY2024 precedent)" and set confidence accordingly.
 
+## Capital Assets
+- Track capital assets and their depreciation in `FY????/normalized/capital_assets.csv`.
+- Identify potential new capital assets from transactions and flag them for owner review.
+- Do NOT calculate depreciation or assign CCA classes unless all required inputs are present and verified — flag for accountant.
+- See `20_data_schema.md` §4 for the canonical schema.
+
 ## Notes and Learnings
 Any recurring ambiguity, correction, or clarification discovered during analysis MUST be recorded in:
-- `context/90_lessons_learned.md`
+- `.augment/rules/90_lessons_learned.md`
 
 Each entry must include:
 - Date

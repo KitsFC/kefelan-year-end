@@ -1,5 +1,35 @@
 # FY2025 Planned AI Prompts
 
+## 0) Preamble — Populate Normalized CSV Files
+
+```text
+Before running any analysis prompts, populate the four normalized CSV files
+under FY2025/normalized/ according to the schema defined in
+.augment/rules/20_data_schema.md:
+
+1. documents.csv — Evidence / Audit Layer
+   - Scan all invoices, receipts, and confirmations under FY2025/transactions/
+   - Create one row per document
+   - Do NOT include transaction source records (bank/credit card statements)
+
+2. transactions.csv — Economic Reality / Balance Sheet Layer
+   - Ingest all corporate chequing (CSV) and credit card (Markdown) transactions
+   - Extract reimbursable/mixed-use personal transactions only
+   - Link to documents.csv where evidence exists
+
+3. allocations.csv — Classification / Tax Judgment Layer
+   - Pre-populate with suggested allocations (full or split)
+   - Apply known defaults from .augment/rules/10_accounting_rules.md
+   - Flag uncertain classifications for owner review
+
+4. capital_assets.csv — Capital Asset Register
+   - Use FY2024/financials/2024_Capital_Assets.md as the starting asset register
+   - Identify FY2025 additions and disposals from transactions
+   - Do NOT calculate depreciation; flag for accountant
+
+All subsequent prompts assume these files are populated and up to date.
+```
+
 ## A) Reconcile all transactions with corporate chequing and credit card statements
 
 ```text
@@ -23,6 +53,7 @@ Instructions:
   - discrepancy reason if any (date shift, tip, FX, partial posting, etc.)
 - Do NOT assume missing items are personal or corporate; flag and ask for owner decision.
 - Watch out for receipts for most hospitality transactions. These receipts were scanned as images before being processed via OCR and converted to Markdown. Most of these transactions are split into two (rarely more) receipts: one for the food and beverage and the other for the credit card transaction, which includes the tip. Multiple receipts for the same transaction constitutes multiple sources, not multiple transactions.
+- As part of reconciliation, ensure FY2025/normalized/documents.csv is populated with all supporting evidence (invoices, receipts, confirmations) found under FY2025/transactions/. Do NOT add transaction source records (bank/credit card statements) to documents.csv.
 ```
 
 ## B) Identify personal transactions not in corporate records (and cash)
@@ -38,6 +69,7 @@ Instructions:
   - Likely shareholder activity (loan/dividend-related)
   - Likely personal/non-corporate
   - Cash transaction candidates (no electronic trace)
+- Note: For FY2025, $2,000 per month of shareholder transfers covers personal expenses on behalf of the corporation (rent, utilities, etc.). Use this when evaluating whether personal transactions may be reimbursable.
 - For each item include:
   - date, amount, merchant/description
   - which personal account/card it came from
@@ -87,7 +119,7 @@ Instructions:
 - Use FY2024 Statements of Income and Retained Earnings categories as the target taxonomy.
 - Use `FY2024/financials/2024_Transaction_Allocations.csv` as a reference mapping for vendor→category/CRA code patterns and split patterns.
 - Do not copy blindly; verify against FY2025 source evidence and flag differences.
-- Apply known defaults from context/10_accounting_rules.md.
+- Apply known defaults from .augment/rules/10_accounting_rules.md.
 - Output a table with:
   - transaction_id
   - date, vendor, description, amount
@@ -103,7 +135,8 @@ Instructions:
 ## F) Track capital assets and depreciation (starting from FY2024)
 
 ```text
-Track capital assets for FY2025 and prepare depreciation-ready information.
+Track capital assets for FY2025 and populate FY2025/normalized/capital_assets.csv
+per the schema in .augment/rules/20_data_schema.md §4.
 
 Instructions:
 - Use FY2024/financials/2024_Capital_Assets.md as the starting asset register.
@@ -111,16 +144,13 @@ Instructions:
   - additions in FY2025 (new assets)
   - disposals in FY2025
   - assets that may have changed use or ownership
-- Output an updated register table with:
-  - asset_id
-  - description
-  - acquisition date
-  - cost
-  - currency
-  - vendor
-  - supporting document references
-  - suggested CCA class (if inferable; otherwise leave blank and flag)
-- Do NOT calculate depreciation unless all required inputs are present; flag for accountant.
+- Populate capital_assets.csv with the full schema columns:
+  - asset_id, description, acquisition_date, cost, currency, cad_cost, vendor
+  - cca_class (if inferable; otherwise leave blank and flag)
+  - opening_ucc, additions, disposals, cca_claimed, closing_ucc
+  - linked_transaction_id, linked_document_ids, notes
+- For existing assets carried forward from FY2024, populate opening_ucc from prior year data.
+- Do NOT calculate depreciation (cca_claimed / closing_ucc) unless all required inputs are present; flag for accountant.
 ```
 
 ## G) Identify GST/HST collected and paid (and ITCs)
@@ -153,8 +183,9 @@ Instructions:
   1) Revenue summary (totals + GST collected)
   2) Expense summary by category (matching FY2024 taxonomy + CRA codes)
   3) Shareholder loan activity summary (transfers, repayments, outstanding)
-  4) Capital assets changes summary (additions/disposals)
+  4) Capital assets summary (from capital_assets.csv: additions, disposals, opening/closing UCC)
   5) GST/HST summary (collected, ITCs, net)
   6) Open issues/questions requiring owner/accountant decision
 - Every total must reference underlying transaction_ids and source files.
+- Note: For FY2025, $2,000 per month of shareholder transfers covers personal expenses on behalf of the corporation (rent, utilities, etc.).
 ```

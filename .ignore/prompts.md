@@ -249,3 +249,105 @@ Also, are my additional subheadings "Primary" and "Secondary" under "Sources Cov
 - Personal credit cards (Markdown statements)
 - Cash transactions (manually identified and verified)
 ```
+
+---
+
+# Junie | Claude Opus 4.6
+
+## [2026-02-10 11:30 PST]
+
+Please review all the documents under `.augment/rules` and reference the original instructions in `.ignore/prompts.md`. Please identify any discrepancies and make any necessary obvious changes. For anything that is not obvious, please ask me for clarification. Please also make a list of omissions from the original instructions and any suggestions for improvement. DO NOT modify `.ignore/prompts.md`.
+
+---
+
+# Junie | Claude Opus 4.6
+
+## [2026-02-10 11:57 PST]
+
+You wrote:
+```
+### Items Needing Clarification
+
+2. 10_accounting_rules.md line 63 — Meals deductibility wording: The original instructions (prompts.md line 80) say "only 50% of the amount, less GST/HST is tax deductible" and "Only 50% of the GST/HST may be used for the Input Tax Credit (ITC)". The rules file condensed this to "Only 50% deductible (net of GST/HST rules per accountant)". Should I restore the more explicit two-part wording from the original?
+3. Folder ordering in prompts.md: The original prompt (line 19) lists 2_equity before 3_liabilities, but the actual folder structure is 2_liabilities then 3_equity. This is in prompts.md which I'm not modifying — just flagging it as a known discrepancy in the original.
+
+### Omissions from the Original Instructions Not Covered in Rules Files
+
+4. GST vendor exemption rule (prompts.md line 59): "If KSI's GST number is provided to a vendor, KSI may not be charged GST because KSI would be able to claim it as an Input Tax Credit (ITC) so the vendor is saving KSI the effort" — not mentioned in 10_accounting_rules.md.
+5. Restaurant dual-receipt note (prompts.md line 82): "Most transactions have two documents/receipts: one for the food and beverage and the other for the credit card transaction, which includes the tip" — not mentioned anywhere in the rules.
+6. Specific CRA filings list (prompts.md lines 7-11): T4A for unincorporated subcontractors, T5 for dividends, T2 corporate return, simple GST return — 00_overview.md mentions these generically but doesn't include the specific descriptions (e.g., T4A is for unincorporated subcontractors/individuals/sole proprietors).
+7. Level of detail guidance (prompts.md line 5): "the level of detail can be annual; in some cases, monthly; in rare cases, transactional" — not captured in any rules file.
+8. Capital assets and depreciation tracking (prompts.md line 123): "Keep track of capital assets and their depreciation, using the information in FY2024/financials/2024_Capital_Assets.md as a starting point" — only briefly mentioned in 20_data_schema.md line 178 but not as a standing instruction.
+9. Shareholder loan one-year repayment rule detail (prompts.md line 32): The detailed explanation about CRA treating unpaid shareholder loans as taxable personal income is condensed to just "CRA shareholder loan rules apply (one-year repayment rule)" in 10_accounting_rules.md line 18. Should I expand this?
+
+### Suggestions for Improvement
+- Add the GST vendor exemption rule (#4) and restaurant dual-receipt note (#5) to 10_accounting_rules.md.
+- Add more detail to the CRA filings descriptions in 00_overview.md (#6).
+- Consider adding a "reporting granularity" note (#7) to 00_overview.md or 30_ai_instructions.md.
+
+Which of these would you like me to address?
+```
+
+2. I changed it to "Only 50% deductible (excluding GST/HST, including all other taxes and tip)". Is it clear? "Only 50% of GST/HST may be claimed as ITC" is fine.
+3. `2_liabilities` then `3_equity` is correct. The prompt is wrong, but it is historical.
+4. Add to `10_accounting_rules.md`.
+5. Add to one or more of the `.augment/rules` documents.
+6. Add more detail descriptpions to `00_overview.md`.
+7. What do you think should be added and where?
+8. The important part is "Keep track of capital assets and their depreciation"—perhaps another table `FY????/normalized/capital_assets.csv` is required?
+9. Yes, expand this.
+
+---
+
+# Junie | Claude Opus 4.6
+
+## [2026-02-10 12:17 PST]
+
+You wrote:
+
+```
+For item #8 (capital assets tracking), I have two questions:
+
+1. Should I add a capital_assets.csv schema section to 20_data_schema.md as a fourth normalized table? This would track capital assets and their depreciation with columns like asset_id, description, acquisition_date, cost, cca_class, opening_ucc, additions, disposals, cca_claimed, closing_ucc, etc.
+2. Should I add a standing instruction in 30_ai_instructions.md to track capital assets using FY2024/financials/2024_Capital_Assets.md as a starting point?
+
+Or would you prefer a simpler approach?
+```
+
+1. Yes, please add a `capital_assets.csv` schema section to `20_data_schema.md` as a fourth normalized table with the columns you specified, etc.
+2. Yes, please add a standing instruction in `30_ai_instructions.md` to track capital assets; however, the instruction to use `FY2024/financials/2024_Capital_Assets.md` as a starting point should be in `.ignore/FY2025_planned_prompts.md`.
+3. Please review `.ignore/FY2025_planned_prompts.md` in consideration of `.ignore/prompts.md` and the `.augment/rules` files—same as before:
+    - Please identify any discrepancies and make any necessary obvious changes.
+    - For anything that is not obvious, please ask me for clarification.
+    - Please also make a list of omissions from the original instructions and any suggestions for improvement.
+
+---
+
+# Junie | Claude Opus 4.6
+
+## [2026-02-10 12:27 PST]
+
+You wrote:
+
+```
+5. Prompt F output columns: The planned prompt lists asset_id, description, acquisition date, cost, currency, vendor, supporting document references, suggested CCA class. The new capital_assets.csv schema in 20_data_schema.md has additional columns (cad_cost, opening_ucc, additions, disposals, cca_claimed, closing_ucc, linked_transaction_id, linked_document_ids, notes). Should I update Prompt F to align with the full schema, or is the prompt intentionally lighter (asking the AI to populate what it can)?
+6. Missing: $2,000/month personal expense allocation rule: The original instructions (prompts.md line 31) mention "$2,000 per month covers the cost of running the corporation (rent, utilities, etc.)". This isn't referenced in any planned prompt or rules file. Should it be added somewhere (e.g., 10_accounting_rules.md under Owner Compensation, or in Prompt B/H)?
+7. Missing: Prompt for documents.csv population: The planned prompts cover transactions, allocations, capital assets, and GST — but there's no explicit prompt for populating documents.csv (the evidence/audit layer). Should there be one, or is it assumed to be populated as part of Prompt A (reconciliation)?
+```
+
+5. Please update Prompt F to align with the full schema in `20_data_schema.md`.
+6. Please add the monthly personal expense allocation rule to `10_accounting_rules.md` under Owner Compensation, but note that the amount may be different for each fiscal year. It can also be noted that starting 2024-05-01 and throughout the rest of FY2024 and FY2025, the amount is $2,000 per month. In Prompt B/H, the specific amount (or amounts if there is a mid-year change) for the fiscal year should be explicitly stated.   
+7. Please add the instruction to Prompt A.
+
+Also:
+
+- Add a "Prompt 0" (preamble) that instructs the AI to first populate the four normalized CSV files before running the analysis prompts.
+- Prompt H (accountant summary) should reference `capital_assets.csv` explicitly now that it exists as a formal table.
+
+---
+
+# Junie | Claude Opus 4.6
+
+## [2026-02-10 12:30 PST]
+
+When using Augement Code CLI (Auggie), do I need to explictly tell the AI tool to read the files under `.augment/rules`?

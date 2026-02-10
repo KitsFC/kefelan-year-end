@@ -179,7 +179,43 @@ from `transactions.csv` via `source_file` and `source_locator`, not recorded as 
 
 ---
 
-## 4. Relationship Summary
+## 4. `capital_assets.csv` — Capital Asset Register
+
+### Purpose
+- Tracks **capital assets** owned by KSI across fiscal years
+- Records acquisitions, disposals, and depreciation-ready information
+- Supports CCA (Capital Cost Allowance) reporting for the accountant
+
+### Key Principles
+- One row per **capital asset**
+- Assets persist across fiscal years (updated annually)
+- AI agents should identify and flag potential capital assets but should NOT calculate depreciation unless all required inputs are present
+- CCA class assignment and depreciation calculations are ultimately accountant-driven
+
+### Required Columns
+
+| Column | Description |
+|------|-------------|
+| asset_id | Stable unique asset identifier |
+| description | Description of the asset |
+| acquisition_date | Date the asset was acquired |
+| cost | Original cost of the asset |
+| currency | ISO currency code |
+| cad_cost | CAD-equivalent cost |
+| vendor | Vendor or seller |
+| cca_class | CCA class (if known; otherwise blank and flagged) |
+| opening_ucc | Undepreciated capital cost at start of fiscal year |
+| additions | Additions during the fiscal year |
+| disposals | Disposals during the fiscal year |
+| cca_claimed | CCA claimed during the fiscal year |
+| closing_ucc | Undepreciated capital cost at end of fiscal year |
+| linked_transaction_id | Reference to `transactions.csv` |
+| linked_document_ids | Delimited list of supporting document_ids |
+| notes | Status, flags, or accountant instructions |
+
+---
+
+## 5. Relationship Summary
 
 ```text
 documents.csv
@@ -187,12 +223,14 @@ documents.csv
    │        └── referenced by (0..N)
    │
 transactions.csv
-   ↑
+   ↑        ↑
+   │        └── referenced by (0..N)
+   │             capital_assets.csv
    └── referenced by (1..N)
        allocations.csv
 ```
 
-## 5. FY2024 Reference File: `FY2024/financials/2024_Transaction_Allocations.csv`
+## 6. FY2024 Reference File: `FY2024/financials/2024_Transaction_Allocations.csv`
 
 FY2024 includes a legacy allocation-style file used as a reference for FY2025+ automation.
 
