@@ -1,0 +1,445 @@
+document_id,document_type,document_date,vendor,amount,currency,source_file,original_format,notes
+doc-20250120-td-canada-trust-15433.87CAD-4531558710,confirmation,2025-01-20,TD Canada Trust,15433.87,CAD,FY2025/transactions/1_assets/TDCT_2025-01-20_1705_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250204-td-canada-trust-6712.87CAD-8a062ed558,confirmation,2025-02-04,TD Canada Trust,6712.87,CAD,FY2025/transactions/1_assets/TDCT_2025-02-04_0818_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250218-td-canada-trust-16209.74CAD-ef193b684b,confirmation,2025-02-18,TD Canada Trust,16209.74,CAD,FY2025/transactions/1_assets/TDCT_2025-02-18_0852_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250304-td-canada-trust-8155.19CAD-896b64588d,confirmation,2025-03-04,TD Canada Trust,8155.19,CAD,FY2025/transactions/1_assets/TDCT_2025-03-04_1708_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250314-td-canada-trust-14455.19CAD-4344bfdeb6,invoice,2025-03-14,TD Canada Trust,14455.19,CAD,FY2025/transactions/1_assets/TDCT_2025-03-14_1710_(IT_Request_money_from_Harry_Ji_to_KSI_-_3_of_3).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250317-td-canada-trust-4986.82CAD-5237567628,confirmation,2025-03-17,TD Canada Trust,4986.82,CAD,FY2025/transactions/1_assets/TDCT_2025-03-17_0930_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250403-td-canada-trust-2100.00CAD-5ab20b9138,confirmation,2025-04-03,TD Canada Trust,2100.00,CAD,FY2025/transactions/1_assets/TDCT_2025-04-03_2306_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250420-td-canada-trust-4158.13CAD-cbaf0ccd4a,confirmation,2025-04-20,TD Canada Trust,4158.13,CAD,FY2025/transactions/1_assets/TDCT_2025-04-20_0840_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250508-td-canada-trust-2725.91CAD-f594de6d90,confirmation,2025-05-08,TD Canada Trust,2725.91,CAD,FY2025/transactions/1_assets/TDCT_2025-05-08_1049_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250602-td-canada-trust-6864.13CAD-e308a69732,confirmation,2025-06-02,TD Canada Trust,6864.13,CAD,FY2025/transactions/1_assets/TDCT_2025-06-02_1411_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250617-td-canada-trust-7681.60CAD-c2deb765de,confirmation,2025-06-17,TD Canada Trust,7681.60,CAD,FY2025/transactions/1_assets/TDCT_2025-06-17_1016_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250706-td-canada-trust-6860.60CAD-c9b143e7d6,confirmation,2025-07-06,TD Canada Trust,6860.60,CAD,FY2025/transactions/1_assets/TDCT_2025-07-06_0746_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250717-td-canada-trust-7557.96CAD-8e32f7c4ca,confirmation,2025-07-17,TD Canada Trust,7557.96,CAD,FY2025/transactions/1_assets/TDCT_2025-07-17_0927_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250817-td-canada-trust-3290.56CAD-4f3de52393,confirmation,2025-08-17,TD Canada Trust,3290.56,CAD,FY2025/transactions/1_assets/TDCT_2025-08-17_0731_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250903-td-canada-trust-4571.56CAD-b5ce863803,confirmation,2025-09-03,TD Canada Trust,4571.56,CAD,FY2025/transactions/1_assets/TDCT_2025-09-03_0854_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250916-td-canada-trust-6244.72CAD-4c76eb739a,confirmation,2025-09-16,TD Canada Trust,6244.72,CAD,FY2025/transactions/1_assets/TDCT_2025-09-16_1110_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251006-td-canada-trust-4868.34CAD-1784643be3,confirmation,2025-10-06,TD Canada Trust,4868.34,CAD,FY2025/transactions/1_assets/TDCT_2025-10-06_1011_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251016-td-canada-trust-7030.63CAD-ee704cf518,confirmation,2025-10-16,TD Canada Trust,7030.63,CAD,FY2025/transactions/1_assets/TDCT_2025-10-16_0910_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251103-td-canada-trust-5541.94CAD-69845c7c3b,confirmation,2025-11-03,TD Canada Trust,5541.94,CAD,FY2025/transactions/1_assets/TDCT_2025-11-03_1448_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251119-td-canada-trust-7397.01CAD-93885b0430,confirmation,2025-11-19,TD Canada Trust,7397.01,CAD,FY2025/transactions/1_assets/TDCT_2025-11-19_1024_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251202-td-canada-trust-7178.01CAD-b492982202,confirmation,2025-12-02,TD Canada Trust,7178.01,CAD,FY2025/transactions/1_assets/TDCT_2025-12-02_0923_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251217-td-canada-trust-8005.60CAD-cd984396fe,confirmation,2025-12-17,TD Canada Trust,8005.60,CAD,FY2025/transactions/1_assets/TDCT_2025-12-17_1618_(IT_from_KSI_to_HX).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250115-td-canada-trust-5000.00CAD-37dac430b6,confirmation,2025-01-15,TD Canada Trust,5000.00,CAD,FY2025/transactions/1_assets/TDCT_20250115_1030_HW293_(KSI_to_FC).md,md,
+doc-20250115-td-canada-trust-1947.06CAD-bb984292db,confirmation,2025-01-15,TD Canada Trust,1947.06,CAD,FY2025/transactions/1_assets/TDCT_20250115_1031_HW311_(KSI_to_VISA).md,md,
+doc-20250131-td-canada-trust-3600.00CAD-63b30c7abf,confirmation,2025-01-31,TD Canada Trust,3600.00,CAD,FY2025/transactions/1_assets/TDCT_20250131_0908_JJ074_(KSI_to_FC).md,md,
+doc-20250131-td-canada-trust-2100.00CAD-8305c7e05e,confirmation,2025-01-31,TD Canada Trust,2100.00,CAD,FY2025/transactions/1_assets/TDCT_20250131_0909_JJ005_(FC_to_KSI_for_FC_VISA_by_mistake).md,md,
+doc-20250131-td-canada-trust-2100.00CAD-404f7d4770,confirmation,2025-01-31,TD Canada Trust,2100.00,CAD,FY2025/transactions/1_assets/TDCT_20250131_1003_JW024_(KSI_to_FC_VISA_to_correct_mistake).md,md,
+doc-20250201-td-canada-trust-10000.00CAD-eccdf8a5c2,confirmation,2025-02-01,TD Canada Trust,10000.00,CAD,FY2025/transactions/1_assets/TDCT_20250201_1343_UQ423_(KSI_to_FC).md,md,
+doc-20250215-td-canada-trust-700.00CAD-ff9bd9dda5,confirmation,2025-02-15,TD Canada Trust,700.00,CAD,FY2025/transactions/1_assets/TDCT_20250215_1036_UW360_(KSI_to_FC).md,md,
+doc-20250215-td-canada-trust-1353.13CAD-d70b0a74b3,confirmation,2025-02-15,TD Canada Trust,1353.13,CAD,FY2025/transactions/1_assets/TDCT_20250215_1039_UW303_(KSI_to_VISA).md,md,
+doc-20250224-td-canada-trust-7300.00CAD-0341315f5a,confirmation,2025-02-24,TD Canada Trust,7300.00,CAD,FY2025/transactions/1_assets/TDCT_20250224_0911_RJ111_(KSI_to_FC).md,md,
+doc-20250228-td-canada-trust-2400.00CAD-3517875d8a,confirmation,2025-02-28,TD Canada Trust,2400.00,CAD,FY2025/transactions/1_assets/TDCT_20250228_1158_JL573_(KSI_to_FC).md,md,
+doc-20250315-td-canada-trust-1768.37CAD-d00611e413,confirmation,2025-03-15,TD Canada Trust,1768.37,CAD,FY2025/transactions/1_assets/TDCT_20250315_1038_UW303_(KSI_to_VISA).md,md,
+doc-20250315-td-canada-trust-10200.00CAD-83e12bdf78,confirmation,2025-03-15,TD Canada Trust,10200.00,CAD,FY2025/transactions/1_assets/TDCT_20250315_1110_UL102_(KSI_to_FC).md,md,
+doc-20250331-td-canada-trust-2700.00CAD-b6fb0ec597,confirmation,2025-03-31,TD Canada Trust,2700.00,CAD,FY2025/transactions/1_assets/TDCT_20250331_1023_RW231_(KSI_to_FC).md,md,
+doc-20250412-td-canada-trust-6792.74CAD-152c236c6f,receipt,2025-04-12,TD Canada Trust,6792.74,CAD,FY2025/transactions/1_assets/TDCT_20250412_0716_UH155_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250412-td-canada-trust-4244.91CAD-91d4435299,receipt,2025-04-12,TD Canada Trust,4244.91,CAD,FY2025/transactions/1_assets/TDCT_20250412_0718_UH200_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250430-td-canada-trust-2100.00CAD-ee3bb663f9,confirmation,2025-04-30,TD Canada Trust,2100.00,CAD,FY2025/transactions/1_assets/TDCT_20250430_1020_HW213_(KSI_to_FC).md,md,
+doc-20250515-td-canada-trust-4300.00CAD-e7dd41eb2f,confirmation,2025-05-15,TD Canada Trust,4300.00,CAD,FY2025/transactions/1_assets/TDCT_20250515_0939_IJ391_(KSI_to_FC).md,md,
+doc-20250515-td-canada-trust-1155.28CAD-1fca5a3c0b,confirmation,2025-05-15,TD Canada Trust,1155.28,CAD,FY2025/transactions/1_assets/TDCT_20250515_0940_IJ401_(KSI_to_VISA).md,md,
+doc-20250531-td-canada-trust-2200.00CAD-e0f53e5f7a,confirmation,2025-05-31,TD Canada Trust,2200.00,CAD,FY2025/transactions/1_assets/TDCT_20250531_1038_UW302_(KSI_to_FC).md,md,
+doc-20250615-td-canada-trust-6200.00CAD-31ddfd129f,confirmation,2025-06-15,TD Canada Trust,6200.00,CAD,FY2025/transactions/1_assets/TDCT_20250615_0930_LJ295_(KSI_to_FC).md,md,
+doc-20250615-td-canada-trust-1905.53CAD-c0c8e8d432,confirmation,2025-06-15,TD Canada Trust,1905.53,CAD,FY2025/transactions/1_assets/TDCT_20250615_0931_LJ312_(KSI_to_VISA).md,md,
+doc-20250630-td-canada-trust-2300.00CAD-7dbe56ca2a,confirmation,2025-06-30,TD Canada Trust,2300.00,CAD,FY2025/transactions/1_assets/TDCT_20250630_0927_RJ272_(KSI_to_FC).md,md,
+doc-20250715-td-canada-trust-6200.00CAD-2d062f3d96,confirmation,2025-07-15,TD Canada Trust,6200.00,CAD,FY2025/transactions/1_assets/TDCT_20250715_0828_WI201_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250715-td-canada-trust-2027.64CAD-80909a7472,confirmation,2025-07-15,TD Canada Trust,2027.64,CAD,FY2025/transactions/1_assets/TDCT_20250715_0829_WI293_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250730-td-canada-trust-2900.00CAD-be8941f4fe,confirmation,2025-07-30,TD Canada Trust,2900.00,CAD,FY2025/transactions/1_assets/TDCT_20250730_0954_HJ544_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250815-td-canada-trust-8100.00CAD-38d047d8df,confirmation,2025-08-15,TD Canada Trust,8100.00,CAD,FY2025/transactions/1_assets/TDCT_20250815_1400_JR003_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250815-td-canada-trust-2771.40CAD-394725b7dc,confirmation,2025-08-15,TD Canada Trust,2771.40,CAD,FY2025/transactions/1_assets/TDCT_20250815_1446_JR460_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250830-td-canada-trust-2800.00CAD-1fc54e5e78,confirmation,2025-08-30,TD Canada Trust,2800.00,CAD,FY2025/transactions/1_assets/TDCT_20250830_1028_UW273_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250915-td-canada-trust-5800.00CAD-031c5e2d72,confirmation,2025-09-15,TD Canada Trust,5800.00,CAD,FY2025/transactions/1_assets/TDCT_20250915_1130_RL292_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250915-td-canada-trust-821.84CAD-613b248dd4,confirmation,2025-09-15,TD Canada Trust,821.84,CAD,FY2025/transactions/1_assets/TDCT_20250915_1131_RL305_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250929-td-canada-trust-2500.00CAD-8306da00a6,confirmation,2025-09-29,TD Canada Trust,2500.00,CAD,FY2025/transactions/1_assets/TDCT_20250929_1736_RW362_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251015-td-canada-trust-7100.00CAD-9b47fb6297,confirmation,2025-10-15,TD Canada Trust,7100.00,CAD,FY2025/transactions/1_assets/TDCT_20251015_1327_HQ273_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251015-td-canada-trust-1720.02CAD-9c3dbaeb3f,confirmation,2025-10-15,TD Canada Trust,1720.02,CAD,FY2025/transactions/1_assets/TDCT_20251015_1330_HQ304_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251031-td-canada-trust-2900.00CAD-fdb41791fc,confirmation,2025-10-31,TD Canada Trust,2900.00,CAD,FY2025/transactions/1_assets/TDCT_20251031_1038_JW375_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251115-td-canada-trust-6000.00CAD-9e3242a1e5,confirmation,2025-11-15,TD Canada Trust,6000.00,CAD,FY2025/transactions/1_assets/TDCT_20251115_1047_UW471_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251115-td-canada-trust-1352.93CAD-f6a73fb51f,confirmation,2025-11-15,TD Canada Trust,1352.93,CAD,FY2025/transactions/1_assets/TDCT_20251115_1053_UW530_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251130-td-canada-trust-2300.00CAD-ec568c03d1,confirmation,2025-11-30,TD Canada Trust,2300.00,CAD,FY2025/transactions/1_assets/TDCT_20251130_1028_LW275_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251215-td-canada-trust-7500.00CAD-98fcb03290,confirmation,2025-12-15,TD Canada Trust,7500.00,CAD,FY2025/transactions/1_assets/TDCT_20251215_1313_RQ130_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251215-td-canada-trust-1647.41CAD-3f45cb957a,confirmation,2025-12-15,TD Canada Trust,1647.41,CAD,FY2025/transactions/1_assets/TDCT_20251215_1318_RQ100_(KSI_to_VISA).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251230-td-canada-trust-2800.00CAD-4a5c549f06,confirmation,2025-12-30,TD Canada Trust,2800.00,CAD,FY2025/transactions/1_assets/TDCT_20251230_1713_WW131_(KSI_to_FC).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250115-kefelan-solutions-inc-4200.00CAD-ba37ba313c,invoice,2025-01-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025011501_myCareBase.md,md,
+doc-20250131-kefelan-solutions-inc-4200.00CAD-b440ce66c4,invoice,2025-01-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025013101_Capiche.md,md,
+doc-20250131-kefelan-solutions-inc-4200.00CAD-3ccac5d389,invoice,2025-01-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025013102_myCareBase.md,md,
+doc-20250131-kefelan-solutions-inc-1575.00CAD-c46c240681,invoice,2025-01-31,Kefelan Solutions Inc.,1575.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025013103_Green_Spirit.md,md,
+doc-20250131-kefelan-solutions-inc-2625.00CAD-83ec539ad3,invoice,2025-01-31,Kefelan Solutions Inc.,2625.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025013108_Super_E-Solutions.md,md,
+doc-20250215-kefelan-solutions-inc-4200.00CAD-ef3ee14b09,invoice,2025-02-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025021501_myCareBase.md,md,
+doc-20250228-kefelan-solutions-inc-4200.00CAD-f4d9dd06e4,invoice,2025-02-28,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025022801_Capiche.md,md,
+doc-20250228-kefelan-solutions-inc-4200.00CAD-3d48480013,invoice,2025-02-28,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025022802_myCareBase.md,md,
+doc-20250228-kefelan-solutions-inc-1575.00CAD-5bb42e3908,invoice,2025-02-28,Kefelan Solutions Inc.,1575.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025022803_Green_Spirit.md,md,
+doc-20250315-kefelan-solutions-inc-4200.00CAD-7ddd9f52a0,invoice,2025-03-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025031501_myCareBase.md,md,
+doc-20250331-kefelan-solutions-inc-6825.00CAD-0715c08034,invoice,2025-03-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025033101_Capiche.md,md,
+doc-20250331-kefelan-solutions-inc-4200.00CAD-eea808a0d6,invoice,2025-03-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025033102_myCareBase.md,md,
+doc-20250415-kefelan-solutions-inc-4200.00CAD-f5ea9da99e,invoice,2025-04-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025041501_myCareBase.md,md,
+doc-20250430-kefelan-solutions-inc-6825.00CAD-8fd5a7208b,invoice,2025-04-30,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025043001_Capiche.md,md,
+doc-20250430-kefelan-solutions-inc-4200.00CAD-eb9dd5859f,invoice,2025-04-30,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025043002_myCareBase.md,md,
+doc-20250430-kefelan-solutions-inc-787.50CAD-3dc19a9f4a,invoice,2025-04-30,Kefelan Solutions Inc.,787.50,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025043003_Green_Spirit.md,md,
+doc-20250515-kefelan-solutions-inc-4200.00CAD-c58889f401,invoice,2025-05-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025051501_myCareBase.md,md,
+doc-20250531-kefelan-solutions-inc-6825.00CAD-c45f111166,invoice,2025-05-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025053101_Capiche.md,md,
+doc-20250531-kefelan-solutions-inc-4200.00CAD-9ae0e41e68,invoice,2025-05-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025053102_myCareBase.md,md,
+doc-20250615-kefelan-solutions-inc-4200.00CAD-168c43c55e,invoice,2025-06-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025061501_myCareBase.md,md,
+doc-20250630-kefelan-solutions-inc-6825.00CAD-61074bc876,invoice,2025-06-30,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025063001_Capiche.md,md,
+doc-20250630-kefelan-solutions-inc-4200.00CAD-715f0ae6c1,invoice,2025-06-30,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025063002_myCareBase.md,md,
+doc-20250630-kefelan-solutions-inc-2100.00CAD-8c3ddf8ff9,invoice,2025-06-30,Kefelan Solutions Inc.,2100.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025063003_Green_Spirit.md,md,
+doc-20250715-kefelan-solutions-inc-4200.00CAD-5469cc1b32,invoice,2025-07-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025071501_myCareBase.md,md,
+doc-20250731-kefelan-solutions-inc-6825.00CAD-3f39e19712,invoice,2025-07-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025073101_Capiche.md,md,
+doc-20250731-kefelan-solutions-inc-4200.00CAD-4fcbbf5fda,invoice,2025-07-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025073102_myCareBase.md,md,
+doc-20250815-kefelan-solutions-inc-4200.00CAD-378db4da73,invoice,2025-08-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025081501_myCareBase.md,md,
+doc-20250831-kefelan-solutions-inc-6825.00CAD-0d79c0ae0c,invoice,2025-08-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025083101_Capiche.md,md,
+doc-20250831-kefelan-solutions-inc-5387.31CAD-65b484343b,invoice,2025-08-31,Kefelan Solutions Inc.,5387.31,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025083102_myCareBase.md,md,
+doc-20250915-kefelan-solutions-inc-5387.31CAD-e5b16fc192,invoice,2025-09-15,Kefelan Solutions Inc.,5387.31,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025091501_myCareBase.md,md,
+doc-20250930-kefelan-solutions-inc-6825.00CAD-46c8e05e9b,invoice,2025-09-30,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025093001_Capiche.md,md,
+doc-20250930-kefelan-solutions-inc-5387.31CAD-762643042c,invoice,2025-09-30,Kefelan Solutions Inc.,5387.31,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025093002_myCareBase.md,md,
+doc-20251015-kefelan-solutions-inc-5387.31CAD-e7ebf0cc28,invoice,2025-10-15,Kefelan Solutions Inc.,5387.31,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025101501_myCareBase.md,md,
+doc-20251031-kefelan-solutions-inc-6825.00CAD-c2f91a9809,invoice,2025-10-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025103101_Capiche.md,md,
+doc-20251031-kefelan-solutions-inc-4200.00CAD-9ef23f8fb5,invoice,2025-10-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025103102_myCareBase.md,md,
+doc-20251115-kefelan-solutions-inc-4200.00CAD-36a66fa87f,invoice,2025-11-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025111501_myCareBase.md,md,
+doc-20251130-kefelan-solutions-inc-6825.00CAD-4dfe4e0efe,invoice,2025-11-30,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025113001_Capiche.md,md,
+doc-20251130-kefelan-solutions-inc-4200.00CAD-2668c19555,invoice,2025-11-30,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025113002_myCareBase.md,md,
+doc-20251215-kefelan-solutions-inc-4200.00CAD-13cf8e2e7d,invoice,2025-12-15,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025121501_myCareBase.md,md,
+doc-20251231-kefelan-solutions-inc-6825.00CAD-69c38445df,invoice,2025-12-31,Kefelan Solutions Inc.,6825.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025123101_Capiche.md,md,
+doc-20251231-kefelan-solutions-inc-4200.00CAD-27916a421d,invoice,2025-12-31,Kefelan Solutions Inc.,4200.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025123102_myCareBase.md,md,
+doc-20251231-kefelan-solutions-inc-525.00CAD-ea7cf7c1d6,invoice,2025-12-31,Kefelan Solutions Inc.,525.00,CAD,FY2025/transactions/4_revenue/Kefelan_Invoice_KS2025123103_Green_Spirit.md,md,
+doc-20250120-amazon-ca-109.99CAD-eac4b9b0d7,invoice,2025-01-20,Amazon.ca,109.99,CAD,FY2025/transactions/5_expenses/Amazon.ca_2025-01-20_Order_#702-4454750-4856254.md,md,
+doc-20250101-apple-133.28CAD-ec5bd4bffb,invoice,2025-01-01,Apple,133.28,CAD,FY2025/transactions/5_expenses/Apple_2025-01-01.md,md,
+doc-20250315-bmo-2500.00CAD-dc93bc74ed,other,2025-03-15,BMO,2500.00,CAD,FY2025/transactions/5_expenses/BMO_2025-03-15_1030_D5BC2B_(Interac_e-Transfer_to_KSI_@_TD).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250327-bmo-2000.00CAD-6a14a712a6,other,2025-03-27,BMO,2000.00,CAD,FY2025/transactions/5_expenses/BMO_2025-03-27_1531_14A4A7_(Interac_e-Transfer_to_KSI_@_TD).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250902-bmo-2000.00CAD-456e0720a2,other,2025-09-02,BMO,2000.00,CAD,FY2025/transactions/5_expenses/BMO_2025-09-02_0933_FD4234_(Interac_e-Transfer_to_KSI_@_TD).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251001-connectwise-67.88CAD-17f76d1e42,receipt,2025-10-01,ConnectWise,67.88,CAD,FY2025/transactions/5_expenses/ConnectWise_2025-10-01.md,md,
+doc-20251101-connectwise-80.81CAD-7ad8fcce4b,receipt,2025-11-01,ConnectWise,80.81,CAD,FY2025/transactions/5_expenses/ConnectWise_2025-11-01.md,md,
+doc-20250630-digitalocean-0.62CAD-3b2281c217,invoice,2025-06-30,DigitalOcean,0.62,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-06-30.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250731-digitalocean-14.79CAD-f2ce4a406a,invoice,2025-07-31,DigitalOcean,14.79,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-07-31.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250831-digitalocean-12.12CAD-f63924c699,invoice,2025-08-31,DigitalOcean,12.12,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-08-31.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250930-digitalocean-5.94CAD-d7fcc6c381,invoice,2025-09-30,DigitalOcean,5.94,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-09-30.md,md,
+doc-20251031-digitalocean-5.94CAD-1d569b10f4,invoice,2025-10-31,DigitalOcean,5.94,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-10-31.md,md,
+doc-20251130-digitalocean-5.94CAD-8833a892c5,invoice,2025-11-30,DigitalOcean,5.94,CAD,FY2025/transactions/5_expenses/DigitalOcean_2025-11-30.md,md,
+doc-20261231-digitalocean-4.88CAD-441f190776,invoice,2026-12-31,DigitalOcean,4.88,CAD,FY2025/transactions/5_expenses/DigitalOcean_2026-12-31.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250710-expedia-284.31CAD-16de9db35f,receipt,2025-07-10,Expedia,284.31,CAD,FY2025/transactions/5_expenses/Expedia_2025-07-10_San_Francisco.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250710-expedia-284.31CAD-b768132b3f,receipt,2025-07-10,Expedia,284.31,CAD,FY2025/transactions/5_expenses/Expedia_2025-07-10_Taj_Campton_Place.md,md,
+doc-20250106-github-8.00USD-6c78a2d212,receipt,2025-01-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-01-06.md,md,
+doc-20250206-github-8.00USD-e14ccd8d1a,receipt,2025-02-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-02-06.md,md,
+doc-20250306-github-8.00USD-db89b37b08,receipt,2025-03-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-03-06.md,md,
+doc-20250406-github-8.00USD-6d978c3898,receipt,2025-04-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-04-06.md,md,
+doc-20250506-github-8.00USD-ab60c7303f,receipt,2025-05-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-05-06.md,md,
+doc-20250606-github-8.00USD-c8fa0d0846,receipt,2025-06-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-06-06.md,md,
+doc-20250706-github-8.00USD-b4acc0b2f4,receipt,2025-07-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-07-06.md,md,
+doc-20250806-github-8.00USD-170193ea66,receipt,2025-08-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-08-06.md,md,
+doc-20250906-github-8.00USD-4641ca0006,receipt,2025-09-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-09-06.md,md,
+doc-20251006-github-8.00USD-7d9f93d5c5,receipt,2025-10-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-10-06.md,md,
+doc-20251106-github-8.00USD-5e9c5856a0,receipt,2025-11-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-11-06.md,md,
+doc-20251206-github-8.00USD-a680adde3c,receipt,2025-12-06,GitHub,8.00,USD,FY2025/transactions/5_expenses/GitHub_2025-12-06.md,md,
+doc-20250131-google-1.55CAD-2e063b4eda,invoice,2025-01-31,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-01-31_(tila_3win_cloud).md,md,
+doc-20250131-google-1.55CAD-f4f4d0e0d7,invoice,2025-01-31,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-01-31_Cloud_3win.md,md,
+doc-20250131-google-10.02CAD-11ddb84562,invoice,2025-01-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-01-31_Workspace_3win.md,md,
+doc-20250131-google-10.02CAD-2923a85b22,invoice,2025-01-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-01-31_Workspace_chatbase.md,md,
+doc-20250131-google-10.02CAD-c5bf85a1b4,invoice,2025-01-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-01-31_Workspace_referral-intro.md,md,
+doc-20250228-google-1.56CAD-89beb06679,invoice,2025-02-28,Google,1.56,CAD,FY2025/transactions/5_expenses/Google_2025-02-28_(tila_3win_cloud).md,md,
+doc-20250228-google-1.56CAD-dc0c88f8a5,invoice,2025-02-28,Google,1.56,CAD,FY2025/transactions/5_expenses/Google_2025-02-28_Cloud_3win.md,md,
+doc-20250228-google-10.02CAD-1fdbe686b1,invoice,2025-02-28,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-02-28_Workspace_3win.md,md,
+doc-20250228-google-10.02CAD-0433524bb0,invoice,2025-02-28,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-02-28_Workspace_chatbase.md,md,
+doc-20250228-google-10.02CAD-db2e7ad645,invoice,2025-02-28,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-02-28_Workspace_referral-intro.md,md,
+doc-20250331-google-1.55CAD-14d3d25323,invoice,2025-03-31,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-03-31_(tila_3win_cloud).md,md,
+doc-20250331-google-1.55CAD-0cd7a4442b,invoice,2025-03-31,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-03-31_Cloud_3win.md,md,
+doc-20250331-google-10.02CAD-1a961b0543,invoice,2025-03-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-03-31_Workspace_3win.md,md,
+doc-20250331-google-10.02CAD-c2cdb6380c,invoice,2025-03-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-03-31_Workspace_chatbase.md,md,
+doc-20250331-google-10.02CAD-c9e5ee7990,invoice,2025-03-31,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-03-31_Workspace_referral-intro.md,md,
+doc-20250430-google-1.55CAD-f55ebb7da9,invoice,2025-04-30,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-04-30_(tila_3win_cloud).md,md,
+doc-20250430-google-1.55CAD-54326d605c,invoice,2025-04-30,Google,1.55,CAD,FY2025/transactions/5_expenses/Google_2025-04-30_Cloud_3win.md,md,
+doc-20250430-google-10.02CAD-c7ebda752b,invoice,2025-04-30,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-04-30_Workspace_3win.md,md,
+doc-20250430-google-10.02CAD-0faf4d49d6,invoice,2025-04-30,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-04-30_Workspace_chatbase.md,md,
+doc-20250430-google-10.02CAD-bd2d26668c,invoice,2025-04-30,Google,10.02,CAD,FY2025/transactions/5_expenses/Google_2025-04-30_Workspace_referral-intro.md,md,
+doc-20250522-google-0.42CAD-40e4a37b67,invoice,2025-05-22,Google,0.42,CAD,FY2025/transactions/5_expenses/Google_2025-05-22_(tila_3win_cloud).md,md,
+doc-20250522-google-0.42CAD-08d857ca3c,invoice,2025-05-22,Google,0.42,CAD,FY2025/transactions/5_expenses/Google_2025-05-22_Cloud_3win.md,md,
+doc-20250529-google-7.10CAD-a1bbee7292,invoice,2025-05-29,Google,7.10,CAD,FY2025/transactions/5_expenses/Google_2025-05-29_Workspace_3win.md,md,
+doc-20250531-google-0.46CAD-e4b54789b7,invoice,2025-05-31,Google,0.46,CAD,FY2025/transactions/5_expenses/Google_2025-05-31_Cloud.md,md,
+doc-20250531-google-9.88CAD-3e8d7ac18c,invoice,2025-05-31,Google,9.88,CAD,FY2025/transactions/5_expenses/Google_2025-05-31_Workspace.md,md,
+doc-20250531-google-4.84CAD-ae091a3a39,invoice,2025-05-31,Google,4.84,CAD,FY2025/transactions/5_expenses/Google_2025-05-31_Workspace_referral-intro.md,md,
+doc-20250630-google-1.49CAD-ea39c48262,invoice,2025-06-30,Google,1.49,CAD,FY2025/transactions/5_expenses/Google_2025-06-30_Cloud.md,md,
+doc-20250630-google-21.72CAD-f9a2de9138,invoice,2025-06-30,Google,21.72,CAD,FY2025/transactions/5_expenses/Google_2025-06-30_Workspace.md,md,
+doc-20250722-google-29.95CAD-07e2ff9639,receipt,2025-07-22,Google,29.95,CAD,FY2025/transactions/5_expenses/Google_2025-07-22_One.md,md,
+doc-20250731-google-1.47CAD-0849a091d5,invoice,2025-07-31,Google,1.47,CAD,FY2025/transactions/5_expenses/Google_2025-07-31_Cloud.md,md,
+doc-20250731-google-23.54CAD-8ddf171638,invoice,2025-07-31,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-07-31_Workspace.md,md,
+doc-20250831-google-1.49CAD-db5359b382,invoice,2025-08-31,Google,1.49,CAD,FY2025/transactions/5_expenses/Google_2025-08-31_Cloud.md,md,
+doc-20250831-google-23.54CAD-285a901863,invoice,2025-08-31,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-08-31_Workspace.md,md,
+doc-20250930-google-1.50CAD-eba5937ab1,invoice,2025-09-30,Google,1.50,CAD,FY2025/transactions/5_expenses/Google_2025-09-30_Cloud.md,md,
+doc-20250930-google-23.54CAD-5b5036f8bf,invoice,2025-09-30,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-09-30_Workspace.md,md,
+doc-20251031-google-1.87CAD-0e518abade,invoice,2025-10-31,Google,1.87,CAD,FY2025/transactions/5_expenses/Google_2025-10-31_Cloud.md,md,
+doc-20251031-google-23.54CAD-dd05f85063,invoice,2025-10-31,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-10-31_Workspace.md,md,
+doc-20251130-google-1.54CAD-cb5ccb632c,invoice,2025-11-30,Google,1.54,CAD,FY2025/transactions/5_expenses/Google_2025-11-30_Cloud.md,md,
+doc-20251130-google-23.54CAD-f75d31c547,invoice,2025-11-30,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-11-30_Workspace.md,md,
+doc-20251231-google-1.54CAD-9ed0c2de89,invoice,2025-12-31,Google,1.54,CAD,FY2025/transactions/5_expenses/Google_2025-12-31_Cloud.md,md,
+doc-20251231-google-23.54CAD-b70caa303d,invoice,2025-12-31,Google,23.54,CAD,FY2025/transactions/5_expenses/Google_2025-12-31_Workspace.md,md,
+doc-20240911-google-youtube-22.99CAD-d5fc1176ab,other,2024-09-11,Google YouTube,22.99,CAD,FY2025/transactions/5_expenses/Google_YouTube_2024-09-11_(Recurring).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250101-guardian-storage-129.21CAD-d7599f4765,other,2025-01-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-01-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250201-guardian-storage-129.21CAD-b954b16855,other,2025-02-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-02-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250301-guardian-storage-129.21CAD-43b3e1122d,other,2025-03-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-03-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250401-guardian-storage-129.21CAD-6a8bcb3c93,other,2025-04-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-04-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250501-guardian-storage-129.21CAD-4dc8a0aae7,other,2025-05-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-05-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250601-guardian-storage-129.21CAD-9d38c0e131,other,2025-06-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-06-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250701-guardian-storage-129.21CAD-d32dd23115,other,2025-07-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-07-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250801-guardian-storage-129.21CAD-bd537bf306,other,2025-08-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-08-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250901-guardian-storage-129.21CAD-6ac0f0e941,other,2025-09-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-09-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251001-guardian-storage-129.21CAD-bd6c390e8e,other,2025-10-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-10-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251101-guardian-storage-129.21CAD-403f07e8ca,other,2025-11-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-11-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251201-guardian-storage-129.21CAD-8b2c10f1d0,other,2025-12-01,Guardian Storage,129.21,CAD,FY2025/transactions/5_expenses/Guardian_Storage_2025-12-01_(M9L).md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251024-indigo-neo-CAD-fa3b2ca757,confirmation,2025-10-24,Indigo Neo,,CAD,FY2025/transactions/5_expenses/Indigo_Neo_2025-10-24.md,md,amount missing; no amount detected
+doc-20250105-jetbrains-USD-33316f91db,invoice,2025-01-05,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-01-05.md,md,amount missing; no amount detected
+doc-20250205-jetbrains-USD-cc5e9c679c,invoice,2025-02-05,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-02-05.md,md,amount missing; no amount detected
+doc-20250305-jetbrains-USD-cf040fdd53,invoice,2025-03-05,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-03-05.md,md,amount missing; no amount detected
+doc-20250406-jetbrains-USD-a60d92cc24,invoice,2025-04-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-04-06.md,md,amount missing; no amount detected
+doc-20250506-jetbrains-USD-d7a4326269,invoice,2025-05-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-05-06.md,md,amount missing; no amount detected
+doc-20250606-jetbrains-USD-638d92ab6f,invoice,2025-06-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-06-06.md,md,amount missing; no amount detected
+doc-20250706-jetbrains-USD-548bedd768,invoice,2025-07-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-07-06.md,md,amount missing; no amount detected
+doc-20250806-jetbrains-USD-e1c73f38b0,invoice,2025-08-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-08-06.md,md,amount missing; no amount detected
+doc-20250906-jetbrains-USD-c7fa9d5408,invoice,2025-09-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-09-06.md,md,amount missing; no amount detected
+doc-20250917-jetbrains-USD-53470dbf2c,invoice,2025-09-17,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-09-17.md,md,amount missing; no amount detected
+doc-20251006-jetbrains-USD-c626f3b4d9,invoice,2025-10-06,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-10-06.md,md,amount missing; no amount detected
+doc-20251017-jetbrains-USD-62ad817511,invoice,2025-10-17,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-10-17.md,md,amount missing; no amount detected
+doc-20251105-jetbrains-USD-a49dcd97a8,invoice,2025-11-05,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-11-05.md,md,amount missing; no amount detected
+doc-20251116-jetbrains-USD-a70ebd9a66,invoice,2025-11-16,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-11-16.md,md,amount missing; no amount detected
+doc-20251205-jetbrains-USD-440709fe72,invoice,2025-12-05,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-12-05.md,md,amount missing; no amount detected
+doc-20251216-jetbrains-USD-63cde5f535,invoice,2025-12-16,JetBrains,,USD,FY2025/transactions/5_expenses/JetBrains_2025-12-16.md,md,amount missing; no amount detected
+doc-20250131-jinwei-heller-xu-3150.00CAD-d2e703144a,invoice,2025-01-31,Jinwei (Heller) Xu,3150.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-01-31.md,md,
+doc-20250228-jinwei-heller-xu-4200.00CAD-80902bcf51,invoice,2025-02-28,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-02-28.md,md,
+doc-20250331-jinwei-heller-xu-4200.00CAD-4e076cc41b,invoice,2025-03-31,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-03-31.md,md,
+doc-20250430-jinwei-heller-xu-4200.00CAD-e766b29f77,invoice,2025-04-30,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-04-30.md,md,
+doc-20250531-jinwei-heller-xu-4200.00CAD-a7f0eab277,invoice,2025-05-31,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-05-31.md,md,
+doc-20250630-jinwei-heller-xu-4200.00CAD-debd247c6d,invoice,2025-06-30,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-06-30.md,md,
+doc-20250731-jinwei-heller-xu-4200.00CAD-1f2c009b5d,invoice,2025-07-31,Jinwei (Heller) Xu,4200.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-07-31.md,md,
+doc-20250831-jinwei-heller-xu-4830.00CAD-fb82e1fdf5,invoice,2025-08-31,Jinwei (Heller) Xu,4830.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-08-31.md,md,
+doc-20250930-jinwei-heller-xu-4410.00CAD-00b09928bd,invoice,2025-09-30,Jinwei (Heller) Xu,4410.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-09-30.md,md,
+doc-20251031-jinwei-heller-xu-3780.00CAD-087dba246f,invoice,2025-10-31,Jinwei (Heller) Xu,3780.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-10-31.md,md,
+doc-20251130-jinwei-heller-xu-3150.00CAD-1a8522aa4b,invoice,2025-11-30,Jinwei (Heller) Xu,3150.00,CAD,FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-11-30.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-cincin-CAD-d59e400fe4,receipt,2026-02-09,CinCin,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171500.md,md,amount missing; no amount detected
+doc-20260209-cincin-336.37CAD-ecc0eec599,receipt,2026-02-09,CINCIN,336.37,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171519.md,md,
+doc-20260209-transaction-record-350.49CAD-3610a7aae5,receipt,2026-02-09,TRANSACTION RECORD,350.49,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171616.md,md,
+doc-20260209-wedgewood-hotel-80.50CAD-62569504e6,receipt,2026-02-09,Wedgewood Hotel,80.50,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171849.md,md,
+doc-20260209-bacchus-restaurant-80.50CAD-7a885cf2e8,receipt,2026-02-09,Bacchus Restaurant,80.50,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171905.md,md,
+doc-20260209-century-plaza-hotel-434.35CAD-7d01e99970,receipt,2026-02-09,Century Plaza Hotel,434.35,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171928.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-century-plaza-hotel-217.17CAD-be6b08f40c,receipt,2026-02-09,Century Plaza Hotel,217.17,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_171942.md,md,
+doc-20260209-v6a-3-8-CAD-25bed48a91,receipt,2026-02-09,V6A 3/8,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172043.md,md,amount missing; no amount detected
+doc-20260209-check-1110352-CAD-4ee6262aaf,receipt,2026-02-09,CHECK \# 1110352,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172107.md,md,amount missing; no amount detected
+doc-20260209-transaction-record-185.00CAD-4e1f3dd1cd,receipt,2026-02-09,— TRANSACTION RECORD —,185.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172120.md,md,
+doc-20260209-water-street-cafe-275.61CAD-c629d452f0,receipt,2026-02-09,Water Street Cafe,275.61,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172214.md,md,
+doc-20260209-c15-71.40CAD-ccc566b427,receipt,2026-02-09,C15,71.40,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172238.md,md,
+doc-20260209-transaction-record-85.00CAD-26460cee3b,receipt,2026-02-09,TRANSACTION RECORD -,85.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172257.md,md,
+doc-20260209-showcase-restaurant-bar-230.50CAD-81da829716,receipt,2026-02-09,SHOWCASE RESTAURANT & BAR,230.50,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172331.md,md,
+doc-20260209-marriott-vancouver-f-b-288.84CAD-17efd508a3,receipt,2026-02-09,Marriott Vancouver F&B,288.84,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172346.md,md,
+doc-20260209-fairmont-waterfront-CAD-5c56362d0c,receipt,2026-02-09,FAIRMONT WATERFRONT,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172408.md,md,amount missing; no amount detected
+doc-20260209-the-fairmont-waterfront-142.12CAD-6c34adaeb8,receipt,2026-02-09,THE FAIRMONT WATERFRONT,142.12,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172429.md,md,
+doc-20260209-westin-bayshore-banquets-16.52CAD-a79d5391a8,receipt,2026-02-09,WESTIN BAYSHORE BANQUETS,16.52,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172501.md,md,
+doc-20260209-h2-rotisserie-bar-16.00CAD-2ed182a2e9,receipt,2026-02-09,H2 Rotisserie & Bar,16.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172531.md,md,
+doc-20260209-westin-h2-rotisserie-21.71CAD-a0a803e236,receipt,2026-02-09,WESTIN H2 ROTISSERIE,21.71,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172547.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-check-166275-date-4-26-25-CAD-792de4b55e,receipt,2026-02-09,CHECK \# 166275 DATE 4/26/25,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172607.md,md,amount missing; no amount detected
+doc-20260209-transaction-record-147.41CAD-f2252e0426,receipt,2026-02-09,— TRANSACTION RECORD —,147.41,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_172630.md,md,
+doc-20260209-moktaii-215.17CAD-508d4ed670,receipt,2026-02-09,^ MOKTAII,215.17,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174051.md,md,
+doc-20260209-brix-mortar-182.35CAD-f107b791b0,receipt,2026-02-09,Brix & Mortar,182.35,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174112.md,md,
+doc-20260209-i-n-s-t-o-r-e-102.30CAD-6df7ffa235,receipt,2026-02-09,I n - S t o r e,102.30,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174135.md,md,
+doc-20260209-fairmont-waterfront-CAD-cb9a2a55ba,receipt,2026-02-09,FAIRMONT WATERFRONT,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174152.md,md,amount missing; no amount detected
+doc-20260209-transaction-record-220.90CAD-134f77c5c5,receipt,2026-02-09,TRANSACTION RECORD -,220.90,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174215.md,md,
+doc-20260209-fred-s-134.96CAD-04e3553c0a,receipt,2026-02-09,Fred’s,134.96,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174250.md,md,
+doc-20260209-fred-s-112.47CAD-d7e2eb92a5,receipt,2026-02-09,Fred’s,112.47,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174304.md,md,
+doc-20260209-the-sequel-kitchen-bar-108.28CAD-ccdb803b28,receipt,2026-02-09,The Sequel - Kitchen & Bar,108.28,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174533.md,md,
+doc-20260209-mdreon-19.46CAD-7a4b805208,receipt,2026-02-09,Mdreon,19.46,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174602.md,md,
+doc-20260209-mereon-116.76CAD-623544906c,receipt,2026-02-09,Mereon,116.76,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174615.md,md,
+doc-20260209-locanda-dell-orso-140.59CAD-ad0466427a,receipt,2026-02-09,Locanda dell’Orso,140.59,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174700.md,md,
+doc-20260209-log-anda-dell-or-s-o-140.59CAD-1c081736ac,receipt,2026-02-09,LOG ANDA DElL OR S O,140.59,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174717.md,md,
+doc-20260209-the-sequel-kitchen-bar-182.04CAD-ba68ae7fbf,receipt,2026-02-09,The Sequel - Kitchen & Bar,182.04,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174757.md,md,
+doc-20260209-the-sequel-kitchen-bar-182.04CAD-6e6f3af8f4,receipt,2026-02-09,The Sequel - Kitchen & Bar,182.04,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174811.md,md,
+doc-20260209-andonis-vancouver-171.67CAD-76e94e1a33,receipt,2026-02-09,Andonis Vancouver,171.67,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174843.md,md,
+doc-20260209-andonis-vancouver-217.19CAD-1bd6446d10,receipt,2026-02-09,ANDONIS VANCOUVER,217.19,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174858.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-hotelgeorgia-op-ltd-partnersh-801-w-georgia-st-vancouver-bc-gst-CAD-1f8ccaa411,receipt,2026-02-09,"HOTELGEORGIA (OP LTD. PARTNERSH 801 W Georgia St Vancouver, BC GST",,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174916.md,md,amount missing; no amount detected
+doc-20260209-rosewood-hotel-georgia-CAD-59d2ce8ae8,receipt,2026-02-09,ROSEWOOD HOTEL GEORGIA,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_174938.md,md,amount missing; no amount detected
+doc-20260209-wedgewood-hotel-70.50CAD-e324b02ee5,receipt,2026-02-09,Wedgewood Hotel,70.50,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175051.md,md,
+doc-20260209-bacchus-restaurant-88.84CAD-6f6ace65da,receipt,2026-02-09,Bacchus Restaurant,88.84,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175107.md,md,
+doc-20260209-capo-95.88CAD-8faae35e8d,receipt,2026-02-09,CAPO,95.88,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175152.md,md,
+doc-20260209-wedgewood-hotel-75.60CAD-12b0c4b2e6,receipt,2026-02-09,Wedgewood Hotel,75.60,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175215.md,md,
+doc-20260209-bacchus-restaurant-15.40CAD-37bf2d4326,receipt,2026-02-09,Bacchus Restaurant,15.40,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175232.md,md,
+doc-20260209-mangia-t-bl-vi-hl-hj-pp-CAD-2b8ab21191,receipt,2026-02-09,"MANGiA t bl VI HL,Hj\|pP!",,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175335.md,md,amount missing; no amount detected
+doc-20260209-mangia-e-bevi-ristoran-148.78CAD-dd3381c418,invoice,2026-02-09,MANGIA E BEVI RISTORAN,148.78,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175348.md,md,
+doc-20260209-check-910152-date-9-06-25-CAD-05ee0c0b8a,receipt,2026-02-09,CHECK \# 910152 DATE 9/06/25,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175403.md,md,amount missing; no amount detected
+doc-20260209-lift-bar-grill-83.85CAD-73176ab30d,receipt,2026-02-09,\ LIFT Bar Grill \,83.85,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175417.md,md,
+doc-20260209-the-sequel-kitchen-bar-151.92CAD-5aefe976f5,receipt,2026-02-09,The Sequel - Kitchen & Bar,151.92,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175433.md,md,
+doc-20260209-the-sequel-kitchen-bar-128.75CAD-390ec19fd2,receipt,2026-02-09,The Sequel - Kitchen & Bar,128.75,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175447.md,md,
+doc-20260209-check-206751-date-9-21-25-CAD-a3662ba4d5,receipt,2026-02-09,CHECK \# 206751 DATE 9/21/25,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175518.md,md,amount missing; no amount detected
+doc-20260209-transaction-record-74.98CAD-573ada5897,receipt,2026-02-09,TRANSACTION RECORD,74.98,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175543.md,md,
+doc-20260209-social-corner-58.92CAD-c8b032b12a,receipt,2026-02-09,SOCIAL CORNER,58.92,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175609.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-social-corner-42.00CAD-9c5a9b2e1a,receipt,2026-02-09,SOCIAL CORNER,42.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175626.md,md,
+doc-20260209-table-45-86.00CAD-c17ab8e3f2,receipt,2026-02-09,Table 45,86.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175646.md,md,
+doc-20260209-transaction-record-107.50CAD-0448eceb90,receipt,2026-02-09,-— TRANSACTION RECORD,107.50,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175659.md,md,
+doc-20260209-server-jade-m-check-21-guest-count-3-ordered-124.74CAD-afa793e6ce,receipt,2026-02-09,Server: Jade M Check \#21 Guest Count: 3 Ordered:,124.74,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175717.md,md,
+doc-20260209-the-sequel-kitchen-bar-103.95CAD-579b5fe16d,receipt,2026-02-09,The Sequel - Kitchen & Bar,103.95,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175753.md,md,
+doc-20260209-black-top-checker-12.78CAD-a92acfe150,receipt,2026-02-09,BLACK TOP & CHECKER,12.78,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175817.md,md,
+doc-20260209-transaction-record-transaction-record-67.00CAD-96eba8e5f5,receipt,2026-02-09,— TRANSACTION RECORD TRANSACTION RECORD,67.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175831.md,md,
+doc-20260209-j-CAD-e9e87836b7,receipt,2026-02-09,^J^^^^^^^^^^^^^^\\\\\\\\\\\\\\\\\\\\\\\\\,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175845.md,md,amount missing; no amount detected
+doc-20260209-the-sequel-kitchen-bar-245.88CAD-5bea450cc4,receipt,2026-02-09,The Sequel - Kitchen & Bar,245.88,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_175926.md,md,
+doc-20260209-offering-more-since-1985-CAD-4d03e2eb3b,receipt,2026-02-09,OFFERING MORE SINCE 1985.,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_180003.md,md,amount missing; no amount detected
+doc-20260209-joe-fortes-103.43CAD-acaf72af4f,receipt,2026-02-09,JOE FORTES,103.43,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_180017.md,md,
+doc-20260209-bcl-228-park-royal-238.27CAD-0f31490308,receipt,2026-02-09,BCL \#228 Park Royal,238.27,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183115.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-bcl-48.40CAD-7be83a6b6c,receipt,2026-02-09,BCL,48.40,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183150.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-bcl-129-alberni-bute-77.68CAD-b9164d49bf,receipt,2026-02-09,BCL \#129 Alberni & Bute,77.68,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183214.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-staples-canada-22.39CAD-4329388525,receipt,2026-02-09,STAPLES CANADA,22.39,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183236.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-fairmont-waterfront-CAD-5f8fce2366,receipt,2026-02-09,FAIRMONT WATERFRONT,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183310.md,md,amount missing; no amount detected
+doc-20260209-check-294183-date-2-21-25-CAD-540671f78b,receipt,2026-02-09,CHECK \# 294183 DATE 2/21/25,,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183352.md,md,amount missing; no amount detected
+doc-20260209-bcl-107-westview-87.58CAD-92728e4f78,receipt,2026-02-09,BCL \#107 Westview,87.58,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183539.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-wh-le-39.18CAD-1ff7ba0260,receipt,2026-02-09,WH^LE,39.18,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183601.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-bce-233-robson-street-111.89CAD-60aaa71b6a,receipt,2026-02-09,BCE \#233 Robson Street,111.89,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183621.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20260209-bcl-228-park-royal-8.00CAD-2b6f328a84,receipt,2026-02-09,BCL \#228 Park Royal,8.00,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183649.md,md,
+doc-20260209-the-sequel-kitchen-bar-295.05CAD-4d24f38368,receipt,2026-02-09,The Sequel - Kitchen & Bar,295.05,CAD,FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_183737.md,md,
+doc-20250526-lenovo-canada-789.00USD-df8e11181a,invoice,2025-05-26,Lenovo Canada,789.00,USD,FY2025/transactions/5_expenses/Lenovo_Canada_2025-05-26_Order_4648752389_Invoice_6296701127.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250526-lenovo-canada-375.92CAD-decc5cc11a,invoice,2025-05-26,Lenovo Canada,375.92,CAD,FY2025/transactions/5_expenses/Lenovo_Canada_2025-05-26_Order_Details_4648752389.md,md,
+doc-20250113-microsoft-CAD-34357a2c93,invoice,2025-01-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-01-13_Apps.md,md,amount missing; no amount detected
+doc-20250113-microsoft-CAD-f8ffad07ae,invoice,2025-01-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-01-13_Exchange.md,md,amount missing; no amount detected
+doc-20250213-microsoft-CAD-39742f7015,invoice,2025-02-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-02-13_Apps.md,md,amount missing; no amount detected
+doc-20250213-microsoft-CAD-2621a4bc2c,invoice,2025-02-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-02-13_Exchange.md,md,amount missing; no amount detected
+doc-20250313-microsoft-CAD-cc349d5e15,invoice,2025-03-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-03-13_Apps.md,md,amount missing; no amount detected
+doc-20250313-microsoft-CAD-2f04dea30d,invoice,2025-03-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-03-13_Exchange.md,md,amount missing; no amount detected
+doc-20250413-microsoft-CAD-6cf10d27b0,invoice,2025-04-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-04-13_Apps.md,md,amount missing; no amount detected
+doc-20250413-microsoft-CAD-37367b8ef3,invoice,2025-04-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-04-13_Exchange.md,md,amount missing; no amount detected
+doc-20250513-microsoft-CAD-06a208236e,invoice,2025-05-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-05-13_Apps.md,md,amount missing; no amount detected
+doc-20250513-microsoft-CAD-0c21794b51,invoice,2025-05-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-05-13_Exchange.md,md,amount missing; no amount detected
+doc-20250613-microsoft-CAD-8166ba3754,invoice,2025-06-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-06-13_Apps.md,md,amount missing; no amount detected
+doc-20250613-microsoft-CAD-f9c038dc44,invoice,2025-06-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-06-13_Exchange.md,md,amount missing; no amount detected
+doc-20250713-microsoft-CAD-10f7f8fd6e,invoice,2025-07-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-07-13_Apps.md,md,amount missing; no amount detected
+doc-20250713-microsoft-CAD-a72585246c,invoice,2025-07-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-07-13_Exchange.md,md,amount missing; no amount detected
+doc-20250813-microsoft-CAD-869f9ecb8f,invoice,2025-08-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-08-13_Apps.md,md,amount missing; no amount detected
+doc-20250813-microsoft-CAD-3dbc7c6b2c,invoice,2025-08-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-08-13_Exchange.md,md,amount missing; no amount detected
+doc-20250913-microsoft-CAD-3a7471f118,invoice,2025-09-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-09-13_Apps.md,md,amount missing; no amount detected
+doc-20250913-microsoft-CAD-35b65e7e79,invoice,2025-09-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-09-13_Exchange.md,md,amount missing; no amount detected
+doc-20251013-microsoft-CAD-00f1d55ce4,invoice,2025-10-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-10-13_Apps.md,md,amount missing; no amount detected
+doc-20251013-microsoft-CAD-2d9b988cc2,invoice,2025-10-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-10-13_Exchange.md,md,amount missing; no amount detected
+doc-20251113-microsoft-CAD-1364f7ff33,invoice,2025-11-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-11-13_Apps.md,md,amount missing; no amount detected
+doc-20251113-microsoft-CAD-0a79a955d6,invoice,2025-11-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-11-13_Exchange.md,md,amount missing; no amount detected
+doc-20251129-microsoft-CAD-f2bae39dda,invoice,2025-11-29,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-11-29_Family.md,md,amount missing; no amount detected
+doc-20251213-microsoft-CAD-aff1ff1d63,invoice,2025-12-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-12-13_Apps.md,md,amount missing; no amount detected
+doc-20251213-microsoft-CAD-e0be35027b,invoice,2025-12-13,Microsoft,,CAD,FY2025/transactions/5_expenses/Microsoft_2025-12-13_Exchange.md,md,amount missing; no amount detected
+doc-20250117-namespro-59.81USD-cf077e661b,invoice,2025-01-17,Namespro,59.81,USD,FY2025/transactions/5_expenses/Namespro_2025-01-17.md,md,
+doc-20250215-namespro-38.78USD-440abdf75e,invoice,2025-02-15,Namespro,38.78,USD,FY2025/transactions/5_expenses/Namespro_2025-02-15.md,md,
+doc-20250310-namespro-89.13USD-8e7dd604ea,invoice,2025-03-10,Namespro,89.13,USD,FY2025/transactions/5_expenses/Namespro_2025-03-10.md,md,
+doc-20250512-namespro-41.02USD-8eae1295a7,invoice,2025-05-12,Namespro,41.02,USD,FY2025/transactions/5_expenses/Namespro_2025-05-12.md,md,
+doc-20250513-namespro-59.28CAD-d059ec2782,invoice,2025-05-13,Namespro,59.28,CAD,FY2025/transactions/5_expenses/Namespro_2025-05-13.md,md,
+doc-20250514-namespro-20.86USD-00a169aec7,invoice,2025-05-14,Namespro,20.86,USD,FY2025/transactions/5_expenses/Namespro_2025-05-14.md,md,
+doc-20250617-namespro-20.48USD-1a63811e3d,invoice,2025-06-17,Namespro,20.48,USD,FY2025/transactions/5_expenses/Namespro_2025-06-17.md,md,
+doc-20250623-namespro-79.64USD-15849d53cc,invoice,2025-06-23,Namespro,79.64,USD,FY2025/transactions/5_expenses/Namespro_2025-06-23.md,md,
+doc-20250625-namespro-15.68CAD-2897884123,invoice,2025-06-25,Namespro,15.68,CAD,FY2025/transactions/5_expenses/Namespro_2025-06-25.md,md,
+doc-20250730-namespro-57.07USD-6b698a2737,invoice,2025-07-30,Namespro,57.07,USD,FY2025/transactions/5_expenses/Namespro_2025-07-30.md,md,
+doc-20250802-namespro-16.46CAD-5e518034d2,invoice,2025-08-02,Namespro,16.46,CAD,FY2025/transactions/5_expenses/Namespro_2025-08-02.md,md,
+doc-20250903-namespro-20.69USD-c5bdf1307b,invoice,2025-09-03,Namespro,20.69,USD,FY2025/transactions/5_expenses/Namespro_2025-09-03.md,md,
+doc-20250808-openai-150.00USD-e681054165,invoice,2025-08-08,OpenAI,150.00,USD,FY2025/transactions/5_expenses/OpenAI_2025-08-08.md,md,
+doc-20250908-openai-67.20USD-dab7750878,invoice,2025-09-08,OpenAI,67.20,USD,FY2025/transactions/5_expenses/OpenAI_2025-09-08.md,md,
+doc-20251008-openai-60.00USD-37c7724a75,invoice,2025-10-08,OpenAI,60.00,USD,FY2025/transactions/5_expenses/OpenAI_2025-10-08.md,md,
+doc-20251108-openai-60.00USD-ed285cde91,invoice,2025-11-08,OpenAI,60.00,USD,FY2025/transactions/5_expenses/OpenAI_2025-11-08.md,md,
+doc-20251208-openai-67.20USD-c840d405d2,invoice,2025-12-08,OpenAI,67.20,USD,FY2025/transactions/5_expenses/OpenAI_2025-12-08.md,md,
+doc-20250125-paddle-13.44USD-fe49bf601c,invoice,2025-01-25,Paddle,13.44,USD,FY2025/transactions/5_expenses/Paddle_2025-01-25.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250225-paddle-13.44USD-8e3f6cae77,invoice,2025-02-25,Paddle,13.44,USD,FY2025/transactions/5_expenses/Paddle_2025-02-25.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250325-paddle-13.44USD-8e9198072f,invoice,2025-03-25,Paddle,13.44,USD,FY2025/transactions/5_expenses/Paddle_2025-03-25.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250425-paddle-13.44USD-eec2627848,invoice,2025-04-25,Paddle,13.44,USD,FY2025/transactions/5_expenses/Paddle_2025-04-25.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250425-paddle-1.44CAD-c279854239,confirmation,2025-04-25,Paddle,1.44,CAD,FY2025/transactions/5_expenses/Paddle_2025-04-25_Refund.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250525-paddle-13.44USD-c8125af224,invoice,2025-05-25,Paddle,13.44,USD,FY2025/transactions/5_expenses/Paddle_2025-05-25.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250525-paddle-1.44CAD-d46f1ee993,confirmation,2025-05-25,Paddle,1.44,CAD,FY2025/transactions/5_expenses/Paddle_2025-05-25_Refund.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250104-quo-openphone-27.00USD-f84682e9d6,invoice,2025-01-04,Quo (OpenPhone),27.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-01-04.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250204-quo-openphone-27.00USD-cf1542792d,invoice,2025-02-04,Quo (OpenPhone),27.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-02-04.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250304-quo-openphone-27.00USD-4a36d979ae,invoice,2025-03-04,Quo (OpenPhone),27.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-03-04.md,md,
+doc-20250404-quo-openphone-29.00USD-b4f9e8672c,invoice,2025-04-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-04-04.md,md,
+doc-20250504-quo-openphone-29.00USD-d743d5d51e,invoice,2025-05-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-05-04.md,md,
+doc-20250604-quo-openphone-29.00USD-f6f36c013f,invoice,2025-06-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-06-04.md,md,
+doc-20250704-quo-openphone-29.00USD-4c30a54648,invoice,2025-07-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-07-04.md,md,
+doc-20250804-quo-openphone-29.00USD-3cddfa994c,invoice,2025-08-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-08-04.md,md,
+doc-20250904-quo-openphone-29.00USD-e0a3b33b97,invoice,2025-09-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-09-04.md,md,
+doc-20251004-quo-openphone-29.00USD-30e50abbfe,invoice,2025-10-04,Quo (OpenPhone),29.00,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-10-04.md,md,
+doc-20251025-quo-openphone-19.50USD-0af77dbb27,invoice,2025-10-25,Quo (OpenPhone),19.50,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-10-25.md,md,
+doc-20251104-quo-openphone-30.89USD-93ead943db,invoice,2025-11-04,Quo (OpenPhone),30.89,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-11-04.md,md,
+doc-20251204-quo-openphone-30.50USD-d96e7424cd,invoice,2025-12-04,Quo (OpenPhone),30.50,USD,FY2025/transactions/5_expenses/Quo_(OpenPhone)_2025-12-04.md,md,
+doc-20250124-rogers-295.60CAD-f1303347f5,invoice,2025-01-24,Rogers,295.60,CAD,FY2025/transactions/5_expenses/Rogers_2025-01-24.md,md,
+doc-20250224-rogers-308.51CAD-ca44df5696,invoice,2025-02-24,Rogers,308.51,CAD,FY2025/transactions/5_expenses/Rogers_2025-02-24.md,md,
+doc-20250324-rogers-307.39CAD-67957b02ff,invoice,2025-03-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-03-24.md,md,
+doc-20250424-rogers-594.11CAD-16af4eb3d9,invoice,2025-04-24,Rogers,594.11,CAD,FY2025/transactions/5_expenses/Rogers_2025-04-24.md,md,
+doc-20250524-rogers-308.63CAD-268a048107,invoice,2025-05-24,Rogers,308.63,CAD,FY2025/transactions/5_expenses/Rogers_2025-05-24.md,md,
+doc-20250624-rogers-307.39CAD-a002ba7fab,invoice,2025-06-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-06-24.md,md,
+doc-20250724-rogers-307.39CAD-e8e0f3745e,invoice,2025-07-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-07-24.md,md,
+doc-20250824-rogers-495.55CAD-8ee78e1774,invoice,2025-08-24,Rogers,495.55,CAD,FY2025/transactions/5_expenses/Rogers_2025-08-24.md,md,
+doc-20250924-rogers-307.39CAD-b83d8dbe3b,invoice,2025-09-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-09-24.md,md,
+doc-20251024-rogers-307.39CAD-ffe5445082,invoice,2025-10-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-10-24.md,md,
+doc-20251124-rogers-307.39CAD-3e852383a7,invoice,2025-11-24,Rogers,307.39,CAD,FY2025/transactions/5_expenses/Rogers_2025-11-24.md,md,
+doc-20251224-rogers-320.83CAD-b406ea952c,invoice,2025-12-24,Rogers,320.83,CAD,FY2025/transactions/5_expenses/Rogers_2025-12-24.md,md,
+doc-20251001-screenconnect-216.75CAD-ff83c06877,invoice,2025-10-01,ScreenConnect,216.75,CAD,FY2025/transactions/5_expenses/ScreenConnect_2025-10-01_Quantity_and_Payment.md,md,
+doc-20251001-screenconnect-64.65CAD-9ba4e1bbd8,invoice,2025-10-01,ScreenConnect,64.65,CAD,FY2025/transactions/5_expenses/ScreenConnect_2025-10-01_Standard_Subscription_Billed_Every_Month_Started.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250101-slack-18.73USD-f7fe2e63fd,invoice,2025-01-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-01-01_(ksi).md,md,
+doc-20250201-slack-18.73USD-8eb78c682b,invoice,2025-02-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-02-01_(ksi).md,md,
+doc-20250301-slack-18.73USD-f86345a6e3,invoice,2025-03-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-03-01_(ksi).md,md,
+doc-20250401-slack-18.73USD-e63cccf48c,invoice,2025-04-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-04-01_(ksi).md,md,
+doc-20250501-slack-18.73USD-7ae5e44ffd,invoice,2025-05-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-05-01_(ksi).md,md,
+doc-20250522-slack-2.12USD-f6549a7857,invoice,2025-05-22,Slack,2.12,USD,FY2025/transactions/5_expenses/Slack_2025-05-22_(lexibl).md,md,
+doc-20250601-slack-18.73USD-b6b7d9ee29,invoice,2025-06-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-06-01_(ksi).md,md,
+doc-20250622-slack-9.36USD-b9df82c29e,invoice,2025-06-22,Slack,9.36,USD,FY2025/transactions/5_expenses/Slack_2025-06-22_(lexibl).md,md,
+doc-20250701-slack-18.73USD-7409fb8541,invoice,2025-07-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-07-01_(ksi).md,md,
+doc-20250722-slack-8.75USD-c505b19540,invoice,2025-07-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-07-22_(lexibl).md,md,
+doc-20250801-slack-17.50USD-48153f4a6b,invoice,2025-08-01,Slack,17.50,USD,FY2025/transactions/5_expenses/Slack_2025-08-01_(ksi).md,md,
+doc-20250822-slack-8.75USD-372e4a2fbc,invoice,2025-08-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-08-22_(lexibl).md,md,
+doc-20250901-slack-17.50USD-8549e56a3b,invoice,2025-09-01,Slack,17.50,USD,FY2025/transactions/5_expenses/Slack_2025-09-01_(ksi).md,md,
+doc-20250922-slack-8.75USD-bd8b049737,invoice,2025-09-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-09-22_(lexibl).md,md,
+doc-20251001-slack-17.50USD-dff54e3b75,invoice,2025-10-01,Slack,17.50,USD,FY2025/transactions/5_expenses/Slack_2025-10-01_(ksi).md,md,
+doc-20251022-slack-8.75USD-9d213b4642,invoice,2025-10-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-10-22_(lexibl).md,md,
+doc-20251101-slack-18.73USD-ac6e43fa7a,invoice,2025-11-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-11-01_(ksi).md,md,
+doc-20251122-slack-8.75USD-124baeda4f,invoice,2025-11-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-11-22_(lexibl).md,md,
+doc-20251201-slack-18.73USD-e52b567d38,invoice,2025-12-01,Slack,18.73,USD,FY2025/transactions/5_expenses/Slack_2025-12-01_(ksi).md,md,
+doc-20251222-slack-8.75USD-646d281f20,invoice,2025-12-22,Slack,8.75,USD,FY2025/transactions/5_expenses/Slack_2025-12-22_(lexibl).md,md,
+doc-20251112-splashtop-200.00CAD-50fdd043f7,receipt,2025-11-12,Splashtop,200.00,CAD,FY2025/transactions/5_expenses/Splashtop_2025-11-12_Receipt.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251128-staples-22.39CAD-79e263896a,other,2025-11-28,Staples,22.39,CAD,FY2025/transactions/5_expenses/Staples_2025-11-28.md,md,
+doc-20251128-staples-79.13CAD-57e67c636c,invoice,2025-11-28,Staples,79.13,CAD,FY2025/transactions/5_expenses/Staples_2025-11-28_Invoice_for_Order_#45413109.md,md,
+doc-20251229-staples-CAD-6160d79db0,invoice,2025-12-29,Staples,,CAD,FY2025/transactions/5_expenses/Staples_2025-12-29.md,md,amount missing; no amount detected
+doc-20250805-taj-campton-place-CAD-1f1c837f91,other,2025-08-05,Taj Campton Place,,CAD,FY2025/transactions/5_expenses/Taj_Campton_Place_2025-08-05_Facilities.md,md,amount missing; no amount detected
+doc-20250805-taj-campton-place-CAD-be36695515,other,2025-08-05,Taj Campton Place,,CAD,FY2025/transactions/5_expenses/Taj_Campton_Place_2025-08-05_Room.md,md,amount missing; no amount detected
+doc-20251231-targetpark-35.88CAD-51de5737df,other,2025-12-31,TargetPark,35.88,CAD,FY2025/transactions/5_expenses/TargetPark_2025-12-31.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251129-techsmith-53.29CAD-26e6f0b4fc,invoice,2025-11-29,TechSmith,53.29,CAD,FY2025/transactions/5_expenses/TechSmith_2025-11-29.md,md,
+doc-20250111-uber-8.25CAD-b6f7d72d2b,invoice,2025-01-11,Uber,8.25,CAD,FY2025/transactions/5_expenses/Uber_2025-01-11_receipt_8ca9219d-9ea8-4985-bb6e-e50c8a005d08.md,md,
+doc-20250125-uber-10.62CAD-9318804446,invoice,2025-01-25,Uber,10.62,CAD,FY2025/transactions/5_expenses/Uber_2025-01-25_receipt_7a763959-dc7f-4f00-a8f3-2de6fa39a94f.md,md,
+doc-20250214-uber-8.49CAD-8a3905c108,invoice,2025-02-14,Uber,8.49,CAD,FY2025/transactions/5_expenses/Uber_2025-02-14_receipt_bbf5d717-8072-4ddf-a473-662c086b4270.md,md,
+doc-20250215-uber-12.63CAD-87b2c19871,invoice,2025-02-15,Uber,12.63,CAD,FY2025/transactions/5_expenses/Uber_2025-02-15_receipt_fb9b9ce2-81e8-4782-937e-93eed2f76471.md,md,
+doc-20250227-uber-8.73CAD-2b87472857,invoice,2025-02-27,Uber,8.73,CAD,FY2025/transactions/5_expenses/Uber_2025-02-27_receipt_b91902e7-d866-4a16-9de6-9a20a44fe103.md,md,
+doc-20250329-uber-9.11CAD-bd35e292e5,invoice,2025-03-29,Uber,9.11,CAD,FY2025/transactions/5_expenses/Uber_2025-03-29_receipt_4f7db8d6-81e3-4aab-a0a0-4504e6edd369.md,md,
+doc-20250502-uber-13.02CAD-753eac4750,invoice,2025-05-02,Uber,13.02,CAD,FY2025/transactions/5_expenses/Uber_2025-05-02_receipt_b5a19e3f-c08a-4758-982c-2ba59e32cd7f.md,md,
+doc-20250502-uber-10.56CAD-af98fbf3ec,invoice,2025-05-02,Uber,10.56,CAD,FY2025/transactions/5_expenses/Uber_2025-05-02_receipt_bd5cda42-ade4-4206-a081-b2d9ef715370.md,md,
+doc-20250517-uber-8.55CAD-88b4e0a01b,invoice,2025-05-17,Uber,8.55,CAD,FY2025/transactions/5_expenses/Uber_2025-05-17_receipt_cb7bcb5a-8d1d-4dd1-ab15-ffad363131f9.md,md,
+doc-20250528-uber-11.05CAD-26c482b699,invoice,2025-05-28,Uber,11.05,CAD,FY2025/transactions/5_expenses/Uber_2025-05-28_receipt_8752d39d-a52f-49b6-b231-0c915ea7debc.md,md,
+doc-20250529-uber-8.14CAD-7304078109,invoice,2025-05-29,Uber,8.14,CAD,FY2025/transactions/5_expenses/Uber_2025-05-29_receipt_9e6a1175-e6de-4d8c-91bb-dea759a77f59.md,md,
+doc-20250530-uber-18.81CAD-2660f075a9,invoice,2025-05-30,Uber,18.81,CAD,FY2025/transactions/5_expenses/Uber_2025-05-30_receipt_f5ab1fce-ece4-431b-b2b6-4ca6e717e87c.md,md,
+doc-20250530-uber-7.63CAD-37c35900a7,invoice,2025-05-30,Uber,7.63,CAD,FY2025/transactions/5_expenses/Uber_2025-05-30_receipt_f7f3fe11-62a0-499a-9429-65cbfc033873.md,md,
+doc-20250624-uber-8.19CAD-f716c676d9,invoice,2025-06-24,Uber,8.19,CAD,FY2025/transactions/5_expenses/Uber_2025-06-24_receipt_dd10c287-a1a1-454f-875d-3b180193a978.md,md,
+doc-20250628-uber-9.80CAD-0288553e90,invoice,2025-06-28,Uber,9.80,CAD,FY2025/transactions/5_expenses/Uber_2025-06-28_receipt_eac3b014-c864-4433-a894-76d30e8953a8.md,md,
+doc-20250705-uber-20.51CAD-5311a80333,invoice,2025-07-05,Uber,20.51,CAD,FY2025/transactions/5_expenses/Uber_2025-07-05_receipt_8bd26170-0747-44ef-b9e4-c546ad1d67d9.md,md,
+doc-20250705-uber-11.15CAD-e436abeeac,invoice,2025-07-05,Uber,11.15,CAD,FY2025/transactions/5_expenses/Uber_2025-07-05_receipt_a02c83cb-a74c-4d4b-ab90-1d83f4a5e771.md,md,
+doc-20250709-uber-5.70CAD-a023c2672d,invoice,2025-07-09,Uber,5.70,CAD,FY2025/transactions/5_expenses/Uber_2025-07-09_receipt_665d08ea-d9b5-4487-9523-80fc03b02be9.md,md,
+doc-20250709-uber-8.19CAD-68f1bd183c,invoice,2025-07-09,Uber,8.19,CAD,FY2025/transactions/5_expenses/Uber_2025-07-09_receipt_cd1f8f41-cc16-41e1-87ef-6bb07c1b3fd4.md,md,
+doc-20250711-uber-11.98CAD-5549ad7844,invoice,2025-07-11,Uber,11.98,CAD,FY2025/transactions/5_expenses/Uber_2025-07-11_receipt_781aeb37-00e0-430a-8fe2-005ef093bd9d.md,md,
+doc-20250713-uber-13.74CAD-2c492735b6,invoice,2025-07-13,Uber,13.74,CAD,FY2025/transactions/5_expenses/Uber_2025-07-13_receipt_89619a5a-3309-4649-98b5-acec09907e4f.md,md,
+doc-20250713-uber-14.70CAD-1b3a501223,invoice,2025-07-13,Uber,14.70,CAD,FY2025/transactions/5_expenses/Uber_2025-07-13_receipt_8de32980-b6cb-4ccc-b439-c9516d0f8bc5.md,md,
+doc-20250804-uber-42.93CAD-f505cd2264,invoice,2025-08-04,Uber,42.93,CAD,FY2025/transactions/5_expenses/Uber_2025-08-04_receipt_5430386c-c82d-4839-8e9b-ec02233f7b2c.md,md,
+doc-20250805-uber-41.46CAD-5c3fb50cbd,invoice,2025-08-05,Uber,41.46,CAD,FY2025/transactions/5_expenses/Uber_2025-08-05_receipt_6f6ec47d-c3b3-46ca-8bb1-817e920da00a.md,md,
+doc-20250805-uber-41.23CAD-30e4115ac4,invoice,2025-08-05,Uber,41.23,CAD,FY2025/transactions/5_expenses/Uber_2025-08-05_receipt_6f926b10-5967-4d8b-928f-70e61b63835e.md,md,
+doc-20250816-uber-9.16CAD-c7d6a96917,invoice,2025-08-16,Uber,9.16,CAD,FY2025/transactions/5_expenses/Uber_2025-08-16_receipt_778b23a1-4f8d-417e-b3db-f0b5da3d4b90.md,md,
+doc-20250816-uber-10.56CAD-7edfa93d7c,invoice,2025-08-16,Uber,10.56,CAD,FY2025/transactions/5_expenses/Uber_2025-08-16_receipt_ed6c33cc-e418-4372-88f3-7f55da8a88b4.md,md,
+doc-20250905-uber-20.10CAD-94ac4157f8,invoice,2025-09-05,Uber,20.10,CAD,FY2025/transactions/5_expenses/Uber_2025-09-05_receipt_647022da-5f7f-4dd2-9cd1-9534098961eb.md,md,
+doc-20250914-uber-7.59CAD-ec3dd5432d,invoice,2025-09-14,Uber,7.59,CAD,FY2025/transactions/5_expenses/Uber_2025-09-14_receipt_614ba2a3-380e-467c-a7dc-7e9f41580a3a.md,md,
+doc-20250914-uber-8.19CAD-4715aa097b,invoice,2025-09-14,Uber,8.19,CAD,FY2025/transactions/5_expenses/Uber_2025-09-14_receipt_6b787ad9-636c-45a4-b7fa-b11abc2d2408.md,md,
+doc-20251019-uber-14.57CAD-1aebdbaeab,invoice,2025-10-19,Uber,14.57,CAD,FY2025/transactions/5_expenses/Uber_2025-10-19_receipt_0851da6e-30b9-4a62-a2f6-05bbe62c3a1c.md,md,
+doc-20251019-uber-14.57CAD-f013149659,invoice,2025-10-19,Uber,14.57,CAD,FY2025/transactions/5_expenses/Uber_2025-10-19_receipt_8b56013e-504f-4436-b55f-ffc825330539.md,md,
+doc-20251019-uber-13.10CAD-e172e26016,invoice,2025-10-19,Uber,13.10,CAD,FY2025/transactions/5_expenses/Uber_2025-10-19_receipt_d3ce1211-3650-4db5-8a90-8ceab39d306d.md,md,
+doc-20251025-uber-8.95CAD-60e665c4e9,invoice,2025-10-25,Uber,8.95,CAD,FY2025/transactions/5_expenses/Uber_2025-10-25_receipt_1b29ac90-f6cd-4458-912e-cb19cdf43ad9.md,md,
+doc-20251102-uber-18.90CAD-462daa7b7b,invoice,2025-11-02,Uber,18.90,CAD,FY2025/transactions/5_expenses/Uber_2025-11-02_receipt_aa59edac-df18-4b32-b0eb-13797232f782.md,md,
+doc-20251115-uber-10.97CAD-bb62faa061,invoice,2025-11-15,Uber,10.97,CAD,FY2025/transactions/5_expenses/Uber_2025-11-15_receipt_aa965f88-8de7-43e5-bdff-8c3330f7d4dc.md,md,
+doc-20251122-uber-17.40CAD-87a3ac9e6d,invoice,2025-11-22,Uber,17.40,CAD,FY2025/transactions/5_expenses/Uber_2025-11-22_receipt_74e13216-7aca-4999-b5b6-70f654c1c516.md,md,
+doc-20251214-uber-8.66CAD-9cfc630105,invoice,2025-12-14,Uber,8.66,CAD,FY2025/transactions/5_expenses/Uber_2025-12-14_receipt_658e755e-dede-46b7-9b3f-5a96304db04b.md,md,
+doc-20251214-uber-11.78CAD-f1f11b6073,invoice,2025-12-14,Uber,11.78,CAD,FY2025/transactions/5_expenses/Uber_2025-12-14_receipt_f438cd15-4526-40c4-8294-f7e908de4b75.md,md,
+doc-20250620-vancouver-headshots-276.25CAD-4c5e0226ed,invoice,2025-06-20,Vancouver Headshots,276.25,CAD,FY2025/transactions/5_expenses/Vancouver_Headshots_2025-06-20_Invoice_#006052.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250620-vancouver-headshots-236.25CAD-1057babc2a,invoice,2025-06-20,Vancouver Headshots,236.25,CAD,FY2025/transactions/5_expenses/Vancouver_Headshots_2025-06-20_Invoice_#006052_-_Square.md,md,
+doc-20250620-vancouver-headshots-276.25CAD-be408ccb85,invoice,2025-06-20,Vancouver Headshots,276.25,CAD,FY2025/transactions/5_expenses/Vancouver_Headshots_2025-06-20_Invoice_#006052_-_Square_-_Paid.md,md,
+doc-20250620-vancouver-headshots-236.25CAD-2499db082a,invoice,2025-06-20,Vancouver Headshots,236.25,CAD,FY2025/transactions/5_expenses/Vancouver_Headshots_2025-06-20_Invoice_#006052_[Obsolete].md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20250616-vancouver-headshots-inc-225.00CAD-2d409f8717,confirmation,2025-06-16,Vancouver Headshots Inc,225.00,CAD,FY2025/transactions/5_expenses/Vancouver_Headshots_Inc_2025-06-16_Schedule_Appointment_with_Deposit.md,md,amount inferred (no explicit Total/Amount Due marker nearby)
+doc-20251121-zoho-80.64CAD-8c002e6a59,invoice,2025-11-21,Zoho,80.64,CAD,FY2025/transactions/5_expenses/Zoho_2025-11-21.md,md,
+doc-20251207-zoho-77.28CAD-8606f68959,invoice,2025-12-07,Zoho,77.28,CAD,FY2025/transactions/5_expenses/Zoho_2025-12-07.md,md,
+doc-20251207-zoho-77.28CAD-de9b30496c,invoice,2025-12-07,Zoho,77.28,CAD,FY2025/transactions/5_expenses/Zoho_2025-12-07_5500645476.md,md,
+doc-20251207-zoho-77.28CAD-a536225113,invoice,2025-12-07,Zoho,77.28,CAD,FY2025/transactions/5_expenses/Zoho_2025-12-07_5500645540.md,md,
