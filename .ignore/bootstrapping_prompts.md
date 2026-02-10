@@ -351,3 +351,18 @@ Also:
 ## [2026-02-10 12:30 PST]
 
 When using Augement Code CLI (Auggie), do I need to explictly tell the AI tool to read the files under `.augment/rules`?
+
+---
+
+No, you do **not** need to explicitly tell Augment Code CLI (Auggie) to read the files under `.augment/rules`. That directory is a **convention recognized by Augment Code** — files placed in `.augment/rules/` are automatically loaded as context/instructions for the AI agent at the start of each session.
+
+This is why the files have the frontmatter:
+
+```yaml
+---
+agent_requested: true
+description: "..."
+---
+```
+
+The `agent_requested: true` flag and the `.augment/rules/` path together signal to Augment Code that these are standing instructions to be ingested automatically. You can simply start a conversation with Auggie and it will already have the context from all the rules files.
