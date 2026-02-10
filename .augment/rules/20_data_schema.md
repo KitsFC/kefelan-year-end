@@ -179,7 +179,7 @@ from `transactions.csv` via `source_file` and `source_locator`, not recorded as 
 
 ---
 
-## 4. `capital_assets.csv` — Capital Asset Register
+## 4. `assets.csv` — Capital Asset Register
 
 ### Purpose
 - Tracks **capital assets** owned by KSI across fiscal years
@@ -225,7 +225,7 @@ documents.csv
 transactions.csv
    ↑        ↑
    │        └── referenced by (0..N)
-   │             capital_assets.csv
+   │             assets.csv
    └── referenced by (1..N)
        allocations.csv
 ```

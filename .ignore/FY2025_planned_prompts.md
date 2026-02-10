@@ -22,7 +22,7 @@ under FY2025/normalized/ according to the schema defined in
    - Apply known defaults from .augment/rules/10_accounting_rules.md
    - Flag uncertain classifications for owner review
 
-4. capital_assets.csv — Capital Asset Register
+4. assets.csv — Capital Asset Register
    - Use FY2024/financials/2024_Capital_Assets.md as the starting asset register
    - Identify FY2025 additions and disposals from transactions
    - Do NOT calculate depreciation; flag for accountant
@@ -135,7 +135,7 @@ Instructions:
 ## F) Track capital assets and depreciation (starting from FY2024)
 
 ```text
-Track capital assets for FY2025 and populate FY2025/normalized/capital_assets.csv
+Track capital assets for FY2025 and populate FY2025/normalized/assets.csv
 per the schema in .augment/rules/20_data_schema.md §4.
 
 Instructions:
@@ -144,7 +144,7 @@ Instructions:
   - additions in FY2025 (new assets)
   - disposals in FY2025
   - assets that may have changed use or ownership
-- Populate capital_assets.csv with the full schema columns:
+- Populate assets.csv with the full schema columns:
   - asset_id, description, acquisition_date, cost, currency, cad_cost, vendor
   - cca_class (if inferable; otherwise leave blank and flag)
   - opening_ucc, additions, disposals, cca_claimed, closing_ucc
@@ -183,7 +183,7 @@ Instructions:
   1) Revenue summary (totals + GST collected)
   2) Expense summary by category (matching FY2024 taxonomy + CRA codes)
   3) Shareholder loan activity summary (transfers, repayments, outstanding)
-  4) Capital assets summary (from capital_assets.csv: additions, disposals, opening/closing UCC)
+  4) Capital assets summary (from assets.csv: additions, disposals, opening/closing UCC)
   5) GST/HST summary (collected, ITCs, net)
   6) Open issues/questions requiring owner/accountant decision
 - Every total must reference underlying transaction_ids and source files.
