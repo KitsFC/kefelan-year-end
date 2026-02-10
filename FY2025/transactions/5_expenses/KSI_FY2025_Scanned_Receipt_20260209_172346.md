@@ -1,0 +1,47 @@
+**Marriott Vancouver F&B  
+1128 West Hastings Stree  
+VANCOUVER,BC V6E 4R5  
+604-684-1128**
+
+**SALE**
+
+**MID: 5934728**
+
+**TID: 001 REF#: 00000021**
+
+**Batch \#: 067001 RRN: 00000021 03/08/25 21:01:58**
+
+**APPR CODE: 04761G**
+
+**VISA Chip**
+
+\*\*\*\*\*\*\*\*\*\*\* \*£4 44 \*\*/\*\*
+
+**AMOUNT \$244.78**
+
+**TIP \$44.06**
+
+**TOTAL \$288.84**
+
+**APPROVED**
+
+**VISA CREDIT**
+
+**AID: A0000000031010**
+
+**TVR: 80 80 00 80 00**
+
+**TSI: 68 00**
+
+**Bl ENTERING A VERIFIED PIN  
+CARDHOLDER AGREED TO PAY ISSUER  
+SUCH TOTAL IN  
+ACCORDANCE WITH ISSUER'S**
+
+**AGREEMENT**
+
+**WITH CARDHOLDER**
+
+**THANK YOU! / MERCI!**
+
+**CUSTOMER COPY**
