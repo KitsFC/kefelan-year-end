@@ -1,0 +1,526 @@
+﻿Date,Description,Total,Base,PST,Expense,GST,S vs C,Excp Src,Lookup,Account 1,"Part 1
+Incl. PST",Account 2,"Part 2
+Incl. PST",Ac2?,"Ineligible
+GST"
+45657,Book in Action Inc.,-41553.27,-41553.27,0,-41553.27,0,S,,40200 | Category A Revenue,40200,,,,-,-
+45322,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45350,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45382,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45412,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45443,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45473,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45504,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45535,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45565,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45596,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45626,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45657,Capiche Capital Technologies Corporation,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45306,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45322,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45337,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45350,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45366,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45382,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45397,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45412,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45427,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45443,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45458,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45473,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45488,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45504,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45519,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45535,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45550,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45565,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45580,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45596,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45611,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45626,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45641,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45657,myCareBase Solutions Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45322,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45350,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45382,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45412,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45443,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45473,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45504,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45535,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45565,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45596,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45626,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45657,Super E-Solutions,-2625,-2500,0,-2500,-125,C,,40200 | Category A Revenue,40200,,,,-,-
+45626,Green Spirit Technologies Inc.,-4200,-4000,0,-4000,-200,C,,40200 | Category A Revenue,40200,,,,-,-
+45657,Kevin Felix Chan [Loan from Shareholder],0,0,0,0,0,C,PC,26800 | Loans from Shareholders,26800,,,,-,-
+43312,Dell Financial Services Canada Limited,0,0,0,0,0,C,,26900 | Capital Leases,26900,0,56900,0,1,-
+44094,IKEA Canada,0,0,0,0,0,C,,18200 | Office Furniture & Equipment,18200,,,,-,-
+45657,20% Depreciation of Class 8 Capital Asset (50% in Year 1),69.42,64.88,4.54,69.42,0,C,,18250 | Accum. Amort. -Furn. & Equip.,18250,,,,-,-
+44053,Samsung Electronics Canada Inc. - Note20,0,0,0,0,0,C,,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),78.93,73.77,5.16,78.93,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45309,Samsung Electronics Canada Inc. - S24,4054.37,3619.98,253.39,3873.37,181,C,PCC,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),1065.17,995.49,69.68,1065.17,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45379,Amazon - Router,290.06,258.98,18.13,277.11,12.95,C,BCC,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),76.21,71.22,4.99,76.21,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45379,Amazon - Desk,475.94,424.95,29.74,454.69,21.25,C,BCC,18200 | Office Furniture & Equipment,18200,,,,-,-
+45657,20% Depreciation of Class 8 Capital Asset (50% in Year 1),45.47,42.5,2.97,45.47,0,C,,18250 | Accum. Amort. -Furn. & Equip.,18250,,,,-,-
+45394,Amazon - Shelving,178.74,159.59,11.17,170.76,7.98,C,BCC,18200 | Office Furniture & Equipment,18200,,,,-,-
+45657,20% Depreciation of Class 8 Capital Asset (50% in Year 1),17.08,15.96,1.12,17.08,0,C,,18250 | Accum. Amort. -Furn. & Equip.,18250,,,,-,-
+45394,Evergreen - Filing Cabinets,600,537,36.75,573.75,26.25,C,BCC,18200 | Office Furniture & Equipment,18200,,,,-,-
+45657,20% Depreciation of Class 8 Capital Asset (50% in Year 1),57.38,53.7,3.68,57.38,0,C,,18250 | Accum. Amort. -Furn. & Equip.,18250,,,,-,-
+45397,Amazon - Shelving,178.74,159.59,11.17,170.76,7.98,C,BCC,18200 | Office Furniture & Equipment,18200,,,,-,-
+45657,20% Depreciation of Class 8 Capital Asset (50% in Year 1),17.08,15.96,1.12,17.08,0,C,,18250 | Accum. Amort. -Furn. & Equip.,18250,,,,-,-
+45605,Costco - Speakers,392.83,350.74,24.55,375.29,17.54,C,BCC,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),103.2,96.45,6.75,103.2,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45627,Amazon - Speakers,500.64,447,31.29,478.29,22.35,C,PCC,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),131.53,122.93,8.6,131.53,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45644,Amazon - Speakers,302.39,269.99,18.9,288.89,13.5,C,BCC,18850 | Computer Hardware & Software,18850,,,,-,-
+45657,55% Depreciation of Class 50 Capital Asset (50% in Year 1),79.45,74.25,5.2,79.45,0,C,,18855 | Accum. Amort. -Comp. H&S,18855,,,,-,-
+45309,,0,0,0,0,0,C,,56950 | [8810] Office expenses,56950,,,,-,-
+44196,Ali Mirfendereski,0,0,0,0,0,C,,59270 | [9945] Property rental,59270,,,,-,-
+44196,Tundra Technical Solutions,0,0,0,0,0,C,,56850 | [8690] Insurance,56850,,,,-,-
+44196,Spring Activator Inc.,0,0,0,0,0,C,,57370 | [9270] Conventions & seminars,57370,,,,-,-
+45322,Kevin Felix Chan [Loan to Shareholder],25.03,6000,-5974.97,25.03,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45337,Kevin Felix Chan [Loan to Shareholder],6000,6000,0,6000,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45351,Kevin Felix Chan [Loan to Shareholder],5624.56,6000,-375.44,5624.56,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45366,Kevin Felix Chan [Loan to Shareholder],5824,6000,-176,5824,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45384,Kevin Felix Chan [Loan to Shareholder],655.07,1000,-344.93,655.07,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45397,Kevin Felix Chan [Loan to Shareholder],7500,7500,0,7500,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45412,Kevin Felix Chan [Loan to Shareholder],2057.56,2100,-42.44,2057.56,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45427,Kevin Felix Chan [Loan to Shareholder],6700,8700,-2000,6700,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45443,Kevin Felix Chan [Loan to Shareholder],3100,3100,0,3100,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45457,Kevin Felix Chan [Loan to Shareholder],7540,7600,-60,7540,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45475,Kevin Felix Chan [Loan to Shareholder],500,4500,-4000,500,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45488,Kevin Felix Chan [Loan to Shareholder],5300,5300,0,5300,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45504,Kevin Felix Chan [Loan to Shareholder],899.76,2800,-1900.24,899.76,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45519,Kevin Felix Chan [Loan to Shareholder],6341.02,10500,-4158.98,6341.02,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45538,Kevin Felix Chan [Loan to Shareholder],-1020.01,1700,-2720.01,-1020.01,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45551,Kevin Felix Chan [Loan to Shareholder],5400,5400,0,5400,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45566,Kevin Felix Chan [Loan to Shareholder],1600,3600,-2000,1600,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45596,Kevin Felix Chan [Loan to Shareholder],1745.45,1800,-54.55,1745.45,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45611,Kevin Felix Chan [Loan to Shareholder],4900,6900,-2000,4900,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45628,Kevin Felix Chan [Loan to Shareholder],2099.36,4600,-2500.64,2099.36,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45642,Kevin Felix Chan [Loan to Shareholder],5900,5900,0,5900,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45657,Kevin Felix Chan [Loan to Shareholder],0,0,0,0,0,C,,12700 | Due from individual shareholder(s),12700,,,,-,-
+45388,Kevin Felix Chan [Loan to Shareholder],103.85,103.85,0,103.85,0,C,-BCC,12700 | Due from individual shareholder(s),12700,,,,-,-
+45461,Kevin Felix Chan [Loan to Shareholder],47,47,0,47,0,C,-BCC,12700 | Due from individual shareholder(s),12700,,,,-,-
+45605,Kevin Felix Chan [Loan to Shareholder],134.4,134.4,0,134.4,0,C,-BCC,12700 | Due from individual shareholder(s),12700,,,,-,-
+45617,Kevin Felix Chan [Loan to Shareholder],-134.4,-134.4,0,-134.4,0,C,-BCC,12700 | Due from individual shareholder(s),12700,,,,-,-
+45408,Receiver General (Canada Revenue Agency GST-P),-1400,-1400,,-1400,0,C,,23100 | GST/HST Charged on Sales,23100,1400,56800,-1400,1,-
+45502,Receiver General (Canada Revenue Agency GST-P),-1400,-1400,,-1400,0,C,,23100 | GST/HST Charged on Sales,23100,1400,56800,-1400,1,-
+45593,Receiver General (Canada Revenue Agency GST-P),-1400,-1400,,-1400,0,C,,23100 | GST/HST Charged on Sales,23100,1400,56800,-1400,1,-
+45315,Receiver General (Canada Revenue Agency GST-P),-1400,-1400,,-1400,0,C,,23100 | GST/HST Charged on Sales,23100,1400,56800,-1400,1,-
+45657,Receiver General (Canada Revenue Agency GST34),8900,8900,,8900,0,C,,23100 | GST/HST Charged on Sales,23100,-8900,56800,8900,1,-
+45657,Receiver General (Canada Revenue Agency GST34),-2982.447,-2982.447,,-2982.447,0,C,,23150 | GST/HST Paid on Purchases,23150,2982.447,56800,-2982.447,1,-
+45468,Receiver General (Canada Revenue Agency TXINS),-2300,-2300,,-2300,0,C,,21600 | Corporate Taxes payable,21600,2300,56800,-2300,1,-
+45561,Receiver General (Canada Revenue Agency TXINS),-2300,-2300,,-2300,0,C,,21600 | Corporate Taxes payable,21600,2300,56800,-2300,1,-
+45593,Receiver General (Canada Revenue Agency TXINS),-2300,-2300,,-2300,0,C,,21600 | Corporate Taxes payable,21600,2300,56800,-2300,1,-
+45653,Receiver General (Canada Revenue Agency TXINS),-2300,-2300,,-2300,0,C,,21600 | Corporate Taxes payable,21600,2300,56800,-2300,1,-
+45657,Kevin Felix Chan [T5 - Dividend as Repayment of Loan to Shareholder],,,,53842.65,0,C,,35800 | Cash Dividends,35800,-53842.65,12700,53842.65,1,-
+45657,Kevin Felix Chan [Oustanding Due from Shareholder],,,,-25000,0,P,,,,,,,-,-
+45302,Bank of Montreal | Investment Interest Expense,579.56,579.56,0,579.56,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45333,Bank of Montreal | Investment Interest Expense,495.77,495.77,0,495.77,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45362,Bank of Montreal | Investment Interest Expense,328.67,328.67,0,328.67,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45393,Bank of Montreal | Investment Interest Expense,272.67,272.67,0,272.67,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45423,Bank of Montreal | Investment Interest Expense,294.52,294.52,0,294.52,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45454,Bank of Montreal | Investment Interest Expense,340.97,340.97,0,340.97,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45484,Bank of Montreal | Investment Interest Expense,322.74,322.74,0,322.74,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45515,Bank of Montreal | Investment Interest Expense,328.11,328.11,0,328.11,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45546,Bank of Montreal | Investment Interest Expense,327.63,327.63,0,327.63,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45576,Bank of Montreal | Investment Interest Expense,400.89,400.89,0,400.89,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45607,Bank of Montreal | Investment Interest Expense,413.78,413.78,0,413.78,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45637,Bank of Montreal | Investment Interest Expense,427.88,427.88,0,427.88,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45657,Bank of Montreal | Investment Expense,48,48,0,48,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45359,Bank of Montreal | Credit Card Fee (50%),75,75,0,75,0,C,PCC,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45451,Capital One | Credit Card Fee (50%),60,60,0,60,0,C,PCC,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45657,TD Canada Trust | Chequing Account Fees (100%),246,246,0,246,0,C,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+45657,TD Canada Trust | Credit Card Fee/Credit (100%),-187.71,-187.71,0,-187.71,0,C,BCC,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+44179,Western Pacific Trust Company | Investment Expense,0,0,0,0,0,P,,56900 | [8710] Interest & Bank Charges,56900,,,,-,-
+43100,Shine Auto Wash,0,0,0,0,0,S,,57294 | [9281-7] Maintenance and repairs,57294,,,,-,-
+43100,Ultra Shine Hand Car Wash & Auto Detailing Inc.,0,0,0,0,0,S,,57294 | [9281-7] Maintenance and repairs,57294,,,,-,-
+43100,Shell Canada Limited,0,0,0,0,0,S,,57290 | [9281-3] Fuel and oil,57290,,,,-,-
+43100,Chevron Canada Limited,0,0,0,0,0,S,,57290 | [9281-3] Fuel and oil,57290,,,,-,-
+43100,Imperial Oil Limited,0,0,0,0,0,S,,57290 | [9281-3] Fuel and oil,57290,,,,-,-
+43100,The Bank of Nova Scotia,0,0,0,0,0,S,,57291 | [9281-4] Interest,57291,,,,-,-
+43100,Aviva Insurance Company of Canada,0,0,0,0,0,S,,57292 | [9281-5] Insurance,57292,,,,-,-
+43100,Insurance Corporation of British Columbia,0,0,0,0,0,S,,57292 | [9281-5] Insurance,57292,,,,-,-
+43082,Jaguar Land Rover of Richmond,0,0,0,0,0,S,,57294 | [9281-7] Maintenance and repairs,57294,,,,-,-
+43025,British Columbia Automobile Association,0,0,0,0,0,S,,57296 | [9281-9] Other expenses,57296,,,,-,-
+45291,Felix Chan,0,,,0,,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45322,Felix Chan,5974.97,5974.97,0,5974.97,0,C,,21100 | Owners Purchase Payable,21100,5974.97,,,-,-
+45337,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45351,Felix Chan,375.44,375.44,0,375.44,0,C,,21100 | Owners Purchase Payable,21100,375.44,,,-,-
+45366,Felix Chan,176,176,0,176,0,C,,21100 | Owners Purchase Payable,21100,176,,,-,-
+45384,Felix Chan,344.93,344.93,0,344.93,0,C,,21100 | Owners Purchase Payable,21100,344.93,,,-,-
+45397,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45412,Felix Chan,42.44,42.44,0,42.44,0,C,,21100 | Owners Purchase Payable,21100,42.44,,,-,-
+45427,Felix Chan,2000,2000,0,2000,0,C,,21100 | Owners Purchase Payable,21100,2000,,,-,-
+45443,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45457,Felix Chan,60,60,0,60,0,C,,21100 | Owners Purchase Payable,21100,60,,,-,-
+45475,Felix Chan,4000,4000,0,4000,0,C,,21100 | Owners Purchase Payable,21100,4000,,,-,-
+45488,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45504,Felix Chan,1900.24,1900.24,0,1900.24,0,C,,21100 | Owners Purchase Payable,21100,1900.24,,,-,-
+45519,Felix Chan,4158.98,4158.98,0,4158.98,0,C,,21100 | Owners Purchase Payable,21100,4158.98,,,-,-
+45538,Felix Chan,2720.01,2720.01,0,2720.01,0,C,,21100 | Owners Purchase Payable,21100,2720.01,,,-,-
+45551,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45566,Felix Chan,2000,2000,0,2000,0,C,,21100 | Owners Purchase Payable,21100,2000,,,-,-
+45596,Felix Chan,54.55,54.55,0,54.55,0,C,,21100 | Owners Purchase Payable,21100,54.55,,,-,-
+45611,Felix Chan,2000,2000,0,2000,0,C,,21100 | Owners Purchase Payable,21100,2000,,,-,-
+45628,Felix Chan,2500.64,2500.64,0,2500.64,0,C,,21100 | Owners Purchase Payable,21100,2500.64,,,-,-
+45642,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45657,Felix Chan,0,0,0,0,0,C,,21100 | Owners Purchase Payable,21100,0,,,-,-
+45657,Ava Mirfendereski,0,0,0,0,0,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Heller Xu,34650,33000,0,33000,1650,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Leon Li,0,0,0,0,0,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Raj Mandke,0,0,0,0,0,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Justin Halwa,0,0,0,0,0,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Hiroshi Egawa,0,0,0,0,0,C,,51900 | [9110] Subcontracts,51900,,,,-,-
+45657,Ascent Strategy Consulting Ltd.,0,0,0,0,0,C,,51850 | [9061] Commissions,51850,,,,-,-
+45292,"Liao, Yi Fan (Landlord)",1600,1600,0,1600,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45323,"Liao, Yi Fan (Landlord)",1600,1600,0,1600,0,C,,59270 | [9945] Property rental,59270,,,,-,-
+45352,"Liao, Yi Fan (Landlord)",1600,1600,0,1600,0,C,,59270 | [9945] Property rental,59270,,,,-,-
+45383,"Liao, Yi Fan (Landlord)",1600,1600,0,1600,0,C,,59270 | [9945] Property rental,59270,,,,-,-
+45413,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45474,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45474,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45505,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45536,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45566,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45597,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45627,"Fu, Rui (Landlord)",2000,2000,0,2000,0,C,PC,59270 | [9945] Property rental,59270,,,,-,-
+45309,Samsung Electronics Canada Inc.,320.6,286.25,20.04,306.29,14.31,C,PC,56950 | [8810] Office expenses,56950,,,,-,-
+45348,"Amazon.com.ca, Inc.",55.44,49.5,3.46,52.96,2.48,C,PCC,56950 | [8810] Office expenses,56950,,,,-,-
+45628,Apple Inc.,133.28,119,8.33,127.33,5.95,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45456,BC Registry Services,44.89,44.89,0,44.89,0,C,BCC,56250 | [8760] Business Fees & Licenses,56250,,,,-,-
+45456,BC Registry Services,21.5,21.5,0,21.5,0,C,BCC,56250 | [8760] Business Fees & Licenses,56250,,,,-,-
+45403,Cleverbridge GmbH,94.43,84.32,5.9,90.22,4.21,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45313,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45344,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45373,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45404,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45434,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45465,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45495,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45526,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45557,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45587,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45618,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45648,Dropbox Inc.,17.91,15.99,1.12,17.11,0.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45297,GitHub Inc.,11.17,11.17,0,11.17,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45328,GitHub Inc.,11.29,11.29,0,11.29,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45357,GitHub Inc.,11.34,11.34,0,11.34,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45388,GitHub Inc.,11.37,11.37,0,11.37,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45418,GitHub Inc.,11.41,11.41,0,11.41,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45449,GitHub Inc.,11.45,11.45,0,11.45,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45479,GitHub Inc.,11.38,11.38,0,11.38,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45510,GitHub Inc.,11.62,11.62,0,11.62,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45541,GitHub Inc.,11.27,11.27,0,11.27,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45571,GitHub Inc.,11.33,11.33,0,11.33,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45602,GitHub Inc.,11.62,11.62,0,11.62,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45632,GitHub Inc.,11.74,11.74,0,11.74,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45509,"GoDaddy Operating Company, LLC",40.62,38.7,0,38.7,1.92,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45292,Google LLC,-1.08,-0.96,-0.07,-1.03,-0.05,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45292,Google LLC,-8.74,-7.8,-0.55,-8.35,-0.39,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,Google LLC,8.74,7.8,0.55,8.35,0.39,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,Google LLC,8.35,7.8,0.55,8.35,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,Google LLC,8.35,7.8,0.55,8.35,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,Google LLC,1.42,1.27,0.09,1.36,0.06,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,Google LLC,8.35,7.8,0.55,8.35,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,Google LLC,8.35,7.8,0.55,8.35,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,Google LLC,1.43,1.28,0.09,1.37,0.06,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,Google LLC,8.74,7.8,0.55,8.35,0.39,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45383,Google LLC,1.46,1.3,0.09,1.39,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45383,Google LLC,9.28,8.29,0.58,8.87,0.41,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45383,Google LLC,8.6,8.04,0.56,8.6,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45383,Google LLC,8.87,8.29,0.58,8.87,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45413,Google LLC,1.47,1.31,0.09,1.4,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45413,Google LLC,10.49,9.36,0.66,10.02,0.47,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45413,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45413,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45444,Google LLC,1.48,1.32,0.09,1.41,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45444,Google LLC,10.49,9.36,0.66,10.02,0.47,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45444,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45444,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45474,Google LLC,1.49,1.33,0.09,1.42,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45474,Google LLC,10.49,9.36,0.66,10.02,0.47,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45474,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45474,Google LLC,23.02,22.36,0.66,23.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45496,Google LLC,29.95,27.99,1.96,29.95,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45505,Google LLC,1.49,1.33,0.09,1.42,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45505,Google LLC,10.49,9.36,0.66,10.02,0.47,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45505,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45505,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45536,Google LLC,1.51,1.35,0.07,1.42,0.09,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45536,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45536,Google LLC,10.49,9.36,0.66,10.02,0.47,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45536,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45566,Google LLC,1.46,1.3,0.09,1.39,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45566,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45566,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45566,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45576,Google LLC,24.6,22.99,1.61,24.6,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45597,Google LLC,1.46,1.3,0.09,1.39,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45597,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45597,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45597,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45607,Google LLC,24.6,22.99,1.61,24.6,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,Google LLC,1.51,1.35,0.07,1.42,0.09,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45637,Google LLC,24.6,22.99,1.61,24.6,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45657,Google LLC,1.53,1.36,0.1,1.46,0.07,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45657,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45657,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45657,Google LLC,10.02,9.36,0.66,10.02,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45292,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45323,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45352,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45383,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45413,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45444,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45474,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45505,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45536,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45566,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45597,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45627,Guardian Storage Inc.,123.06,117.2,0,117.2,5.86,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45296,JetBrains Americas Inc.,14.06,14.06,0,14.06,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45327,JetBrains Americas Inc.,14.18,14.18,0,14.18,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45356,JetBrains Americas Inc.,14.29,14.29,0,14.29,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45387,JetBrains Americas Inc.,14.36,14.36,0,14.36,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45417,JetBrains Americas Inc.,16.13,14.39,1.01,15.4,0.73,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45448,JetBrains Americas Inc.,16.19,14.45,1.01,15.46,0.73,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45478,JetBrains Americas Inc.,16.08,14.35,1.01,15.36,0.72,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45509,JetBrains Americas Inc.,16.43,14.66,1.03,15.69,0.74,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45540,JetBrains Americas Inc.,15.93,14.21,1,15.21,0.72,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45570,JetBrains Americas Inc.,16.01,14.29,1,15.29,0.72,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45601,JetBrains Americas Inc.,16.43,14.66,1.03,15.69,0.74,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45631,JetBrains Americas Inc.,16.59,14.8,1.04,15.84,0.75,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45559,LogMeIn Technologies Canada Ltée.,56.14,53.63,2.51,56.14,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45305,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45306,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45336,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45337,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45365,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45366,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45396,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45396,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45426,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45427,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45457,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45458,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45487,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45487,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45518,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45518,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45549,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45549,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45579,Microsoft Corporation,15.68,14,0.98,14.98,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45580,Microsoft Corporation,30.24,27,1.89,28.89,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45610,Microsoft Corporation,15.72,14.04,0.98,15.02,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45610,Microsoft Corporation,30.25,27,1.9,28.9,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45640,Microsoft Corporation,15.72,14.04,0.98,15.02,0.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45640,Microsoft Corporation,30.25,27,1.9,28.9,1.35,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45308,Namespro Solutions Inc.,58.2,55.43,2.77,58.2,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45338,Namespro Solutions Inc.,36.42,34.69,1.73,36.42,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45361,Namespro Solutions Inc.,82.96,79.01,3.95,82.96,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45424,Namespro Solutions Inc.,35.33,33.65,1.68,35.33,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45425,Namespro Solutions Inc.,62.24,59.28,2.96,62.24,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45460,Namespro Solutions Inc.,20.33,19.36,0.97,20.33,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45465,Namespro Solutions Inc.,67.79,64.56,3.23,67.79,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45503,Namespro Solutions Inc.,59.71,56.87,2.84,59.71,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45537,Namespro Solutions Inc.,16.46,15.68,0.78,16.46,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45538,Namespro Solutions Inc.,21.2,20.19,1.01,21.2,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45609,Namespro Solutions Inc.,62.24,59.28,2.96,62.24,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45295,OpenPhone,37.01,37.01,0,37.01,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45326,OpenPhone,37.3,37.3,0,37.3,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45355,OpenPhone,37.65,37.65,0,37.65,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45386,OpenPhone,37.62,37.62,0,37.62,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45416,OpenPhone,37.9,37.9,0,37.9,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45447,OpenPhone,37.83,37.83,0,37.83,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45477,OpenPhone,37.88,37.88,0,37.88,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45508,OpenPhone,38.44,38.44,0,38.44,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45539,OpenPhone,37.55,37.55,0,37.55,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45569,OpenPhone,37.54,37.54,0,37.54,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45600,OpenPhone,38.64,38.64,0,38.64,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45630,OpenPhone,38.96,38.96,0,38.96,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45560,Paddle.com Market Ltd,18.96,16.92,1.19,18.11,0.85,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45590,Paddle.com Market Ltd,19.42,17.34,1.21,18.55,0.87,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45621,Paddle.com Market Ltd,19.63,17.52,1.23,18.75,0.88,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45651,Paddle.com Market Ltd,20.19,18.02,1.26,19.28,0.91,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45315,Rogers Wireless Inc.,372.04,333.99,21.35,355.34,16.7,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45346,Rogers Wireless Inc.,299.62,269.33,16.82,286.15,13.47,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45375,Rogers Wireless Inc.,291.4,261.99,16.31,278.3,13.1,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45406,Rogers Wireless Inc.,291.4,261.99,16.31,278.3,13.1,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45436,Rogers Wireless Inc.,291.4,261.99,16.31,278.3,13.1,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45467,Rogers Wireless Inc.,291.4,261.99,16.31,278.3,13.1,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45497,Rogers Wireless Inc.,299.24,268.99,16.8,285.79,13.45,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45528,Rogers Wireless Inc.,291.4,261.99,16.31,278.3,13.1,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45559,Rogers Wireless Inc.,295.6,265.99,16.31,282.3,13.3,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45589,Rogers Wireless Inc.,297.84,267.99,16.45,284.44,13.4,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45620,Rogers Wireless Inc.,295.6,265.99,16.31,282.3,13.3,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45650,Rogers Wireless Inc.,297.22,267.44,16.41,283.85,13.37,C,BCC,57900 | [9220] Telephone & Utilities,57900,,,,-,-
+45625,Salesright Technologies ULC,41.96,39.96,2,41.96,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45293,"Slack Technologies, Inc.",26.66,23.79,1.67,25.46,1.2,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,"Slack Technologies, Inc.",27.02,24.12,1.69,25.81,1.21,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,"Slack Technologies, Inc.",27.33,24.39,1.71,26.1,1.23,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45383,"Slack Technologies, Inc.",27.25,24.33,1.7,26.03,1.22,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45413,"Slack Technologies, Inc.",27.7,24.73,1.73,26.46,1.24,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45444,"Slack Technologies, Inc.",27.51,24.56,1.72,26.28,1.23,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45474,"Slack Technologies, Inc.",27.59,24.63,1.72,26.35,1.24,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45505,"Slack Technologies, Inc.",27.85,24.86,1.74,26.6,1.25,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45537,"Slack Technologies, Inc.",27.14,24.22,1.7,25.92,1.22,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45566,"Slack Technologies, Inc.",25.99,23.2,1.62,24.82,1.17,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45597,"Slack Technologies, Inc.",26.77,23.9,1.67,25.57,1.2,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,"Slack Technologies, Inc.",26.97,24.07,1.69,25.76,1.21,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45617,Zoho Corporation,80.64,72,5.04,77.04,3.6,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45633,Zoho Corporation,77.28,69,4.83,73.83,3.45,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45633,Zoho Corporation,77.28,69,4.83,73.83,3.45,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45493,Air Canada,72.45,69,0,69,3.45,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45493,Air Canada,72.45,69,0,69,3.45,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45493,Air Canada,72.45,69,0,69,3.45,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45493,Air Canada,29.93,28.5,0,28.5,1.43,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45522,Air Canada,7.09,6.75,0,6.75,0.34,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45523,Air Canada,36.75,35,0,35,1.75,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45528,Air Canada,36.75,35,0,35,1.75,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45493,"Expedia, Inc.",3465.86,3465.86,0,3465.86,0,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45494,"Expedia, Inc.",-1812.9,-1812.9,0,-1812.9,0,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45517,"Expedia, Inc.",98.88,98.88,0,98.88,0,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45517,"Expedia, Inc.",2060.1,1770,60,1830,230.1,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45528,Petro-Canada Limited,56.42,49.93,0,49.93,6.49,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45529,Shell Canada Limited,16.4,14.51,0,14.51,1.89,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45529,Dollar Thrifty Automotive Group Canada Inc.,566.6,501.42,0,501.42,65.18,C,PCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45320,Uber,11.71,11.25,0,11.25,0.46,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45326,Uber,11.88,11.36,0,11.36,0.52,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45332,Uber,11.13,10.65,0,10.65,0.48,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45416,Uber,12.98,12.44,0,12.44,0.54,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45426,Uber,14.36,13.77,0,13.77,0.59,C,BCC,"57820 | [9200] Travel (transpo, accom)",56950,,,,-,-
+45427,Uber,18.46,17.58,0,17.58,0.88,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45478,Uber,14.64,13.94,0,13.94,0.7,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45490,Uber,13.3,12.74,0,12.74,0.56,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45510,Uber,9.4,9,0,9,0.4,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45515,Uber,12,11.48,0,11.48,0.52,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45523,Uber,38,36.44,0,36.44,1.56,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45533,Uber,12.97,12.42,0,12.42,0.55,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45545,Uber,14,13.4,0,13.4,0.6,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45546,Uber,10.04,9.56,0,9.56,0.48,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45583,Uber,38.37,36.54,0,36.54,1.83,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45584,Uber,14.16,13.493,0,13.493,0.667,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45591,Uber,8.69,8.28,0,8.28,0.41,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45598,Uber,8.57,8.16,0,8.16,0.41,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45604,Uber,8.78,8.36,0,8.36,0.42,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45604,Uber,9.95,9.48,0,9.48,0.47,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45619,Uber,12.64,12.04,0,12.04,0.6,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45619,Uber,13.85,13.19,0,13.19,0.66,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45633,Uber,8.51,8.1,0,8.1,0.41,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45634,Uber,8.56,8.15,0,8.15,0.41,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45514,Yellow Cab Company Ltd.,11.5,11.02,0,11.02,0.48,C,BCC,"57820 | [9200] Travel (transpo, accom)",57820,,,,-,-
+45296,"Amazon.com.ca, Inc.",33.58,29.98,2.1,32.08,1.5,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45309,"Amazon.com.ca, Inc.",54.85,48.97,3.43,52.4,2.45,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45311,"Amazon.com.ca, Inc.",59.33,52.97,3.71,56.68,2.65,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45314,"Amazon.com.ca, Inc.",72.76,68,4.76,72.76,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45323,"Amazon.com.ca, Inc.",26.85,23.97,1.68,25.65,1.2,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45330,"Amazon.com.ca, Inc.",51.5,45.98,3.22,49.2,2.3,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45330,"Amazon.com.ca, Inc.",175.79,156.95,10.99,167.94,7.85,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45332,"Amazon.com.ca, Inc.",24.51,21.88,1.53,23.41,1.1,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45334,"Amazon.com.ca, Inc.",44.79,39.99,2.8,42.79,2,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45384,"Amazon.com.ca, Inc.",57.62,51.45,3.6,55.05,2.57,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45397,"Amazon.com.ca, Inc.",84.72,75.64,5.28,80.92,3.8,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45398,"Amazon.com.ca, Inc.",36.85,32.9,2.3,35.2,1.65,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45398,"Amazon.com.ca, Inc.",31.35,27.99,1.96,29.95,1.4,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45398,"Amazon.com.ca, Inc.",34.71,30.99,2.17,33.16,1.55,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45406,"Amazon.com.ca, Inc.",42.44,37.89,2.65,40.54,1.9,C,PCC,56950 | [8810] Office expenses,56950,,,,-,-
+45408,"Amazon.com.ca, Inc.",49.26,43.98,3.08,47.06,2.2,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45408,"Amazon.com.ca, Inc.",38.07,33.99,2.38,36.37,1.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45408,"Amazon.com.ca, Inc.",53.74,47.98,3.36,51.34,2.4,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45409,"Amazon.com.ca, Inc.",-30.65,-27.36,-1.92,-29.28,-1.37,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45412,"Amazon.com.ca, Inc.",71.31,63.67,4.46,68.13,3.18,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45502,"Amazon.com.ca, Inc.",19.93,19.93,0,19.93,0,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45513,"Amazon.com.ca, Inc.",9.99,8.92,0.62,9.54,0.45,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45513,"Amazon.com.ca, Inc.",65.34,58.34,4.08,62.42,2.92,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45514,"Amazon.com.ca, Inc.",10.81,9.65,0.68,10.33,0.48,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45518,"Amazon.com.ca, Inc.",125.36,111.92,7.84,119.76,5.6,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45523,"Amazon.com.ca, Inc.",132.69,118.47,8.3,126.77,5.92,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45577,"Amazon.com.ca, Inc.",54.55,48.71,3.4,52.11,2.44,C,PCC,56950 | [8810] Office expenses,56950,,,,-,-
+45579,"Amazon.com.ca, Inc.",55.99,49.99,3.5,53.49,2.5,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45620,"Amazon.com.ca, Inc.",33.14,29.59,2.07,31.66,1.48,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45622,"Amazon.com.ca, Inc.",257.59,229.99,16.1,246.09,11.5,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45626,"Amazon.com.ca, Inc.",111.99,99.99,7,106.99,5,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45630,"Amazon.com.ca, Inc.",12.39,11.06,0.78,11.84,0.55,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45634,"Amazon.com.ca, Inc.",60.47,53.99,3.78,57.77,2.7,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45634,"Amazon.com.ca, Inc.",153.62,137.16,9.6,146.76,6.86,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45639,"Amazon.com.ca, Inc.",40.7,36.34,2.54,38.88,1.82,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45643,"Amazon.com.ca, Inc.",14.46,12.91,0.9,13.81,0.65,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45325,Sunflower Florist Ltd,80.08,72.28,4.55,76.83,3.25,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45333,Kay Meek Centre,206,196.19,0,196.19,9.81,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45458,Thomas Haas Chocolates,24.99,23.8,0,23.8,1.19,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45304,BC Liquor Stores,142.69,124.09,12.4,136.49,6.2,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45450,BC Liquor Stores,126.45,109.98,10.98,120.96,5.49,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45480,BC Liquor Stores,508.21,442.08,44.09,486.17,22.04,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45485,BC Liquor Stores,56.44,49.09,4.9,53.99,2.45,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45499,BC Liquor Stores,91.81,79.87,7.96,87.83,3.98,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45506,BC Liquor Stores,51.93,45.18,4.5,49.68,2.25,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45542,BC Liquor Stores,111.73,97.18,9.7,106.88,4.85,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45595,BC Liquor Stores,92.68,80.85,7.89,88.74,3.94,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45606,BC Liquor Stores,166.35,144.68,14.45,159.13,7.22,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45619,BC Liquor Stores,57.68,50.18,5,55.18,2.5,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45647,BC Liquor Stores,76.17,69.27,6.9,76.17,0,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45653,BC Liquor Stores,87.67,76.27,7.6,83.87,3.8,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45526,Liquor Control Board of Ontario,66.45,57.81,0,57.81,8.64,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45527,Liquor Control Board of Ontario,-40,-34.8,0,-34.8,-5.2,C,BCC,56150 | [8521] Advertising & Promotions,56150,,,,-,-
+45603,AWF Vancouver,62.91,59.91,0,59.91,3,C,BCC,57370 | [9270] Conventions & seminars,57370,,,,-,-
+45524,iStore,22.74,20.34,1.4,21.74,1,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45607,Best Buy Canada Ltd.,125.43,111.99,7.84,119.83,5.6,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45627,"Sonos, Inc.",28,25,1.75,26.75,1.25,C,BCC,56950 | [8810] Office expenses,56950,,,,-,-
+45352,Imperial Parking Canada Corporation,40,38.09,0,38.09,1.91,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45430,Honk Mobile Inc.,10.9,10.38,0,10.38,0.52,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45430,Honk Mobile Inc.,8.3,7.9,0,7.9,0.4,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45548,ZipBy Canada Limited,6.95,6.61,0,6.61,0.34,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45548,ZipBy Canada Limited,7.4,7.04,0,7.04,0.36,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45550,City of Vancvouver,1.67,1.59,0,1.59,0.08,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45550,ZipBy Canada Limited,14.7,14,0,14,0.7,C,BCC,57600 | [8910] Rent,57600,,,,-,-
+45524,13th Street Winery,118,106.69,0,106.69,11.31,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,5.65
+45295,Anh And Chi,89,85.45,0,85.45,3.55,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,1.77
+45414,Anh And Chi,102,97.9,0,97.9,4.1,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.05
+45579,Cactus Club Coal Harbo,172.63,167.75,0,167.75,4.88,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.44
+45423,Cactus Club West Broad,122,113.64,1.58,115.22,6.78,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.39
+45360,Capo And The Spritz,165,153.55,4.8,158.35,6.65,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.32
+45383,Carderos Restaurant,119,111.16,3.1,114.26,4.74,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.37
+45578,Carderos Restaurant,312.97,298.16,2.5,300.66,12.31,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,6.15
+45341,CARDERO'S RESTAURANT,320,302.16,5.35,307.51,12.49,C,PCC,57840 | [8523] Meals & Entertainment,57840,,,,-,6.24
+45361,CHAMBAR RESTAURANT,101,96.97,0,96.97,4.03,C,PCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.01
+45333,Delta Vancouver F&b,170,160.3,3,163.3,6.7,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.35
+45531,Giardino Restaurant Ltd,275,257.53,6.84,264.37,10.63,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,5.31
+45413,Hawksworth Restaurant,109.62,109.62,0,109.62,0,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,0
+45413,Hawksworth Restaurant,155.38,139.13,6.1,145.23,10.15,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,5.07
+45428,Hawksworth Restaurant,153.08,135.93,7.2,143.13,9.95,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.97
+45428,Hawksworth Restaurant,108.07,108.07,0,108.07,0,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,0
+45374,Hju Z Lounge,105,100.8,0,100.8,4.2,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.1
+45445,Holt Renfrew Vancouver,82,78.69,0,78.69,3.31,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,1.65
+45387,Impostori Trattoria,153.18,145.5,1.6,147.1,6.08,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.04
+45305,Jagerhof Restaurant,275,260.48,3.88,264.36,10.64,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,5.32
+45641,JOE FORTES SEAFOOD & C,123.72,121.02,1.8,122.82,0.9,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,0.45
+45377,LE CROCODILE,344.93,323.5,8,331.5,13.43,C,PCC,57840 | [8523] Meals & Entertainment,57840,,,,-,6.71
+45490,Le Crocodile Restauran,253.75,239.49,4.4,243.89,9.86,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.93
+45484,Locanda Dellorso,97.02,93.17,0,93.17,3.85,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,1.92
+45310,Minami Restaurant Ltd,190,178.06,4.55,182.61,7.39,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.69
+45339,Moltaqa Moroccan Restaur,128,120.12,2.8,122.92,5.08,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.54
+45353,Moltaqa Moroccan Restaur,816,767.22,17.75,784.97,31.03,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,15.51
+45567,Novo Pizzeria And Wine Ba,83.58,78.93,1.4,80.33,3.25,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,1.62
+45419,Ophelia,144,136.66,1.7,138.36,5.64,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.82
+45436,Ophelia,189.3,176.93,5.1,182.03,7.27,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,3.63
+45524,Peller Est Winery Rest,246,222.34,0,222.34,23.66,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,11.83
+45554,Piva Restaurant,124,116.5,2.7,119.2,4.8,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.4
+45550,Sq *joey Shipyards,32.45,29.16,2.1,31.26,1.19,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,0.59
+45550,Sq *joey Shipyards,141.08,133.26,2.33,135.59,5.49,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.74
+45597,Tableau Bar Bistro,210.9,200.15,2.5,202.65,8.25,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.12
+45640,TAVOLA RESTAURANT,103.68,101.28,2.4,103.68,0,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,0
+45479,The Fairmont Waterfront,213.24,197.54,7.6,205.14,8.1,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.05
+45603,The Fairmont Waterfront,107.1,102.85,0,102.85,4.25,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.12
+45632,THE FAIRMONT WATERFRONT,110.88,106.48,0,106.48,4.4,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,2.2
+45536,The Secret Garden Tea Com,211.68,203.28,0,203.28,8.4,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.2
+45613,Tst-Brix And Mortar,225.78,210.63,6.5,217.13,8.65,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,4.32
+45348,Tst-Delara Restaurant,310,291,7,298,12,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,6
+45514,Tutto Restaurant & Bar,273.56,257.83,5.3,263.13,10.43,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,5.21
+45582,Westin H2 Rotisserie,98.28,94.38,0,94.38,3.9,C,BCC,57840 | [8523] Meals & Entertainment,57840,,,,-,1.95
