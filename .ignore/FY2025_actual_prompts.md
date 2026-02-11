@@ -75,3 +75,68 @@ If you want, I can adjust the asset-candidate heuristic to better “identify FY
 Amazon
 - Invoice replaces order
 - Added new invoices
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 18:42 PST]
+
+Populate the five normalized CSV files under `FY2025/normalized` according to the schema defined in `.augment/rules/20_data_schema.md`:
+
+IMPORTANT: Ensure CSV files use LF (`\n`) line endings (not CRLF).
+
+1. `documents.csv` — Evidence / Audit Layer
+   - Scan all invoices, receipts, and confirmations under `FY2025/transactions`
+   - Create one row per document
+   - Do NOT include transaction source records (bank/credit card statements)
+
+2. `transactions.csv` — Economic Reality / Balance Sheet Layer
+   - Ingest all corporate chequing (`FY2025/transactions/1_assets/TD_Business_accountactivity_20241225-20260208.csv`) and credit card (`FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md`) transactions
+   - Extract reimbursable/mixed-use personal transactions only from `FY2025/reference/personal`
+   - Link to `documents.csv` where evidence exists
+
+3. `allocations.csv` — Classification / Tax Judgment Layer
+   - Pre-populate with suggested allocations (full or split)
+   - Apply known defaults from `.augment/rules/10_accounting_rules.md`
+   - Flag uncertain classifications for owner review
+
+4. `assets.csv` — Capital Asset Register
+   - Use `FY2024/financials/2024_Capital_Assets.md` as the starting asset register
+   - Identify FY2025 additions and disposals from transactions
+   - Do NOT calculate depreciation; flag for accountant
+
+5. `owed.csv` — Accounts Payable / Accounts Receivable
+   - Track invoices/amounts owed that do not map 1:1 to posted statement transactions
+     (e.g., invoices paid/collected in installments)
+   - Link settlement activity using `linked_transaction_ids`
+   - Carry forward any open balances at FY-end into next fiscal year’s `owed.csv`
+
+---
+
+● FY2025 normalized outputs populated (LF-only)
+
+The generator now produces all five normalized CSVs under FY2025/normalized/ per .augment/rules/20_data_schema.md, and I regenerated them successfully.
+What was generated
+• FY2025/normalized/documents.csv: 458 documents (evidence only)
+• FY2025/normalized/transactions.csv: 490 transactions
+• 485 corporate
+• 5 personal (included only because they linked to evidence; reimbursable/mixed-use rule)
+• FY2025/normalized/allocations.csv: 490 allocations (1 per included transaction)
+• FY2025/normalized/assets.csv: 11 assets (FY2024 register + FY2025 capital-asset candidates)
+• FY2025/normalized/owed.csv: header-only / 0 rows (placeholder table present)
+
+Required constraints verified
+• LF line endings only: verified CRLF=0 and CR=0 for all five CSVs.
+• No statements in `documents.csv`: confirmed documents.csv does not include:
+• TD_Business_accountactivity...csv
+• TD_Business_Visa_2025.md
+• anything under FY2025/reference/personal
+• Personal transactions policy enforced: confirmed 0 personal rows with receipt_status outside {found, ambiguous}.
+Note about owed.csv
+owed.csv remains empty intentionally because auto-populating owed items safely requires the strict “statement coverage” gating you defined (and would require full scanning/ingestion of all relevant personal statement sources
+before creating owed rows in the “no corporate partial payment exists” case). The schema is present and LF-clean so you can start entering owed items once coverage is confirmed.
+If you want, I can implement a conservative owed-candidate report (not writing rows) that lists invoices whose totals don’t match 1:1 with any posted transactions, so you can review and decide whether to create owed.csv
+entries.
+
+---
