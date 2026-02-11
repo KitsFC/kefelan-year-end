@@ -1,0 +1,762 @@
+<table style="width:100%;">
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 46%" />
+<col style="width: 1%" />
+<col style="width: 39%" />
+<col style="width: 1%" />
+</colgroup>
+<tbody>
+<tr>
+<td></td>
+<td style="text-align: left;"><strong>ID</strong></td>
+<td colspan="2" style="text-align: left;"><blockquote>
+<p><strong>AEROPLAN @</strong></p>
+</blockquote>
+<p><strong>leroplan® <em>Visa Infinite Privilege™</em></strong></p></td>
+<td colspan="2" style="text-align: left;"><p><strong>CONTACT
+INFORMATION</strong></p>
+<p>Customer Service/Lost &amp; Stolen 1-800-387-8556</p>
+<p>TTY Inquiries (with hearing loss) 1-866-704-3194</p>
+<p>Chat with us on EasyWeb EasyWeb.td.com</p>
+<p>Aeroplan Program 1-800-361-5373</p>
+<p>Aeroplan Website aircanada.com/aeroplan</p></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2" style="text-align: left;"><strong>MR KEVIN FELIX
+CHAN</strong> 4520 88XX XXXX 6493</td>
+<td style="text-align: left;"></td>
+<td colspan="2" style="text-align: left;"><strong>Aeroplan
+Points</strong></td>
+</tr>
+<tr>
+<td colspan="4" style="text-align: left;"><p><strong>STATEMENT DATE:
+September 04, 2025 1 OF 5</strong></p>
+<p>PREVIOUS STATEMENT: August 05, 2025</p></td>
+<td style="text-align: left;"><p>Aeroplan® Number # 740 157 052</p>
+<p>Points Earned on Purchases + 2,749.00</p>
+<p>Bonus/Adjustments Points Earned + 30,152.00</p></td>
+<td rowspan="2" style="text-align: left;"></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2" style="text-align: left;">STATEMENT PERIOD: August 06,
+2025 to September 04, 2025</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Total Points Earned = 32,901.00</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2" style="text-align: left;">TRANSACTION POSTING DATE DATE
+ACTIVITY DESCRIPTION AMOUNT($)</td>
+<td style="text-align: left;"></td>
+<td colspan="2" style="text-align: left;"><strong>PAYMENT
+INFORMATION</strong></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2" style="text-align: left;"><blockquote>
+<p>PREVIOUS STATEMENT BALANCE $2,907.75</p>
+</blockquote>
+<p>AUG 3 AUG 6 PAYPAL *APPLE.COM/BILL 4029357733 $14.55</p>
+<p>AUG 5 AUG 6 CAFFE CENTRAL SAN FRANCISC $79.26</p>
+<blockquote>
+<p>FOREIGN CURRENCY 56.03 USD @ EXCHANGE RATE 1.41459</p>
+</blockquote>
+<p>AUG 5 AUG 7 TAJ CAMPTON PLACE SAN FRANCISC $49.88</p>
+<blockquote>
+<p>FOREIGN CURRENCY 35.26 USD @ EXCHANGE RATE 1.41463</p>
+</blockquote>
+<p>AUG 6 AUG 11 PAYPAL *OLD NAVY 4029357733 $75.00</p>
+<p>AUG 10 AUG 11 EQUIFAX CANADA CO. 855-233-9226 $17.80</p>
+<p>AUG 13 AUG 14 WHOLE FOODS MARKET VANCOUVER $33.22</p>
+<p>AUG 13 AUG 14 DOUBLE D PIZZA VANCOUVER $53.28</p>
+<p>AUG 13 AUG 14 IGA 039 VANCOUVER $18.00</p>
+<p>AUG 12 AUG 15 PAYPAL *BANANAREPUB 4029357733 $40.31</p></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><p>Minimum Payment &gt;iu.uu</p>
+<p>Payment Due Date Sep. 25, 2025</p>
+<p>Credit Limit $12,000</p>
+<p>Available Credit $11,491</p>
+<p>Annual Interest Rate: Purchases 21.99%</p>
+<p>Cash Advances 22.99%</p>
+<p>Estimated Time to Pay</p>
+<p>The estimated time to pay your New Balance in full if you pay only
+the Minimum Payment each month is: 4year(s) and 3 month(s).</p></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td colspan="4" rowspan="3" style="text-align: left;"><p>AUG 13 AUG 15
+CITY OF VAN PAYBYPHONE $1.00</p>
+<blockquote>
+<p>VANCOUVER</p>
+</blockquote>
+<p>AUG 13 AUG 15 CITY OF VAN PAYBYPHONE $0.33</p>
+<blockquote>
+<p>VANCOUVER</p>
+</blockquote>
+<p>AUG 13 AUG 15 CITY OF VAN PAYBYPHONE $0.33</p>
+<blockquote>
+<p>VANCOUVER</p>
+</blockquote>
+<p>Continued</p></td>
+<td style="text-align: left;"><strong>CALCULATING YOUR BALANCE</strong>
+Previous Balance $2,907.75</td>
+<td rowspan="3" style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Payments &amp; Credits $4,626.85</td>
+</tr>
+<tr>
+<td style="text-align: left;"><p>Purchases &amp; Other Charges
+$2,227.37</p>
+<p>Cash Advances $0.00</p>
+<p>Interest $0.00</p>
+<p>Fees $0.00</p>
+<p>Sub-total $2,227.37</p>
+<p>NEW BALANCE <strong>$508.27</strong></p></td>
+</tr>
+<tr>
+<td colspan="4"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+
+TDSTM21000_7816481_001 0005517 HRI - - 03 - 03 - 13 - - 033381
+
+***TD CANADA TRUST***
+
+*P.O.B/C.P. 611*
+
+*AGINCOURT, ONTARIO M1S 5J7*
+
+*NEW BALANCE*
+
+**\$508.27**
+
+*MINIMUM PAYMENT*
+
+**::::::::::: \$10.00**
+
+*PAYMENT DUE DATE*
+
+**Sep 25, 2025**
+
+*AMOUNT PAID*
+
+**\$**
+
+*TDSTM21000_7816481_001 E D 05517*
+
+MR KEVIN FELIX CHAN 802-1468 14TH AVE W VANCOUVER BCV6H 0A2
+
+**TD® Aeroplan® *Visa Infinite Privilege™***
+
+Account Number: 4520 88XXXXXX 6493
+
+1.  Payments can be made via:
+
+- *EasyLine'- Telephone Banking*
+
+- *EasyWeb<sup>M</sup> Internet banking*
+
+*The Green Machine*
+
+*TD Canada Trust Branch*
+
+*Mail*
+
+2.  Make cheques payable to TD Canada Trust.
+
+3.  Detach and return with payment
+
+HSEDaanomsEbma <span class="smallcaps">dddiddd</span> ananas? i
+
+**2 OF 5**
+
+**What is the minimum payment and the Payment Due Date?** Your minimum
+payment and the Payment Due Date is set out on the front of the
+statement under the heading "Payment Information". It is also found on
+the payment slip. The Primary Cardholder must pay at least the minimum
+payment amount by the Payment Due Date shown on this statement. You must
+make payments in the currency of the Account. If you make a payment to
+the Account in a foreign currency, we may reject this payment or convert
+your payment to the currency of the Account. To learn more about how we
+will convert a payment that is not made in the currency of the Account,
+see your Cardholder Agreement. **For customers with an active TD Payment
+Plan**, you must pay your Required Payment (which is your Minimum
+Payment less any Monthly Plan Payment Amounts due by the Minimum Payment
+Due Date).
+
+**How do you make a payment?** See the front of the statement or your
+Cardholder Agreement to learn how you can make a payment. The Primary
+Cardholder must select a payment method that makes sure we receive the
+payment so that we can post it to the Account on or before the Payment
+Due Date. We must receive your payment so that we can post it to the
+Account on or before each Payment Due Date shown on the Account
+statement.
+
+TDSTM21000_7816481_001 0005517 033382
+
+**What happens if the Payment Due Date falls on a Saturday, Sunday or
+public holiday?** If the Payment Due Date falls on a Saturday, Sunday or
+a public holiday recognized by us, we will extend the Payment Due Date
+to the following business day. However, any applicable interest will
+still apply to an outstanding Balance during this period.
+
+**<span class="smallcaps">w</span>hat is the amount that must be paid to
+get the benefit of a <span class="smallcaps">g</span>race
+<span class="smallcaps">p</span>eriod<span class="smallcaps">?</span>**
+You have a minimum **21**-day interest-free Grace Period for **new**
+Purchases and fees (other than Cash Advance fees or Balance Transfer
+fees) that appear for the first time on the Account statement ("New
+Purchases"). This means that if you pay the outstanding New Balance
+shown on the Account's statement in full on or before the Payment Due
+Date shown on such Account statement, you will not be charged interest
+on New Purchases. The Grace Period does not apply to:
+
+- Purchases and fees that appear on previous Account statements,
+
+- Cash Advances (including Balance Transfers, TD *Visa* Cheques and
+  Cash-Like Transactions), Cash Advance fees, Balance Transfer fees and
+  TD *Visa* Cheque fees.
+
+**For Payment Plans Only:** If you have Payment Plan(s), you will
+receive an interest-free Grace Period on New Purchases (excluding New
+Purchases that you have put into a Payment Plan) if you pay the "Grace
+Period Payment Amount" on or before the Payment Due Date. If you have
+any active Payment Plans, your "Grace Period Payment Amount" will be
+calculated as follows:
+
+- New Balance on your monthly statement, minus your Total Payment Plans
+  balance that is shown on your monthly statement, plus your Total
+  Monthly Payment Plan Amount(s) that are due on your monthly statement.
+
+However, if you move a purchase that has already appeared on your
+monthly statement into a TD Payment Plan prior to the Payment Due Date
+of that monthly statement, the Grace Period Payment Amount will be:
+
+1.  **If you do not have an active Payment Plan on your current monthly
+    statement:** The New Balance shown on that monthly statement minus
+    the purchase amount(s) converted into a Payment Plan; or
+
+2.  **If you have active Payment Plan(s) on your current monthly
+    statement:** The Grace Period Payment Amount will be the Grace
+    Period Payment Amount figure that is already shown on your monthly
+    statement minus the new purchase amounts(s) moved into a Payment
+    Plan. For greater certainty, after you convert the new purchase into
+    a new TD Payment Plan, the amount of the new TD Payment Plan will
+    not be included in the TD Payment Plans balance that is used to
+    calculate the Grace Period Payment Amount that is due by the Payment
+    Due Date of that monthly statement.
+
+**For TD Venture Line of Credit Only:** We charge interest on the amount
+of all Transactions including Purchases, Cash Advances (including
+Balance Transfers, Cash-Like Transactions, and TD *Visa* Cheques) and
+all fees or other amounts charged to the Account from the transaction
+date until that amount is paid in full. **There is no interest-free
+Grace Period.**
+
+**How do we calculate and charge interest?** If interest applies, you
+can find the total interest charged, and the associated interest rates,
+on the front of your monthly statement. To learn more about how we
+calculate your interest, see your Disclosure Statement and Cardholder
+Agreement.
+
+**What is your estimated time to pay?** Paying more than the minimum
+payment will decrease the amount of interest you pay and reduce the time
+it takes to repay your Balance. If you have a Balance, we provide you an
+estimate of the length of time it will take you to pay the Balance in
+full as of the statement date. You can find this on the front of the
+statement. If you only pay the minimum payment, the estimate is based on
+the following assumptions: (i) that we receive the minimum payment on
+this statement, and the minimum payment on all subsequent statements, on
+the Payment Due Date on those statements (not prior to that date);
+
+\(ii\) that each month, we receive on more than the minimum payment; and
+(iii) a 360-day year. Our estimate is based on the current interest
+rates that apply to your Balance as a statement date (including any
+promotional rates for any promotional period and the rate that will
+apply after that promotional period has expired). This estimate will
+change each month if any other assumptions in (i) and (ii) are not met,
+the Balance that appears on your statement changes or if the rates that
+apply to your Account changes. Our estimate does not include any
+Transactions that have not yet posted to your Account and that are not
+included in the Balance that appears on this statement.
+
+**What are your rights and obligations regarding any billing error found
+on this statement?** This statement describes each Transaction and
+discloses each amount credited or charged, including interest, and the
+dates when those amounts were posted to the Account. You must review the
+Account statements and contact us about any errors within **30** days
+from the statement date so that we can immediately investigate them. If
+you do not contact us about errors within **30** days from the statement
+date, then**:**
+
+- We will consider all Transactions and payments to be correctly posted
+  to the Account and our Records to be correct (except for any amount
+  that we credited to the Account in error); and
+
+- You may not make a claim against us at a later date in respect of any
+  items or amounts posted to the Account.
+
+If you have a dispute with a merchant relating to a Transaction posted
+to the Account that appears on this statement, you must first attempt to
+settle the problem directly with the merchant. To learn how to manage a
+dispute with a merchant, see your Cardholder Agreement or visit
+[www.td.com](http://www.td.com)**.**
+
+**How do you contact us for more information about the Account or if you
+would like to report a lost/stolen Card?**
+
+Call us:
+
+- Toll-free: **1-800-983-8472**
+
+- Collect: **416-307-7722**
+
+**MIX**
+
+**Paper from responsible sources**
+
+**FSC® C006385**
+
+**All trade-marks are the property of their respective owners.**
+
+®/ The TD logo and other trade-marks are the property of The
+Toronto-Dominion Bank.
+
+***TD® Aeroplan® Visa Infinite Privilege™***
+
+**MR KEVIN FELIX CHAN** 4520 88XX XXXX 6493 **STATEMENT DATE: September
+04, 2025 3 OF 5**
+
+PREVIOUS STATEMENT: August 05, 2025
+
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 12%" />
+<col style="width: 53%" />
+<col style="width: 18%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">TRANSACTION DATE</td>
+<td style="text-align: left;">POSTING DATE</td>
+<td style="text-align: left;">ACTIVITY DESCRIPTION</td>
+<td style="text-align: right;">AMOUNT($)</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 13</td>
+<td style="text-align: left;">AUG 15</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$0.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 15</td>
+<td style="text-align: left;">AUG 18</td>
+<td style="text-align: left;"><blockquote>
+<p>PAYMENT - THANK YOU</p>
+</blockquote></td>
+<td style="text-align: left;">-$3,300.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 17</td>
+<td style="text-align: left;">AUG 18</td>
+<td style="text-align: left;"><blockquote>
+<p>Small Victory Bakery Vancouver</p>
+</blockquote></td>
+<td style="text-align: left;">$30.18</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 17</td>
+<td style="text-align: left;">AUG 19</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$4.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 17</td>
+<td style="text-align: left;">AUG 19</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$1.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 17</td>
+<td style="text-align: left;">AUG 19</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$1.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 18</td>
+<td style="text-align: left;">AUG 19</td>
+<td style="text-align: left;">AMZN Mktp CA*6W7ZD24O3 866-216-1072</td>
+<td style="text-align: left;">$14.99</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 18</td>
+<td style="text-align: left;">AUG 19</td>
+<td style="text-align: left;">AMZN Mktp CA*1F5EO9OF3 866-216-1072</td>
+<td style="text-align: right;">$29.99</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 16</td>
+<td style="text-align: left;">AUG 20</td>
+<td style="text-align: left;">PAYPAL *WGWSB JEANS 4029357733</td>
+<td style="text-align: right;">$166.82</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 20</td>
+<td style="text-align: left;">AUG 21</td>
+<td style="text-align: left;">PAYPAL *DISNEYPLUS 4029357733</td>
+<td style="text-align: left;">$17.91</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 20</td>
+<td style="text-align: left;">AUG 21</td>
+<td style="text-align: left;">BROWNSSHOES.COM ST. LAURENT</td>
+<td style="text-align: right;">$109.21</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 20</td>
+<td style="text-align: left;">AUG 21</td>
+<td style="text-align: left;"><blockquote>
+<p>WHOLE FOODS MARKET WEST VANCOUV</p>
+</blockquote></td>
+<td style="text-align: left;">$21.99</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 22</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;">Netflix.com 866-716-0414</td>
+<td style="text-align: left;">$35.82</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 22</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;">TU *TRANSUNION 800-508-2597</td>
+<td style="text-align: left;">$26.20</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 22</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;"><blockquote>
+<p>LOBLAWS CITY MARKET - WEST VANCOUV</p>
+</blockquote></td>
+<td style="text-align: left;">$24.34</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 23</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;"><blockquote>
+<p>HOMESENSE 035 W-VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: right;">$118.57</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 23</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;"><blockquote>
+<p>COMPASS WEB BURNABY BC 604-398-2042</p>
+</blockquote></td>
+<td style="text-align: left;">$0.65</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;">WHOLE FOODS MARKET VANCOUVER</td>
+<td style="text-align: left;">$2.63</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;"><p>CHV43016 16TH &amp; MACDON</p>
+<p>VANCOUVER</p></td>
+<td style="text-align: right;">$133.20</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$1.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$1.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$1.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 24</td>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$2.00</td>
+</tr>
+</tbody>
+</table>
+
+TDSTM21000_7816481_001 0005517 HRI - - 03 - 02 - 12 - - 033383
+
+Continued
+
+<img src="media/image3.jpeg" style="width:0.49306in;height:0.45347in" />
+
+TDSTM21000_7816481_001 0005517 033384
+
+***TD® Aeroplan® Visa Infinite Privilege™***
+
+**MR KEVIN FELIX CHAN** 4520 88XX XXXX 6493 **STATEMENT DATE: September
+04, 2025 4 OF 5**
+
+PREVIOUS STATEMENT: August 05, 2025
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 12%" />
+<col style="width: 52%" />
+<col style="width: 19%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">TRANSACTION DATE</td>
+<td style="text-align: left;">POSTING DATE</td>
+<td style="text-align: left;">ACTIVITY DESCRIPTION</td>
+<td style="text-align: right;">AMOUNT($)</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 25</td>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;"><blockquote>
+<p>COMPASS WEB BURNABY BC 604-398-2042</p>
+</blockquote></td>
+<td style="text-align: left;">$10.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 26</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>JOREY HAIR STYLIST VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$75.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 27</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>WHOLE FOODS MARKET WEST VANCOUV</p>
+</blockquote></td>
+<td style="text-align: left;">$28.28</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 27</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>NOVUS VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: left;">$78.40</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>Amazon.ca*QL7LN55Q3 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: right;">$9.52</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>AMZN Mktp CA*F606J45M3 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: left;">$20.27</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>Amazon.ca*EJ6F06KF3 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: left;">$66.31</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>AMZN Mktp CA*PT46P4LJ3 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: left;">$26.74</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>Amazon.ca*RH9FP17E3 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: left;">$13.32</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;"><blockquote>
+<p>AMZN Mktp CA*N58LP1IJ2 866-216-1072</p>
+</blockquote></td>
+<td style="text-align: left;">$20.27</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 27</td>
+<td style="text-align: left;">AUG 29</td>
+<td style="text-align: left;"><blockquote>
+<p>CITY OF VAN PAYBYPHONE VANCOUVER</p>
+</blockquote></td>
+<td style="text-align: right;">$1.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 28</td>
+<td style="text-align: left;">AUG 29</td>
+<td style="text-align: left;"><blockquote>
+<p>WHOLE FOODS MARKET WEST VANCOUV</p>
+</blockquote></td>
+<td style="text-align: left;">$17.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 30</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">MELALEUCA ORDER 800-282-3000</td>
+<td style="text-align: right;">$108.69</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 30</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SAFEWAY #4901 VANCOUVER</td>
+<td style="text-align: left;">$22.74</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 31</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">ZIPBY CANADA LIMITED 604-608-4043</td>
+<td style="text-align: left;">$13.71</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 31</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">HOMESENSE 035 W-VANCOUVER</td>
+<td style="text-align: left;">$25.74</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUG 31</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">HOMESENSE 035 W-VANCOUVER</td>
+<td style="text-align: right;">-$26.85</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 1</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;"><blockquote>
+<p>U-HAUL GUARDIAN STORAG 800-528-0463</p>
+</blockquote></td>
+<td style="text-align: right;">$129.21</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 1</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;"><blockquote>
+<p>RICHMOND COUNTRY FARMS RICHMOND</p>
+</blockquote></td>
+<td style="text-align: left;">$82.95</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 1</td>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;"><blockquote>
+<p>RICHMOND COUNTRY FARMS RICHMOND</p>
+</blockquote></td>
+<td style="text-align: left;">$31.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SEP 3</td>
+<td style="text-align: left;">Amazon.ca*H04XD8923 866-216-1072</td>
+<td style="text-align: left;">$17.14</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SEP 3</td>
+<td style="text-align: left;">Amazon.ca*0K1MC0LP3 866-216-1072</td>
+<td style="text-align: left;">$19.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SEP 3</td>
+<td style="text-align: left;">Amazon.ca*U26B27YS3 866-216-1072</td>
+<td style="text-align: left;">$17.10</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SEP 3</td>
+<td style="text-align: left;">GREEN SHIELD CANADA WINDSOR</td>
+<td style="text-align: right;">$265.00</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEP 2</td>
+<td style="text-align: left;">SEP 3</td>
+<td style="text-align: left;">PAYMENT - THANK YOU</td>
+<td style="text-align: right;">-$1,300.00</td>
+</tr>
+</tbody>
+</table>
+
+\$508.27
+
+**TOTAL NEW BALANCE**
+
+<img src="media/image4.jpeg" style="width:0.45347in;height:0.41319in" />
+
+<img src="media/image5.jpeg" style="width:0.45347in;height:0.41319in" />
+
+TDSTM21000_7816481_001 0005517 HRI - - 03 - 01 - 11 - - 033385
+
+***TD® Aeroplan® Visa Infinite Privilege™***
+
+**MR KEVIN FELIX CHAN** 4520 88XX XXXX 6493
+
+**5 OF 5**
+
+PREVIOUS STATEMENT: August 05, 2025
+
+**\| TD MESSAGE CENTRE?**
+
+-IMPORTANT NOTICE: STARTING JANUARY 1, 2026, AIR CANADA IS MAKING
+CHANGES TO AEROPLAN ELITE STATUS THAT WILL AFFECT THE AEROPLAN ELITE
+STATUS BENEFITS OF TD AEROPLAN CREDIT CARDS. LEARN MORE AT
+AIRCANADA.COM/ELITE2026-CARDS
+
+THANK YOU FOR USING YOUR TD AEROPLAN VISA INFINITE PRIVILEGE CARD. YOUR
+BONUS HAS BEEN AWARDED TO YOUR AEROPLAN POINTS ACCOUNT.
