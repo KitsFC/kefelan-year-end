@@ -462,3 +462,11 @@ Prompt A now explicitly instructs: corporate first, and only if no corporate par
 Next step (whenever you prompt to restart)
 Since you cleared all tables and will prompt later, I won’t regenerate anything now. When you’re ready to restart, tell me whether you want the workflow to include an explicit “statement coverage checklist” artifact (e.g., a
 small markdown checklist per FY) so it’s auditable that coverage was complete before owed.csv gets populated.
+
+---
+
+# Note to self
+
+## [2026-01-10 20:35 PST]
+
+Corporate credit card statements are now in CSV format instead of Markdown. 

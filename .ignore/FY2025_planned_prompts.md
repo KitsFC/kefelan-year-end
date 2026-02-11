@@ -15,7 +15,7 @@ IMPORTANT: Ensure CSV files use LF (`\n`) line endings (not CRLF).
    - Do NOT include transaction source records (bank/credit card statements)
 
 2. transactions.csv — Economic Reality / Balance Sheet Layer
-   - Ingest all corporate chequing (CSV) and credit card (Markdown) transactions
+   - Ingest all corporate chequing (CSV) and credit card (CSV) transactions
    - Extract reimbursable/mixed-use personal transactions only
    - Link to documents.csv where evidence exists
 
@@ -45,7 +45,7 @@ Reconcile all FY2025 corporate transactions.
 
 Data sources:
 - Corporate chequing account transactions (CSV)
-- Corporate credit card statements (Markdown converted from PDF)
+- Corporate credit card statements (CSV)
 - Corporate invoices/receipts (Markdown converted from PDF)
 
 Instructions:

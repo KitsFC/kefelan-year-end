@@ -10,7 +10,7 @@ Populate the four normalized CSV files under `FY2025/normalized` according to th
     - Do NOT include transaction source records (bank/credit card statements)
 
 2. `transactions.csv` — Economic Reality / Balance Sheet Layer
-    - Ingest all corporate chequing (CSV) and credit card (Markdown) transactions
+    - Ingest all corporate chequing (CSV) and credit card (CSV) transactions
     - Extract reimbursable/mixed-use personal transactions only
     - Link to `documents.csv` where evidence exists
 
@@ -31,7 +31,7 @@ Populate the four normalized CSV files under `FY2025/normalized` according to th
 I recompiled and re-ran the generator, and it completed cleanly.
 • Generator run output: “Wrote 444 documents, 485 transactions, 485 allocations, 11 assets”
 • transactions.csv now has 485 rows total:
-• 339 corporate credit card (source_type=cc_md)
+• 339 corporate credit card (source_type=cc_csv)
 • 146 corporate bank (source_type=bank_csv)
 TD Business Visa multiline parsing is now working (Lenovo confirmed)
 
