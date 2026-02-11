@@ -1,0 +1,61 @@
+\*\*\*\*\*\*\*44\*\*\*\*\*\*\*\*\*\*\*:!^
+
+CHECK \# 1110352
+
+TABLE \# 60
+
+DATE 2/17/25
+
+TIME 1:49PM
+
+DINING : JACKIE0223
+
+AMOUNT
+
+20.00
+
+20.00
+
+40.00
+
+12.00
+
+10.00
+
+22.00
+
+16.00
+
+9.00
+
+2 L SEASONAL GOMAE
+
+1 L EBI FRITTER
+
+1 L SABLEFISH
+
+1 L 0.5 MIKU ROLL
+
+1 L 0.5 RED WAVE ROLL
+
+1 L SALMON OSHI
+
+1 GREEN TEA OPERA
+
+3 GREEN TEA
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*y\*\*i\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+SUBTOTAL 149.00
+
+GST 7.00
+
+TOTAL DUE 156.00
+
+\# OF GUESTS
+
+MIKU WATERFRONT
+
+GST# 82614 5526 RT0001
+
+PST# 1000-8553

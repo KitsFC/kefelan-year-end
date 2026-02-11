@@ -1,0 +1,40 @@
+CINCIN
+
+1154 Robson Street  
+Vancouver BC V6E 1B5  
+604-688-7338
+
+\*\* TRANSACTION RECORD \*\* Tran. \#: 2314
+
+Lookup \#: 02314514340364
+
+RVC: CinCin
+
+Table \#: 201
+
+Check \#: 5969
+
+Group \#: 0
+
+Employee \#: 480
+
+Visa Purchase xxxxxxxxxxxx5143 C AID: A0000000031Q10 App Name: VISA
+CREDIT
+
+**Amount \$336.37**
+
+**Tip \$67.27**
+
+**TOTAL CAD\$40164**
+
+APPROVED 00279G 00-001 (001) 00279G CINCCS12 020001001017
+
+03/29/2025 9:43:42 PM
+
+TVR: 8080008000
+
+TSI: 6800
+
+VERIFIED BY PIN
+
+Customer Copy

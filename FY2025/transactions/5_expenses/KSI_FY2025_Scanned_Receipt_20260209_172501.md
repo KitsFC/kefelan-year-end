@@ -1,0 +1,37 @@
+**WESTIN BAYSHORE BANQUETS  
+1601 BAYSHORE DRIVE**
+
+**VANCOUVER, BC. V6G 2V4  
+604-682-3377**
+
+**SALE**
+
+**Server \#: 000001 1**
+
+**REF#: 00000019**
+
+**Batch \#: 050 04/05/25 18:44:04**
+
+**APPR CODE: 02125G**
+
+**Trace: 19**
+
+**VISA Proximity**
+
+**AMOUNT \$14.00**
+
+**TIP \$2.52**
+
+**TOTAL \$16.52**
+
+**APPROVED**
+
+**VISA CREDIT**
+
+**AID: A0000000031010**
+
+**TTQ 32 A0 40 00**
+
+**THANK YOU / MERCI**
+
+**CUSTOMER COPY**
