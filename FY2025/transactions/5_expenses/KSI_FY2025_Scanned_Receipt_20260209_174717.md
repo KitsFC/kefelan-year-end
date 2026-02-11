@@ -1,0 +1,44 @@
+LOG ANDA <span class="smallcaps">DElL</span> OR S O  
+350 IAEST PENDER STREET  
+VANCOUVER, BC. V6B TH  
+604 336-3151
+
+**SALE**
+
+REF#. 00000003
+
+Batch \#: 097 06/28/25
+
+APPR CODE: OdZOOG
+
+Trace: 3
+
+VISA
+
+20.46:23
+
+P/oxirnity
+
+**AMOUNT**
+
+**TIP**
+
+**TOTAL**
+
+**\$140.59**
+
+**\$28.12 \$168 71**
+
+APPROVED
+
+Mise. Device
+
+VISA CREDIT
+
+AID: A0000000031010
+
+TTQ B2 A0 40 00
+
+THANK YOU / MERCI
+
+CUSTOMER COPY
