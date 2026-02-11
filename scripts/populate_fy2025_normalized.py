@@ -1037,6 +1037,149 @@ def write_csv(path: Path, columns: list[str], rows: Iterable[dict[str, str]]) ->
             w.writerow(r)
 
 
+def write_text_lf(path: Path, text: str) -> None:
+    """Write a text file with LF-only line endings for repo consistency."""
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    with path.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(normalized)
+
+
+def _parse_iso_date(s: str) -> Optional[date]:
+    try:
+        if not s:
+            return None
+        return date.fromisoformat(s)
+    except Exception:
+        return None
+
+
+def generate_owed_candidate_report(
+    docs: list[Document],
+    txs_for_matching: list[Transaction],
+) -> str:
+    """Conservative owed-candidate report.
+
+    We list *invoice* documents whose CAD totals do not match 1:1 with ANY single
+    ingested statement transaction (by exact absolute CAD amount).
+
+    This is NOT evidence of being unpaid; it is only a review aid.
+    """
+
+    # Build doc_id -> linked transactions map (from link_transactions_to_documents)
+    linked_by_doc: dict[str, list[Transaction]] = {}
+    for t in txs_for_matching:
+        if not t.linked_document_ids:
+            continue
+        for doc_id in [x.strip() for x in t.linked_document_ids.split(";") if x.strip()]:
+            linked_by_doc.setdefault(doc_id, []).append(t)
+
+    # Precompute CAD absolute amounts for matching
+    tx_abs: list[tuple[Decimal, Transaction]] = []
+    for t in txs_for_matching:
+        cad = parse_decimal(t.cad_amount)
+        if cad is None:
+            continue
+        tx_abs.append((abs(cad), t))
+
+    def find_exact_amount_matches(target_abs: Decimal) -> list[Transaction]:
+        # Conservative: any exact match anywhere in FY means it *could* be 1:1 settled.
+        return [t for a, t in tx_abs if a == target_abs]
+
+    def nearest_by_amount(target_abs: Decimal, limit: int = 3) -> list[tuple[Decimal, Transaction]]:
+        # Return closest by absolute CAD amount delta (excluding exact matches).
+        cands: list[tuple[Decimal, Transaction]] = []
+        for a, t in tx_abs:
+            d = abs(a - target_abs)
+            if d == 0:
+                continue
+            cands.append((d, t))
+        cands.sort(key=lambda x: (x[0], x[1].txn_date, x[1].transaction_id))
+        return cands[:limit]
+
+    invoice_docs = [d for d in docs if d.document_type == "invoice"]
+    cad_invoice_docs: list[Document] = [d for d in invoice_docs if (d.currency or "").upper() == "CAD"]
+    noncad_invoice_docs: list[Document] = [d for d in invoice_docs if (d.currency or "").upper() != "CAD"]
+
+    candidates: list[tuple[Optional[date], str, Document, Decimal]] = []
+    for d in cad_invoice_docs:
+        amt = parse_decimal(d.amount)
+        if amt is None or amt == 0:
+            continue
+        target_abs = abs(amt)
+        if find_exact_amount_matches(target_abs):
+            continue
+        dd = _parse_iso_date(d.document_date)
+        candidates.append((dd, d.vendor or "", d, target_abs))
+
+    candidates.sort(key=lambda x: (x[0] is None, x[0] or date.max, x[1].upper(), x[2].document_id))
+
+    lines: list[str] = []
+    lines.append(f"# FY{FY} owed-candidate report (conservative)\n")
+    lines.append(
+        "This report lists *invoice* evidence documents whose **CAD totals** do not match 1:1 with any single "
+        "ingested statement transaction (exact match by absolute CAD amount).\n\n"
+        "- This is a review aid only; it is **not** proof that an invoice is unpaid.\n"
+        "- Follow the repo gating rules before creating any `owed.csv` entries (confirm statement coverage).\n"
+    )
+
+    lines.append("## Summary\n")
+    lines.append(f"- Invoices scanned: {len(invoice_docs)}\n")
+    lines.append(f"- CAD invoices with no exact 1:1 statement amount match: {len(candidates)}\n")
+    lines.append(f"- Non-CAD invoices (not evaluated for 1:1): {len(noncad_invoice_docs)}\n")
+
+    lines.append("\n## CAD invoice candidates (no exact 1:1 match)\n")
+    if not candidates:
+        lines.append("(none)\n")
+    else:
+        for dd, _vend, d, target_abs in candidates:
+            lines.append(f"### {d.document_id}\n")
+            lines.append(f"- document_date: `{d.document_date or ''}`\n")
+            lines.append(f"- vendor: `{d.vendor}`\n")
+            lines.append(f"- amount: `{d.amount} {d.currency}`\n")
+            lines.append(f"- source_file: `{d.source_file}`\n")
+            if d.notes:
+                lines.append(f"- doc_notes: {d.notes}\n")
+
+            linked = linked_by_doc.get(d.document_id, [])
+            if linked:
+                # Sort for stable, readable output
+                linked_sorted = sorted(linked, key=lambda t: (t.txn_date, t.transaction_id))
+                s = sum((parse_decimal(t.cad_amount) or Decimal('0')) for t in linked_sorted)
+                lines.append(f"- linked_transactions: {len(linked_sorted)} (sum cad_amount = `{fmt_decimal(s)}`)\n")
+                for t in linked_sorted[:10]:
+                    lines.append(
+                        f"  - {t.transaction_id} | {t.txn_date} | cad_amount {t.cad_amount} | {t.account_owner}/{t.account_name} | {t.description[:120]}\n"
+                    )
+                if len(linked_sorted) > 10:
+                    lines.append(f"  - ... ({len(linked_sorted) - 10} more)\n")
+                if abs(s) == target_abs and len(linked_sorted) > 1:
+                    lines.append("- note: linked transactions sum to the invoice total (possible installment/split settlement)\n")
+            else:
+                lines.append("- linked_transactions: 0\n")
+
+            near = nearest_by_amount(target_abs, limit=3)
+            if near:
+                lines.append("- nearest_statement_amounts (by abs amount delta):\n")
+                for delta, t in near:
+                    lines.append(
+                        f"  - delta {fmt_decimal(delta)} | {t.transaction_id} | {t.txn_date} | cad_amount {t.cad_amount} | {t.account_owner}/{t.account_name} | {t.description[:120]}\n"
+                    )
+            lines.append("\n")
+
+    lines.append("## Non-CAD invoices (manual review)\n")
+    if not noncad_invoice_docs:
+        lines.append("(none)\n")
+    else:
+        for d in sorted(noncad_invoice_docs, key=lambda x: (x.document_date, x.vendor.upper(), x.document_id)):
+            lines.append(
+                f"- {d.document_id} | {d.document_date} | {d.vendor} | {d.amount} {d.currency} | {d.source_file}\n"
+            )
+
+    return "".join(lines)
+
+
 def allocation_defaults_for_tx(tx: Transaction) -> dict[str, str]:
     desc_u = tx.description.upper()
     cp_u = tx.counterparty.upper()
@@ -1258,6 +1401,11 @@ def main() -> int:
     # Link to evidence documents where confidently matchable
     link_transactions_to_documents(txs, docs)
 
+    # Keep an unfiltered list for owed-candidate matching/reporting.
+    # This may include personal statement candidates that will NOT be written to
+    # transactions.csv (because they are not linked to evidence).
+    txs_for_matching = list(txs)
+
     # Filter personal transactions down to reimbursable/mixed-use only
     # (i.e., those with evidence links, or clearly ambiguous evidence matches).
     txs = [
@@ -1265,6 +1413,11 @@ def main() -> int:
         for t in txs
         if (t.account_owner != "personal") or (t.receipt_status in {"found", "ambiguous"})
     ]
+
+    # Conservative owed-candidate report (does NOT write owed.csv rows)
+    owed_report = generate_owed_candidate_report(docs, txs_for_matching)
+    owed_report_path = NORM_DIR / "owed_candidates_report.md"
+    write_text_lf(owed_report_path, owed_report)
 
     write_csv(
         NORM_DIR / "transactions.csv",

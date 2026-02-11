@@ -139,4 +139,34 @@ before creating owed rows in the “no corporate partial payment exists” case)
 If you want, I can implement a conservative owed-candidate report (not writing rows) that lists invoices whose totals don’t match 1:1 with any posted transactions, so you can review and decide whether to create owed.csv
 entries.
 
+
 ---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 18:53 PST]
+
+Yes, pleaase implement a conservative owed-candidate report (not writing rows) that lists invoices whose totals don’t match 1:1 with any posted transactions, so I can review and decide whether to create `owed.csv` entries.
+
+---
+
+● Implemented: conservative owed-candidate report (no owed.csv rows written)
+
+I updated scripts/populate_fy2025_normalized.py to generate a review-only report:
+• Output file: FY2025/normalized/owed_candidates_report.md
+• What it lists: invoice documents (document_type == "invoice") whose CAD total has no exact 1:1 match with any single ingested statement transaction (matching by exact absolute `cad_amount`).
+• What it does *not* do: it does not write any rows to FY2025/normalized/owed.csv.
+
+What’s inside the report
+For each candidate invoice, it includes:
+• document metadata (date/vendor/amount/source file)
+• any linked transactions (if the linker found partial/split matches) + their summed cad_amount
+• the 3 nearest statement transactions by absolute-amount delta (to help you quickly spot “probably paid but slightly different” vs “installments”)
+Verified generation
+The report is being generated successfully and uses LF-only line endings.
+Current report summary (from the generated file):
+• Invoices scanned: 279
+• CAD invoices with no exact 1:1 statement amount match: 33
+• Non-CAD invoices (not evaluated for 1:1): 69
+
+If you want, I can also add an optional CSV version of the same report (still not touching owed.csv) to make sorting/filtering easier.
