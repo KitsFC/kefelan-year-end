@@ -28,7 +28,7 @@ description: "Standing classification, tax, and handling rules for KSI year-end 
 - Raw statements/receipts are stored outside this repository (mostly PDFs)
 - PDFs were converted to DOCX (ABBYY FineReader PDF), then to Markdown (pandoc gfm)
 - Chequing transactions are CSV
-- Credit card statements are Markdown (converted from PDF)
+- Credit card statements are CSV
 
 ## Credit Cards
 - TD Business VISA ends in 5143

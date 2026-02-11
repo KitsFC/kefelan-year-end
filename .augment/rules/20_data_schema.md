@@ -40,7 +40,7 @@ These files together form a flat-file accounting database suitable for:
 ### What Does NOT Belong Here
 `documents.csv` must **NOT** contain rows representing transaction sources, including:
 - Corporate chequing account statements (CSV)
-- Corporate credit card statements (Markdown converted from PDF)
+- Corporate credit card statements (CSV)
 - Personal chequing account statements (CSV or Markdown)
 - Personal credit card statements (Markdown converted from PDF)
 - Cash transaction source records
@@ -95,7 +95,7 @@ from `transactions.csv` via `source_file` and `source_locator`, not recorded as 
 ### Sources Covered
 #### Primary
 - Corporate chequing account (CSV)
-- Corporate credit cards (Markdown statements)
+- Corporate credit cards (CSV)
 #### Secondary (as required)
 - Personal chequing account (CSV or Markdown statements) — reference-only; extract only reimbursable/mixed-use items
 - Personal credit cards (Markdown statements) — reference-only; extract only reimbursable/mixed-use items

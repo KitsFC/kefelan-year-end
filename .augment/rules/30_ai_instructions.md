@@ -36,9 +36,9 @@ description: "Operational instructions for AI agents (Aggie/Junie) to analyze, r
 
 ## Reconciliation Requirements
 Every transaction should trace to one or more of:
-- Bank statement line (chequing CSV)
-- Credit card statement line (statement MD)
-- Invoice or receipt (statement/invoice MD)
+- Bank statement line (CSV)
+- Credit card statement line (CSV)
+- Invoice or receipt (MD)
 
 If a transaction is missing a receipt, record a "missing_document" flag and list what would satisfy it.
 
