@@ -3,9 +3,11 @@
 ## 0) Preamble — Populate Normalized CSV Files
 
 ```text
-Before running any analysis prompts, populate the four normalized CSV files
+Before running any analysis prompts, populate the five normalized CSV files
 under FY2025/normalized/ according to the schema defined in
 .augment/rules/20_data_schema.md:
+
+IMPORTANT: Ensure CSV files use LF (`\n`) line endings (not CRLF).
 
 1. documents.csv — Evidence / Audit Layer
    - Scan all invoices, receipts, and confirmations under FY2025/transactions/
@@ -27,6 +29,12 @@ under FY2025/normalized/ according to the schema defined in
    - Identify FY2025 additions and disposals from transactions
    - Do NOT calculate depreciation; flag for accountant
 
+5. owed.csv — Accounts Payable / Accounts Receivable
+   - Track invoices/amounts owed that do not map 1:1 to posted statement transactions
+     (e.g., invoices paid/collected in installments)
+   - Link settlement activity using `linked_transaction_ids`
+   - Carry forward any open balances at FY-end into next fiscal year’s owed.csv
+
 All subsequent prompts assume these files are populated and up to date.
 ```
 
@@ -42,6 +50,12 @@ Data sources:
 
 Instructions:
 - Build a matched set across sources using date, amount, and merchant/description.
+- If an invoice/contract evidence document exists but no single statement line matches the total amount,
+  first confirm that **all relevant statements have been ingested/checked** for the fiscal year.
+  - Check corporate chequing + corporate credit card statements first.
+  - If (and only if) there is **no partial/installment payment** visible on corporate statements, fully scan **all** personal statements under `FY2025/reference/personal` before allowing any `owed.csv` entry.
+  Only then treat it as a likely **installment / A/P / A/R** case and ensure it is represented in `FY2025/normalized/owed.csv`.
+  If statement coverage is not yet complete, do not add an owed row as “unpaid”; instead flag it as `unknown` for follow-up.
 - Output three lists:
   1) Matched (confident match)
   2) Needs review (partial match, ambiguous, or conflicting)

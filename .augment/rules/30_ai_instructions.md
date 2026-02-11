@@ -29,6 +29,11 @@ description: "Operational instructions for AI agents (Aggie/Junie) to analyze, r
 - Clearly label facts vs assumptions.
 - Include transaction IDs / references to enable traceability back to source files.
 
+## CSV File Hygiene (IMPORTANT)
+- All CSV files in this repo MUST use **LF** (`\n`) line endings, not CRLF (`\r\n`).
+- When generating CSVs in code, explicitly set the CSV writer line terminator to `\n`.
+- When editing CSVs manually, avoid tools that silently rewrite line endings (common with spreadsheet apps).
+
 ## Reconciliation Requirements
 Every transaction should trace to one or more of:
 - Bank statement line (chequing CSV)
@@ -49,6 +54,19 @@ If a transaction is missing a receipt, record a "missing_document" flag and list
 - Identify potential new capital assets from transactions and flag them for owner review.
 - Do NOT calculate depreciation or assign CCA classes unless all required inputs are present and verified — flag for accountant.
 - See `20_data_schema.md` §4 for the canonical schema.
+
+## Accounts Payable / Receivable (A/P & A/R)
+- Some invoices are paid/collected in **installments**; in those cases:
+  - `documents.csv` contains the invoice evidence (full invoice amount)
+  - `transactions.csv` contains the installment payment(s) (posted cash movements)
+  - The invoice total will not match any single statement line
+- Track these accrual-style balances in `FY????/normalized/owed.csv` (see `20_data_schema.md`).
+- IMPORTANT: Only add an item to `owed.csv` after you have confirmed **statement coverage is complete** for the fiscal year.
+  1) First, check all **corporate** statements (chequing + credit card).
+  2) If (and only if) **no partial/installment payment** for that invoice/obligation appears on any corporate statement, then you MUST fully scan **all personal statements** under `FY????/reference/personal` before allowing an `owed.csv` entry.
+  3) Also check any other in-scope sources (e.g., PayPal).
+  If statement ingestion/coverage may be incomplete, do **not** conclude an invoice is unpaid; instead use `status = unknown` (in `owed.csv`) and leave a clear note for owner follow-up.
+- At fiscal year end, any remaining open payables/receivables must be carried forward to the next fiscal year’s `owed.csv`.
 
 ## Notes and Learnings
 Any recurring ambiguity, correction, or clarification discovered during analysis MUST be recorded in:

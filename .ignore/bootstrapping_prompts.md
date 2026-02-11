@@ -366,3 +366,99 @@ description: "..."
 ```
 
 The `agent_requested: true` flag and the `.augment/rules/` path together signal to Augment Code that these are standing instructions to be ingested automatically. You can simply start a conversation with Auggie and it will already have the context from all the rules files.
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 18:05 PST]
+
+1. There needs to be an instruction/guideline—probably in `.augment/rules/30_ai_instructions.md`—to ensure that line separations in CSV files use `LF` instead of `CRLF`. 
+2. I need one or more new CSV flat-file database tables/files for accounts payables and accounts receivables—preferrably one file, such as `FY2025/normalized/owed.csv`. For example, if there is an invoice that is paid in installments, then the amount of that invoice would not appear in a chequing account or credit card statement, but the installment payment amount(s) would appear instead. If there are any remaining payables or receivables at the end of the fiscal year, they would have to be carried over to the next fiscal year. Please update the following to reflect this:
+    - the appropriate file(s) under `.augment/rules`
+    - `.ignore/FY2025_planned_prompts.md`
+
+---
+
+● Done: LF-only CSV line endings + new owed.csv (A/P & A/R) table
+
+1) LF (not CRLF) CSV guideline
+   Updated `.augment/rules/30_ai_instructions.md` with a “CSV File Hygiene (IMPORTANT)” section requiring:
+   • CSV line endings must be LF (`\n`)
+   • generators should explicitly set the CSV writer line terminator to \n
+2) New normalized table for A/P & A/R: owed.csv
+   Updated `.augment/rules/20_data_schema.md` to introduce `owed.csv` for:
+   • invoices/contracts that don’t match 1:1 with any single statement transaction (e.g., installments)
+   • tracking settlement via linked transaction ids
+   • year-end carry-forward of any open/partial/etc. items to the next fiscal year
+   Generator now produces `FY2025/normalized/owed.csv` with the schema header (currently header-only / 0 rows).
+3) Planned prompts updated
+   Updated `.ignore/FY2025_planned_prompts.md` to:
+   • refer to five normalized CSVs (adds owed.csv)
+   • include an explicit LF line ending requirement
+   • instruct that “invoice exists but no single statement line matches total” should be treated as installment / A/P / A/R and represented in owed.csv
+4) Generator updated + verified outputs
+   Updated `scripts/populate_fy2025_normalized.py` to:
+   • enforce LF line endings via csv.DictWriter(..., lineterminator="\n")
+   • write FY2025/normalized/owed.csv using OWED_COLUMNS
+
+I re-ran the generator and verified line endings; all normalized CSVs have CRLF=0 and CR=0 (LF-only). owed.csv header is present:
+owed_id,fiscal_year,owed_type,...,status,notes
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 18:18 PST]
+
+1. All tables/files have been cleared because we need to start again from the top, which I will prompt later.
+2. Do we need to add instructions somewhere to ensure that all statements (corporate and personal) are checked first before assuming that an invoice has not been paid in full by the end of the fiscal year and as a result, added to the `FY2025/normalized/owed.csv` table/file.
+
+● 1) Re: “tables/files have been cleared”
+Understood. I won’t regenerate or repopulate any normalized outputs until you prompt to start again. The changes below are instructions-only updates.
+2) Yes — we should add that instruction (and I just did)
+   To prevent false “unpaid at year-end” entries, I added an explicit rule: only create an `owed.csv` row after confirming statement coverage is complete for the fiscal year.
+   Where this guidance now lives
+   • `.augment/rules/30_ai_instructions.md`
+   • In the Accounts Payable / Receivable (A/P & A/R) section:
+   • requires checking all relevant statements/sources (corporate chequing, corporate credit cards, any relevant personal statements for reimbursements/mixed-use, PayPal/other in-scope sources)
+   • if coverage might be incomplete: do not conclude unpaid → use status=unknown + clear owner follow-up note instead
+   • `.augment/rules/20_data_schema.md`
+   • In owed.csv Key Principles:
+   • reinforces the same “statement coverage complete first” requirement; otherwise status=unknown
+   • `.ignore/FY2025_planned_prompts.md`
+   • In Prompt A (Reconcile...):
+   • changed the instruction so the “no single statement line matches invoice total → likely installment/A/P/A/R → add to owed.csv” only happens after confirming statement ingestion/coverage
+   Quick clarification question (so the rule matches your process)
+   When you say “all statements (corporate and personal)”, do you want “personal” to mean:
+   • only personal statements that might contain reimbursable/mixed-use items, or
+   • all personal statements in FY2025/reference/personal must be fully scanned before any owed.csv entry is allowed?
+   I can tighten the wording accordingly if you tell me which you prefer.
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 18:21 PST]
+
+If, and only if, a partial or installment payment has not already been made according to a corporate statement, all personal statements in `FY2025/reference/personal` must be fully scanned before any `owed.csv` entry is allowed.
+
+---
+
+● Updated: “scan all personal statements first” gating rule for owed.csv
+
+I incorporated your stricter rule into the repo guidance:
+What the rule now says (in effect)
+• Always check corporate statements first (chequing + corporate credit card).
+• If (and only if) there is no partial/installment payment visible on any corporate statement, then all personal statements under `FY2025/reference/personal` must be fully scanned before any `owed.csv` entry is allowed.
+• If statement coverage might still be incomplete, do not mark something as unpaid; record it as `status = unknown` with a follow-up note instead.
+Where I made the updates
+• `.augment/rules/30_ai_instructions.md`
+Updated the A/P & A/R section to encode the conditional “full personal scan” requirement.
+• `.augment/rules/20_data_schema.md`
+Added a owed.csv key principle that repeats the same gating condition.
+• `.ignore/FY2025_planned_prompts.md`
+Prompt A now explicitly instructs: corporate first, and only if no corporate partial payment exists, then scan all personal statements before creating owed rows.
+Next step (whenever you prompt to restart)
+Since you cleared all tables and will prompt later, I won’t regenerate anything now. When you’re ready to restart, tell me whether you want the workflow to include an explicit “statement coverage checklist” artifact (e.g., a
+small markdown checklist per FY) so it’s auditable that coverage was complete before owed.csv gets populated.

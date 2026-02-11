@@ -8,11 +8,12 @@ description: "Authoritative reference for the flat-file (CSV) schema used for do
 This document defines the canonical CSV-based data schema used for year-end accounting
 for Kefelan Solutions Inc. (KSI).
 
-The schema is intentionally normalized and split across three core tables to clearly
+The schema is intentionally normalized and split across four core tables to clearly
 separate:
 1. **Evidence** (documents)
 2. **Economic facts** (transactions)
 3. **Judgment, classification, and tax treatment** (allocations)
+4. **Amounts owed (A/P & A/R) and installment settlement tracking** (owed)
 
 These files together form a flat-file accounting database suitable for:
 - Audit and traceability
@@ -215,7 +216,50 @@ from `transactions.csv` via `source_file` and `source_locator`, not recorded as 
 
 ---
 
-## 5. Relationship Summary
+## 5. `owed.csv` — Accounts Payable / Accounts Receivable (A/P & A/R)
+
+### Purpose
+- Tracks **open balances** that exist when the underlying invoice/contract amount does not map 1:1 to a posted cash transaction.
+- Supports:
+  - invoices **paid in installments** (A/P)
+  - customer invoices **collected in installments** (A/R)
+  - year-end **carry-forward** of remaining balances into the next fiscal year
+
+### Key Principles
+- `owed.csv` is a **bridge** between evidence (`documents.csv`) and posted cash (`transactions.csv`).
+- Do NOT duplicate statement transactions here; reference them via `linked_transaction_ids`.
+- Amount fields in `owed.csv` should be recorded as **positive magnitudes**; direction is represented by `owed_type`.
+- `linked_transaction_ids` is a delimiter-separated list using `|`.
+- Only conclude an item is outstanding after confirming **statement coverage is complete** for the fiscal year. If coverage is incomplete, use `status = unknown` and explain what statement/source still needs to be checked.
+- If no partial/installment settlement appears in **corporate** statements, you must fully scan **all** personal statements under `FY????/reference/personal` before creating an `owed.csv` entry.
+
+### Required Columns
+
+| Column | Description |
+|------|-------------|
+| owed_id | Stable unique ID for the payable/receivable item (ideally deterministic) |
+| fiscal_year | Fiscal year snapshot this row belongs to (e.g. `2025`) |
+| owed_type | `payable` or `receivable` |
+| counterparty | Vendor (payable) or customer (receivable) |
+| document_id | Optional reference to `documents.csv` (e.g., the invoice document_id) |
+| issue_date | Invoice/contract issue date (YYYY-MM-DD) |
+| due_date | Due date if known (YYYY-MM-DD) |
+| total_amount | Total invoice/contract amount (positive) |
+| currency | ISO currency code (`CAD`, `USD`, etc.) |
+| cad_total_amount | CAD-equivalent total amount (positive); blank if unknown |
+| linked_transaction_ids | `|`-delimited list of transaction_ids representing payments/collections |
+| settled_cad_amount | Total settled amount in CAD to date (positive; sum of linked transactions’ absolute CAD amounts) |
+| outstanding_cad_amount | Remaining balance at fiscal year end (positive; blank if unknown) |
+| status | `open`, `partial`, `closed`, `disputed`, `unknown` |
+| notes | Reconciliation notes / what evidence is missing / carry-forward guidance |
+
+### Handling Year-End Carry-Forward
+- At fiscal year end, any row with `status` in `{open, partial, disputed, unknown}` MUST be carried forward into next year’s `owed.csv`.
+- Prefer keeping the same `owed_id` across years for continuity.
+
+---
+
+## 6. Relationship Summary
 
 ```text
 documents.csv
@@ -224,13 +268,19 @@ documents.csv
    │
 transactions.csv
    ↑        ↑
+   │        ├── referenced by (0..N)
+   │        │     assets.csv
    │        └── referenced by (0..N)
-   │             assets.csv
+   │              owed.csv (linked_transaction_ids)
    └── referenced by (1..N)
        allocations.csv
+
+documents.csv
+   └── referenced by (0..N)
+        owed.csv (document_id)
 ```
 
-## 6. FY2024 Reference File: `FY2024/financials/2024_Transaction_Allocations.csv`
+## 7. FY2024 Reference File: `FY2024/financials/2024_Transaction_Allocations.csv`
 
 FY2024 includes a legacy allocation-style file used as a reference for FY2025+ automation.
 
@@ -240,6 +290,8 @@ FY2024 includes a legacy allocation-style file used as a reference for FY2025+ a
   - `documents.csv` (evidence)
   - `transactions.csv` (posted financial reality)
   - `allocations.csv` (classification & tax judgment)
+  - `assets.csv` (capital asset register)
+  - `owed.csv` (A/P & A/R installment and year-end carry-forward tracking)
 
 ### Notes for AI agents
 - The `Date` column may be stored as an Excel serial date number and must be converted to YYYY-MM-DD before use.
