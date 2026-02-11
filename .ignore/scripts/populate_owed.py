@@ -28,7 +28,7 @@ from collections import defaultdict
 from pathlib import Path
 
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = str(Path(__file__).resolve().parents[2])
 
 DOC_CSV = os.path.join(ROOT, "FY2025", "normalized", "documents.csv")
 TXN_CSV = os.path.join(ROOT, "FY2025", "normalized", "transactions.csv")
@@ -212,7 +212,7 @@ def main() -> None:
         did = d.get("document_id") or ""
         if not did.startswith("Kefelan_Invoice_"):
             continue
-        amt = _parse_money(d.get("amount") or "")
+        amt = _parse_money(d.get("total_amount") or "")
         if amt is None:
             continue
         cur = (d.get("currency") or "CAD").strip() or "CAD"
@@ -317,7 +317,7 @@ def main() -> None:
         if did in linked_docs:
             continue
 
-        amt = _parse_money(d.get("amount") or "")
+        amt = _parse_money(d.get("total_amount") or "")
         if amt is None or amt < 1000:
             continue
         cur = (d.get("currency") or "CAD").strip() or "CAD"

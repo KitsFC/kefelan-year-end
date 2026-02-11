@@ -1,11 +1,11 @@
 allocation_id,transaction_id,allocation_type,applies_to,allocated_amount,allocated_gst,allocated_pst,reporting_category,cra_code,deductible_percentage,deductible_amount,itc_eligible_amount,tax_treatment,notes
 alloc_2025_tdbiz_chq_20250106_0005_a,2025_tdbiz_chq_20250106_0005,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250107_0006_a,2025_tdbiz_chq_20250107_0006,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250113_0007_a,2025_tdbiz_chq_20250113_0007,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250113_0007_a,2025_tdbiz_chq_20250113_0007,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250115_0008_a,2025_tdbiz_chq_20250115_0008,full,corporate,-5000.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250115_0009_a,2025_tdbiz_chq_20250115_0009,full,corporate,-1947.06,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250117_0010_a,2025_tdbiz_chq_20250117_0010,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250117_0011_a,2025_tdbiz_chq_20250117_0011,full,corporate,2625.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250117_0010_a,2025_tdbiz_chq_20250117_0010,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250117_0011_a,2025_tdbiz_chq_20250117_0011,full,corporate,2625.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250120_0012_a,2025_tdbiz_chq_20250120_0012,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250124_0013_a,2025_tdbiz_chq_20250124_0013,full,corporate,2000.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250127_0014_a,2025_tdbiz_chq_20250127_0014,full,corporate,-1400.00,0.00,0.00,GST/HST remittance,,0,-0.00,0.00,non_deductible,gst_remittance;tax_unknown_assumed0
@@ -15,111 +15,111 @@ alloc_2025_tdbiz_chq_20250131_0017_a,2025_tdbiz_chq_20250131_0017,full,corporate
 alloc_2025_tdbiz_chq_20250131_0018_a,2025_tdbiz_chq_20250131_0018,full,corporate,2200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250131_0019_a,2025_tdbiz_chq_20250131_0019,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250203_0020_a,2025_tdbiz_chq_20250203_0020,full,corporate,-10000.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250203_0021_a,2025_tdbiz_chq_20250203_0021,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250203_0021_a,2025_tdbiz_chq_20250203_0021,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250203_0022_a,2025_tdbiz_chq_20250203_0022,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250204_0023_a,2025_tdbiz_chq_20250204_0023,full,corporate,-1050.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250212_0024_a,2025_tdbiz_chq_20250212_0024,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250212_0025_a,2025_tdbiz_chq_20250212_0025,full,corporate,2625.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250213_0026_a,2025_tdbiz_chq_20250213_0026,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250214_0027_a,2025_tdbiz_chq_20250214_0027,full,corporate,1575.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250212_0024_a,2025_tdbiz_chq_20250212_0024,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250212_0025_a,2025_tdbiz_chq_20250212_0025,full,corporate,2625.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250213_0026_a,2025_tdbiz_chq_20250213_0026,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250214_0027_a,2025_tdbiz_chq_20250214_0027,full,corporate,1575.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250218_0028_a,2025_tdbiz_chq_20250218_0028,full,corporate,-700.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250218_0029_a,2025_tdbiz_chq_20250218_0029,full,corporate,-1353.13,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250218_0030_a,2025_tdbiz_chq_20250218_0030,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250224_0031_a,2025_tdbiz_chq_20250224_0031,full,corporate,-7300.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250224_0032_a,2025_tdbiz_chq_20250224_0032,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250224_0032_a,2025_tdbiz_chq_20250224_0032,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250225_0033_a,2025_tdbiz_chq_20250225_0033,full,corporate,-317.55,0.00,0.00,GST/HST remittance,,0,-0.00,0.00,non_deductible,gst_remittance;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250225_0034_a,2025_tdbiz_chq_20250225_0034,full,corporate,-1689.00,0.00,0.00,Tax instalment / balance adjustment,,0,-0.00,0.00,non_deductible,tax_instalment_or_balance_adj;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250228_0035_a,2025_tdbiz_chq_20250228_0035,full,corporate,-2400.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250228_0036_a,2025_tdbiz_chq_20250228_0036,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250303_0037_a,2025_tdbiz_chq_20250303_0037,full,corporate,-4.00,0.00,0.00,Interest & Bank Charges,8710,100,-4.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250304_0038_a,2025_tdbiz_chq_20250304_0038,full,corporate,1575.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250304_0038_a,2025_tdbiz_chq_20250304_0038,full,corporate,1575.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250304_0039_a,2025_tdbiz_chq_20250304_0039,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250307_0040_a,2025_tdbiz_chq_20250307_0040,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250314_0041_a,2025_tdbiz_chq_20250314_0041,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250307_0040_a,2025_tdbiz_chq_20250307_0040,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250314_0041_a,2025_tdbiz_chq_20250314_0041,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250317_0042_a,2025_tdbiz_chq_20250317_0042,full,corporate,-1768.37,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250317_0043_a,2025_tdbiz_chq_20250317_0043,full,corporate,2500.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250317_0043_a,2025_tdbiz_chq_20250317_0043,full,corporate,2500.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250317_0044_a,2025_tdbiz_chq_20250317_0044,full,corporate,-10200.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250317_0045_a,2025_tdbiz_chq_20250317_0045,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250327_0046_a,2025_tdbiz_chq_20250327_0046,full,corporate,2000.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250327_0047_a,2025_tdbiz_chq_20250327_0047,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250327_0047_a,2025_tdbiz_chq_20250327_0047,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250328_0048_a,2025_tdbiz_chq_20250328_0048,full,corporate,-2700.00,0.00,0.00,Tax instalment / balance adjustment,,0,-0.00,0.00,non_deductible,tax_instalment_or_balance_adj;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250331_0049_a,2025_tdbiz_chq_20250331_0049,full,corporate,-2700.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250331_0050_a,2025_tdbiz_chq_20250331_0050,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250401_0051_a,2025_tdbiz_chq_20250401_0051,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250404_0052_a,2025_tdbiz_chq_20250404_0052,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250411_0053_a,2025_tdbiz_chq_20250411_0053,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250411_0054_a,2025_tdbiz_chq_20250411_0054,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250411_0053_a,2025_tdbiz_chq_20250411_0053,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250411_0054_a,2025_tdbiz_chq_20250411_0054,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250414_0055_a,2025_tdbiz_chq_20250414_0055,full,corporate,-6500.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250414_0056_a,2025_tdbiz_chq_20250414_0056,full,corporate,-1845.91,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250417_0057_a,2025_tdbiz_chq_20250417_0057,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250430_0058_a,2025_tdbiz_chq_20250430_0058,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250430_0058_a,2025_tdbiz_chq_20250430_0058,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250430_0059_a,2025_tdbiz_chq_20250430_0059,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250430_0060_a,2025_tdbiz_chq_20250430_0060,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250501_0061_a,2025_tdbiz_chq_20250501_0061,full,corporate,-1500.00,0.00,0.00,GST/HST remittance,,0,-0.00,0.00,non_deductible,gst_remittance;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250508_0062_a,2025_tdbiz_chq_20250508_0062,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250512_0063_a,2025_tdbiz_chq_20250512_0063,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250514_0064_a,2025_tdbiz_chq_20250514_0064,full,corporate,4000.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250514_0065_a,2025_tdbiz_chq_20250514_0065,full,corporate,787.50,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250512_0063_a,2025_tdbiz_chq_20250512_0063,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250514_0064_a,2025_tdbiz_chq_20250514_0064,full,corporate,4000.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250514_0065_a,2025_tdbiz_chq_20250514_0065,full,corporate,787.50,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250515_0066_a,2025_tdbiz_chq_20250515_0066,full,corporate,-4300.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250515_0067_a,2025_tdbiz_chq_20250515_0067,full,corporate,-1155.28,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250520_0068_a,2025_tdbiz_chq_20250520_0068,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250522_0069_a,2025_tdbiz_chq_20250522_0069,full,corporate,2825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250527_0070_a,2025_tdbiz_chq_20250527_0070,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250527_0070_a,2025_tdbiz_chq_20250527_0070,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250530_0071_a,2025_tdbiz_chq_20250530_0071,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250602_0072_a,2025_tdbiz_chq_20250602_0072,full,corporate,-2200.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250602_0073_a,2025_tdbiz_chq_20250602_0073,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250602_0074_a,2025_tdbiz_chq_20250602_0074,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250613_0075_a,2025_tdbiz_chq_20250613_0075,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250613_0076_a,2025_tdbiz_chq_20250613_0076,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250613_0075_a,2025_tdbiz_chq_20250613_0075,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250613_0076_a,2025_tdbiz_chq_20250613_0076,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250616_0077_a,2025_tdbiz_chq_20250616_0077,full,corporate,-6200.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250616_0078_a,2025_tdbiz_chq_20250616_0078,full,corporate,-1905.53,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250617_0079_a,2025_tdbiz_chq_20250617_0079,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250623_0080_a,2025_tdbiz_chq_20250623_0080,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250623_0080_a,2025_tdbiz_chq_20250623_0080,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250630_0081_a,2025_tdbiz_chq_20250630_0081,full,corporate,-2300.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250630_0082_a,2025_tdbiz_chq_20250630_0082,full,corporate,2100.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250630_0082_a,2025_tdbiz_chq_20250630_0082,full,corporate,2100.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250630_0083_a,2025_tdbiz_chq_20250630_0083,full,corporate,-2700.00,0.00,0.00,Tax instalment / balance adjustment,,0,-0.00,0.00,non_deductible,tax_instalment_or_balance_adj;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250630_0084_a,2025_tdbiz_chq_20250630_0084,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250702_0085_a,2025_tdbiz_chq_20250702_0085,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250707_0086_a,2025_tdbiz_chq_20250707_0086,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250714_0087_a,2025_tdbiz_chq_20250714_0087,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250714_0088_a,2025_tdbiz_chq_20250714_0088,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250714_0087_a,2025_tdbiz_chq_20250714_0087,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250714_0088_a,2025_tdbiz_chq_20250714_0088,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250715_0089_a,2025_tdbiz_chq_20250715_0089,full,corporate,-6200.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250715_0090_a,2025_tdbiz_chq_20250715_0090,full,corporate,-2027.64,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250717_0091_a,2025_tdbiz_chq_20250717_0091,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250723_0092_a,2025_tdbiz_chq_20250723_0092,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250723_0092_a,2025_tdbiz_chq_20250723_0092,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250728_0093_a,2025_tdbiz_chq_20250728_0093,full,corporate,-1500.00,0.00,0.00,GST/HST remittance,,0,-0.00,0.00,non_deductible,gst_remittance;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250730_0094_a,2025_tdbiz_chq_20250730_0094,full,corporate,-2900.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250731_0095_a,2025_tdbiz_chq_20250731_0095,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250801_0096_a,2025_tdbiz_chq_20250801_0096,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250805_0097_a,2025_tdbiz_chq_20250805_0097,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250812_0098_a,2025_tdbiz_chq_20250812_0098,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250814_0099_a,2025_tdbiz_chq_20250814_0099,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250812_0098_a,2025_tdbiz_chq_20250812_0098,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250814_0099_a,2025_tdbiz_chq_20250814_0099,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250815_0100_a,2025_tdbiz_chq_20250815_0100,full,corporate,-8100.00,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250815_0101_a,2025_tdbiz_chq_20250815_0101,full,corporate,-2771.40,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250818_0102_a,2025_tdbiz_chq_20250818_0102,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250826_0103_a,2025_tdbiz_chq_20250826_0103,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250826_0103_a,2025_tdbiz_chq_20250826_0103,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250829_0104_a,2025_tdbiz_chq_20250829_0104,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250902_0105_a,2025_tdbiz_chq_20250902_0105,full,corporate,-2800.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250902_0106_a,2025_tdbiz_chq_20250902_0106,full,corporate,2000.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250903_0107_a,2025_tdbiz_chq_20250903_0107,full,corporate,-2730.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250915_0108_a,2025_tdbiz_chq_20250915_0108,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250915_0109_a,2025_tdbiz_chq_20250915_0109,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250915_0108_a,2025_tdbiz_chq_20250915_0108,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250915_0109_a,2025_tdbiz_chq_20250915_0109,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250915_0110_a,2025_tdbiz_chq_20250915_0110,full,corporate,-5800.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250915_0111_a,2025_tdbiz_chq_20250915_0111,full,corporate,-821.84,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250916_0112_a,2025_tdbiz_chq_20250916_0112,full,corporate,-2730.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250916_0113_a,2025_tdbiz_chq_20250916_0113,full,corporate,1187.31,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250925_0114_a,2025_tdbiz_chq_20250925_0114,full,corporate,-2700.00,0.00,0.00,Tax instalment / balance adjustment,,0,-0.00,0.00,non_deductible,tax_instalment_or_balance_adj;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20250929_0115_a,2025_tdbiz_chq_20250929_0115,full,corporate,5387.31,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20250929_0115_a,2025_tdbiz_chq_20250929_0115,full,corporate,5387.31,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250929_0116_a,2025_tdbiz_chq_20250929_0116,full,corporate,-2500.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20250929_0117_a,2025_tdbiz_chq_20250929_0117,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251001_0118_a,2025_tdbiz_chq_20251001_0118,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251006_0119_a,2025_tdbiz_chq_20251006_0119,full,corporate,-1680.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251014_0120_a,2025_tdbiz_chq_20251014_0120,full,corporate,5837.31,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251014_0121_a,2025_tdbiz_chq_20251014_0121,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251014_0121_a,2025_tdbiz_chq_20251014_0121,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251015_0122_a,2025_tdbiz_chq_20251015_0122,full,corporate,-7100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251015_0123_a,2025_tdbiz_chq_20251015_0123,full,corporate,-1720.02,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251016_0124_a,2025_tdbiz_chq_20251016_0124,full,corporate,-2415.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251027_0125_a,2025_tdbiz_chq_20251027_0125,full,corporate,5387.31,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251027_0125_a,2025_tdbiz_chq_20251027_0125,full,corporate,5387.31,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251027_0126_a,2025_tdbiz_chq_20251027_0126,full,corporate,-1500.00,0.00,0.00,GST/HST remittance,,0,-0.00,0.00,non_deductible,gst_remittance;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251031_0127_a,2025_tdbiz_chq_20251031_0127,full,corporate,-2900.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251031_0128_a,2025_tdbiz_chq_20251031_0128,full,corporate,-42.00,0.00,0.00,UNCLASSIFIED,,100,-42.00,0.00,standard,needs_review;tax_unknown_assumed0
@@ -127,380 +127,380 @@ alloc_2025_tdbiz_chq_20251031_0129_a,2025_tdbiz_chq_20251031_0129,full,corporate
 alloc_2025_tdbiz_chq_20251103_0130_a,2025_tdbiz_chq_20251103_0130,full,corporate,-1365.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251103_0131_a,2025_tdbiz_chq_20251103_0131,full,corporate,-2.00,0.00,0.00,Interest & Bank Charges,8710,100,-2.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251114_0132_a,2025_tdbiz_chq_20251114_0132,full,corporate,3750.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251114_0133_a,2025_tdbiz_chq_20251114_0133,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251114_0133_a,2025_tdbiz_chq_20251114_0133,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251117_0134_a,2025_tdbiz_chq_20251117_0134,full,corporate,-6000.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251117_0135_a,2025_tdbiz_chq_20251117_0135,full,corporate,-1352.93,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251119_0136_a,2025_tdbiz_chq_20251119_0136,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251128_0137_a,2025_tdbiz_chq_20251128_0137,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251128_0137_a,2025_tdbiz_chq_20251128_0137,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251128_0138_a,2025_tdbiz_chq_20251128_0138,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251201_0139_a,2025_tdbiz_chq_20251201_0139,full,corporate,-2300.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251202_0140_a,2025_tdbiz_chq_20251202_0140,full,corporate,-1050.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251211_0141_a,2025_tdbiz_chq_20251211_0141,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251211_0142_a,2025_tdbiz_chq_20251211_0142,full,corporate,6825.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251211_0141_a,2025_tdbiz_chq_20251211_0141,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251211_0142_a,2025_tdbiz_chq_20251211_0142,full,corporate,6825.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251215_0143_a,2025_tdbiz_chq_20251215_0143,full,corporate,-7500.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251215_0144_a,2025_tdbiz_chq_20251215_0144,full,corporate,-1647.41,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251217_0145_a,2025_tdbiz_chq_20251217_0145,full,corporate,-2100.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251222_0146_a,2025_tdbiz_chq_20251222_0146,full,corporate,4200.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251222_0146_a,2025_tdbiz_chq_20251222_0146,full,corporate,4200.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251229_0147_a,2025_tdbiz_chq_20251229_0147,full,corporate,-2700.00,0.00,0.00,Tax instalment / balance adjustment,,0,-0.00,0.00,non_deductible,tax_instalment_or_balance_adj;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251230_0148_a,2025_tdbiz_chq_20251230_0148,full,corporate,-2800.00,0.00,0.00,Loan to shareholder (review),,0,-0.00,0.00,shareholder_loan,shareholder_transfer_out;tax_unknown_assumed0
-alloc_2025_tdbiz_chq_20251231_0149_a,2025_tdbiz_chq_20251231_0149,full,corporate,525.00,0.00,0.00,Revenue (review),,0,0.00,0.00,standard,revenue_unlinked;tax_unknown_assumed0
+alloc_2025_tdbiz_chq_20251231_0149_a,2025_tdbiz_chq_20251231_0149,full,corporate,525.00,0.00,0.00,Revenue,,0,0.00,0.00,standard,revenue_match_by_amount;tax_unknown_assumed0
 alloc_2025_tdbiz_chq_20251231_0150_a,2025_tdbiz_chq_20251231_0150,full,corporate,-19.00,0.00,0.00,Interest & Bank Charges,8710,100,-19.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250102_0004_a,2025_tdbiz_visa_20250102_0004,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250102_0005_a,2025_tdbiz_visa_20250102_0005,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250102_0006_a,2025_tdbiz_visa_20250102_0006,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250102_0007_a,2025_tdbiz_visa_20250102_0007,full,corporate,-1.53,0.00,0.00,Office expenses,8810,100,-1.53,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250102_0008_a,2025_tdbiz_visa_20250102_0008,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250102_0009_a,2025_tdbiz_visa_20250102_0009,full,corporate,-27.66,0.00,0.00,Office expenses,8810,100,-27.66,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250106_0010_a,2025_tdbiz_visa_20250106_0010,full,corporate,-40.57,-36.22,-36.22,Computer Hardware & Software,,100,-4.35,36.22,standard,fy2024_vendor_hint;tax_from_doc
-alloc_2025_tdbiz_visa_20250106_0011_a,2025_tdbiz_visa_20250106_0011,full,corporate,-40.04,0.00,0.00,Office expenses,8810,100,-40.04,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250107_0012_a,2025_tdbiz_visa_20250107_0012,full,corporate,-17.04,0.00,0.00,Office expenses,8810,100,-17.04,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250107_0013_a,2025_tdbiz_visa_20250107_0013,full,corporate,-12.05,0.00,0.00,Office expenses,8810,100,-12.05,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250108_0014_a,2025_tdbiz_visa_20250108_0014,full,corporate,-297.22,0.00,0.00,Telephone and utilities,9220,100,-297.22,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250113_0015_a,2025_tdbiz_visa_20250113_0015,full,corporate,-12.99,0.00,0.00,Office expenses,8810,100,-12.99,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250113_0016_a,2025_tdbiz_visa_20250113_0016,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250113_0017_a,2025_tdbiz_visa_20250113_0017,full,corporate,-350.49,0.00,0.00,Meals and entertainment,8523,50,-175.25,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250113_0018_a,2025_tdbiz_visa_20250113_0018,full,corporate,-8.25,-0.39,-0.00,Travel expenses,9200,100,-7.86,0.39,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250115_0019_a,2025_tdbiz_visa_20250115_0019,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250115_0020_a,2025_tdbiz_visa_20250115_0020,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250116_0021_a,2025_tdbiz_visa_20250116_0021,full,corporate,-1947.06,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250120_0022_a,2025_tdbiz_visa_20250120_0022,full,corporate,-62.80,0.00,0.00,Office expenses,8810,100,-62.80,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250122_0023_a,2025_tdbiz_visa_20250122_0023,full,corporate,-38.64,0.00,0.00,UNCLASSIFIED,,100,-38.64,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250122_0024_a,2025_tdbiz_visa_20250122_0024,full,corporate,-109.75,0.00,0.00,UNCLASSIFIED,,100,-109.75,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250123_0025_a,2025_tdbiz_visa_20250123_0025,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250127_0026_a,2025_tdbiz_visa_20250127_0026,full,corporate,-20.14,0.00,0.00,Office expenses,8810,100,-20.14,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250127_0027_a,2025_tdbiz_visa_20250127_0027,full,corporate,-10.62,-0.51,-0.00,Travel expenses,9200,100,-10.11,0.51,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250203_0028_a,2025_tdbiz_visa_20250203_0028,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250203_0029_a,2025_tdbiz_visa_20250203_0029,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250203_0030_a,2025_tdbiz_visa_20250203_0030,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250203_0031_a,2025_tdbiz_visa_20250203_0031,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250203_0032_a,2025_tdbiz_visa_20250203_0032,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250203_0033_a,2025_tdbiz_visa_20250203_0033,full,corporate,-27.96,0.00,0.00,Office expenses,8810,100,-27.96,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250204_0034_a,2025_tdbiz_visa_20250204_0034,full,corporate,-95.00,0.00,0.00,UNCLASSIFIED,,100,-95.00,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250205_0035_a,2025_tdbiz_visa_20250205_0035,full,corporate,-40.88,0.00,0.00,Office expenses,8810,100,-40.88,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250207_0036_a,2025_tdbiz_visa_20250207_0036,full,corporate,-16.90,0.00,0.00,Office expenses,8810,100,-16.90,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250210_0037_a,2025_tdbiz_visa_20250210_0037,full,corporate,-11.97,0.00,0.00,Office expenses,8810,100,-11.97,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250210_0038_a,2025_tdbiz_visa_20250210_0038,full,corporate,-295.60,0.00,0.00,Telephone and utilities,9220,100,-295.60,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250210_0039_a,2025_tdbiz_visa_20250210_0039,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250213_0040_a,2025_tdbiz_visa_20250213_0040,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250214_0041_a,2025_tdbiz_visa_20250214_0041,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250214_0042_a,2025_tdbiz_visa_20250214_0042,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250218_0043_a,2025_tdbiz_visa_20250218_0043,full,corporate,-138.26,0.00,0.00,UNCLASSIFIED,,100,-138.26,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250218_0044_a,2025_tdbiz_visa_20250218_0044,full,corporate,-38.78,0.00,0.00,Office expenses,8810,100,-38.78,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250218_0045_a,2025_tdbiz_visa_20250218_0045,full,corporate,-8.49,-0.40,-0.00,Travel expenses,9200,100,-8.09,0.40,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250218_0046_a,2025_tdbiz_visa_20250218_0046,full,corporate,-260.00,0.00,0.00,UNCLASSIFIED,,100,-260.00,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250218_0047_a,2025_tdbiz_visa_20250218_0047,full,corporate,-12.63,-0.60,-0.00,Travel expenses,9200,100,-12.03,0.60,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250219_0048_a,2025_tdbiz_visa_20250219_0048,full,corporate,-185.00,0.00,0.00,Meals and entertainment,8523,50,-92.50,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250219_0049_a,2025_tdbiz_visa_20250219_0049,full,corporate,-1353.13,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250220_0050_a,2025_tdbiz_visa_20250220_0050,full,corporate,-137.74,0.00,0.00,UNCLASSIFIED,,100,-137.74,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250221_0051_a,2025_tdbiz_visa_20250221_0051,full,corporate,-302.39,0.00,0.00,UNCLASSIFIED,,100,-302.39,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250224_0052_a,2025_tdbiz_visa_20250224_0052,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250226_0053_a,2025_tdbiz_visa_20250226_0053,full,corporate,-19.98,0.00,0.00,Office expenses,8810,100,-19.98,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250303_0054_a,2025_tdbiz_visa_20250303_0054,full,corporate,-8.73,-0.42,-0.00,Travel expenses,9200,100,-8.31,0.42,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250303_0055_a,2025_tdbiz_visa_20250303_0055,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250303_0056_a,2025_tdbiz_visa_20250303_0056,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250303_0057_a,2025_tdbiz_visa_20250303_0057,full,corporate,-1.56,0.00,0.00,Office expenses,8810,100,-1.56,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250303_0058_a,2025_tdbiz_visa_20250303_0058,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250303_0059_a,2025_tdbiz_visa_20250303_0059,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250303_0060_a,2025_tdbiz_visa_20250303_0060,full,corporate,-27.79,0.00,0.00,Office expenses,8810,100,-27.79,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250305_0061_a,2025_tdbiz_visa_20250305_0061,full,corporate,-40.25,0.00,0.00,Office expenses,8810,100,-40.25,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250306_0062_a,2025_tdbiz_visa_20250306_0062,full,corporate,-19.03,0.00,0.00,UNCLASSIFIED,,100,-19.03,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250307_0063_a,2025_tdbiz_visa_20250307_0063,full,corporate,-17.03,0.00,0.00,Office expenses,8810,100,-17.03,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250307_0064_a,2025_tdbiz_visa_20250307_0064,full,corporate,-12.04,0.00,0.00,Office expenses,8810,100,-12.04,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250310_0065_a,2025_tdbiz_visa_20250310_0065,full,corporate,-288.84,0.00,0.00,Conventions & seminars,9270,100,-288.84,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250310_0066_a,2025_tdbiz_visa_20250310_0066,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250311_0067_a,2025_tdbiz_visa_20250311_0067,full,corporate,-89.13,0.00,0.00,Office expenses,8810,100,-89.13,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250311_0068_a,2025_tdbiz_visa_20250311_0068,full,corporate,-308.51,0.00,0.00,Telephone and utilities,9220,100,-308.51,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250312_0069_a,2025_tdbiz_visa_20250312_0069,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250314_0070_a,2025_tdbiz_visa_20250314_0070,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250317_0071_a,2025_tdbiz_visa_20250317_0071,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250318_0072_a,2025_tdbiz_visa_20250318_0072,full,corporate,-1768.37,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250324_0073_a,2025_tdbiz_visa_20250324_0073,full,corporate,-85.00,0.00,0.00,Meals and entertainment,8523,50,-42.50,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250324_0074_a,2025_tdbiz_visa_20250324_0074,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250324_0075_a,2025_tdbiz_visa_20250324_0075,full,corporate,-142.12,0.00,0.00,Meals and entertainment,8523,50,-71.06,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250326_0076_a,2025_tdbiz_visa_20250326_0076,full,corporate,-20.11,0.00,0.00,Office expenses,8810,100,-20.11,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250331_0077_a,2025_tdbiz_visa_20250331_0077,full,corporate,-403.64,0.00,0.00,UNCLASSIFIED,,100,-403.64,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250331_0078_a,2025_tdbiz_visa_20250331_0078,full,corporate,-9.11,-0.43,-0.00,Travel expenses,9200,100,-8.68,0.43,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250402_0079_a,2025_tdbiz_visa_20250402_0079,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250402_0080_a,2025_tdbiz_visa_20250402_0080,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250402_0081_a,2025_tdbiz_visa_20250402_0081,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250402_0082_a,2025_tdbiz_visa_20250402_0082,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250402_0083_a,2025_tdbiz_visa_20250402_0083,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250402_0084_a,2025_tdbiz_visa_20250402_0084,full,corporate,-27.64,0.00,0.00,Office expenses,8810,100,-27.64,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250404_0085_a,2025_tdbiz_visa_20250404_0085,full,corporate,-50.38,0.00,0.00,UNCLASSIFIED,,100,-50.38,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250407_0086_a,2025_tdbiz_visa_20250407_0086,full,corporate,-42.57,0.00,0.00,Office expenses,8810,100,-42.57,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250407_0087_a,2025_tdbiz_visa_20250407_0087,full,corporate,-16.52,0.00,0.00,Meals and entertainment,8523,50,-8.26,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250407_0088_a,2025_tdbiz_visa_20250407_0088,full,corporate,-16.80,0.00,0.00,Office expenses,8810,100,-16.80,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250407_0089_a,2025_tdbiz_visa_20250407_0089,full,corporate,-21.71,0.00,0.00,Meals and entertainment,8523,50,-10.86,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250407_0090_a,2025_tdbiz_visa_20250407_0090,full,corporate,-11.88,0.00,0.00,Office expenses,8810,100,-11.88,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250408_0091_a,2025_tdbiz_visa_20250408_0091,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250410_0092_a,2025_tdbiz_visa_20250410_0092,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250414_0093_a,2025_tdbiz_visa_20250414_0093,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250414_0094_a,2025_tdbiz_visa_20250414_0094,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250415_0095_a,2025_tdbiz_visa_20250415_0095,full,corporate,-1845.91,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250415_0096_a,2025_tdbiz_visa_20250415_0096,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250424_0097_a,2025_tdbiz_visa_20250424_0097,full,corporate,-94.92,0.00,0.00,UNCLASSIFIED,,100,-94.92,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250424_0098_a,2025_tdbiz_visa_20250424_0098,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250428_0099_a,2025_tdbiz_visa_20250428_0099,full,corporate,-19.46,0.00,0.00,Office expenses,8810,100,-19.46,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250428_0100_a,2025_tdbiz_visa_20250428_0100,full,corporate,-15.67,0.00,0.00,UNCLASSIFIED,,100,-15.67,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250428_0101_a,2025_tdbiz_visa_20250428_0101,full,corporate,-147.41,0.00,0.00,Meals and entertainment,8523,50,-73.70,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250502_0102_a,2025_tdbiz_visa_20250502_0102,full,corporate,-10.02,-422.22,-0.00,Office expenses,8810,100,412.20,422.22,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250502_0103_a,2025_tdbiz_visa_20250502_0103,full,corporate,-10.02,-422.22,-0.00,Office expenses,8810,100,412.20,422.22,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250502_0104_a,2025_tdbiz_visa_20250502_0104,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250502_0105_a,2025_tdbiz_visa_20250502_0105,full,corporate,-10.02,-422.22,-0.00,Office expenses,8810,100,412.20,422.22,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250502_0106_a,2025_tdbiz_visa_20250502_0106,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250502_0107_a,2025_tdbiz_visa_20250502_0107,full,corporate,-26.61,0.00,0.00,Office expenses,8810,100,-26.61,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250505_0108_a,2025_tdbiz_visa_20250505_0108,full,corporate,-13.02,-10.30,-0.00,Travel expenses,9200,100,-2.72,10.30,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250505_0109_a,2025_tdbiz_visa_20250505_0109,full,corporate,-215.17,0.00,0.00,Meals and entertainment,8523,50,-107.58,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250505_0110_a,2025_tdbiz_visa_20250505_0110,full,corporate,-10.56,-0.50,-0.00,Travel expenses,9200,100,-10.06,0.50,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250505_0111_a,2025_tdbiz_visa_20250505_0111,full,corporate,-41.22,0.00,0.00,Office expenses,8810,100,-41.22,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250507_0112_a,2025_tdbiz_visa_20250507_0112,full,corporate,-16.32,0.00,0.00,Office expenses,8810,100,-16.32,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250507_0113_a,2025_tdbiz_visa_20250507_0113,full,corporate,-11.54,0.00,0.00,Office expenses,8810,100,-11.54,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250509_0114_a,2025_tdbiz_visa_20250509_0114,full,corporate,-594.11,0.00,0.00,Telephone and utilities,9220,100,-594.11,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250512_0115_a,2025_tdbiz_visa_20250512_0115,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250512_0116_a,2025_tdbiz_visa_20250512_0116,full,corporate,-120.71,0.00,0.00,Meals and entertainment,8523,50,-60.35,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250512_0117_a,2025_tdbiz_visa_20250512_0117,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250513_0118_a,2025_tdbiz_visa_20250513_0118,full,corporate,-43.07,0.00,0.00,Office expenses,8810,100,-43.07,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250514_0119_a,2025_tdbiz_visa_20250514_0119,full,corporate,-23.51,0.00,0.00,UNCLASSIFIED,,100,-23.51,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250514_0120_a,2025_tdbiz_visa_20250514_0120,full,corporate,-62.24,0.00,0.00,Office expenses,8810,100,-62.24,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250514_0121_a,2025_tdbiz_visa_20250514_0121,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250515_0122_a,2025_tdbiz_visa_20250515_0122,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250515_0123_a,2025_tdbiz_visa_20250515_0123,full,corporate,-21.90,0.00,0.00,Office expenses,8810,100,-21.90,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250516_0124_a,2025_tdbiz_visa_20250516_0124,full,corporate,-1155.28,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250520_0125_a,2025_tdbiz_visa_20250520_0125,full,corporate,-220.90,0.00,0.00,Meals and entertainment,8523,50,-110.45,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250520_0126_a,2025_tdbiz_visa_20250520_0126,full,corporate,-8.55,-0.41,-0.00,Travel expenses,9200,100,-8.14,0.41,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250522_0127_a,2025_tdbiz_visa_20250522_0127,full,corporate,-3.02,0.00,0.00,Office expenses,8810,100,-3.02,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250523_0128_a,2025_tdbiz_visa_20250523_0128,full,corporate,-0.42,0.00,0.00,Office expenses,8810,100,-0.42,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250101_0004_a,2025_tdbiz_visa_20250101_0004,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250101_0005_a,2025_tdbiz_visa_20250101_0005,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250101_0006_a,2025_tdbiz_visa_20250101_0006,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250101_0007_a,2025_tdbiz_visa_20250101_0007,full,corporate,-1.53,0.00,0.00,Office expenses,8810,100,-1.53,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250101_0008_a,2025_tdbiz_visa_20250101_0008,full,corporate,-10.02,0.00,0.00,Office expenses,8810,100,-10.02,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250101_0009_a,2025_tdbiz_visa_20250101_0009,full,corporate,-27.66,0.00,0.00,Office expenses,8810,100,-27.66,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250103_0010_a,2025_tdbiz_visa_20250103_0010,full,corporate,-40.57,-36.22,-36.22,Computer Hardware & Software,,100,-4.35,36.22,standard,fy2024_vendor_hint;tax_from_doc
+alloc_2025_tdbiz_visa_20250104_0011_a,2025_tdbiz_visa_20250104_0011,full,corporate,-40.04,0.00,0.00,Office expenses,8810,100,-40.04,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250105_0012_a,2025_tdbiz_visa_20250105_0012,full,corporate,-17.04,0.00,0.00,Office expenses,8810,100,-17.04,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250106_0013_a,2025_tdbiz_visa_20250106_0013,full,corporate,-12.05,0.00,0.00,Office expenses,8810,100,-12.05,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250107_0014_a,2025_tdbiz_visa_20250107_0014,full,corporate,-297.22,0.00,0.00,Telephone and utilities,9220,100,-297.22,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250109_0015_a,2025_tdbiz_visa_20250109_0015,full,corporate,-12.99,0.00,0.00,Office expenses,8810,100,-12.99,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250111_0016_a,2025_tdbiz_visa_20250111_0016,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250111_0017_a,2025_tdbiz_visa_20250111_0017,full,corporate,-350.49,0.00,0.00,Meals and entertainment,8523,50,-175.25,0.00,meals_50,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250111_0018_a,2025_tdbiz_visa_20250111_0018,full,corporate,-8.25,-0.39,-0.00,Travel expenses,9200,100,-7.86,0.39,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250114_0019_a,2025_tdbiz_visa_20250114_0019,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250114_0020_a,2025_tdbiz_visa_20250114_0020,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250115_0021_a,2025_tdbiz_visa_20250115_0021,full,corporate,-1947.06,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250117_0022_a,2025_tdbiz_visa_20250117_0022,full,corporate,-62.80,0.00,0.00,Office expenses,8810,100,-62.80,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250121_0023_a,2025_tdbiz_visa_20250121_0023,full,corporate,-38.64,0.00,0.00,UNCLASSIFIED,,100,-38.64,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250121_0024_a,2025_tdbiz_visa_20250121_0024,full,corporate,-109.75,0.00,0.00,UNCLASSIFIED,,100,-109.75,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250122_0025_a,2025_tdbiz_visa_20250122_0025,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250125_0026_a,2025_tdbiz_visa_20250125_0026,full,corporate,-20.14,0.00,0.00,Office expenses,8810,100,-20.14,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250126_0027_a,2025_tdbiz_visa_20250126_0027,full,corporate,-10.62,0.00,0.00,Travel expenses,9200,100,-10.62,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250201_0028_a,2025_tdbiz_visa_20250201_0028,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250201_0029_a,2025_tdbiz_visa_20250201_0029,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250201_0030_a,2025_tdbiz_visa_20250201_0030,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250201_0031_a,2025_tdbiz_visa_20250201_0031,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250201_0032_a,2025_tdbiz_visa_20250201_0032,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250201_0033_a,2025_tdbiz_visa_20250201_0033,full,corporate,-27.96,0.00,0.00,Office expenses,8810,100,-27.96,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250202_0034_a,2025_tdbiz_visa_20250202_0034,full,corporate,-95.00,0.00,0.00,UNCLASSIFIED,,100,-95.00,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250204_0035_a,2025_tdbiz_visa_20250204_0035,full,corporate,-40.88,0.00,0.00,Office expenses,8810,100,-40.88,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250205_0036_a,2025_tdbiz_visa_20250205_0036,full,corporate,-16.90,0.00,0.00,Office expenses,8810,100,-16.90,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250206_0037_a,2025_tdbiz_visa_20250206_0037,full,corporate,-11.97,0.00,0.00,Office expenses,8810,100,-11.97,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250207_0038_a,2025_tdbiz_visa_20250207_0038,full,corporate,-295.60,0.00,0.00,Telephone and utilities,9220,100,-295.60,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250209_0039_a,2025_tdbiz_visa_20250209_0039,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250211_0040_a,2025_tdbiz_visa_20250211_0040,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250213_0041_a,2025_tdbiz_visa_20250213_0041,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250214_0042_a,2025_tdbiz_visa_20250214_0042,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250215_0043_a,2025_tdbiz_visa_20250215_0043,full,corporate,-138.26,0.00,0.00,UNCLASSIFIED,,100,-138.26,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250215_0044_a,2025_tdbiz_visa_20250215_0044,full,corporate,-38.78,0.00,0.00,Office expenses,8810,100,-38.78,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250215_0045_a,2025_tdbiz_visa_20250215_0045,full,corporate,-8.49,-0.40,-0.00,Travel expenses,9200,100,-8.09,0.40,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250215_0046_a,2025_tdbiz_visa_20250215_0046,full,corporate,-260.00,0.00,0.00,UNCLASSIFIED,,100,-260.00,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250216_0047_a,2025_tdbiz_visa_20250216_0047,full,corporate,-12.63,-0.60,-0.00,Travel expenses,9200,100,-12.03,0.60,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250217_0048_a,2025_tdbiz_visa_20250217_0048,full,corporate,-185.00,0.00,0.00,Meals and entertainment,8523,50,-92.50,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250218_0049_a,2025_tdbiz_visa_20250218_0049,full,corporate,-1353.13,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250219_0050_a,2025_tdbiz_visa_20250219_0050,full,corporate,-137.74,0.00,0.00,UNCLASSIFIED,,100,-137.74,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250220_0051_a,2025_tdbiz_visa_20250220_0051,full,corporate,-302.39,0.00,0.00,UNCLASSIFIED,,100,-302.39,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250222_0052_a,2025_tdbiz_visa_20250222_0052,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250225_0053_a,2025_tdbiz_visa_20250225_0053,full,corporate,-19.98,0.00,0.00,Office expenses,8810,100,-19.98,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250228_0054_a,2025_tdbiz_visa_20250228_0054,full,corporate,-8.73,0.00,0.00,Travel expenses,9200,100,-8.73,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250301_0055_a,2025_tdbiz_visa_20250301_0055,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250301_0056_a,2025_tdbiz_visa_20250301_0056,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250301_0057_a,2025_tdbiz_visa_20250301_0057,full,corporate,-1.56,0.00,0.00,Office expenses,8810,100,-1.56,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250301_0058_a,2025_tdbiz_visa_20250301_0058,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250301_0059_a,2025_tdbiz_visa_20250301_0059,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250301_0060_a,2025_tdbiz_visa_20250301_0060,full,corporate,-27.79,0.00,0.00,Office expenses,8810,100,-27.79,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250304_0061_a,2025_tdbiz_visa_20250304_0061,full,corporate,-40.25,0.00,0.00,Office expenses,8810,100,-40.25,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250305_0062_a,2025_tdbiz_visa_20250305_0062,full,corporate,-19.03,0.00,0.00,UNCLASSIFIED,,100,-19.03,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250305_0063_a,2025_tdbiz_visa_20250305_0063,full,corporate,-17.03,0.00,0.00,Office expenses,8810,100,-17.03,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250306_0064_a,2025_tdbiz_visa_20250306_0064,full,corporate,-12.04,0.00,0.00,Office expenses,8810,100,-12.04,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250309_0065_a,2025_tdbiz_visa_20250309_0065,full,corporate,-288.84,0.00,0.00,Conventions & seminars,9270,100,-288.84,0.00,standard,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250309_0066_a,2025_tdbiz_visa_20250309_0066,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250310_0067_a,2025_tdbiz_visa_20250310_0067,full,corporate,-89.13,0.00,0.00,Office expenses,8810,100,-89.13,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250310_0068_a,2025_tdbiz_visa_20250310_0068,full,corporate,-308.51,0.00,0.00,Telephone and utilities,9220,100,-308.51,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250311_0069_a,2025_tdbiz_visa_20250311_0069,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250314_0070_a,2025_tdbiz_visa_20250314_0070,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250314_0071_a,2025_tdbiz_visa_20250314_0071,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250317_0072_a,2025_tdbiz_visa_20250317_0072,full,corporate,-1768.37,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250321_0073_a,2025_tdbiz_visa_20250321_0073,full,corporate,-85.00,0.00,0.00,Meals and entertainment,8523,50,-42.50,0.00,meals_50,meals_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250322_0074_a,2025_tdbiz_visa_20250322_0074,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250322_0075_a,2025_tdbiz_visa_20250322_0075,full,corporate,-142.12,0.00,0.00,Meals and entertainment,8523,50,-71.06,0.00,meals_50,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250325_0076_a,2025_tdbiz_visa_20250325_0076,full,corporate,-20.11,0.00,0.00,Office expenses,8810,100,-20.11,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250329_0077_a,2025_tdbiz_visa_20250329_0077,full,corporate,-403.64,0.00,0.00,UNCLASSIFIED,,100,-403.64,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250330_0078_a,2025_tdbiz_visa_20250330_0078,full,corporate,-9.11,0.00,0.00,Travel expenses,9200,100,-9.11,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250401_0079_a,2025_tdbiz_visa_20250401_0079,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250401_0080_a,2025_tdbiz_visa_20250401_0080,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250401_0081_a,2025_tdbiz_visa_20250401_0081,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250401_0082_a,2025_tdbiz_visa_20250401_0082,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250401_0083_a,2025_tdbiz_visa_20250401_0083,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250401_0084_a,2025_tdbiz_visa_20250401_0084,full,corporate,-27.64,0.00,0.00,Office expenses,8810,100,-27.64,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250403_0085_a,2025_tdbiz_visa_20250403_0085,full,corporate,-50.38,0.00,0.00,UNCLASSIFIED,,100,-50.38,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250404_0086_a,2025_tdbiz_visa_20250404_0086,full,corporate,-42.57,0.00,0.00,Office expenses,8810,100,-42.57,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250405_0087_a,2025_tdbiz_visa_20250405_0087,full,corporate,-16.52,0.00,0.00,Meals and entertainment,8523,50,-8.26,0.00,meals_50,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250405_0088_a,2025_tdbiz_visa_20250405_0088,full,corporate,-16.80,0.00,0.00,Office expenses,8810,100,-16.80,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250406_0089_a,2025_tdbiz_visa_20250406_0089,full,corporate,-21.71,0.00,0.00,Meals and entertainment,8523,50,-10.86,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250406_0090_a,2025_tdbiz_visa_20250406_0090,full,corporate,-11.88,0.00,0.00,Office expenses,8810,100,-11.88,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250407_0091_a,2025_tdbiz_visa_20250407_0091,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250409_0092_a,2025_tdbiz_visa_20250409_0092,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250411_0093_a,2025_tdbiz_visa_20250411_0093,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250414_0094_a,2025_tdbiz_visa_20250414_0094,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250414_0095_a,2025_tdbiz_visa_20250414_0095,full,corporate,-1845.91,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250414_0096_a,2025_tdbiz_visa_20250414_0096,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250421_0097_a,2025_tdbiz_visa_20250421_0097,full,corporate,-94.92,0.00,0.00,UNCLASSIFIED,,100,-94.92,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250422_0098_a,2025_tdbiz_visa_20250422_0098,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250425_0099_a,2025_tdbiz_visa_20250425_0099,full,corporate,-19.46,0.00,0.00,Office expenses,8810,100,-19.46,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250426_0100_a,2025_tdbiz_visa_20250426_0100,full,corporate,-15.67,0.00,0.00,UNCLASSIFIED,,100,-15.67,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250426_0101_a,2025_tdbiz_visa_20250426_0101,full,corporate,-147.41,0.00,0.00,Meals and entertainment,8523,50,-73.70,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250501_0102_a,2025_tdbiz_visa_20250501_0102,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250501_0103_a,2025_tdbiz_visa_20250501_0103,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250501_0104_a,2025_tdbiz_visa_20250501_0104,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250501_0105_a,2025_tdbiz_visa_20250501_0105,full,corporate,-10.02,-633.33,-0.00,Office expenses,8810,100,623.31,633.33,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250501_0106_a,2025_tdbiz_visa_20250501_0106,full,corporate,-1.55,0.00,0.00,Office expenses,8810,100,-1.55,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250501_0107_a,2025_tdbiz_visa_20250501_0107,full,corporate,-26.61,0.00,0.00,Office expenses,8810,100,-26.61,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250503_0108_a,2025_tdbiz_visa_20250503_0108,full,corporate,-13.02,0.00,0.00,Travel expenses,9200,100,-13.02,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250503_0109_a,2025_tdbiz_visa_20250503_0109,full,corporate,-215.17,0.00,0.00,Meals and entertainment,8523,50,-107.58,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250503_0110_a,2025_tdbiz_visa_20250503_0110,full,corporate,-10.56,0.00,0.00,Travel expenses,9200,100,-10.56,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250504_0111_a,2025_tdbiz_visa_20250504_0111,full,corporate,-41.22,0.00,0.00,Office expenses,8810,100,-41.22,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250505_0112_a,2025_tdbiz_visa_20250505_0112,full,corporate,-16.32,0.00,0.00,Office expenses,8810,100,-16.32,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250506_0113_a,2025_tdbiz_visa_20250506_0113,full,corporate,-11.54,0.00,0.00,Office expenses,8810,100,-11.54,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250508_0114_a,2025_tdbiz_visa_20250508_0114,full,corporate,-594.11,0.00,0.00,Telephone and utilities,9220,100,-594.11,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250509_0115_a,2025_tdbiz_visa_20250509_0115,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250510_0116_a,2025_tdbiz_visa_20250510_0116,full,corporate,-120.71,0.00,0.00,Meals and entertainment,8523,50,-60.35,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250511_0117_a,2025_tdbiz_visa_20250511_0117,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250512_0118_a,2025_tdbiz_visa_20250512_0118,full,corporate,-43.07,0.00,0.00,Office expenses,8810,100,-43.07,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250513_0119_a,2025_tdbiz_visa_20250513_0119,full,corporate,-23.51,0.00,0.00,UNCLASSIFIED,,100,-23.51,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250513_0120_a,2025_tdbiz_visa_20250513_0120,full,corporate,-62.24,0.00,0.00,Office expenses,8810,100,-62.24,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250513_0122_a,2025_tdbiz_visa_20250513_0122,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250514_0121_a,2025_tdbiz_visa_20250514_0121,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250514_0123_a,2025_tdbiz_visa_20250514_0123,full,corporate,-21.90,0.00,0.00,Office expenses,8810,100,-21.90,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250515_0124_a,2025_tdbiz_visa_20250515_0124,full,corporate,-1155.28,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250517_0125_a,2025_tdbiz_visa_20250517_0125,full,corporate,-220.90,0.00,0.00,Meals and entertainment,8523,50,-110.45,0.00,meals_50,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250518_0126_a,2025_tdbiz_visa_20250518_0126,full,corporate,-8.55,0.00,0.00,Travel expenses,9200,100,-8.55,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250522_0127_a,2025_tdbiz_visa_20250522_0127,full,corporate,-3.02,0.00,0.00,Office expenses,8810,100,-3.02,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250522_0128_a,2025_tdbiz_visa_20250522_0128,full,corporate,-0.42,0.00,0.00,Office expenses,8810,100,-0.42,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250522_0130_a,2025_tdbiz_visa_20250522_0130,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250523_0129_a,2025_tdbiz_visa_20250523_0129,full,corporate,-7.10,-211.11,-0.00,Office expenses,8810,100,204.01,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250526_0130_a,2025_tdbiz_visa_20250526_0130,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250526_0131_a,2025_tdbiz_visa_20250526_0131,full,corporate,-19.41,0.00,0.00,Office expenses,8810,100,-19.41,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250528_0132_a,2025_tdbiz_visa_20250528_0132,full,corporate,-375.92,0.00,0.00,Capital Leases,,100,-375.92,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250529_0133_a,2025_tdbiz_visa_20250529_0133,full,corporate,-11.05,-0.53,-0.00,Travel expenses,9200,100,-10.52,0.53,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250530_0134_a,2025_tdbiz_visa_20250530_0134,full,corporate,-8.14,-0.39,-0.00,Travel expenses,9200,100,-7.75,0.39,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250602_0135_a,2025_tdbiz_visa_20250602_0135,full,corporate,-7.63,-0.36,-0.00,Travel expenses,9200,100,-7.27,0.36,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250602_0136_a,2025_tdbiz_visa_20250602_0136,full,corporate,-20.28,0.00,0.00,Travel expenses,9200,100,-20.28,0.00,standard,travel_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250602_0137_a,2025_tdbiz_visa_20250602_0137,full,corporate,-18.81,-0.90,-0.00,Travel expenses,9200,100,-17.91,0.90,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250602_0138_a,2025_tdbiz_visa_20250602_0138,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250602_0139_a,2025_tdbiz_visa_20250602_0139,full,corporate,-4.84,-211.11,-0.00,Office expenses,8810,100,206.27,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250602_0140_a,2025_tdbiz_visa_20250602_0140,full,corporate,-0.46,0.00,0.00,Office expenses,8810,100,-0.46,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250602_0141_a,2025_tdbiz_visa_20250602_0141,full,corporate,-9.88,-211.11,-0.00,Office expenses,8810,100,201.23,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250602_0142_a,2025_tdbiz_visa_20250602_0142,full,corporate,-26.56,0.00,0.00,Office expenses,8810,100,-26.56,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250603_0143_a,2025_tdbiz_visa_20250603_0143,full,corporate,1.97,0.00,0.00,UNCLASSIFIED,,100,1.97,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250603_0144_a,2025_tdbiz_visa_20250603_0144,full,corporate,1.97,0.00,0.00,UNCLASSIFIED,,100,1.97,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250605_0145_a,2025_tdbiz_visa_20250605_0145,full,corporate,-40.86,0.00,0.00,Office expenses,8810,100,-40.86,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250609_0146_a,2025_tdbiz_visa_20250609_0146,full,corporate,-16.12,0.00,0.00,Office expenses,8810,100,-16.12,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250609_0147_a,2025_tdbiz_visa_20250609_0147,full,corporate,-11.40,0.00,0.00,Office expenses,8810,100,-11.40,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250609_0148_a,2025_tdbiz_visa_20250609_0148,full,corporate,-308.63,0.00,0.00,Telephone and utilities,9220,100,-308.63,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250610_0149_a,2025_tdbiz_visa_20250610_0149,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250525_0131_a,2025_tdbiz_visa_20250525_0131,full,corporate,-19.41,0.00,0.00,Office expenses,8810,100,-19.41,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250527_0132_a,2025_tdbiz_visa_20250527_0132,full,corporate,-375.92,0.00,0.00,Capital Leases,,100,-375.92,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250528_0133_a,2025_tdbiz_visa_20250528_0133,full,corporate,-11.05,0.00,0.00,Travel expenses,9200,100,-11.05,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250529_0134_a,2025_tdbiz_visa_20250529_0134,full,corporate,-8.14,0.00,0.00,Travel expenses,9200,100,-8.14,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250530_0135_a,2025_tdbiz_visa_20250530_0135,full,corporate,-7.63,0.00,0.00,Travel expenses,9200,100,-7.63,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250531_0136_a,2025_tdbiz_visa_20250531_0136,full,corporate,-20.28,0.00,0.00,Travel expenses,9200,100,-20.28,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250531_0137_a,2025_tdbiz_visa_20250531_0137,full,corporate,-18.81,0.00,0.00,Travel expenses,9200,100,-18.81,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250601_0138_a,2025_tdbiz_visa_20250601_0138,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250601_0139_a,2025_tdbiz_visa_20250601_0139,full,corporate,-4.84,-211.11,-0.00,Office expenses,8810,100,206.27,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250601_0140_a,2025_tdbiz_visa_20250601_0140,full,corporate,-0.46,0.00,0.00,Office expenses,8810,100,-0.46,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250601_0141_a,2025_tdbiz_visa_20250601_0141,full,corporate,-9.88,-211.11,-0.00,Office expenses,8810,100,201.23,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250601_0142_a,2025_tdbiz_visa_20250601_0142,full,corporate,-26.56,0.00,0.00,Office expenses,8810,100,-26.56,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250602_0143_a,2025_tdbiz_visa_20250602_0143,full,corporate,1.97,0.00,0.00,UNCLASSIFIED,,100,1.97,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250602_0144_a,2025_tdbiz_visa_20250602_0144,full,corporate,1.97,0.00,0.00,UNCLASSIFIED,,100,1.97,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250604_0145_a,2025_tdbiz_visa_20250604_0145,full,corporate,-40.86,0.00,0.00,Office expenses,8810,100,-40.86,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250605_0146_a,2025_tdbiz_visa_20250605_0146,full,corporate,-16.12,0.00,0.00,Office expenses,8810,100,-16.12,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250606_0147_a,2025_tdbiz_visa_20250606_0147,full,corporate,-11.40,0.00,0.00,Office expenses,8810,100,-11.40,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250607_0148_a,2025_tdbiz_visa_20250607_0148,full,corporate,-308.63,0.00,0.00,Telephone and utilities,9220,100,-308.63,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250609_0149_a,2025_tdbiz_visa_20250609_0149,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250611_0150_a,2025_tdbiz_visa_20250611_0150,full,corporate,-134.96,0.00,0.00,Meals and entertainment,8523,50,-67.48,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250612_0151_a,2025_tdbiz_visa_20250612_0151,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250616_0152_a,2025_tdbiz_visa_20250616_0152,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250616_0153_a,2025_tdbiz_visa_20250616_0153,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250617_0154_a,2025_tdbiz_visa_20250617_0154,full,corporate,-1905.53,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250617_0155_a,2025_tdbiz_visa_20250617_0155,full,corporate,-50.00,0.00,0.00,Conventions & seminars,9270,100,-50.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250618_0156_a,2025_tdbiz_visa_20250618_0156,full,corporate,-21.50,0.00,0.00,Office expenses,8810,100,-21.50,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250623_0157_a,2025_tdbiz_visa_20250623_0157,full,corporate,-276.25,0.00,0.00,Conventions & seminars,9270,100,-276.25,0.00,standard,fy2024_vendor_hint;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250623_0158_a,2025_tdbiz_visa_20250623_0158,full,corporate,-108.28,0.00,0.00,Meals and entertainment,8523,50,-54.14,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250623_0159_a,2025_tdbiz_visa_20250623_0159,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250623_0160_a,2025_tdbiz_visa_20250623_0160,full,corporate,-116.76,0.00,0.00,UNCLASSIFIED,,100,-116.76,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250623_0161_a,2025_tdbiz_visa_20250623_0161,full,corporate,-14.96,0.00,0.00,UNCLASSIFIED,,100,-14.96,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250623_0162_a,2025_tdbiz_visa_20250623_0162,full,corporate,-13.19,0.00,0.00,Office expenses,8810,100,-13.19,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250624_0163_a,2025_tdbiz_visa_20250624_0163,full,corporate,-79.64,0.00,0.00,Office expenses,8810,100,-79.64,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250624_0164_a,2025_tdbiz_visa_20250624_0164,full,corporate,-113.61,0.00,0.00,UNCLASSIFIED,,100,-113.61,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250625_0165_a,2025_tdbiz_visa_20250625_0165,full,corporate,-16.51,0.00,0.00,UNCLASSIFIED,,100,-16.51,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250625_0166_a,2025_tdbiz_visa_20250625_0166,full,corporate,16.51,0.00,0.00,UNCLASSIFIED,,100,16.51,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250626_0167_a,2025_tdbiz_visa_20250626_0167,full,corporate,-8.19,-0.39,-0.00,Travel expenses,9200,100,-7.80,0.39,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250626_0168_a,2025_tdbiz_visa_20250626_0168,full,corporate,-16.46,0.00,0.00,Office expenses,8810,100,-16.46,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250630_0169_a,2025_tdbiz_visa_20250630_0169,full,corporate,-7.17,0.00,0.00,Office expenses,8810,100,-7.17,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250630_0170_a,2025_tdbiz_visa_20250630_0170,full,corporate,-168.71,0.00,0.00,Capital Leases,,100,-168.71,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250630_0171_a,2025_tdbiz_visa_20250630_0171,full,corporate,-9.80,-0.47,-0.00,Travel expenses,9200,100,-9.33,0.47,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250702_0172_a,2025_tdbiz_visa_20250702_0172,full,corporate,-21.72,-211.11,-0.00,Office expenses,8810,100,189.39,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250702_0173_a,2025_tdbiz_visa_20250702_0173,full,corporate,-1.49,0.00,0.00,Office expenses,8810,100,-1.49,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250702_0174_a,2025_tdbiz_visa_20250702_0174,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250702_0175_a,2025_tdbiz_visa_20250702_0175,full,corporate,-26.30,0.00,0.00,Office expenses,8810,100,-26.30,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250707_0176_a,2025_tdbiz_visa_20250707_0176,full,corporate,-40.51,0.00,0.00,Office expenses,8810,100,-40.51,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250707_0177_a,2025_tdbiz_visa_20250707_0177,full,corporate,-11.15,-0.53,-0.00,Travel expenses,9200,100,-10.62,0.53,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250707_0178_a,2025_tdbiz_visa_20250707_0178,full,corporate,-16.05,0.00,0.00,Office expenses,8810,100,-16.05,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250707_0179_a,2025_tdbiz_visa_20250707_0179,full,corporate,-20.51,-0.98,-0.00,Travel expenses,9200,100,-19.53,0.98,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250707_0180_a,2025_tdbiz_visa_20250707_0180,full,corporate,-182.04,0.00,0.00,Meals and entertainment,8523,50,-91.02,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250708_0181_a,2025_tdbiz_visa_20250708_0181,full,corporate,-11.35,0.00,0.00,Office expenses,8810,100,-11.35,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250709_0182_a,2025_tdbiz_visa_20250709_0182,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250710_0183_a,2025_tdbiz_visa_20250710_0183,full,corporate,-8.19,-0.39,-0.00,Travel expenses,9200,100,-7.80,0.39,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250711_0184_a,2025_tdbiz_visa_20250711_0184,full,corporate,-7.67,-0.37,-0.00,Travel expenses,9200,100,-7.30,0.37,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250714_0185_a,2025_tdbiz_visa_20250714_0185,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250714_0186_a,2025_tdbiz_visa_20250714_0186,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250714_0187_a,2025_tdbiz_visa_20250714_0187,full,corporate,-217.19,0.00,0.00,Conventions & seminars,9270,100,-217.19,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250714_0188_a,2025_tdbiz_visa_20250714_0188,full,corporate,-11.98,-0.57,-0.00,Travel expenses,9200,100,-11.41,0.57,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250714_0189_a,2025_tdbiz_visa_20250714_0189,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250715_0190_a,2025_tdbiz_visa_20250715_0190,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250715_0191_a,2025_tdbiz_visa_20250715_0191,full,corporate,-150.48,0.00,0.00,UNCLASSIFIED,,100,-150.48,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250715_0192_a,2025_tdbiz_visa_20250715_0192,full,corporate,-14.70,-12.30,-0.00,Travel expenses,9200,100,-2.40,12.30,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250715_0193_a,2025_tdbiz_visa_20250715_0193,full,corporate,-13.74,-0.65,-0.00,Travel expenses,9200,100,-13.09,0.65,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250716_0194_a,2025_tdbiz_visa_20250716_0194,full,corporate,-2027.64,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250717_0195_a,2025_tdbiz_visa_20250717_0195,full,corporate,-44.89,0.00,0.00,Business fees and licences,8760,100,-44.89,0.00,standard,fees_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250721_0196_a,2025_tdbiz_visa_20250721_0196,full,corporate,-87.58,0.00,0.00,Meals and entertainment,8523,50,-43.79,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250722_0197_a,2025_tdbiz_visa_20250722_0197,full,corporate,-13.18,0.00,0.00,Office expenses,8810,100,-13.18,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250724_0198_a,2025_tdbiz_visa_20250724_0198,full,corporate,-29.95,0.00,0.00,Office expenses,8810,100,-29.95,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250724_0199_a,2025_tdbiz_visa_20250724_0199,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250725_0200_a,2025_tdbiz_visa_20250725_0200,full,corporate,-39.18,0.00,0.00,Office expenses,8810,100,-39.18,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250728_0201_a,2025_tdbiz_visa_20250728_0201,full,corporate,-88.84,0.00,0.00,UNCLASSIFIED,,100,-88.84,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250728_0202_a,2025_tdbiz_visa_20250728_0202,full,corporate,-111.89,0.00,0.00,Meals and entertainment,8523,50,-55.95,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250611_0151_a,2025_tdbiz_visa_20250611_0151,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250614_0152_a,2025_tdbiz_visa_20250614_0152,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250614_0153_a,2025_tdbiz_visa_20250614_0153,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250616_0154_a,2025_tdbiz_visa_20250616_0154,full,corporate,-1905.53,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250616_0155_a,2025_tdbiz_visa_20250616_0155,full,corporate,-50.00,0.00,0.00,Conventions & seminars,9270,100,-50.00,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250617_0156_a,2025_tdbiz_visa_20250617_0156,full,corporate,-21.50,0.00,0.00,Office expenses,8810,100,-21.50,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250620_0157_a,2025_tdbiz_visa_20250620_0157,full,corporate,-276.25,0.00,0.00,Conventions & seminars,9270,100,-276.25,0.00,standard,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250621_0158_a,2025_tdbiz_visa_20250621_0158,full,corporate,-108.28,-4.30,-0.00,Meals and entertainment,8523,50,-51.99,2.15,meals_50,fy2024_vendor_hint;tax_from_doc
+alloc_2025_tdbiz_visa_20250622_0159_a,2025_tdbiz_visa_20250622_0159,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250622_0160_a,2025_tdbiz_visa_20250622_0160,full,corporate,-116.76,0.00,0.00,UNCLASSIFIED,,100,-116.76,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250622_0161_a,2025_tdbiz_visa_20250622_0161,full,corporate,-14.96,0.00,0.00,UNCLASSIFIED,,100,-14.96,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250622_0162_a,2025_tdbiz_visa_20250622_0162,full,corporate,-13.19,0.00,0.00,Office expenses,8810,100,-13.19,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250622_0165_a,2025_tdbiz_visa_20250622_0165,full,corporate,-16.51,0.00,0.00,UNCLASSIFIED,,100,-16.51,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250622_0166_a,2025_tdbiz_visa_20250622_0166,full,corporate,16.51,0.00,0.00,UNCLASSIFIED,,100,16.51,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250623_0163_a,2025_tdbiz_visa_20250623_0163,full,corporate,-79.64,0.00,0.00,Office expenses,8810,100,-79.64,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250623_0164_a,2025_tdbiz_visa_20250623_0164,full,corporate,-113.61,0.00,0.00,UNCLASSIFIED,,100,-113.61,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250624_0167_a,2025_tdbiz_visa_20250624_0167,full,corporate,-8.19,0.00,0.00,Travel expenses,9200,100,-8.19,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250625_0168_a,2025_tdbiz_visa_20250625_0168,full,corporate,-16.46,0.00,0.00,Office expenses,8810,100,-16.46,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250627_0169_a,2025_tdbiz_visa_20250627_0169,full,corporate,-7.17,0.00,0.00,Office expenses,8810,100,-7.17,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250628_0170_a,2025_tdbiz_visa_20250628_0170,full,corporate,-168.71,0.00,0.00,Capital Leases,,100,-168.71,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250629_0171_a,2025_tdbiz_visa_20250629_0171,full,corporate,-9.80,-0.47,-0.00,Travel expenses,9200,100,-9.33,0.47,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250701_0172_a,2025_tdbiz_visa_20250701_0172,full,corporate,-21.72,-211.11,-0.00,Office expenses,8810,100,189.39,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250701_0173_a,2025_tdbiz_visa_20250701_0173,full,corporate,-1.49,0.00,0.00,Office expenses,8810,100,-1.49,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250701_0174_a,2025_tdbiz_visa_20250701_0174,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250701_0175_a,2025_tdbiz_visa_20250701_0175,full,corporate,-26.30,0.00,0.00,Office expenses,8810,100,-26.30,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250704_0176_a,2025_tdbiz_visa_20250704_0176,full,corporate,-40.51,0.00,0.00,Office expenses,8810,100,-40.51,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250705_0177_a,2025_tdbiz_visa_20250705_0177,full,corporate,-11.15,0.00,0.00,Travel expenses,9200,100,-11.15,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250706_0178_a,2025_tdbiz_visa_20250706_0178,full,corporate,-16.05,0.00,0.00,Office expenses,8810,100,-16.05,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250706_0179_a,2025_tdbiz_visa_20250706_0179,full,corporate,-20.51,0.00,0.00,Travel expenses,9200,100,-20.51,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250707_0180_a,2025_tdbiz_visa_20250707_0180,full,corporate,-182.04,-7.40,-0.00,Meals and entertainment,8523,50,-87.32,3.70,meals_50,fy2024_vendor_hint;tax_from_doc
+alloc_2025_tdbiz_visa_20250707_0181_a,2025_tdbiz_visa_20250707_0181,full,corporate,-11.35,0.00,0.00,Office expenses,8810,100,-11.35,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250708_0182_a,2025_tdbiz_visa_20250708_0182,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250709_0183_a,2025_tdbiz_visa_20250709_0183,full,corporate,-8.19,-0.39,-0.00,Travel expenses,9200,100,-7.80,0.39,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250710_0184_a,2025_tdbiz_visa_20250710_0184,full,corporate,-7.67,-0.37,-0.00,Travel expenses,9200,100,-7.30,0.37,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250711_0185_a,2025_tdbiz_visa_20250711_0185,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250711_0186_a,2025_tdbiz_visa_20250711_0186,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250712_0187_a,2025_tdbiz_visa_20250712_0187,full,corporate,-217.19,0.00,0.00,Conventions & seminars,9270,100,-217.19,0.00,standard,fy2024_vendor_hint;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250712_0188_a,2025_tdbiz_visa_20250712_0188,full,corporate,-11.98,0.00,0.00,Travel expenses,9200,100,-11.98,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250713_0190_a,2025_tdbiz_visa_20250713_0190,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250713_0191_a,2025_tdbiz_visa_20250713_0191,full,corporate,-150.48,0.00,0.00,UNCLASSIFIED,,100,-150.48,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250714_0189_a,2025_tdbiz_visa_20250714_0189,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250714_0192_a,2025_tdbiz_visa_20250714_0192,full,corporate,-14.70,0.00,0.00,Travel expenses,9200,100,-14.70,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250714_0193_a,2025_tdbiz_visa_20250714_0193,full,corporate,-13.74,0.00,0.00,Travel expenses,9200,100,-13.74,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250715_0194_a,2025_tdbiz_visa_20250715_0194,full,corporate,-2027.64,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250715_0195_a,2025_tdbiz_visa_20250715_0195,full,corporate,-44.89,0.00,0.00,Business fees and licences,8760,100,-44.89,0.00,standard,fees_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250718_0196_a,2025_tdbiz_visa_20250718_0196,full,corporate,-87.58,0.00,0.00,Meals and entertainment,8523,50,-43.79,0.00,meals_50,meals_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250722_0197_a,2025_tdbiz_visa_20250722_0197,full,corporate,-13.18,0.00,0.00,Office expenses,8810,100,-13.18,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250722_0198_a,2025_tdbiz_visa_20250722_0198,full,corporate,-29.95,0.00,0.00,Office expenses,8810,100,-29.95,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250723_0199_a,2025_tdbiz_visa_20250723_0199,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250724_0200_a,2025_tdbiz_visa_20250724_0200,full,corporate,-39.18,0.00,0.00,Office expenses,8810,100,-39.18,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250726_0201_a,2025_tdbiz_visa_20250726_0201,full,corporate,-88.84,0.00,0.00,UNCLASSIFIED,,100,-88.84,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250726_0202_a,2025_tdbiz_visa_20250726_0202,full,corporate,-111.89,0.00,0.00,Meals and entertainment,8523,50,-55.95,0.00,meals_50,meals_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250730_0203_a,2025_tdbiz_visa_20250730_0203,full,corporate,-95.88,0.00,0.00,Meals and entertainment,8523,50,-47.94,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250731_0204_a,2025_tdbiz_visa_20250731_0204,full,corporate,-59.92,0.00,0.00,Office expenses,8810,100,-59.92,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250805_0205_a,2025_tdbiz_visa_20250805_0205,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250805_0206_a,2025_tdbiz_visa_20250805_0206,full,corporate,-1.47,0.00,0.00,Office expenses,8810,100,-1.47,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250805_0207_a,2025_tdbiz_visa_20250805_0207,full,corporate,-15.03,0.00,0.00,Office expenses,8810,100,-15.03,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250805_0208_a,2025_tdbiz_visa_20250805_0208,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250805_0209_a,2025_tdbiz_visa_20250805_0209,full,corporate,-26.61,0.00,0.00,Office expenses,8810,100,-26.61,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250805_0210_a,2025_tdbiz_visa_20250805_0210,full,corporate,-98.18,0.00,0.00,Meals and entertainment,8523,50,-49.09,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250805_0211_a,2025_tdbiz_visa_20250805_0211,full,corporate,-16.46,0.00,0.00,Office expenses,8810,100,-16.46,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250805_0212_a,2025_tdbiz_visa_20250805_0212,full,corporate,-103.87,0.00,0.00,Meals and entertainment,8523,50,-51.94,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250805_0213_a,2025_tdbiz_visa_20250805_0213,full,corporate,-41.27,0.00,0.00,Office expenses,8810,100,-41.27,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250730_0204_a,2025_tdbiz_visa_20250730_0204,full,corporate,-59.92,0.00,0.00,Office expenses,8810,100,-59.92,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250801_0205_a,2025_tdbiz_visa_20250801_0205,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250801_0206_a,2025_tdbiz_visa_20250801_0206,full,corporate,-1.47,0.00,0.00,Office expenses,8810,100,-1.47,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250801_0207_a,2025_tdbiz_visa_20250801_0207,full,corporate,-15.03,0.00,0.00,Office expenses,8810,100,-15.03,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250801_0208_a,2025_tdbiz_visa_20250801_0208,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250801_0209_a,2025_tdbiz_visa_20250801_0209,full,corporate,-26.61,0.00,0.00,Office expenses,8810,100,-26.61,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250801_0210_a,2025_tdbiz_visa_20250801_0210,full,corporate,-98.18,0.00,0.00,Meals and entertainment,8523,50,-49.09,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250802_0211_a,2025_tdbiz_visa_20250802_0211,full,corporate,-16.46,0.00,0.00,Office expenses,8810,100,-16.46,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250803_0212_a,2025_tdbiz_visa_20250803_0212,full,corporate,-103.87,0.00,0.00,Meals and entertainment,8523,50,-51.94,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250804_0213_a,2025_tdbiz_visa_20250804_0213,full,corporate,-41.27,0.00,0.00,Office expenses,8810,100,-41.27,0.00,standard,saas_default;tax_not_found_in_linked_docs
 alloc_2025_tdbiz_visa_20250805_0214_a,2025_tdbiz_visa_20250805_0214,full,corporate,-275.85,0.00,0.00,Meals and entertainment,8523,50,-137.93,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250806_0215_a,2025_tdbiz_visa_20250806_0215,full,corporate,-60.73,0.00,0.00,Travel expenses,9200,100,-60.73,0.00,standard,travel_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250807_0216_a,2025_tdbiz_visa_20250807_0216,full,corporate,-41.23,-1.96,-0.00,Travel expenses,9200,100,-39.27,1.96,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250807_0217_a,2025_tdbiz_visa_20250807_0217,full,corporate,-16.27,0.00,0.00,Office expenses,8810,100,-16.27,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250807_0218_a,2025_tdbiz_visa_20250807_0218,full,corporate,-58.65,0.00,0.00,Travel expenses,9200,100,-58.65,0.00,standard,travel_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250808_0219_a,2025_tdbiz_visa_20250808_0219,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250808_0220_a,2025_tdbiz_visa_20250808_0220,full,corporate,-11.51,0.00,0.00,Office expenses,8810,100,-11.51,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250811_0221_a,2025_tdbiz_visa_20250811_0221,full,corporate,-40.40,0.00,0.00,Office expenses,8810,100,-40.40,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250811_0222_a,2025_tdbiz_visa_20250811_0222,full,corporate,-1.58,0.00,0.00,UNCLASSIFIED,,100,-1.58,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250812_0223_a,2025_tdbiz_visa_20250812_0223,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250812_0224_a,2025_tdbiz_visa_20250812_0224,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250814_0225_a,2025_tdbiz_visa_20250814_0225,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250814_0226_a,2025_tdbiz_visa_20250814_0226,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250818_0227_a,2025_tdbiz_visa_20250818_0227,full,corporate,-8100.00,0.00,0.00,UNCLASSIFIED,,100,-8100.00,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250818_0228_a,2025_tdbiz_visa_20250818_0228,full,corporate,-2771.40,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250818_0229_a,2025_tdbiz_visa_20250818_0229,full,corporate,-8100.00,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250818_0230_a,2025_tdbiz_visa_20250818_0230,full,corporate,-91.00,0.00,0.00,UNCLASSIFIED,,100,-91.00,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250818_0231_a,2025_tdbiz_visa_20250818_0231,full,corporate,-9.16,-0.44,-0.00,Travel expenses,9200,100,-8.72,0.44,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250818_0232_a,2025_tdbiz_visa_20250818_0232,full,corporate,-10.56,-0.50,-0.00,Travel expenses,9200,100,-10.06,0.50,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250818_0233_a,2025_tdbiz_visa_20250818_0233,full,corporate,-10.00,-0.00,-2.08,UNCLASSIFIED,,100,-10.00,0.00,standard,needs_review;tax_from_doc
-alloc_2025_tdbiz_visa_20250819_0234_a,2025_tdbiz_visa_20250819_0234,full,corporate,10.00,0.00,2.08,UNCLASSIFIED,,100,10.00,0.00,standard,needs_review;tax_from_doc
-alloc_2025_tdbiz_visa_20250822_0235_a,2025_tdbiz_visa_20250822_0235,full,corporate,-13.35,0.00,0.00,Office expenses,8810,100,-13.35,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250825_0236_a,2025_tdbiz_visa_20250825_0236,full,corporate,-119.78,0.00,0.00,Meals and entertainment,8523,50,-59.89,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250826_0237_a,2025_tdbiz_visa_20250826_0237,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250902_0238_a,2025_tdbiz_visa_20250902_0238,full,corporate,-148.78,0.00,0.00,UNCLASSIFIED,,100,-148.78,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250902_0239_a,2025_tdbiz_visa_20250902_0239,full,corporate,-1.49,0.00,0.00,Office expenses,8810,100,-1.49,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250902_0240_a,2025_tdbiz_visa_20250902_0240,full,corporate,-17.40,0.00,0.00,Office expenses,8810,100,-17.40,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250902_0241_a,2025_tdbiz_visa_20250902_0241,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250902_0242_a,2025_tdbiz_visa_20250902_0242,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250902_0243_a,2025_tdbiz_visa_20250902_0243,full,corporate,-26.46,0.00,0.00,Office expenses,8810,100,-26.46,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250904_0244_a,2025_tdbiz_visa_20250904_0244,full,corporate,-21.72,0.00,0.00,Office expenses,8810,100,-21.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250905_0245_a,2025_tdbiz_visa_20250905_0245,full,corporate,-41.05,0.00,0.00,Office expenses,8810,100,-41.05,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250805_0215_a,2025_tdbiz_visa_20250805_0215,full,corporate,-60.73,0.00,0.00,Travel expenses,9200,100,-60.73,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250805_0221_a,2025_tdbiz_visa_20250805_0221,full,corporate,-40.40,0.00,0.00,Office expenses,8810,100,-40.40,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250806_0216_a,2025_tdbiz_visa_20250806_0216,full,corporate,-41.23,0.00,0.00,Travel expenses,9200,100,-41.23,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250806_0217_a,2025_tdbiz_visa_20250806_0217,full,corporate,-16.27,0.00,0.00,Office expenses,8810,100,-16.27,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250806_0218_a,2025_tdbiz_visa_20250806_0218,full,corporate,-58.65,0.00,0.00,Travel expenses,9200,100,-58.65,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250807_0219_a,2025_tdbiz_visa_20250807_0219,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250807_0220_a,2025_tdbiz_visa_20250807_0220,full,corporate,-11.51,0.00,0.00,Office expenses,8810,100,-11.51,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250808_0222_a,2025_tdbiz_visa_20250808_0222,full,corporate,-1.58,0.00,0.00,UNCLASSIFIED,,100,-1.58,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250811_0223_a,2025_tdbiz_visa_20250811_0223,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250811_0224_a,2025_tdbiz_visa_20250811_0224,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250814_0225_a,2025_tdbiz_visa_20250814_0225,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250814_0226_a,2025_tdbiz_visa_20250814_0226,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250815_0227_a,2025_tdbiz_visa_20250815_0227,full,corporate,-8100.00,0.00,0.00,UNCLASSIFIED,,100,-8100.00,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250815_0228_a,2025_tdbiz_visa_20250815_0228,full,corporate,-2771.40,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250815_0229_a,2025_tdbiz_visa_20250815_0229,full,corporate,-8100.00,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250816_0230_a,2025_tdbiz_visa_20250816_0230,full,corporate,-91.00,0.00,0.00,UNCLASSIFIED,,100,-91.00,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250817_0231_a,2025_tdbiz_visa_20250817_0231,full,corporate,-9.16,0.00,0.00,Travel expenses,9200,100,-9.16,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250817_0232_a,2025_tdbiz_visa_20250817_0232,full,corporate,-10.56,0.00,0.00,Travel expenses,9200,100,-10.56,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250818_0233_a,2025_tdbiz_visa_20250818_0233,full,corporate,-10.00,0.00,0.00,UNCLASSIFIED,,100,-10.00,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250819_0234_a,2025_tdbiz_visa_20250819_0234,full,corporate,10.00,0.00,0.00,UNCLASSIFIED,,100,10.00,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250822_0235_a,2025_tdbiz_visa_20250822_0235,full,corporate,-13.35,0.00,0.00,Office expenses,8810,100,-13.35,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250822_0236_a,2025_tdbiz_visa_20250822_0236,full,corporate,-119.78,0.00,0.00,Meals and entertainment,8523,50,-59.89,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250825_0237_a,2025_tdbiz_visa_20250825_0237,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250827_0238_a,2025_tdbiz_visa_20250827_0238,full,corporate,-148.78,0.00,0.00,UNCLASSIFIED,,100,-148.78,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250901_0239_a,2025_tdbiz_visa_20250901_0239,full,corporate,-1.49,0.00,0.00,Office expenses,8810,100,-1.49,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250901_0240_a,2025_tdbiz_visa_20250901_0240,full,corporate,-17.40,0.00,0.00,Office expenses,8810,100,-17.40,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250901_0241_a,2025_tdbiz_visa_20250901_0241,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250901_0242_a,2025_tdbiz_visa_20250901_0242,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250901_0243_a,2025_tdbiz_visa_20250901_0243,full,corporate,-26.46,0.00,0.00,Office expenses,8810,100,-26.46,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250903_0244_a,2025_tdbiz_visa_20250903_0244,full,corporate,-21.72,0.00,0.00,Office expenses,8810,100,-21.72,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250904_0245_a,2025_tdbiz_visa_20250904_0245,full,corporate,-41.05,0.00,0.00,Office expenses,8810,100,-41.05,0.00,standard,saas_default;tax_not_found_in_linked_docs
 alloc_2025_tdbiz_visa_20250905_0246_a,2025_tdbiz_visa_20250905_0246,full,corporate,-149.00,0.00,0.00,UNCLASSIFIED,,100,-149.00,0.00,standard,needs_review;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250905_0247_a,2025_tdbiz_visa_20250905_0247,full,corporate,-1.43,0.00,0.00,UNCLASSIFIED,,100,-1.43,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250908_0248_a,2025_tdbiz_visa_20250908_0248,full,corporate,-16.33,0.00,0.00,Office expenses,8810,100,-16.33,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250908_0249_a,2025_tdbiz_visa_20250908_0249,full,corporate,-20.10,-0.96,-0.00,Travel expenses,9200,100,-19.14,0.96,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250908_0250_a,2025_tdbiz_visa_20250908_0250,full,corporate,-98.94,0.00,0.00,Meals and entertainment,8523,50,-49.47,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250908_0251_a,2025_tdbiz_visa_20250908_0251,full,corporate,-11.55,0.00,0.00,Office expenses,8810,100,-11.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250908_0252_a,2025_tdbiz_visa_20250908_0252,full,corporate,-495.55,0.00,0.00,Telephone and utilities,9220,100,-495.55,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250909_0253_a,2025_tdbiz_visa_20250909_0253,full,corporate,-95.46,0.00,0.00,UNCLASSIFIED,,100,-95.46,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250912_0254_a,2025_tdbiz_visa_20250912_0254,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250912_0255_a,2025_tdbiz_visa_20250912_0255,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250906_0248_a,2025_tdbiz_visa_20250906_0248,full,corporate,-16.33,0.00,0.00,Office expenses,8810,100,-16.33,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250906_0249_a,2025_tdbiz_visa_20250906_0249,full,corporate,-20.10,0.00,0.00,Travel expenses,9200,100,-20.10,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250906_0250_a,2025_tdbiz_visa_20250906_0250,full,corporate,-98.94,0.00,0.00,Meals and entertainment,8523,50,-49.47,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250907_0251_a,2025_tdbiz_visa_20250907_0251,full,corporate,-11.55,0.00,0.00,Office expenses,8810,100,-11.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250907_0252_a,2025_tdbiz_visa_20250907_0252,full,corporate,-495.55,0.00,0.00,Telephone and utilities,9220,100,-495.55,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250908_0253_a,2025_tdbiz_visa_20250908_0253,full,corporate,-95.46,0.00,0.00,UNCLASSIFIED,,100,-95.46,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250911_0254_a,2025_tdbiz_visa_20250911_0254,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250911_0255_a,2025_tdbiz_visa_20250911_0255,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250912_0256_a,2025_tdbiz_visa_20250912_0256,full,corporate,-16.05,0.00,0.00,Rent,8910,100,-16.05,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250915_0257_a,2025_tdbiz_visa_20250915_0257,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250915_0258_a,2025_tdbiz_visa_20250915_0258,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250916_0259_a,2025_tdbiz_visa_20250916_0259,full,corporate,-8.19,-0.39,-0.00,Travel expenses,9200,100,-7.80,0.39,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250916_0260_a,2025_tdbiz_visa_20250916_0260,full,corporate,-7.59,-0.36,-0.00,Travel expenses,9200,100,-7.23,0.36,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20250916_0261_a,2025_tdbiz_visa_20250916_0261,full,corporate,-821.84,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250919_0262_a,2025_tdbiz_visa_20250919_0262,full,corporate,-16.08,0.00,0.00,Office expenses,8810,100,-16.08,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250914_0257_a,2025_tdbiz_visa_20250914_0257,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250914_0258_a,2025_tdbiz_visa_20250914_0258,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20250915_0259_a,2025_tdbiz_visa_20250915_0259,full,corporate,-8.19,0.00,0.00,Travel expenses,9200,100,-8.19,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250915_0260_a,2025_tdbiz_visa_20250915_0260,full,corporate,-7.59,0.00,0.00,Travel expenses,9200,100,-7.59,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250915_0261_a,2025_tdbiz_visa_20250915_0261,full,corporate,-821.84,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250918_0262_a,2025_tdbiz_visa_20250918_0262,full,corporate,-16.08,0.00,0.00,Office expenses,8810,100,-16.08,0.00,standard,saas_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20250919_0263_a,2025_tdbiz_visa_20250919_0263,full,corporate,-151.92,0.00,0.00,Meals and entertainment,8523,50,-75.96,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250922_0264_a,2025_tdbiz_visa_20250922_0264,full,corporate,-13.26,0.00,0.00,Office expenses,8810,100,-13.26,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20250923_0265_a,2025_tdbiz_visa_20250923_0265,full,corporate,-74.98,0.00,0.00,Meals and entertainment,8523,50,-37.49,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250924_0266_a,2025_tdbiz_visa_20250924_0266,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250925_0267_a,2025_tdbiz_visa_20250925_0267,full,corporate,-57.26,0.00,0.00,Office expenses,8810,100,-57.26,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20250929_0268_a,2025_tdbiz_visa_20250929_0268,full,corporate,-67.69,0.00,0.00,Office expenses,8810,100,-67.69,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250921_0265_a,2025_tdbiz_visa_20250921_0265,full,corporate,-74.98,0.00,0.00,Meals and entertainment,8523,50,-37.49,0.00,meals_50,meals_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20250922_0264_a,2025_tdbiz_visa_20250922_0264,full,corporate,-13.26,0.00,0.00,Office expenses,8810,100,-13.26,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250923_0266_a,2025_tdbiz_visa_20250923_0266,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250924_0267_a,2025_tdbiz_visa_20250924_0267,full,corporate,-57.26,0.00,0.00,Office expenses,8810,100,-57.26,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20250927_0268_a,2025_tdbiz_visa_20250927_0268,full,corporate,-67.69,0.00,0.00,Office expenses,8810,100,-67.69,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20251001_0269_a,2025_tdbiz_visa_20251001_0269,full,corporate,-58.92,0.00,0.00,Meals and entertainment,8523,50,-29.46,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251001_0270_a,2025_tdbiz_visa_20251001_0270,full,corporate,-26.76,0.00,0.00,Office expenses,8810,100,-26.76,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251002_0271_a,2025_tdbiz_visa_20251002_0271,full,corporate,-8.62,0.00,0.00,Office expenses,8810,100,-8.62,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251002_0272_a,2025_tdbiz_visa_20251002_0272,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251002_0273_a,2025_tdbiz_visa_20251002_0273,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251002_0274_a,2025_tdbiz_visa_20251002_0274,full,corporate,-1.50,0.00,0.00,Office expenses,8810,100,-1.50,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251003_0275_a,2025_tdbiz_visa_20251003_0275,full,corporate,-67.88,0.00,0.00,UNCLASSIFIED,,100,-67.88,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251006_0276_a,2025_tdbiz_visa_20251006_0276,full,corporate,-107.50,0.00,0.00,UNCLASSIFIED,,100,-107.50,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251006_0277_a,2025_tdbiz_visa_20251006_0277,full,corporate,-41.53,0.00,0.00,Office expenses,8810,100,-41.53,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251001_0270_a,2025_tdbiz_visa_20251001_0270,full,corporate,-26.76,0.00,0.00,Office expenses,8810,100,-26.76,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251001_0271_a,2025_tdbiz_visa_20251001_0271,full,corporate,-8.62,0.00,0.00,Office expenses,8810,100,-8.62,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251001_0272_a,2025_tdbiz_visa_20251001_0272,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251001_0273_a,2025_tdbiz_visa_20251001_0273,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251001_0274_a,2025_tdbiz_visa_20251001_0274,full,corporate,-1.50,0.00,0.00,Office expenses,8810,100,-1.50,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251002_0275_a,2025_tdbiz_visa_20251002_0275,full,corporate,-67.88,0.00,0.00,UNCLASSIFIED,,100,-67.88,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251003_0276_a,2025_tdbiz_visa_20251003_0276,full,corporate,-107.50,0.00,0.00,UNCLASSIFIED,,100,-107.50,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251004_0277_a,2025_tdbiz_visa_20251004_0277,full,corporate,-41.53,0.00,0.00,Office expenses,8810,100,-41.53,0.00,standard,saas_default;tax_not_found_in_linked_docs
 alloc_2025_tdbiz_visa_20251006_0278_a,2025_tdbiz_visa_20251006_0278,full,corporate,-0.58,0.00,0.00,UNCLASSIFIED,,100,-0.58,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251007_0279_a,2025_tdbiz_visa_20251007_0279,full,corporate,-19.40,0.00,0.00,Office expenses,8810,100,-19.40,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251008_0280_a,2025_tdbiz_visa_20251008_0280,full,corporate,-11.64,0.00,0.00,Office expenses,8810,100,-11.64,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251009_0281_a,2025_tdbiz_visa_20251009_0281,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251009_0282_a,2025_tdbiz_visa_20251009_0282,full,corporate,-96.20,0.00,0.00,UNCLASSIFIED,,100,-96.20,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251014_0283_a,2025_tdbiz_visa_20251014_0283,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251014_0284_a,2025_tdbiz_visa_20251014_0284,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251014_0285_a,2025_tdbiz_visa_20251014_0285,full,corporate,-124.74,0.00,0.00,Meals and entertainment,8523,50,-62.37,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251014_0286_a,2025_tdbiz_visa_20251014_0286,full,corporate,-12.78,0.00,0.00,UNCLASSIFIED,,100,-12.78,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251014_0287_a,2025_tdbiz_visa_20251014_0287,full,corporate,-30.25,0.00,0.00,Office expenses,8810,100,-30.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251014_0288_a,2025_tdbiz_visa_20251014_0288,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251016_0289_a,2025_tdbiz_visa_20251016_0289,full,corporate,-1720.02,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251020_0290_a,2025_tdbiz_visa_20251020_0290,full,corporate,-16.41,0.00,0.00,Office expenses,8810,100,-16.41,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251021_0291_a,2025_tdbiz_visa_20251021_0291,full,corporate,-14.57,-1.38,-0.00,Travel expenses,9200,100,-13.19,1.38,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251021_0292_a,2025_tdbiz_visa_20251021_0292,full,corporate,-14.57,-1.38,-0.00,Travel expenses,9200,100,-13.19,1.38,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251021_0293_a,2025_tdbiz_visa_20251021_0293,full,corporate,-13.10,-13.10,-0.00,Travel expenses,9200,100,0.00,13.10,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251021_0294_a,2025_tdbiz_visa_20251021_0294,full,corporate,-230.00,0.00,0.00,Meals and entertainment,8523,50,-115.00,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251022_0295_a,2025_tdbiz_visa_20251022_0295,full,corporate,-13.50,0.00,0.00,Office expenses,8810,100,-13.50,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251024_0296_a,2025_tdbiz_visa_20251024_0296,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251027_0297_a,2025_tdbiz_visa_20251027_0297,full,corporate,-28.06,0.00,0.00,Office expenses,8810,100,-28.06,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251027_0298_a,2025_tdbiz_visa_20251027_0298,full,corporate,-8.95,-7.42,-0.00,Travel expenses,9200,100,-1.53,7.42,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251103_0299_a,2025_tdbiz_visa_20251103_0299,full,corporate,-8.69,0.00,0.00,Office expenses,8810,100,-8.69,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251103_0300_a,2025_tdbiz_visa_20251103_0300,full,corporate,-1.87,0.00,0.00,Office expenses,8810,100,-1.87,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251103_0301_a,2025_tdbiz_visa_20251103_0301,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251103_0302_a,2025_tdbiz_visa_20251103_0302,full,corporate,-84.85,0.00,0.00,UNCLASSIFIED,,100,-84.85,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251103_0303_a,2025_tdbiz_visa_20251103_0303,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251103_0304_a,2025_tdbiz_visa_20251103_0304,full,corporate,-26.95,0.00,0.00,Office expenses,8810,100,-26.95,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251103_0305_a,2025_tdbiz_visa_20251103_0305,full,corporate,-18.90,-0.90,-0.00,Travel expenses,9200,100,-18.00,0.90,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251105_0306_a,2025_tdbiz_visa_20251105_0306,full,corporate,-44.58,0.00,0.00,Office expenses,8810,100,-44.58,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251107_0307_a,2025_tdbiz_visa_20251107_0307,full,corporate,-19.59,0.00,0.00,Office expenses,8810,100,-19.59,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251107_0308_a,2025_tdbiz_visa_20251107_0308,full,corporate,-11.79,0.00,0.00,Office expenses,8810,100,-11.79,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251110_0309_a,2025_tdbiz_visa_20251110_0309,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251110_0310_a,2025_tdbiz_visa_20251110_0310,full,corporate,-97.32,0.00,0.00,UNCLASSIFIED,,100,-97.32,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251112_0311_a,2025_tdbiz_visa_20251112_0311,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251112_0312_a,2025_tdbiz_visa_20251112_0312,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251114_0313_a,2025_tdbiz_visa_20251114_0313,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251114_0314_a,2025_tdbiz_visa_20251114_0314,full,corporate,-25.40,0.00,0.00,Office expenses,8810,100,-25.40,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251117_0315_a,2025_tdbiz_visa_20251117_0315,full,corporate,-200.00,0.00,0.00,UNCLASSIFIED,,100,-200.00,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251117_0316_a,2025_tdbiz_visa_20251117_0316,full,corporate,-10.97,-0.52,-0.00,Travel expenses,9200,100,-10.45,0.52,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251118_0317_a,2025_tdbiz_visa_20251118_0317,full,corporate,-67.00,0.00,0.00,Meals and entertainment,8523,50,-33.50,0.00,meals_50,meals_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251118_0318_a,2025_tdbiz_visa_20251118_0318,full,corporate,-55.94,0.00,0.00,UNCLASSIFIED,,100,-55.94,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251118_0319_a,2025_tdbiz_visa_20251118_0319,full,corporate,-16.39,0.00,0.00,Office expenses,8810,100,-16.39,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251118_0320_a,2025_tdbiz_visa_20251118_0320,full,corporate,-1352.93,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251006_0279_a,2025_tdbiz_visa_20251006_0279,full,corporate,-19.40,0.00,0.00,Office expenses,8810,100,-19.40,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251007_0280_a,2025_tdbiz_visa_20251007_0280,full,corporate,-11.64,0.00,0.00,Office expenses,8810,100,-11.64,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251008_0281_a,2025_tdbiz_visa_20251008_0281,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251008_0282_a,2025_tdbiz_visa_20251008_0282,full,corporate,-96.20,0.00,0.00,UNCLASSIFIED,,100,-96.20,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251011_0283_a,2025_tdbiz_visa_20251011_0283,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251011_0284_a,2025_tdbiz_visa_20251011_0284,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251013_0285_a,2025_tdbiz_visa_20251013_0285,full,corporate,-124.74,0.00,0.00,Meals and entertainment,8523,50,-62.37,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251013_0286_a,2025_tdbiz_visa_20251013_0286,full,corporate,-12.78,0.00,0.00,UNCLASSIFIED,,100,-12.78,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251014_0287_a,2025_tdbiz_visa_20251014_0287,full,corporate,-30.25,-5.00,-7.00,Office expenses,8810,100,-25.25,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251014_0288_a,2025_tdbiz_visa_20251014_0288,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251015_0289_a,2025_tdbiz_visa_20251015_0289,full,corporate,-1720.02,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251017_0290_a,2025_tdbiz_visa_20251017_0290,full,corporate,-16.41,0.00,0.00,Office expenses,8810,100,-16.41,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251020_0291_a,2025_tdbiz_visa_20251020_0291,full,corporate,-14.57,0.00,0.00,Travel expenses,9200,100,-14.57,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251020_0292_a,2025_tdbiz_visa_20251020_0292,full,corporate,-14.57,0.00,0.00,Travel expenses,9200,100,-14.57,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251020_0293_a,2025_tdbiz_visa_20251020_0293,full,corporate,-13.10,0.00,0.00,Travel expenses,9200,100,-13.10,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251020_0294_a,2025_tdbiz_visa_20251020_0294,full,corporate,-230.00,0.00,0.00,Meals and entertainment,8523,50,-115.00,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251022_0295_a,2025_tdbiz_visa_20251022_0295,full,corporate,-13.50,0.00,0.00,Office expenses,8810,100,-13.50,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251023_0296_a,2025_tdbiz_visa_20251023_0296,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251025_0297_a,2025_tdbiz_visa_20251025_0297,full,corporate,-28.06,0.00,0.00,Office expenses,8810,100,-28.06,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251026_0298_a,2025_tdbiz_visa_20251026_0298,full,corporate,-8.95,0.00,0.00,Travel expenses,9200,100,-8.95,0.00,standard,travel_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251101_0299_a,2025_tdbiz_visa_20251101_0299,full,corporate,-8.69,0.00,0.00,Office expenses,8810,100,-8.69,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251101_0300_a,2025_tdbiz_visa_20251101_0300,full,corporate,-1.87,0.00,0.00,Office expenses,8810,100,-1.87,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251101_0301_a,2025_tdbiz_visa_20251101_0301,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251101_0302_a,2025_tdbiz_visa_20251101_0302,full,corporate,-84.85,0.00,0.00,UNCLASSIFIED,,100,-84.85,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251101_0303_a,2025_tdbiz_visa_20251101_0303,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251101_0304_a,2025_tdbiz_visa_20251101_0304,full,corporate,-26.95,0.00,0.00,Office expenses,8810,100,-26.95,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251102_0305_a,2025_tdbiz_visa_20251102_0305,full,corporate,-18.90,-0.90,-0.00,Travel expenses,9200,100,-18.00,0.90,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251104_0306_a,2025_tdbiz_visa_20251104_0306,full,corporate,-44.58,0.00,0.00,Office expenses,8810,100,-44.58,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251106_0307_a,2025_tdbiz_visa_20251106_0307,full,corporate,-19.59,0.00,0.00,Office expenses,8810,100,-19.59,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251106_0308_a,2025_tdbiz_visa_20251106_0308,full,corporate,-11.79,0.00,0.00,Office expenses,8810,100,-11.79,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251107_0309_a,2025_tdbiz_visa_20251107_0309,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251108_0310_a,2025_tdbiz_visa_20251108_0310,full,corporate,-97.32,0.00,0.00,UNCLASSIFIED,,100,-97.32,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251111_0311_a,2025_tdbiz_visa_20251111_0311,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251111_0312_a,2025_tdbiz_visa_20251111_0312,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251114_0313_a,2025_tdbiz_visa_20251114_0313,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251114_0314_a,2025_tdbiz_visa_20251114_0314,full,corporate,-25.40,-5.00,-7.00,Office expenses,8810,100,-20.40,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251114_0315_a,2025_tdbiz_visa_20251114_0315,full,corporate,-200.00,0.00,0.00,UNCLASSIFIED,,100,-200.00,0.00,standard,needs_review;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251116_0316_a,2025_tdbiz_visa_20251116_0316,full,corporate,-10.97,-0.52,-0.00,Travel expenses,9200,100,-10.45,0.52,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251116_0317_a,2025_tdbiz_visa_20251116_0317,full,corporate,-67.00,0.00,0.00,Meals and entertainment,8523,50,-33.50,0.00,meals_50,meals_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251117_0318_a,2025_tdbiz_visa_20251117_0318,full,corporate,-55.94,0.00,0.00,UNCLASSIFIED,,100,-55.94,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251117_0319_a,2025_tdbiz_visa_20251117_0319,full,corporate,-16.39,0.00,0.00,Office expenses,8810,100,-16.39,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251117_0320_a,2025_tdbiz_visa_20251117_0320,full,corporate,-1352.93,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
 alloc_2025_tdbiz_visa_20251120_0321_a,2025_tdbiz_visa_20251120_0321,full,corporate,-1.11,0.00,0.00,UNCLASSIFIED,,100,-1.11,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251124_0322_a,2025_tdbiz_visa_20251124_0322,full,corporate,-80.64,0.00,0.00,UNCLASSIFIED,,100,-80.64,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251124_0323_a,2025_tdbiz_visa_20251124_0323,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251124_0324_a,2025_tdbiz_visa_20251124_0324,full,corporate,-13.56,0.00,0.00,Office expenses,8810,100,-13.56,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251124_0325_a,2025_tdbiz_visa_20251124_0325,full,corporate,-17.40,-0.83,-0.00,Travel expenses,9200,100,-16.57,0.83,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251201_0326_a,2025_tdbiz_visa_20251201_0326,full,corporate,-22.39,-5.00,-7.00,UNCLASSIFIED,,100,-17.39,5.00,standard,needs_review;tax_from_doc
-alloc_2025_tdbiz_visa_20251201_0327_a,2025_tdbiz_visa_20251201_0327,full,corporate,-145.00,0.00,0.00,Meals and entertainment,8523,50,-72.50,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251201_0328_a,2025_tdbiz_visa_20251201_0328,full,corporate,-16.25,0.00,0.00,Office expenses,8810,100,-16.25,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251201_0329_a,2025_tdbiz_visa_20251201_0329,full,corporate,-55.95,0.00,0.00,UNCLASSIFIED,,100,-55.95,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251121_0322_a,2025_tdbiz_visa_20251121_0322,full,corporate,-80.64,0.00,0.00,UNCLASSIFIED,,100,-80.64,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251122_0323_a,2025_tdbiz_visa_20251122_0323,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251122_0324_a,2025_tdbiz_visa_20251122_0324,full,corporate,-13.56,0.00,0.00,Office expenses,8810,100,-13.56,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251123_0325_a,2025_tdbiz_visa_20251123_0325,full,corporate,-17.40,-0.83,-0.00,Travel expenses,9200,100,-16.57,0.83,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251128_0326_a,2025_tdbiz_visa_20251128_0326,full,corporate,-22.39,-10.00,-14.00,UNCLASSIFIED,,100,-12.39,10.00,standard,needs_review;tax_from_doc
+alloc_2025_tdbiz_visa_20251129_0327_a,2025_tdbiz_visa_20251129_0327,full,corporate,-145.00,0.00,0.00,Meals and entertainment,8523,50,-72.50,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251129_0328_a,2025_tdbiz_visa_20251129_0328,full,corporate,-16.25,0.00,0.00,Office expenses,8810,100,-16.25,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251129_0329_a,2025_tdbiz_visa_20251129_0329,full,corporate,-55.95,0.00,0.00,UNCLASSIFIED,,100,-55.95,0.00,standard,needs_review;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20251201_0330_a,2025_tdbiz_visa_20251201_0330,full,corporate,-26.98,0.00,0.00,Office expenses,8810,100,-26.98,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251202_0331_a,2025_tdbiz_visa_20251202_0331,full,corporate,-8.70,0.00,0.00,Office expenses,8810,100,-8.70,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251202_0332_a,2025_tdbiz_visa_20251202_0332,full,corporate,-1.54,0.00,0.00,Office expenses,8810,100,-1.54,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251202_0333_a,2025_tdbiz_visa_20251202_0333,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251202_0334_a,2025_tdbiz_visa_20251202_0334,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251201_0331_a,2025_tdbiz_visa_20251201_0331,full,corporate,-8.70,0.00,0.00,Office expenses,8810,100,-8.70,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251201_0332_a,2025_tdbiz_visa_20251201_0332,full,corporate,-1.54,0.00,0.00,Office expenses,8810,100,-1.54,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251201_0333_a,2025_tdbiz_visa_20251201_0333,full,corporate,-23.54,-211.11,-0.00,Office expenses,8810,100,187.57,211.11,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251201_0334_a,2025_tdbiz_visa_20251201_0334,full,corporate,-129.21,0.00,0.00,Rental,8910,100,-129.21,0.00,standard,rental_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251201_0336_a,2025_tdbiz_visa_20251201_0336,full,corporate,-43.58,0.00,0.00,UNCLASSIFIED,,100,-43.58,0.00,standard,needs_review;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20251202_0335_a,2025_tdbiz_visa_20251202_0335,full,corporate,-133.28,0.00,0.00,Office expenses,8810,100,-133.28,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251203_0336_a,2025_tdbiz_visa_20251203_0336,full,corporate,-43.58,0.00,0.00,UNCLASSIFIED,,100,-43.58,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251205_0337_a,2025_tdbiz_visa_20251205_0337,full,corporate,-43.71,0.00,0.00,Office expenses,8810,100,-43.71,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251208_0338_a,2025_tdbiz_visa_20251208_0338,full,corporate,-19.41,0.00,0.00,Office expenses,8810,100,-19.41,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251208_0339_a,2025_tdbiz_visa_20251208_0339,full,corporate,-11.64,0.00,0.00,Office expenses,8810,100,-11.64,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251208_0340_a,2025_tdbiz_visa_20251208_0340,full,corporate,-24.63,0.00,0.00,UNCLASSIFIED,,100,-24.63,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251208_0341_a,2025_tdbiz_visa_20251208_0341,full,corporate,-77.28,0.00,0.00,UNCLASSIFIED,,100,-77.28,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251208_0342_a,2025_tdbiz_visa_20251208_0342,full,corporate,-64.37,0.00,0.00,UNCLASSIFIED,,100,-64.37,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251208_0343_a,2025_tdbiz_visa_20251208_0343,full,corporate,-77.28,0.00,0.00,UNCLASSIFIED,,100,-77.28,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251209_0344_a,2025_tdbiz_visa_20251209_0344,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251209_0345_a,2025_tdbiz_visa_20251209_0345,full,corporate,-96.19,0.00,0.00,UNCLASSIFIED,,100,-96.19,0.00,standard,needs_review;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251211_0346_a,2025_tdbiz_visa_20251211_0346,full,corporate,-43.80,0.00,0.00,UNCLASSIFIED,,100,-43.80,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251212_0347_a,2025_tdbiz_visa_20251212_0347,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251212_0348_a,2025_tdbiz_visa_20251212_0348,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251212_0349_a,2025_tdbiz_visa_20251212_0349,full,corporate,-221.50,0.00,0.00,Capital Leases,,100,-221.50,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251215_0350_a,2025_tdbiz_visa_20251215_0350,full,corporate,-15.72,0.00,0.00,Office expenses,8810,100,-15.72,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251215_0351_a,2025_tdbiz_visa_20251215_0351,full,corporate,-25.40,0.00,0.00,Office expenses,8810,100,-25.40,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251216_0352_a,2025_tdbiz_visa_20251216_0352,full,corporate,-11.78,-0.56,-0.00,Travel expenses,9200,100,-11.22,0.56,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251216_0353_a,2025_tdbiz_visa_20251216_0353,full,corporate,-8.66,-0.41,-0.00,Travel expenses,9200,100,-8.25,0.41,standard,travel_default;tax_from_doc
-alloc_2025_tdbiz_visa_20251216_0354_a,2025_tdbiz_visa_20251216_0354,full,corporate,-1647.41,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251218_0355_a,2025_tdbiz_visa_20251218_0355,full,corporate,-16.09,0.00,0.00,Office expenses,8810,100,-16.09,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251204_0337_a,2025_tdbiz_visa_20251204_0337,full,corporate,-43.71,0.00,0.00,Office expenses,8810,100,-43.71,0.00,standard,saas_default;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251206_0338_a,2025_tdbiz_visa_20251206_0338,full,corporate,-19.41,0.00,0.00,Office expenses,8810,100,-19.41,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251206_0339_a,2025_tdbiz_visa_20251206_0339,full,corporate,-11.64,0.00,0.00,Office expenses,8810,100,-11.64,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251207_0340_a,2025_tdbiz_visa_20251207_0340,full,corporate,-24.63,0.00,0.00,UNCLASSIFIED,,100,-24.63,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251207_0341_a,2025_tdbiz_visa_20251207_0341,full,corporate,-77.28,0.00,0.00,UNCLASSIFIED,,100,-77.28,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251207_0342_a,2025_tdbiz_visa_20251207_0342,full,corporate,-64.37,0.00,0.00,UNCLASSIFIED,,100,-64.37,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251207_0343_a,2025_tdbiz_visa_20251207_0343,full,corporate,-77.28,0.00,0.00,UNCLASSIFIED,,100,-77.28,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251208_0344_a,2025_tdbiz_visa_20251208_0344,full,corporate,-307.39,0.00,0.00,Telephone and utilities,9220,100,-307.39,0.00,standard,telco_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251208_0345_a,2025_tdbiz_visa_20251208_0345,full,corporate,-96.19,0.00,0.00,UNCLASSIFIED,,100,-96.19,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251210_0346_a,2025_tdbiz_visa_20251210_0346,full,corporate,-43.80,0.00,0.00,UNCLASSIFIED,,100,-43.80,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251211_0347_a,2025_tdbiz_visa_20251211_0347,full,corporate,-24.60,0.00,0.00,Office expenses,8810,100,-24.60,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251211_0348_a,2025_tdbiz_visa_20251211_0348,full,corporate,-14.55,0.00,0.00,Office expenses,8810,100,-14.55,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251211_0349_a,2025_tdbiz_visa_20251211_0349,full,corporate,-221.50,0.00,0.00,Capital Leases,,100,-221.50,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251214_0350_a,2025_tdbiz_visa_20251214_0350,full,corporate,-15.72,-5.00,-7.00,Office expenses,8810,100,-10.72,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251214_0351_a,2025_tdbiz_visa_20251214_0351,full,corporate,-25.40,-5.00,-7.00,Office expenses,8810,100,-20.40,5.00,standard,saas_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251215_0352_a,2025_tdbiz_visa_20251215_0352,full,corporate,-11.78,-0.56,-0.00,Travel expenses,9200,100,-11.22,0.56,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251215_0353_a,2025_tdbiz_visa_20251215_0353,full,corporate,-8.66,-0.41,-0.00,Travel expenses,9200,100,-8.25,0.41,standard,travel_default;tax_from_doc
+alloc_2025_tdbiz_visa_20251215_0354_a,2025_tdbiz_visa_20251215_0354,full,corporate,-1647.41,0.00,0.00,Credit card payment (transfer),,0,-0.00,0.00,non_deductible,cc_payment;tax_not_found_in_linked_docs
+alloc_2025_tdbiz_visa_20251217_0355_a,2025_tdbiz_visa_20251217_0355,full,corporate,-16.09,0.00,0.00,Office expenses,8810,100,-16.09,0.00,standard,saas_default;tax_unknown_assumed0
 alloc_2025_tdbiz_visa_20251218_0356_a,2025_tdbiz_visa_20251218_0356,full,corporate,-295.05,0.00,0.00,Meals and entertainment,8523,50,-147.53,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251222_0357_a,2025_tdbiz_visa_20251222_0357,full,corporate,-124.12,0.00,0.00,Meals and entertainment,8523,50,-62.06,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251222_0358_a,2025_tdbiz_visa_20251222_0358,full,corporate,-1.11,0.00,0.00,UNCLASSIFIED,,100,-1.11,0.00,standard,needs_review;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251222_0359_a,2025_tdbiz_visa_20251222_0359,full,corporate,-13.25,0.00,0.00,Office expenses,8810,100,-13.25,0.00,standard,saas_default;tax_not_found_in_linked_docs
-alloc_2025_tdbiz_visa_20251223_0360_a,2025_tdbiz_visa_20251223_0360,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251229_0361_a,2025_tdbiz_visa_20251229_0361,full,corporate,-27.45,0.00,0.00,Rent,8910,100,-27.45,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
-alloc_2025_tdbiz_visa_20251230_0362_a,2025_tdbiz_visa_20251230_0362,full,corporate,-20.99,0.00,0.00,UNCLASSIFIED,,100,-20.99,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251219_0357_a,2025_tdbiz_visa_20251219_0357,full,corporate,-124.12,0.00,0.00,Meals and entertainment,8523,50,-62.06,0.00,meals_50,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251220_0358_a,2025_tdbiz_visa_20251220_0358,full,corporate,-1.11,0.00,0.00,UNCLASSIFIED,,100,-1.11,0.00,standard,needs_review;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251222_0359_a,2025_tdbiz_visa_20251222_0359,full,corporate,-13.25,0.00,0.00,Office expenses,8810,100,-13.25,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251222_0360_a,2025_tdbiz_visa_20251222_0360,full,corporate,-17.91,0.00,0.00,Office expenses,8810,100,-17.91,0.00,standard,saas_default;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251226_0361_a,2025_tdbiz_visa_20251226_0361,full,corporate,-27.45,0.00,0.00,Rent,8910,100,-27.45,0.00,standard,fy2024_vendor_hint;tax_unknown_assumed0
+alloc_2025_tdbiz_visa_20251229_0362_a,2025_tdbiz_visa_20251229_0362,full,corporate,-20.99,-5.00,-0.00,UNCLASSIFIED,,100,-15.99,5.00,standard,needs_review;tax_from_doc

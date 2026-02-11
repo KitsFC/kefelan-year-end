@@ -15,8 +15,9 @@ import os
 import re
 from collections import Counter
 from functools import lru_cache
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = str(Path(__file__).resolve().parents[2])
 TXN_CSV = os.path.join(ROOT, "FY2025", "normalized", "transactions.csv")
 DOC_CSV = os.path.join(ROOT, "FY2025", "normalized", "documents.csv")
 FY2024_ALLOC = os.path.join(ROOT, "FY2024", "financials", "2024_Transaction_Allocations.csv")
@@ -222,8 +223,8 @@ def main() -> int:
             did = d.get("document_id") or ""
             if did:
                 doc_by_id[did] = d
-            if (d.get("document_type") or "").lower() == "invoice" and d.get("amount") and (d.get("currency") == "CAD"):
-                invoice_docs_by_amt.setdefault(f"{float(d['amount']):.2f}", []).append(d)
+            if (d.get("document_type") or "").lower() == "invoice" and d.get("total_amount") and (d.get("currency") == "CAD"):
+                invoice_docs_by_amt.setdefault(f"{float(d['total_amount']):.2f}", []).append(d)
 
     vendor_hints = _load_vendor_hints()
 

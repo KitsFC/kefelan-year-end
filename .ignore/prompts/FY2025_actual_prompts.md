@@ -82,7 +82,7 @@ Do you want me to take the next pass at linking some of these receivables to spe
 
 # Aggie | GPT-5.2
 
-## [2026-02-10 22:20 PST]
+## [2026-02-11 00:52 PST]
 
 I moved the following files to `.ignore/scripts`:
 
@@ -93,3 +93,170 @@ I moved the following files to `.ignore/scripts`:
 - `.ignore/scripts/populate_transactions.py`
 
 Please wait for further instructions.
+
+---
+
+### `FY2025/normalized/documents.csv`
+
+There are a number of issues with `FY2025/normalized/documents.csv`:
+
+1. The `amount` column should be split into:
+    - `total_amount` — the amount paid (or to be paid) that should reconcile with what is on a corporate chequing or credit card statement 
+    - `gst_amount` — the GST/HST amount; where applicable, it is 5% of the subtotal before any taxes or tips
+    - `net_amount` — `total_amount` less `gst_amount`; this may need to be calculated; this could include other taxes and tips; this is what the accountant will post to a GL 
+    - `pre-tip_amount` — `total_amount` less tip; leave blank if no tip; on a credit card receipt, this amount should match the `total_amount` of a corresponding unpaid receipt 
+
+    This means that all the documents need to be redone, but see below first. 
+
+2. For JetBrains invoices, the amounts can be obtained from lines that look like this:
+
+```markdown
+|             |               |
+|:------------|--------------:|
+| Subtotal    |     10.10 USD |
+| GST/HST 5 % |      0.51 USD |
+| PST/QST 7 % |      0.71 USD |
+| **Total**   | **11.31 USD** |
+| Balance Due |         0 USD |
+```
+
+3. For Microsoft invoices, the amounts can be obtained from lines that look like this:
+
+```markdown
+|  |  |
+|:--:|---:|
+| **Charges/** | **(including** |
+| **Purchases Unit Price Credits Tax Amount** | **Tax)** |
+| **Charge Start Date - Charge End Date (CAD) Qty (CAD) Tax Rate (CAD)** | **(CAD)** |
+| 13/01/2025-12/02/2025 14.04 1 14.04 GST/HST 5.00% 0.70 | **15.72** |
+| PST/QST 7.00% 0.98 |  |
+```
+
+4. Specific documents (invoices) with missing amounts (`document_id` | `total_amount` | `gst_amount` | `net_amount` | `pre-tip_amount` | `currency`):
+    - Indigo_Neo_2025-10-24 | 4.00 | 0.19 | 3.81 | CAD
+    - KSI_FY2025_Scanned_Receipt_20260209_171616 | 350.49 | | | | CAD
+        - Vendor: "Fairmont Waterfront"
+    - KSI_FY2025_Scanned_Receipt_20260209_183310 | 350.49 | 1.25 | 349.24 | | CAD
+        - Vendor: "Fairmont Waterfront"
+    - KSI_FY2025_Scanned_Receipt_20260209_172107 | 156.00 | 7.00 | 149.00 | | CAD
+        - Vendor: "Miku" 
+    - KSI_FY2025_Scanned_Receipt_20260209_183352 | 275.61 | 13.01 | 262.60 | | CAD
+        - Vendor: "Water Street Cafe"
+    - KSI_FY2025_Scanned_Receipt_20260209_172408 | 142.12 | 5.53 | 136.59 | | CAD
+        - Vendor: "Fairmont Waterfront"
+    - KSI_FY2025_Scanned_Receipt_20260209_172607 | 122.84 | 0.00 | 122.84 | | CAD
+        - Vendor: "Coast"
+    - KSI_FY2025_Scanned_Receipt_20260209_174152 | 184.08 | 8.63 | 175.45 | | CAD
+        - Vendor: "Fairmont Waterfront"
+    - KSI_FY2025_Scanned_Receipt_20260209_174215 | 220.90 | | | 184.08 | CAD
+        - Vendor: "Fairmont Waterfront"
+    - KSI_FY2025_Scanned_Receipt_20260209_174916 | 125.40 | 5.80 | 119.60 | | CAD
+        - Vendor: "Hotel Georgia"
+    - KSI_FY2025_Scanned_Receipt_20260209_174938 | 150.48 | | | 125.40 | CAD
+        - Vendor: "Hotel Georgia"
+    - KSI_FY2025_Scanned_Receipt_20260209_175403 | 83.85 | 3.95 | 79.90 | | CAD
+        - Vendor: "Lift"
+    - KSI_FY2025_Scanned_Receipt_20260209_175518 | 187.43 | 8.93 | 178.50 | | CAD
+        - Vendor: "Riley's"
+    - KSI_FY2025_Scanned_Receipt_20260209_175845 | 50.40 | 2.40 | 48.00 | | CAD
+        - Vendor: "Riley's"
+    - KSI_FY2025_Scanned_Receipt_20260209_180003 | 103.43 | 4.93 | 98.50 | | CAD
+        - Vendor: "Joe Fortes"
+    - KSI_FY2025_Scanned_Receipt_20260209_171500 | 672.77 | 31.59 | 641.18 | | CAD
+        - Date: 2025-03-29
+        - Vendor: "CinCin"
+    - KSI_FY2025_Scanned_Receipt_20260209_172043 | 138.26 | 10.20 | 128.06 | 115.22 | CAD
+        - Date: 2025-02-15
+        - Vendor: "Brioche Urban Baking Ltd"
+    - KSI_FY2025_Scanned_Receipt_20260209_175335 | 123.98 | 5.73 | 118.25 | | CAD
+        - Date: 2025-08-27
+        - Vendor: "Mangia E Bevi"
+    - Lenovo_Canada_2025-05-26_Order_4648752389_Invoice_6296701127 | 375.92 | 17.92 | 358.00 | | CAD
+    - Staples_2025-12-29 | 20.99 | 1.00 | 19.99 | | CAD
+    - Taj_Campton_Place_2025-08-05_Facilities | 35.26 | 0.00 | 35.26 | | USD
+    - Taj_Campton_Place_2025-08-05_Room | 174.82 | 0.00 | 174.82 | | USD
+    - TDCT_2025-01-20_1705_(IT_from_KSI_to_HX) | 2,100.00 | | | | CAD
+    - TDCT_2025-03-14_1710_(IT_Request_money_from_Harry_Ji_to_KSI_-_3_of_3) | 2,625.00 | | | | CAD
+    - TDCT_2025-07-17_0927_(IT_from_KSI_to_HX) | 2,100.00 | | | | CAD
+    - TDCT_2025-11-03_1448_(IT_from_KSI_to_HX) | 1,365.00 | | | | CAD
+    - TDCT_2025-12-17_1618_(IT_from_KSI_to_HX) | 2,100.00 | | | | CAD
+    - TDCT_20250315_1110_UL102_(KSI_to_FC) | 10,200.00 | | | | CAD
+        - The date is in the filename—`20250315` means "2025-03-15"
+    - TDCT_20250615_0930_LJ295_(KSI_to_FC) | 6,200.00 | | | | CAD
+       - The date is in the filename—`20250615` means "2025-06-15"
+    - TDCT_20250715_0829_WI293_(KSI_to_VISA) | 2,027.64 | | | | CAD
+       - The date is in the filename—`20250715` means "2025-07-15"
+    - TDCT_20250915_1131_RL305_(KSI_to_VISA) | 821.84 | | | | CAD
+       - The date is in the filename—`20250915` means "2025-09-15"
+    - TDCT_20251031_1038_JW375_(KSI_to_FC) | 2,900.00 | | | | CAD
+       - The date is in the filename—`20251031` means "2025-10-31"
+    - TDCT_20251215_1318_RQ100_(KSI_to_VISA) | 1,647.41 | | | | CAD
+       - The date is in the filename—`20251215` means "2025-12-15"
+
+5. Documents that need to be added to `documents.csv` as they have been added to the repository:
+    - FY2025/transactions/5_expenses/ConnectWise_ScreenConnect_2025-10-01.md | 67.88 | 3.23 | 64.65 | CAD
+    - FY2025/transactions/5_expenses/ConnectWise_ScreenConnect_2025-11-01.md | 84.85 | 4.04 | 80.81 | CAD
+
+6. Documents (by `document_id`) that should be removed from `documents.csv` as they have also been removed from the repository
+    - Lenovo_Canada_2025-05-26_Order_Details_4648752389
+    - ScreenConnect_2025-10-01_Quantity_and_Payment 
+    - ScreenConnect_2025-10-01_Standard_Subscription_Billed_Every_Month_Started
+
+7. For `FY2025/transactions/5_expenses/KSI_FY2025_Scanned_Receipt_20260209_*.md` documents, is there any way you can figure who the vendor is, perhaps by looking at the first line or few lines of the file?
+
+8. Each `FY2025/transactions/1_assets/TDCT_*.md` document should correspond exactly to a transaction in `FY2025/transactions/1_assets/TD_Business_accountactivity_20241225-20260208.csv`.
+
+8. Please update `.augment/rules/90_lessons_learned.md` and any other `.augment/rules` documents as required. 
+
+### `FY2025/normalized/transactions.csv`
+
+So far, I found one issues with `FY2025/normalized/transactions.csv`:
+
+1. When pulling from `FY2025/transactions/2_liabilities/TD_Business_Visa_accountactivity_20241225-20260210.csv`, the important date is the "Transaction Date" not the "Posting Date"—please update the `txn_date` in `transactions.csv` accordingly.
+
+2. Please update `.augment/rules/90_lessons_learned.md` and any other `.augment/rules` documents as required. 
+
+---
+
+● Updates applied
+
+1) Fix transactions.csv Visa txn_date (Transaction Date, not Posting Date)
+   • Updated .ignore/scripts/populate_transactions.py so TD Business Visa rows use `Transaction Date` as:
+   • txn_date
+   • FY2025 inclusion filter
+   • the date segment in transaction_id
+   • Spot-check example (from regenerated output):
+   • transactions.csv txn_date = 2025-01-01
+   • source Visa CSV: Transaction Date = 2025-01-01, Posting Date = 2025-01-02
+2) Make scripts work after move to .ignore/scripts (ROOT path fix)
+   Updated these scripts to compute repo root correctly after relocation:
+   • .ignore/scripts/populate_transactions.py
+   • .ignore/scripts/populate_allocations.py
+   • .ignore/scripts/populate_assets.py
+   • .ignore/scripts/populate_owed.py
+
+Using the same approach as populate_documents.py:
+• ROOT = str(Path(__file__).resolve().parents[2])
+3) Update downstream consumers for documents.csv schema change (amount → total_amount, etc.)
+   • Updated:
+   • .ignore/scripts/populate_transactions.py document matching index now reads `documents.csv.total_amount` (not amount)
+   • .ignore/scripts/populate_allocations.py “invoice-by-amount” hint index now reads `total_amount`
+   • .ignore/scripts/populate_owed.py now reads `total_amount` for invoice amounts
+
+4) Lessons learned updated
+   • Appended new entries to .augment/rules/90_lessons_learned.md covering:
+   • script move/root-resolution pattern
+   • documents schema split + downstream impacts
+   • Visa Transaction Date vs Posting Date
+   • OCR receipts with escaped \\$ and “Total on next line” pattern
+   Regenerated outputs + LF-only validation
+
+Re-ran all generators and validated CR=0 and file ends with `\n` for:
+• FY2025/normalized/documents.csv (457 rows)
+• FY2025/normalized/transactions.csv (505 rows)
+• FY2025/normalized/allocations.csv (505 rows)
+• FY2025/normalized/assets.csv (13 rows)
+• FY2025/normalized/owed.csv (37 rows)
+
+Question (so I don’t overreach)
+Do you want me to also preserve the Visa Posting Date somewhere (e.g., append visa_posting_date=YYYY-MM-DD into transactions.csv.notes), or is it better to keep only the economic txn_date as we have now?

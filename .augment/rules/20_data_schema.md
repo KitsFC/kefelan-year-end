@@ -65,7 +65,10 @@ from `transactions.csv` via `source_file` and `source_locator`, not recorded as 
 | document_type | `invoice`, `receipt`, `confirmation`, `other` |
 | document_date | Date shown on the document |
 | vendor | Vendor or issuer name |
-| amount | Total document amount (as shown) |
+| total_amount | Total document amount (as shown) |
+| gst_amount | GST/HST portion (when applicable) |
+| net_amount | `total_amount - gst_amount` (may include PST/tips/other taxes) |
+| pre-tip_amount | `total_amount - tip` when tip is present; blank otherwise |
 | currency | ISO currency code (`CAD`, `USD`, etc.) |
 | source_file | Path to the Markdown file converted from PDF/DOCX |
 | original_format | `pdf`, `docx`, `md` |

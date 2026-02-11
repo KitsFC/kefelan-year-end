@@ -15,8 +15,9 @@ import csv
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = str(Path(__file__).resolve().parents[2])
 DOC_CSV = os.path.join(ROOT, "FY2025", "normalized", "documents.csv")
 OUT_CSV = os.path.join(ROOT, "FY2025", "normalized", "transactions.csv")
 TD_BIZ_CHQ = os.path.join(ROOT, "FY2025", "transactions", "1_assets", "TD_Business_accountactivity_20241225-20260208.csv")
@@ -65,6 +66,18 @@ def _date_yyyy_mm_dd(s: str) -> str:
     return datetime.strptime(s.strip(), "%Y-%m-%d").date().isoformat()
 
 
+def _date_any(s: str) -> str:
+    s = (s or "").strip()
+    if not s:
+        return ""
+    for fmt in ("%Y-%m-%d", "%m/%d/%Y"):
+        try:
+            return datetime.strptime(s, fmt).date().isoformat()
+        except Exception:
+            pass
+    return ""
+
+
 def _tokens(s: str) -> set[str]:
     s = (s or "").lower()
     s = s.replace("*", " ").replace("#", " ").replace("/", " ")
@@ -106,10 +119,10 @@ def main() -> int:
     doc_index: dict[tuple[str, str], list[dict]] = {}
     with open(DOC_CSV, "r", encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
-            if not r.get("amount") or not r.get("currency"):
+            if not r.get("total_amount") or not r.get("currency"):
                 continue
             try:
-                amt = float(r["amount"])
+                amt = float(r["total_amount"])
             except Exception:
                 continue
             k = (r["currency"], _amt_key(amt))
@@ -155,8 +168,11 @@ def main() -> int:
     with open(TD_BIZ_VISA, "r", encoding="utf-8-sig", newline="") as f:
         dr = csv.DictReader(f)
         for i, r in enumerate(dr, start=2):  # line numbers (header is 1)
-            pdate = _date_yyyy_mm_dd(r["Posting Date"])
-            if not _in_fy2025(pdate):
+            # IMPORTANT: use Visa "Transaction Date" (economic date), not "Posting Date".
+            txn_date = _date_any(r.get("Transaction Date") or "")
+            if not txn_date:
+                txn_date = _date_any(r.get("Posting Date") or "")
+            if not _in_fy2025(txn_date):
                 continue
             ttype = (r.get("Transaction Type") or "").strip()
             supplier = (r.get("Supplier") or "").strip()
@@ -177,16 +193,16 @@ def main() -> int:
                     amount, cad_amount = -abs(src_amt), -abs(bill_amt)
             fx = "1" if ccy == "CAD" or amount == 0 else f"{abs(cad_amount) / abs(amount):.6f}"
             counterparty = supplier if supplier and supplier != "-" else ("TD" if ttype_l == "payment" else "")
-            linked, status, note = _match_docs(doc_index, pdate, amount, ccy, counterparty)
+            linked, status, note = _match_docs(doc_index, txn_date, amount, ccy, counterparty)
             receipt_status = "not_applicable" if ttype_l == "payment" else (status or "missing")
-            txn_id = f"2025_tdbiz_visa_{pdate.replace('-', '')}_{i:04d}"
+            txn_id = f"2025_tdbiz_visa_{txn_date.replace('-', '')}_{i:04d}"
             rows.append([
-                txn_id, "2025", pdate, "cc_csv", os.path.relpath(TD_BIZ_VISA, ROOT), f"line:{i}",
+                txn_id, "2025", txn_date, "cc_csv", os.path.relpath(TD_BIZ_VISA, ROOT), f"line:{i}",
                 "corporate", "TD Business Visa", "credit_card", last4, counterparty, supplier,
                 f"{amount:.2f}", ccy, f"{cad_amount:.2f}", fx, linked, receipt_status, note,
             ])
             tok = next(iter(_tokens(counterparty) or {""}))
-            corp_fingerprints.add((pdate, f"{abs(cad_amount):.2f}", tok))
+            corp_fingerprints.add((txn_date, f"{abs(cad_amount):.2f}", tok))
 
     # 3) Personal chequing (only include if it matches a doc AND not already in corporate)
     with open(TD_PERSONAL_CHQ, "r", encoding="utf-8", newline="") as f:

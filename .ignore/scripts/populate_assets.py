@@ -14,9 +14,10 @@ import csv
 import os
 import re
 from collections import defaultdict
+from pathlib import Path
 
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = str(Path(__file__).resolve().parents[2])
 
 FY2024_MD = os.path.join(ROOT, "FY2024", "financials", "2024_Capital_Assets.md")
 TXN_CSV = os.path.join(ROOT, "FY2025", "normalized", "transactions.csv")
