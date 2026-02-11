@@ -295,4 +295,69 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - The matching set includes all corporate statement transactions plus only those personal statement transactions that were included in `transactions.csv` (typically evidence-linked).
 - `nearest_statement_amounts` is a hint list and may include personal transactions; check `account_owner/account_name`.
 
-Also confirmed the regenerated report remains LF-only (CRLF=0, CR=0).
+Also confirmed the regenerated report remains LF-only (CRLF=0, CR=0).giti 
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 20:02 PST]
+
+1. I moved `FY2025/normalized/owed_candidates_report.md to `FY2025/normalized/reports/owed_candidates_report.md`.
+
+2. I have provided another version of the corporate credit card statements, `TD_Business_Visa_2025_copy_paste.txt`—this is a manual copy/paste of the transactions from the original statement PDF documents. (I didn't do this from the start because there is a risk of humar error with manual copy/paste; plus, the results aren't great.) Without using/updating `scripts/populate_fy2025_normalized.py`—you may create a separate code file, if necessary—can you go through `TD_Business_Visa_2025_copy_paste.txt` to double-check that all corporate credit card transactions are now in `FY2025/normalized/transactions.csv`? 
+
+---
+
+● Result of the independent copy/paste cross-check
+
+Using the manual PDF copy/paste text (FY2025/transactions/2_liabilities/TD_Business_Visa_2025_copy_paste.txt) and a standalone verifier (without touching scripts/populate_fy2025_normalized.py), the reconciliation indicates:
+• TD Business Visa rows in FY2025/normalized/transactions.csv: 348
+• Copy/paste transactions inferred as posting-year 2025: 359
+• Missing (copy → CSV): 11
+• Extra (CSV → copy): 0 (after normalizing copy artifacts like UL → JUL and SEP7 → SEP 7)
+You can reproduce the check with:
+• python3 scripts/verify_td_business_visa_copy_paste.py --copy FY2025/transactions/2_liabilities/TD_Business_Visa_2025_copy_paste.txt --csv FY2025/normalized/transactions.csv
+The 11 transactions present in copy/paste but not in transactions.csv
+
+These are the (posting_date, CAD amount, description) tuples the verifier could not find in the TD Visa subset of transactions.csv:
+1. 2025-01-20  -62.80  NAMESPRO SOLUTIONS INC. RICHMOND
+2. 2025-01-22 -109.75  AMZN Mktp CA*ZG5NE4XZ0
+3. 2025-06-18  -21.50  NAMESPRO SOLUTIONS INC. RICHMOND
+4. 2025-06-23 -108.28  TST-The Sequel - Kitch Vancouver
+5. 2025-09-08  -16.33  PAYPAL *JETBRAINSAM 4029357733
+6. 2025-09-08  -11.55  PAYPAL *GITHUB INC 4029357733
+7. 2025-09-15  -15.72  MICROSOFT#G113575704 MSBILL.INFO
+8. 2025-09-16   -7.59  UBER CANADA/UBERTRIP TORONTO
+9. 2025-10-14  -15.72  MICROSOFT#G119038030 HALIFAX
+10. 2025-11-18 -67.00  RILEYS RESTAURANT VANCOUVER
+11. 2025-11-18 -55.94  AMZN Mktp CA*B85O51UD2 866-216-1072
+
+I also directly searched the TD Visa subset of transactions.csv:
+• For many of these, there are zero rows with that exact CAD amount anywhere (e.g. -62.80, -109.75, -21.50, -108.28, -11.55, -7.59, -67.00, -55.94).
+• For the Microsoft ones, -15.72 exists multiple times, but the specific statement IDs (G113575704, G119038030) do not appear in any counterparty/description/notes token search.
+Evidence these “missing 11” do appear in the converted statement markdown
+
+Several of them show up in FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md inside the “CALCULATING YOUR BALANCE / Continued” colspan-style blocks (which are exactly the kind of conversion artifact that can be
+skipped by a table-row parser):
+FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md (EXCERPT)
+   <tr>
+   <td colspan="3" style="text-align: left;"><p>JAN 17 JAN 20 NAMESPRO
+   SOLUTIONS INC. RICHMOND $62.80</p>
+   <p>JAN 21 JAN 22 AMZN Mktp CA*ZC0GA7AE2 $38.64</p></td>
+   <td style="text-align: left;"><strong>CALCULATING YOUR BALANCE</strong>
+   Previous Balance $1,947.06</td>
+
+(And similarly, CA*ZG5NE4XZ0 $109.75, SEP6/SEP7 smushed-date lines for JetBrains/GitHub, the UBER ... $7.59 line, and the Nov Rileys/Amazon lines are present in those blocks.)
+Conclusion (answer to your question)
+
+Based on the independent copy/paste source, not all corporate TD Business Visa transactions from the original PDFs are currently represented in `FY2025/normalized/transactions.csv`. The copy/paste cross-check flags 11 that
+appear to be missing.
+What I need from you for next steps
+
+You asked me not to change scripts/populate_fy2025_normalized.py, so I’m stopping at verification. If you want, I can do one of these:
+1) Patch the generator to parse these “colspan/continued/calculating balance” patterns + smushed month/day tokens (SEP6, SEP7) and regenerate normalized outputs; or
+2) Create a one-off “patch transactions” script that appends precisely these 11 rows into FY2025/normalized/transactions.csv (with clear provenance/locators), leaving the generator unchanged.
+   Which approach do you prefer?
+
+---
