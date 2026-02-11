@@ -1,0 +1,2 @@
+1. ABBYY is able to convert tables in PDF to tables in DOCX whereas PDFgear uses tabs and spaces—use an ABBYY Hot Folders run-once task to convert PDF to DOCX.
+2. `Get-ChildItem *.docx | ForEach-Object { pandoc $_.FullName -t gfm -o (Join-Path $_.DirectoryName (($_.BaseName -replace ' ', '_') + ".md")) }`
