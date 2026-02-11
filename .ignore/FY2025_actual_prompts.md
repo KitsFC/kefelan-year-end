@@ -170,3 +170,129 @@ Current report summary (from the generated file):
 • Non-CAD invoices (not evaluated for 1:1): 69
 
 If you want, I can also add an optional CSV version of the same report (still not touching owed.csv) to make sorting/filtering easier.
+
+---
+
+# Aggie | GPT-5.2
+
+## [2026-02-10 19:13 PST]
+
+It seems that you missed the following transactions in `FY2025/normalized/transactions.csv` from `FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md`:
+
+```markdown
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><blockquote>
+<p>SLACK TH3BB4YVD HTTPSSLACK.C</p>
+<p>FOREIGN CURRENCY 18.73 USD @ EXCHANGE RATE 1.47677</p>
+</blockquote></td>
+<td style="text-align: right;">$27.66</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><blockquote>
+<p>GOOGLE *GSUITE_referra 855-222-8603</p>
+</blockquote></td>
+<td style="text-align: right;">$10.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><blockquote>
+<p>GOOGLE *CLOUD 62xL28 g.co/HelpPay</p>
+</blockquote></td>
+<td style="text-align: right;">$1.53</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><blockquote>
+<p>GOOGLE*GSUITE CHATBASE CC GOOGLE.CO</p>
+</blockquote></td>
+<td style="text-align: right;">$10.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><p>GOOGLE*GSUITE 3WIN.APP CC</p>
+<p>GOOGLE.CO</p></td>
+<td style="text-align: right;">$10.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 1</td>
+<td style="text-align: left;">JAN 2</td>
+<td style="text-align: left;"><blockquote>
+<p>U-HAUL GUARDIAN STORAG 800-528-0463</p>
+</blockquote></td>
+<td style="text-align: right;">$129.21</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 3</td>
+<td style="text-align: left;">JAN 6</td>
+<td style="text-align: left;">Amazon.ca*ZP2YG4O01 AMAZON.CA</td>
+<td style="text-align: right;">$40.57</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAN 4</td>
+<td style="text-align: left;">JAN 6</td>
+<td style="text-align: left;"><blockquote>
+<p>OPENPHONE OPENPHONE.CO FOREIGN CURRENCY 27.00 USD @ EXCHANGE RATE
+1.48296</p>
+</blockquote></td>
+<td style="text-align: right;">$40.04</td>
+</tr>
+```
+
+There may be more you have missed due to the layout of the data as a result of converting from PDF to DOCX to Markdown.
+
+1. Can you go through `FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md` again and make sure every corporate credit card transaction is in `FY2025/normalized/transactions.csv`?
+2. Considering what happened, is there anything that needs to be added to `.augment/rules/90_lessons_learned.md`?
+3. Should the report, `FY2025/normalized/reports/owed_candidates_report.md`, be revised?
+
+---
+
+● 1) TD Business Visa completeness (corporate CC → transactions.csv)
+
+I re-checked FY2025/transactions/2_liabilities/TD_Business_Visa_2025.md using the same parsing rules the generator uses (including:
+• statement-period year inference,
+• FY filtering,
+• both locator styles: tr=... and tr=...;line=...).
+Result: all expected corporate TD Business VISA transactions are present in FY2025/normalized/transactions.csv.
+• Expected locators from statement (parser-aligned): 348
+• Locators in transactions.csv for that source file: 348
+• Missing: 0, Extra: 0
+• Duplicate locators in that subset: 0
+• Also confirmed previously-bad rows are now recovered (e.g. tr=138, tr=315) and no corporate TD Visa rows have blank `description`/`counterparty`.
+2) 
+3) Lessons learned update
+
+Yes—this incident warranted an additional entry describing the rowspan-split (multi-`<tr>`) transaction pattern and the mitigation (stitching + traceability note + parser-aligned coverage checks). I appended a new entry to
+.augment/rules/90_lessons_learned.md.
+.augment/rules/90_lessons_learned.md (EXCERPT)
+
+## Entry
+- Date: 2026-02-11
+- Issue: Some PDF → DOCX → Markdown statement conversions split a single logical card transaction across *multiple* adjacent `<tr>` rows ...
+- Resolution: Updated the table-aware parser to **stitch** the description from the next `<tr>` ...
+- Guidance for Future Years:
+   - Do **not** emit statement transactions with blank `description` / `counterparty`; either recover (multi-row stitch) or skip-and-warn.
+   - When validating statement completeness, reconcile using parser-aligned `source_locator` coverage ...
+
+3) Should owed_candidates_report.md be revised?
+
+Yes—mainly for interpretability. The report can show “nearest” matches that are personal transactions (because the matching set is “corporate + eligible personal included in transactions.csv”), which was not explicit in the
+original wording.
+I revised the generator text (not a manual edit of the output) so the report now clearly states:
+• the matching universe is transactions.csv (corporate + included personal),
+• nearest_statement_amounts may include personal rows (check account_owner/account_name).
+The regenerated report header now reads:
+
+FY2025/normalized/reports/owed_candidates_report.md (EXCERPT)
+This report lists *invoice* evidence documents whose **CAD totals** do not match 1:1 with any single eligible statement transaction in `transactions.csv` (exact match by **absolute** CAD amount).
+- This is a review aid only; it is **not** proof that an invoice is unpaid.
+- The matching set includes all corporate statement transactions plus only those personal statement transactions that were included in `transactions.csv` (typically evidence-linked).
+- `nearest_statement_amounts` is a hint list and may include personal transactions; check `account_owner/account_name`.
+
+Also confirmed the regenerated report remains LF-only (CRLF=0, CR=0).

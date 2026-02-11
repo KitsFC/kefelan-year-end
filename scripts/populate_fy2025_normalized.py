@@ -181,6 +181,7 @@ def strip_html_to_text(md_with_html: str) -> str:
     s = re.sub(r"</\s*p\s*>", "\n", s, flags=re.IGNORECASE)
     s = re.sub(r"</\s*tr\s*>", "\n", s, flags=re.IGNORECASE)
     s = re.sub(r"</\s*td\s*>", "\t", s, flags=re.IGNORECASE)
+    s = re.sub(r"</\s*th\s*>", "\t", s, flags=re.IGNORECASE)
     s = re.sub(r"<[^>]+>", "", s)
     s = html.unescape(s)
     return s
@@ -492,8 +493,14 @@ def parse_bank_transactions() -> list[Transaction]:
 
 
 STATEMENT_PERIOD_RE = re.compile(
-    r"STATEMENT PERIOD:\s*([A-Za-z]+\s+[0-9]{2},\s+20[0-9]{2})\s+to\s+([A-Za-z]+\s+[0-9]{2},\s+20[0-9]{2})",
+    r"STATEMENT\s+PERIOD:\s*([A-Za-z]+\s+[0-9]{1,2},\s+20[0-9]{2})\s+to\s+([A-Za-z]+\s+[0-9]{1,2},\s+20[0-9]{2})",
     re.IGNORECASE,
+)
+
+TR_BLOCK_RE = re.compile(r"<\s*tr\b[^>]*>.*?<\s*/\s*tr\s*>", re.IGNORECASE | re.DOTALL)
+CELL_RE = re.compile(
+    r"<\s*(td|th)\b[^>]*>(.*?)<\s*/\s*\1\s*>",
+    re.IGNORECASE | re.DOTALL,
 )
 
 TX_LINE_RE = re.compile(
@@ -528,177 +535,99 @@ def parse_td_visa_transactions_from_md(
 ) -> list[Transaction]:
     rel = md_path.relative_to(ROOT).as_posix()
     raw = md_path.read_text(encoding="utf-8", errors="replace")
-    text = strip_html_to_text(raw)
-    lines = [ln.rstrip() for ln in text.splitlines()]
-
-    period_start: Optional[date] = None
-    period_end: Optional[date] = None
-
     out: list[Transaction] = []
-    last_tx_idx: Optional[int] = None
 
-    # Some statement sections render each transaction across multiple lines:
-    #   <Txn date>
-    #   <Post date>
-    #   <Description>
-    #   <Amount>
-    pend_t: Optional[tuple[int, int]] = None  # (month, day)
-    pend_p: Optional[tuple[int, int]] = None
-    pend_desc: Optional[str] = None
-    pend_start_line: Optional[int] = None
+    # We have seen PDF->DOCX->Markdown conversions produce HTML tables where
+    # the 4 transaction columns are not reliably represented as single lines.
+    # We therefore parse by <tr>/<td> blocks when present.
+    tr_blocks = list(TR_BLOCK_RE.finditer(raw))
+    if not tr_blocks:
+        # Fallback to the legacy line-based parser for non-table statements.
+        text = strip_html_to_text(raw)
+        lines = [ln.rstrip() for ln in text.splitlines()]
 
-    def infer_year(mon: int) -> int:
-        if not period_start or not period_end:
-            return FY
-        if period_start.year == period_end.year:
-            return period_end.year
-        start_m = period_start.month
-        return period_start.year if mon >= start_m else period_end.year
+        period_start: Optional[date] = None
+        period_end: Optional[date] = None
+        last_tx_idx: Optional[int] = None
 
-    def normalize_counterparty(desc: str) -> str:
-        u = desc.upper()
-        if "LENOVO" in u:
-            return "Lenovo"
-        if u.startswith("PAYPAL") or u.startswith("PP*"):
-            return "PayPal"
-        if "AMZN" in u or "AMAZON" in u:
-            return "Amazon"
-        if "UBER" in u:
-            return "Uber"
-        if "ROGERS" in u:
-            return "Rogers"
-        if "MICROSOFT" in u:
-            return "Microsoft"
-        if "SLACK" in u:
-            return "Slack"
-        if "OPENAI" in u:
-            return "OpenAI"
-        return desc.split()[0][:80] if desc else ""
+        # Some statement sections render each transaction across multiple lines:
+        #   <Txn date>
+        #   <Post date>
+        #   <Description>
+        #   <Amount>
+        pend_t: Optional[tuple[int, int]] = None  # (month, day)
+        pend_p: Optional[tuple[int, int]] = None
+        pend_desc: Optional[str] = None
+        pend_start_line: Optional[int] = None
 
-    for i, ln in enumerate(lines, start=1):
-        m = STATEMENT_PERIOD_RE.search(ln)
-        if m:
-            try:
-                period_start = datetime.strptime(m.group(1), "%B %d, %Y").date()
-                period_end = datetime.strptime(m.group(2), "%B %d, %Y").date()
-            except ValueError:
-                period_start = None
-                period_end = None
-            # Reset any partially collected multiline row.
-            pend_t = None
-            pend_p = None
-            pend_desc = None
-            pend_start_line = None
-            continue
+        def infer_year(mon: int) -> int:
+            if not period_start or not period_end:
+                return FY
+            if period_start.year == period_end.year:
+                return period_end.year
+            start_m = period_start.month
+            return period_start.year if mon >= start_m else period_end.year
 
-        # 1) Single-line format
-        m = TX_LINE_RE.match(ln)
-        if m and period_start and period_end:
-            tmon = MONTHS[m.group(1).upper()]
-            tday = int(m.group(2))
-            pmon = MONTHS[m.group(3).upper()]
-            pday = int(m.group(4))
-            desc = m.group(5).strip()
-            amt_raw = parse_decimal(m.group(6))
-            if amt_raw is None:
-                continue
+        def normalize_counterparty(desc: str) -> str:
+            u = desc.upper()
+            if "LENOVO" in u:
+                return "Lenovo"
+            if u.startswith("PAYPAL") or u.startswith("PP*"):
+                return "PayPal"
+            if "AMZN" in u or "AMAZON" in u:
+                return "Amazon"
+            if "UBER" in u:
+                return "Uber"
+            if "ROGERS" in u:
+                return "Rogers"
+            if "MICROSOFT" in u:
+                return "Microsoft"
+            if "SLACK" in u:
+                return "Slack"
+            if "OPENAI" in u:
+                return "OpenAI"
+            return desc.split()[0][:80] if desc else ""
 
-            tyear = infer_year(tmon)
-            pyear = infer_year(pmon)
-            _txn_dt = date(tyear, tmon, tday)
-            post_dt = date(pyear, pmon, pday)
-            if not in_fy(post_dt):
-                continue
-
-            cad_amount = -amt_raw
-            counterparty = normalize_counterparty(desc)
-
-            source_locator = f"line={i}"
-            base = f"{FY}|cc_md|{rel}|{source_locator}|{post_dt.isoformat()}|{desc}|{cad_amount}"
-            tx_id = f"tx-{FY}-cc-{post_dt.strftime('%Y%m%d')}-{short_hash(base)}"
-
-            out.append(
-                Transaction(
-                    transaction_id=tx_id,
-                    fiscal_year=str(FY),
-                    txn_date=post_dt.isoformat(),
-                    source_type="cc_md",
-                    source_file=rel,
-                    source_locator=source_locator,
-                    account_owner=account_owner,
-                    account_name=account_name,
-                    payment_method="credit_card",
-                    card_last4=card_last4,
-                    counterparty=counterparty,
-                    description=desc,
-                    amount=fmt_decimal(cad_amount),
-                    currency="CAD",
-                    cad_amount=fmt_decimal(cad_amount),
-                    fx_rate_to_cad="",
-                    linked_document_ids="",
-                    receipt_status="missing",
-                    notes=(
-                        "AUTO: personal statement txn (candidate; included only if linked to evidence)"
-                        if account_owner == "personal"
-                        else ""
-                    ),
-                )
-            )
-            last_tx_idx = len(out) - 1
-            continue
-
-        # 2) Multiline-row format
-        if period_start and period_end:
-            mdate = DATE_ONLY_RE.match(ln)
-            if mdate:
-                mon = MONTHS[mdate.group(1).upper()]
-                day = int(mdate.group(2))
-                if pend_t is None:
-                    pend_t = (mon, day)
-                    pend_start_line = i
-                    continue
-                if pend_p is None:
-                    pend_p = (mon, day)
-                    continue
-                # If we already have both dates, start over with a new record.
-                pend_t = (mon, day)
+        for i, ln in enumerate(lines, start=1):
+            m = STATEMENT_PERIOD_RE.search(ln)
+            if m:
+                try:
+                    period_start = datetime.strptime(m.group(1), "%B %d, %Y").date()
+                    period_end = datetime.strptime(m.group(2), "%B %d, %Y").date()
+                except ValueError:
+                    period_start = None
+                    period_end = None
+                # Reset any partially collected multiline row.
+                pend_t = None
                 pend_p = None
                 pend_desc = None
-                pend_start_line = i
+                pend_start_line = None
+                last_tx_idx = None
                 continue
 
-            if pend_t and pend_p and pend_desc is None and ln.strip() and not AMOUNT_ONLY_RE.match(ln) and not DATE_ONLY_RE.match(ln):
-                pend_desc = ln.strip()
-                continue
-
-            if pend_t and pend_p and pend_desc and AMOUNT_ONLY_RE.match(ln):
-                amt_raw = parse_decimal(ln)
+            # 1) Single-line format
+            m = TX_LINE_RE.match(ln)
+            if m and period_start and period_end:
+                tmon = MONTHS[m.group(1).upper()]
+                tday = int(m.group(2))
+                pmon = MONTHS[m.group(3).upper()]
+                pday = int(m.group(4))
+                desc = m.group(5).strip()
+                amt_raw = parse_decimal(m.group(6))
                 if amt_raw is None:
-                    pend_t = None
-                    pend_p = None
-                    pend_desc = None
-                    pend_start_line = None
                     continue
 
-                tmon, tday = pend_t
-                pmon, pday = pend_p
                 tyear = infer_year(tmon)
                 pyear = infer_year(pmon)
                 _txn_dt = date(tyear, tmon, tday)
                 post_dt = date(pyear, pmon, pday)
                 if not in_fy(post_dt):
-                    pend_t = None
-                    pend_p = None
-                    pend_desc = None
-                    pend_start_line = None
                     continue
 
-                desc = pend_desc.strip()
                 cad_amount = -amt_raw
                 counterparty = normalize_counterparty(desc)
 
-                start_line = pend_start_line or i
-                source_locator = f"lines={start_line}-{i}"
+                source_locator = f"line={i}"
                 base = f"{FY}|cc_md|{rel}|{source_locator}|{post_dt.isoformat()}|{desc}|{cad_amount}"
                 tx_id = f"tx-{FY}-cc-{post_dt.strftime('%Y%m%d')}-{short_hash(base)}"
 
@@ -730,31 +659,408 @@ def parse_td_visa_transactions_from_md(
                     )
                 )
                 last_tx_idx = len(out) - 1
-
-                pend_t = None
-                pend_p = None
-                pend_desc = None
-                pend_start_line = None
                 continue
 
-        # Attach FX info to previous tx if present
-        m = FOREIGN_RE.search(ln)
-        if m and last_tx_idx is not None:
-            fc_amt = parse_decimal(m.group(1))
-            fc_ccy = m.group(2).upper()
-            fx = parse_decimal(m.group(3))
-            if fc_amt is None or fx is None:
-                continue
+            # 2) Multiline-row format
+            if period_start and period_end:
+                mdate = DATE_ONLY_RE.match(ln)
+                if mdate:
+                    mon = MONTHS[mdate.group(1).upper()]
+                    day = int(mdate.group(2))
+                    if pend_t is None:
+                        pend_t = (mon, day)
+                        pend_start_line = i
+                        continue
+                    if pend_p is None:
+                        pend_p = (mon, day)
+                        continue
+                    # If we already have both dates, start over with a new record.
+                    pend_t = (mon, day)
+                    pend_p = None
+                    pend_desc = None
+                    pend_start_line = i
+                    continue
 
-            tx = out[last_tx_idx]
-            cad = parse_decimal(tx.cad_amount) or Decimal("0")
-            sign = Decimal("-1") if cad < 0 else Decimal("1")
-            tx.currency = fc_ccy
-            tx.amount = fmt_decimal(sign * fc_amt)
-            tx.fx_rate_to_cad = fmt_decimal(fx)
-            if tx.notes:
-                tx.notes += "; "
-            tx.notes += f"FX: {m.group(1)} {fc_ccy} @ {m.group(3)}"
+                if (
+                    pend_t
+                    and pend_p
+                    and pend_desc is None
+                    and ln.strip()
+                    and not AMOUNT_ONLY_RE.match(ln)
+                    and not DATE_ONLY_RE.match(ln)
+                ):
+                    pend_desc = ln.strip()
+                    continue
+
+                if pend_t and pend_p and pend_desc and AMOUNT_ONLY_RE.match(ln):
+                    amt_raw = parse_decimal(ln)
+                    if amt_raw is None:
+                        pend_t = None
+                        pend_p = None
+                        pend_desc = None
+                        pend_start_line = None
+                        continue
+
+                    tmon, tday = pend_t
+                    pmon, pday = pend_p
+                    tyear = infer_year(tmon)
+                    pyear = infer_year(pmon)
+                    _txn_dt = date(tyear, tmon, tday)
+                    post_dt = date(pyear, pmon, pday)
+                    if not in_fy(post_dt):
+                        pend_t = None
+                        pend_p = None
+                        pend_desc = None
+                        pend_start_line = None
+                        continue
+
+                    desc = pend_desc.strip()
+                    cad_amount = -amt_raw
+                    counterparty = normalize_counterparty(desc)
+
+                    start_line = pend_start_line or i
+                    source_locator = f"lines={start_line}-{i}"
+                    base = f"{FY}|cc_md|{rel}|{source_locator}|{post_dt.isoformat()}|{desc}|{cad_amount}"
+                    tx_id = f"tx-{FY}-cc-{post_dt.strftime('%Y%m%d')}-{short_hash(base)}"
+
+                    out.append(
+                        Transaction(
+                            transaction_id=tx_id,
+                            fiscal_year=str(FY),
+                            txn_date=post_dt.isoformat(),
+                            source_type="cc_md",
+                            source_file=rel,
+                            source_locator=source_locator,
+                            account_owner=account_owner,
+                            account_name=account_name,
+                            payment_method="credit_card",
+                            card_last4=card_last4,
+                            counterparty=counterparty,
+                            description=desc,
+                            amount=fmt_decimal(cad_amount),
+                            currency="CAD",
+                            cad_amount=fmt_decimal(cad_amount),
+                            fx_rate_to_cad="",
+                            linked_document_ids="",
+                            receipt_status="missing",
+                            notes=(
+                                "AUTO: personal statement txn (candidate; included only if linked to evidence)"
+                                if account_owner == "personal"
+                                else ""
+                            ),
+                        )
+                    )
+                    last_tx_idx = len(out) - 1
+
+                    pend_t = None
+                    pend_p = None
+                    pend_desc = None
+                    pend_start_line = None
+                    continue
+
+            # Attach FX info to previous tx if present
+            mfx = FOREIGN_RE.search(ln)
+            if mfx and last_tx_idx is not None:
+                fc_amt = parse_decimal(mfx.group(1))
+                fc_ccy = mfx.group(2).upper()
+                fx = parse_decimal(mfx.group(3))
+                if fc_amt is None or fx is None:
+                    continue
+
+                tx = out[last_tx_idx]
+                cad = parse_decimal(tx.cad_amount) or Decimal("0")
+                sign = Decimal("-1") if cad < 0 else Decimal("1")
+                tx.currency = fc_ccy
+                tx.amount = fmt_decimal(sign * fc_amt)
+                tx.fx_rate_to_cad = fmt_decimal(fx)
+                if tx.notes:
+                    tx.notes += "; "
+                tx.notes += f"FX: {mfx.group(1)} {fc_ccy} @ {mfx.group(3)}"
+
+        return out
+
+    # --- Table-aware parser ---
+    period_start: Optional[date] = None
+    period_end: Optional[date] = None
+    last_tx_idx: Optional[int] = None
+    skipped_like_tx: list[tuple[int, str]] = []
+
+    def _norm_ws(s: str) -> str:
+        return re.sub(r"\s+", " ", s).strip()
+
+    def infer_year(mon: int) -> int:
+        if not period_start or not period_end:
+            # Without statement period context, guessing is risky; default to FY.
+            return FY
+        if period_start.year == period_end.year:
+            return period_end.year
+        start_m = period_start.month
+        return period_start.year if mon >= start_m else period_end.year
+
+    def normalize_counterparty(desc: str) -> str:
+        u = desc.upper()
+        if "LENOVO" in u:
+            return "Lenovo"
+        if u.startswith("PAYPAL") or u.startswith("PP*"):
+            return "PayPal"
+        if "AMZN" in u or "AMAZON" in u:
+            return "Amazon"
+        if "UBER" in u:
+            return "Uber"
+        if "ROGERS" in u:
+            return "Rogers"
+        if "MICROSOFT" in u:
+            return "Microsoft"
+        if "SLACK" in u:
+            return "Slack"
+        if "OPENAI" in u:
+            return "OpenAI"
+        return desc.split()[0][:80] if desc else ""
+
+    def parse_mon_day(s: str) -> Optional[tuple[int, int]]:
+        m = DATE_ONLY_RE.match(_norm_ws(s))
+        if not m:
+            return None
+        mon = MONTHS[m.group(1).upper()]
+        day = int(m.group(2))
+        return mon, day
+
+    def apply_fx_to_last_from_text(text_for_fx: str) -> None:
+        nonlocal last_tx_idx
+        if last_tx_idx is None:
+            return
+        mfx = FOREIGN_RE.search(text_for_fx)
+        if not mfx:
+            return
+        fc_amt = parse_decimal(mfx.group(1))
+        fc_ccy = mfx.group(2).upper()
+        fx = parse_decimal(mfx.group(3))
+        if fc_amt is None or fx is None:
+            return
+        tx = out[last_tx_idx]
+        cad = parse_decimal(tx.cad_amount) or Decimal("0")
+        sign = Decimal("-1") if cad < 0 else Decimal("1")
+        tx.currency = fc_ccy
+        tx.amount = fmt_decimal(sign * fc_amt)
+        tx.fx_rate_to_cad = fmt_decimal(fx)
+        if tx.notes:
+            tx.notes += "; "
+        tx.notes += f"FX: {mfx.group(1)} {fc_ccy} @ {mfx.group(3)}"
+
+    for tr_idx, tr_m in enumerate(tr_blocks, start=1):
+        tr_html = tr_m.group(0)
+        tr_text = strip_html_to_text(tr_html)
+        tr_text_flat = _norm_ws(tr_text)
+
+        # Update statement period when encountered
+        mper = STATEMENT_PERIOD_RE.search(tr_text_flat)
+        if mper:
+            try:
+                period_start = datetime.strptime(mper.group(1), "%B %d, %Y").date()
+                period_end = datetime.strptime(mper.group(2), "%B %d, %Y").date()
+            except ValueError:
+                period_start = None
+                period_end = None
+            last_tx_idx = None
+            continue
+
+        # Extract cells (td/th) in order
+        cells_html = [m.group(2) for m in CELL_RE.finditer(tr_html)]
+        cells = [strip_html_to_text(c).strip() for c in cells_html]
+
+        parsed_any_in_row = False
+
+        # 1) Cell-based row: txn_date | post_date | description | amount
+        if len(cells) >= 4 and period_start and period_end:
+            t_md = parse_mon_day(cells[0])
+            p_md = parse_mon_day(cells[1])
+            amt_raw = parse_decimal(cells[3])
+            if t_md and p_md and amt_raw is not None:
+                tmon, tday = t_md
+                pmon, pday = p_md
+                tyear = infer_year(tmon)
+                pyear = infer_year(pmon)
+                _txn_dt = date(tyear, tmon, tday)
+                post_dt = date(pyear, pmon, pday)
+                if in_fy(post_dt):
+                    desc_raw = cells[2]
+                    desc_flat = _norm_ws(desc_raw.replace("\t", " "))
+
+                    # PDF->DOCX->MD conversions sometimes split a single logical
+                    # transaction across two <tr> blocks using rowspan (dates+amount
+                    # on row N, description on row N+1). Avoid emitting blank
+                    # description/counterparty rows; attempt to recover the
+                    # description from the next <tr> when possible.
+                    desc_from_tr_note = ""
+                    if not desc_flat and tr_idx < len(tr_blocks):
+                        next_html = tr_blocks[tr_idx].group(0)  # tr_idx is 1-based
+                        next_cells_html = [m.group(2) for m in CELL_RE.finditer(next_html)]
+                        next_cells = [strip_html_to_text(c).strip() for c in next_cells_html]
+                        for cand in next_cells:
+                            cand2 = _norm_ws(cand.replace("\t", " "))
+                            if not cand2:
+                                continue
+                            if DATE_ONLY_RE.match(cand2):
+                                continue
+                            if AMOUNT_ONLY_RE.match(cand2):
+                                continue
+                            u = cand2.upper()
+                            if u in {
+                                "PREVIOUS BALANCE",
+                                "PAYMENTS & CREDITS",
+                                "INTEREST FEES",
+                                "SUB-TOTAL",
+                                "SUBTOTAL",
+                                "PURCHASES & OTHER CHARGES",
+                                "CASH ADVANCES",
+                                "CALCULATING YOUR BALANCE",
+                            }:
+                                continue
+                            # Found a plausible merchant/description.
+                            desc_flat = cand2
+                            desc_from_tr_note = f"DESC_FROM_TR={tr_idx + 1}"
+                            break
+
+                    if not desc_flat:
+                        skipped_like_tx.append((tr_idx, _norm_ws(" ".join(cells[:4]))[:160]))
+                        continue
+
+                    # If FX info is embedded, keep it in notes and avoid polluting the main description.
+                    if re.search(r"FOREIGN\s+CURRENCY", desc_flat, flags=re.IGNORECASE):
+                        desc_flat = re.split(
+                            r"FOREIGN\s+CURRENCY", desc_flat, maxsplit=1, flags=re.IGNORECASE
+                        )[0].strip()
+
+                    cad_amount = -amt_raw
+                    counterparty = normalize_counterparty(desc_flat)
+                    source_locator = f"tr={tr_idx}"
+                    base = f"{FY}|cc_md|{rel}|{source_locator}|{post_dt.isoformat()}|{desc_flat}|{cad_amount}"
+                    tx_id = f"tx-{FY}-cc-{post_dt.strftime('%Y%m%d')}-{short_hash(base)}"
+
+                    base_notes = (
+                        "AUTO: personal statement txn (candidate; included only if linked to evidence)"
+                        if account_owner == "personal"
+                        else ""
+                    )
+                    if desc_from_tr_note:
+                        if base_notes:
+                            base_notes += "; "
+                        base_notes += f"AUTO: {desc_from_tr_note}"
+
+                    out.append(
+                        Transaction(
+                            transaction_id=tx_id,
+                            fiscal_year=str(FY),
+                            txn_date=post_dt.isoformat(),
+                            source_type="cc_md",
+                            source_file=rel,
+                            source_locator=source_locator,
+                            account_owner=account_owner,
+                            account_name=account_name,
+                            payment_method="credit_card",
+                            card_last4=card_last4,
+                            counterparty=counterparty,
+                            description=desc_flat,
+                            amount=fmt_decimal(cad_amount),
+                            currency="CAD",
+                            cad_amount=fmt_decimal(cad_amount),
+                            fx_rate_to_cad="",
+                            linked_document_ids="",
+                            receipt_status="missing",
+                            notes=base_notes,
+                        )
+                    )
+                    last_tx_idx = len(out) - 1
+                    apply_fx_to_last_from_text(tr_text)
+                    parsed_any_in_row = True
+                    continue
+            # If row *looks* like a transaction row but failed parsing, remember it.
+            if t_md and p_md and amt_raw is None:
+                skipped_like_tx.append((tr_idx, _norm_ws(" ".join(cells[:4]))[:160]))
+
+        # 2) Text-based transaction lines inside a row (e.g. a single <td colspan=...>)
+        if period_start and period_end:
+            for sub_idx, ln in enumerate(tr_text.splitlines(), start=1):
+                ln2 = _norm_ws(ln.replace("\t", " "))
+                if not ln2:
+                    continue
+
+                m = TX_LINE_RE.match(ln2)
+                if m:
+                    tmon = MONTHS[m.group(1).upper()]
+                    tday = int(m.group(2))
+                    pmon = MONTHS[m.group(3).upper()]
+                    pday = int(m.group(4))
+                    desc_full = m.group(5).strip()
+                    amt_raw = parse_decimal(m.group(6))
+                    if amt_raw is None:
+                        continue
+
+                    # If FX info is embedded in the description line, remove it and attach via notes.
+                    desc_clean = desc_full
+                    if re.search(r"FOREIGN\s+CURRENCY", desc_clean, flags=re.IGNORECASE):
+                        desc_clean = re.split(
+                            r"FOREIGN\s+CURRENCY", desc_clean, maxsplit=1, flags=re.IGNORECASE
+                        )[0].strip()
+
+                    tyear = infer_year(tmon)
+                    pyear = infer_year(pmon)
+                    _txn_dt = date(tyear, tmon, tday)
+                    post_dt = date(pyear, pmon, pday)
+                    if not in_fy(post_dt):
+                        continue
+
+                    cad_amount = -amt_raw
+                    counterparty = normalize_counterparty(desc_clean)
+                    source_locator = f"tr={tr_idx};line={sub_idx}"
+                    base = f"{FY}|cc_md|{rel}|{source_locator}|{post_dt.isoformat()}|{desc_clean}|{cad_amount}"
+                    tx_id = f"tx-{FY}-cc-{post_dt.strftime('%Y%m%d')}-{short_hash(base)}"
+
+                    out.append(
+                        Transaction(
+                            transaction_id=tx_id,
+                            fiscal_year=str(FY),
+                            txn_date=post_dt.isoformat(),
+                            source_type="cc_md",
+                            source_file=rel,
+                            source_locator=source_locator,
+                            account_owner=account_owner,
+                            account_name=account_name,
+                            payment_method="credit_card",
+                            card_last4=card_last4,
+                            counterparty=counterparty,
+                            description=desc_clean,
+                            amount=fmt_decimal(cad_amount),
+                            currency="CAD",
+                            cad_amount=fmt_decimal(cad_amount),
+                            fx_rate_to_cad="",
+                            linked_document_ids="",
+                            receipt_status="missing",
+                            notes=(
+                                "AUTO: personal statement txn (candidate; included only if linked to evidence)"
+                                if account_owner == "personal"
+                                else ""
+                            ),
+                        )
+                    )
+                    last_tx_idx = len(out) - 1
+                    apply_fx_to_last_from_text(ln2)
+                    parsed_any_in_row = True
+                    continue
+
+                # Attach FX lines immediately following a parsed transaction within this same <tr>
+                if FOREIGN_RE.search(ln2):
+                    apply_fx_to_last_from_text(ln2)
+
+        # Keep last_tx_idx scoped to the current row to reduce chance of misattachment.
+        if not parsed_any_in_row:
+            last_tx_idx = None
+
+    if skipped_like_tx:
+        # Non-fatal warning to help catch conversion/layout surprises.
+        print(
+            f"WARN: {rel}: {len(skipped_like_tx)} rows looked like txns but could not be parsed; sample: {skipped_like_tx[:3]}"
+        )
 
     return out
 
@@ -1062,7 +1368,8 @@ def generate_owed_candidate_report(
     """Conservative owed-candidate report.
 
     We list *invoice* documents whose CAD totals do not match 1:1 with ANY single
-    ingested statement transaction (by exact absolute CAD amount).
+    eligible statement transaction that has been ingested into `transactions.csv`
+    (by exact absolute CAD amount).
 
     This is NOT evidence of being unpaid; it is only a review aid.
     """
@@ -1119,8 +1426,10 @@ def generate_owed_candidate_report(
     lines.append(f"# FY{FY} owed-candidate report (conservative)\n")
     lines.append(
         "This report lists *invoice* evidence documents whose **CAD totals** do not match 1:1 with any single "
-        "ingested statement transaction (exact match by absolute CAD amount).\n\n"
+        "eligible statement transaction in `transactions.csv` (exact match by **absolute** CAD amount).\n\n"
         "- This is a review aid only; it is **not** proof that an invoice is unpaid.\n"
+        "- The matching set includes all corporate statement transactions plus only those personal statement transactions that were included in `transactions.csv` (typically evidence-linked).\n"
+        "- `nearest_statement_amounts` is a hint list and may include personal transactions; check `account_owner/account_name`.\n"
         "- Follow the repo gating rules before creating any `owed.csv` entries (confirm statement coverage).\n"
     )
 
@@ -1416,8 +1725,13 @@ def main() -> int:
 
     # Conservative owed-candidate report (does NOT write owed.csv rows)
     owed_report = generate_owed_candidate_report(docs, txs_for_matching)
-    owed_report_path = NORM_DIR / "owed_candidates_report.md"
+    # Write to FY2025/normalized/reports/ (preferred) and keep a copy at the
+    # legacy top-level path for convenience/back-compat.
+    reports_dir = NORM_DIR / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    owed_report_path = reports_dir / "owed_candidates_report.md"
     write_text_lf(owed_report_path, owed_report)
+    write_text_lf(NORM_DIR / "owed_candidates_report.md", owed_report)
 
     write_csv(
         NORM_DIR / "transactions.csv",

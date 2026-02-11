@@ -1,25 +1,16 @@
 # FY2025 owed-candidate report (conservative)
-This report lists *invoice* evidence documents whose **CAD totals** do not match 1:1 with any single ingested statement transaction (exact match by absolute CAD amount).
+This report lists *invoice* evidence documents whose **CAD totals** do not match 1:1 with any single eligible statement transaction in `transactions.csv` (exact match by **absolute** CAD amount).
 
 - This is a review aid only; it is **not** proof that an invoice is unpaid.
+- The matching set includes all corporate statement transactions plus only those personal statement transactions that were included in `transactions.csv` (typically evidence-linked).
+- `nearest_statement_amounts` is a hint list and may include personal transactions; check `account_owner/account_name`.
 - Follow the repo gating rules before creating any `owed.csv` entries (confirm statement coverage).
 ## Summary
 - Invoices scanned: 279
-- CAD invoices with no exact 1:1 statement amount match: 33
+- CAD invoices with no exact 1:1 statement amount match: 30
 - Non-CAD invoices (not evaluated for 1:1): 69
 
 ## CAD invoice candidates (no exact 1:1 match)
-### doc-20250102-amazon-canada-40.57CAD-6bba4ccceb
-- document_date: `2025-01-02`
-- vendor: `Amazon Canada`
-- amount: `40.57 CAD`
-- source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-01-02_CA5MPJAACCUI.md`
-- linked_transactions: 0
-- nearest_statement_amounts (by abs amount delta):
-  - delta 0.06 | tx-2025-cc-20250707-640afc4b55 | 2025-07-07 | cad_amount -40.51 | corporate/TD Business VISA | OPENPHONE OPENPHONE.CO FOREIGN CURRENCY 29.00 USD @ EXCHANGE RATE
-  - delta 0.17 | tx-2025-cc-20250811-caf3b24e87 | 2025-08-11 | cad_amount -40.40 | corporate/TD Business VISA | PAYPAL *GODADDY.COM 4029357733
-  - delta 0.18 | tx-2025-cc-20250425-a9167514d9 | 2025-04-25 | cad_amount -40.39 | personal/TD Personal VISA | SAFEWAY #4905 NORTH VANCOU
-
 ### doc-20250120-amazon-canada-109.75CAD-2cfdff036d
 - document_date: `2025-01-20`
 - vendor: `Amazon Canada`
@@ -27,9 +18,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-01-20_CA511IFEJB4I.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.01 | tx-2025-cc-20251021-25b15aff30 | 2025-10-21 | cad_amount 109.76 | personal/TD Personal VISA | LaMaisonSimons West Vancouv
-  - delta 0.47 | tx-2025-cc-20250515-5f25fe4f83 | 2025-05-15 | cad_amount -109.28 | personal/TD Personal VISA | SHELL EASYPAY C01285 NORTH
-  - delta 1.13 | tx-2025-cc-20251014-8d351c370b | 2025-10-14 | cad_amount -110.88 | personal/TD Personal VISA | LaMaisonSimons West Vancouv
+  - delta 0.01 | tx-2025-cc-20251021-69c9d44434 | 2025-10-21 | cad_amount 109.76 | personal/TD Personal VISA | LaMaisonSimons West Vancouv
+  - delta 0.47 | tx-2025-cc-20250515-b8fb511b04 | 2025-05-15 | cad_amount -109.28 | personal/TD Personal VISA | SHELL EASYPAY C01285 NORTH
+  - delta 0.54 | tx-2025-cc-20250821-f1d7c55fba | 2025-08-21 | cad_amount -109.21 | personal/TD Personal VISA | BROWNSSHOES.COM ST. LAURENT
 
 ### doc-20250131-jinwei-heller-xu-3150.00CAD-d2e703144a
 - document_date: `2025-01-31`
@@ -38,20 +29,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Jinwei_(Heller)_Xu_2025-01-31.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 110.76 | tx-2025-cc-20251015-e7b288b96b | 2025-10-15 | cad_amount -3039.24 | personal/TD Personal VISA | WHOLE FOODS MARKET VANCOUVER
+  - delta 150.00 | tx-2025-cc-20250818-8bc4001dfa | 2025-08-18 | cad_amount 3300.00 | personal/TD Personal VISA | PAYMENT - THANK YOU
   - delta 250.00 | tx-2025-bank-20250730-051d08f2ca | 2025-07-30 | cad_amount -2900.00 | corporate/TD Business Chequing | HJ544 TFR-TO 6084079
   - delta 250.00 | tx-2025-bank-20251031-2edbdb9506 | 2025-10-31 | cad_amount -2900.00 | corporate/TD Business Chequing | JW375 TFR-TO 6084079
-
-### doc-20250304-amazon-canada-21.99CAD-3289977e78
-- document_date: `2025-03-04`
-- vendor: `Amazon Canada`
-- amount: `21.99 CAD`
-- source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-03-04_CA514YQDM9CEI.md`
-- linked_transactions: 0
-- nearest_statement_amounts (by abs amount delta):
-  - delta 0.09 | tx-2025-cc-20250515-24c41b5611 | 2025-05-15 | cad_amount -21.90 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
-  - delta 0.13 | tx-2025-cc-20250730-13e3eb071f | 2025-07-30 | cad_amount -21.86 | personal/TD Personal VISA | Amazon.ca*DG9U141I3 AMAZON.CA
-  - delta 0.13 | tx-2025-cc-20251029-9e6b6d3cda | 2025-10-29 | cad_amount -21.86 | personal/TD Personal VISA | Amazon.ca*N46Q17Y50 866-216-1072
 
 ### doc-20250403-amazon-canada-41.43CAD-a87e49feb5
 - document_date: `2025-04-03`
@@ -60,9 +40,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-04-03_CA5E0VS7E1CI.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.08 | tx-2025-cc-20250411-b0e0ca5d85 | 2025-04-11 | cad_amount -41.35 | personal/TD Personal VISA | Amazon.ca*XK5XS6JV3 AMAZON.CA
-  - delta 0.10 | tx-2025-cc-20251006-8e79225196 | 2025-10-06 | cad_amount -41.53 | corporate/TD Business VISA | OPENPHONE QUO.COM FOREIGN CURRENCY 29.00
-  - delta 0.16 | tx-2025-cc-20250805-e1f00eafbb | 2025-08-05 | cad_amount -41.27 | corporate/TD Business VISA | OPENPHONE OPENPHONE.CO FOREIGN CURRENCY
+  - delta 0.10 | tx-2025-cc-20251006-ee0ef57664 | 2025-10-06 | cad_amount -41.53 | corporate/TD Business VISA | OPENPHONE QUO.COM
+  - delta 0.11 | tx-2025-cc-20250929-792bbe8690 | 2025-09-29 | cad_amount -41.54 | personal/TD Personal VISA | Amazon.ca*GX3J20R03 866-216-1072
+  - delta 0.16 | tx-2025-cc-20250805-66461c9a5b | 2025-08-05 | cad_amount -41.27 | corporate/TD Business VISA | OPENPHONE OPENPHONE.CO
 
 ### doc-20250513-namespro-59.28CAD-d059ec2782
 - document_date: `2025-05-13`
@@ -71,9 +51,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Namespro_2025-05-13.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.36 | tx-2025-cc-20251001-284cbd7a5e | 2025-10-01 | cad_amount -58.92 | corporate/TD Business VISA | TST-Social Corner - Co Vancouver
-  - delta 0.63 | tx-2025-cc-20250807-d021fa7d62 | 2025-08-07 | cad_amount -58.65 | corporate/TD Business VISA | UBER *TRIP HELP.UBER.CO
-  - delta 0.64 | tx-2025-cc-20250731-88f3bf8972 | 2025-07-31 | cad_amount -59.92 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
+  - delta 0.36 | tx-2025-cc-20251001-5d576d5e4a | 2025-10-01 | cad_amount -58.92 | corporate/TD Business VISA | TST-Social Corner - Co Vancouver
+  - delta 0.63 | tx-2025-cc-20250807-dfbbf6d50d | 2025-08-07 | cad_amount -58.65 | corporate/TD Business VISA | UBER *TRIP HELP.UBER.CO
+  - delta 0.64 | tx-2025-cc-20250731-0a42d58fce | 2025-07-31 | cad_amount -59.92 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
 
 ### doc-20250620-vancouver-headshots-236.25CAD-1057babc2a
 - document_date: `2025-06-20`
@@ -82,9 +62,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Vancouver_Headshots_2025-06-20_Invoice_#006052_-_Square.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.33 | tx-2025-cc-20250711-c0788fafb8 | 2025-07-11 | cad_amount -236.58 | personal/TD Personal VISA | EXPEDIA 73169634538824 EXPEDIA.CA
-  - delta 1.05 | tx-2025-cc-20250721-0a7e9d3291 | 2025-07-21 | cad_amount -235.20 | personal/TD Personal VISA | JLR CANADA ULC MISSISSAUGA
-  - delta 6.25 | tx-2025-cc-20251021-b5925d9b68 | 2025-10-21 | cad_amount -230.00 | corporate/TD Business VISA | HAWKSWORTH RESTAURANT
+  - delta 2.95 | tx-2025-cc-20251112-86f5cc6978 | 2025-11-12 | cad_amount -239.20 | personal/TD Personal VISA | SP HUME UK HUMEHEALTH.C
+  - delta 3.31 | tx-2025-cc-20251118-1b1408339e | 2025-11-18 | cad_amount -232.94 | personal/TD Personal VISA | SP STEVE MADDEN CA VANCOUVER
+  - delta 6.25 | tx-2025-cc-20251021-e3bbbdae41 | 2025-10-21 | cad_amount -230.00 | corporate/TD Business VISA | HAWKSWORTH RESTAURANT
 
 ### doc-20250620-vancouver-headshots-236.25CAD-2499db082a
 - document_date: `2025-06-20`
@@ -94,9 +74,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.33 | tx-2025-cc-20250711-c0788fafb8 | 2025-07-11 | cad_amount -236.58 | personal/TD Personal VISA | EXPEDIA 73169634538824 EXPEDIA.CA
-  - delta 1.05 | tx-2025-cc-20250721-0a7e9d3291 | 2025-07-21 | cad_amount -235.20 | personal/TD Personal VISA | JLR CANADA ULC MISSISSAUGA
-  - delta 6.25 | tx-2025-cc-20251021-b5925d9b68 | 2025-10-21 | cad_amount -230.00 | corporate/TD Business VISA | HAWKSWORTH RESTAURANT
+  - delta 2.95 | tx-2025-cc-20251112-86f5cc6978 | 2025-11-12 | cad_amount -239.20 | personal/TD Personal VISA | SP HUME UK HUMEHEALTH.C
+  - delta 3.31 | tx-2025-cc-20251118-1b1408339e | 2025-11-18 | cad_amount -232.94 | personal/TD Personal VISA | SP STEVE MADDEN CA VANCOUVER
+  - delta 6.25 | tx-2025-cc-20251021-e3bbbdae41 | 2025-10-21 | cad_amount -230.00 | corporate/TD Business VISA | HAWKSWORTH RESTAURANT
 
 ### doc-20250622-amazon-canada-98.20CAD-49645b08d4
 - document_date: `2025-06-22`
@@ -105,9 +85,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-06-22_CA51PIXWDACCUI.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.02 | tx-2025-cc-20250805-09744ce85e | 2025-08-05 | cad_amount -98.18 | corporate/TD Business VISA | TST*NOVO RESTAURANT &LO San Luis
-  - delta 0.42 | tx-2025-cc-20250729-f6221d502c | 2025-07-29 | cad_amount -98.62 | personal/TD Personal VISA | NICDEPT PARKS WEBSI EGOV.COM FOREIGN
-  - delta 0.74 | tx-2025-cc-20250908-e4693539a4 | 2025-09-08 | cad_amount -98.94 | corporate/TD Business VISA | LIFT BAR GRILL VIEW VANCOUVER
+  - delta 0.02 | tx-2025-cc-20250805-a8194b541b | 2025-08-05 | cad_amount -98.18 | corporate/TD Business VISA | TST*NOVO RESTAURANT &LO San Luis Obi
+  - delta 0.74 | tx-2025-cc-20250908-c23c2568a1 | 2025-09-08 | cad_amount -98.94 | corporate/TD Business VISA | LIFT BAR GRILL VIEW VANCOUVER
+  - delta 0.88 | tx-2025-cc-20251110-1c5d0d9c45 | 2025-11-10 | cad_amount -97.32 | corporate/TD Business VISA | OPENAI *CHATGPT SUBSCR
 
 ### doc-20250625-namespro-15.68CAD-2897884123
 - document_date: `2025-06-25`
@@ -116,9 +96,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Namespro_2025-06-25.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.01 | tx-2025-cc-20250428-e4efb9f3cf | 2025-04-28 | cad_amount -15.67 | corporate/TD Business VISA | AMZN Mktp CA*NB0O02F62
-  - delta 0.01 | tx-2025-cc-20250730-ee25eaa046 | 2025-07-30 | cad_amount -15.69 | personal/TD Personal VISA | Amazon.ca*X682Z27L3 AMAZON.CA
-  - delta 0.03 | tx-2025-cc-20250306-10b571890e | 2025-03-06 | cad_amount -15.65 | personal/TD Personal VISA | Amazon.ca*TX1IB2ZK3 AMAZON.CA
+  - delta 0.01 | tx-2025-cc-20250428-972a39c5bf | 2025-04-28 | cad_amount -15.67 | corporate/TD Business VISA | AMZN Mktp CA*NB0O02F62 WWW.AMAZON.C
+  - delta 0.03 | tx-2025-cc-20250306-e4c8863340 | 2025-03-06 | cad_amount -15.65 | personal/TD Personal VISA | Amazon.ca*TX1IB2ZK3 AMAZON.CA
+  - delta 0.04 | tx-2025-cc-20250115-ae79aa250e | 2025-01-15 | cad_amount -15.72 | corporate/TD Business VISA | MICROSOFT#G074470671 MSBILL.INFO
 
 ### doc-20250630-digitalocean-0.62CAD-3b2281c217
 - document_date: `2025-06-30`
@@ -128,9 +108,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.03 | tx-2025-cc-20250724-89eefc9365 | 2025-07-24 | cad_amount -0.65 | personal/TD Personal VISA | CITY OF VAN PAYBYPHONE VANCOUVER
-  - delta 0.04 | tx-2025-cc-20251006-89fa5264db | 2025-10-06 | cad_amount -0.58 | corporate/TD Business VISA | CASH INTEREST
-  - delta 0.08 | tx-2025-cc-20250724-0108483131 | 2025-07-24 | cad_amount -0.54 | personal/TD Personal VISA | CITY OF VAN PAYBYPHONE VANCOUVER
+  - delta 0.03 | tx-2025-cc-20250825-ef546b92be | 2025-08-25 | cad_amount -0.65 | personal/TD Personal VISA | COMPASS WEB BURNABY BC 604-398-2042
+  - delta 0.04 | tx-2025-cc-20251006-5453f97198 | 2025-10-06 | cad_amount -0.58 | corporate/TD Business VISA | CASH INTEREST
+  - delta 0.05 | tx-2025-cc-20250131-eab43b6387 | 2025-01-31 | cad_amount -0.67 | personal/TD Personal VISA | CITY OF VAN PAYBYPHONE VANCOUVER
 
 ### doc-20250709-uber-5.70CAD-a023c2672d
 - document_date: `2025-07-09`
@@ -139,9 +119,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Uber_2025-07-09_receipt_665d08ea-d9b5-4487-9523-80fc03b02be9.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.02 | tx-2025-cc-20250305-7c5a1fa628 | 2025-03-05 | cad_amount -5.68 | personal/TD Personal VISA | Amazon.ca*3Q2HL3X13 AMAZON.CA
-  - delta 0.02 | tx-2025-cc-20250407-6fb0f04dae | 2025-04-07 | cad_amount -5.68 | personal/TD Personal VISA | Amazon.ca*MY0Z87N63 AMAZON.CA
-  - delta 0.02 | tx-2025-cc-20250430-6c59a703ac | 2025-04-30 | cad_amount -5.68 | personal/TD Personal VISA | Amazon.ca*WH5I040B3 AMAZON.CA
+  - delta 0.02 | tx-2025-cc-20250305-16f030924e | 2025-03-05 | cad_amount -5.68 | personal/TD Personal VISA | Amazon.ca*3Q2HL3X13 AMAZON.CA
+  - delta 0.02 | tx-2025-cc-20250704-6aacd7cb9c | 2025-07-04 | cad_amount -5.68 | personal/TD Personal VISA | Amazon.ca*N364S2W82 AMAZON.CA
+  - delta 0.20 | tx-2025-cc-20250305-9c2ac9f9b2 | 2025-03-05 | cad_amount -5.50 | personal/TD Personal VISA | Amazon.ca*5I68I7LR3 AMAZON.CA
 
 ### doc-20250731-digitalocean-14.79CAD-f2ce4a406a
 - document_date: `2025-07-31`
@@ -151,9 +131,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.03 | tx-2025-cc-20250805-555d007e65 | 2025-08-05 | cad_amount -14.82 | personal/TD Personal VISA | WHOLEFDS SCA #10633 SANTA CLARA
-  - delta 0.09 | tx-2025-cc-20250505-ab0e568de9 | 2025-05-05 | cad_amount -14.70 | personal/TD Personal VISA | ZIPBY MISSISSAUGA
-  - delta 0.09 | tx-2025-cc-20250715-2060d7c5d8 | 2025-07-15 | cad_amount -14.70 | corporate/TD Business VISA | UBER CANADA/UBERTRIP
+  - delta 0.09 | tx-2025-cc-20250715-daa0a505f8 | 2025-07-15 | cad_amount -14.70 | corporate/TD Business VISA | UBER CANADA/UBERTRIP TORONTO
+  - delta 0.17 | tx-2025-cc-20250623-7100d32356 | 2025-06-23 | cad_amount -14.96 | corporate/TD Business VISA | AMZN Mktp CA*NQ4854ND2 WWW.AMAZON.C
+  - delta 0.20 | tx-2025-cc-20250819-f23c77fa5f | 2025-08-19 | cad_amount -14.99 | personal/TD Personal VISA | AMZN Mktp CA*6W7ZD24O3 866-216-1072
 
 ### doc-20250804-uber-42.93CAD-f505cd2264
 - document_date: `2025-08-04`
@@ -162,9 +142,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Uber_2025-08-04_receipt_5430386c-c82d-4839-8e9b-ec02233f7b2c.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.02 | tx-2025-cc-20250527-df1be986e3 | 2025-05-27 | cad_amount -42.95 | personal/TD Personal VISA | WHOLE FOODS MARKET VANCOUVER
-  - delta 0.09 | tx-2025-cc-20250324-4772f23458 | 2025-03-24 | cad_amount -42.84 | personal/TD Personal VISA | HOMER ST CAFE AND BAR VANCOUVER
-  - delta 0.12 | tx-2025-cc-20250422-b35afce53e | 2025-04-22 | cad_amount -43.05 | personal/TD Personal VISA | PAYPAL *UBER 4029357733
+  - delta 0.02 | tx-2025-cc-20250527-eeca1a7a5f | 2025-05-27 | cad_amount -42.95 | personal/TD Personal VISA | WHOLE FOODS MARKET VANCOUVER
+  - delta 0.09 | tx-2025-cc-20250324-db8eb85d23 | 2025-03-24 | cad_amount -42.84 | personal/TD Personal VISA | HOMER ST CAFE AND BAR VANCOUVER
+  - delta 0.14 | tx-2025-cc-20250513-08964a799a | 2025-05-13 | cad_amount -43.07 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
 
 ### doc-20250805-uber-41.46CAD-5c3fb50cbd
 - document_date: `2025-08-05`
@@ -173,9 +153,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Uber_2025-08-05_receipt_6f6ec47d-c3b3-46ca-8bb1-817e920da00a.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.07 | tx-2025-cc-20251006-8e79225196 | 2025-10-06 | cad_amount -41.53 | corporate/TD Business VISA | OPENPHONE QUO.COM FOREIGN CURRENCY 29.00
-  - delta 0.11 | tx-2025-cc-20250411-b0e0ca5d85 | 2025-04-11 | cad_amount -41.35 | personal/TD Personal VISA | Amazon.ca*XK5XS6JV3 AMAZON.CA
-  - delta 0.16 | tx-2025-cc-20250407-27e7fa556c | 2025-04-07 | cad_amount -41.62 | personal/TD Personal VISA | Amazon.ca*7M3K41US3 AMAZON.CA
+  - delta 0.07 | tx-2025-cc-20251006-ee0ef57664 | 2025-10-06 | cad_amount -41.53 | corporate/TD Business VISA | OPENPHONE QUO.COM
+  - delta 0.08 | tx-2025-cc-20250929-792bbe8690 | 2025-09-29 | cad_amount -41.54 | personal/TD Personal VISA | Amazon.ca*GX3J20R03 866-216-1072
+  - delta 0.16 | tx-2025-cc-20250120-8ee7ca0fbb | 2025-01-20 | cad_amount -41.62 | personal/TD Personal VISA | SAFEWAY #4908 VANCOUVER
 
 ### doc-20250831-digitalocean-12.12CAD-f63924c699
 - document_date: `2025-08-31`
@@ -185,9 +165,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.02 | tx-2025-cc-20250306-0a70b38c4f | 2025-03-06 | cad_amount -12.10 | personal/TD Personal VISA | Amazon.ca*MF04O8513 AMAZON.CA
-  - delta 0.06 | tx-2025-cc-20250310-7e5a800169 | 2025-03-10 | cad_amount -12.18 | personal/TD Personal VISA | WHOLE FOODS MARKET WEST VANCOUV
-  - delta 0.07 | tx-2025-cc-20250107-9d8e7935ac | 2025-01-07 | cad_amount -12.05 | corporate/TD Business VISA | PAYPAL *GITHUB INC 4029357733
+  - delta 0.02 | tx-2025-cc-20250306-bd93eca7be | 2025-03-06 | cad_amount -12.10 | personal/TD Personal VISA | Amazon.ca*MF04O8513 AMAZON.CA
+  - delta 0.06 | tx-2025-cc-20250310-f711761161 | 2025-03-10 | cad_amount -12.18 | personal/TD Personal VISA | WHOLE FOODS MARKET WEST VANCOUV
+  - delta 0.07 | tx-2025-cc-20250107-f0849e0f93 | 2025-01-07 | cad_amount -12.05 | corporate/TD Business VISA | PAYPAL *GITHUB INC 4029357733
 
 ### doc-20250831-jinwei-heller-xu-4830.00CAD-fb82e1fdf5
 - document_date: `2025-08-31`
@@ -197,8 +177,8 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
   - delta 170.00 | tx-2025-bank-20250115-e634606b63 | 2025-01-15 | cad_amount -5000.00 | corporate/TD Business Chequing | HW293 TFR-TO 6084079
+  - delta 170.00 | tx-2025-cc-20250203-5117ef9365 | 2025-02-03 | cad_amount -5000.00 | personal/TD Personal VISA | MCL MOTOR CARS 2010 VANCOUVER
   - delta 530.00 | tx-2025-bank-20250515-1d6609749b | 2025-05-15 | cad_amount -4300.00 | corporate/TD Business Chequing | IJ391 TFR-TO 6084079
-  - delta 557.31 | tx-2025-bank-20250929-322eb13e55 | 2025-09-29 | cad_amount 5387.31 | corporate/TD Business Chequing | E-TRANSFER ***PyD
 
 ### doc-20250914-uber-7.59CAD-ec3dd5432d
 - document_date: `2025-09-14`
@@ -207,9 +187,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Uber_2025-09-14_receipt_614ba2a3-380e-467c-a7dc-7e9f41580a3a.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.01 | tx-2025-cc-20250605-17f76eec9a | 2025-06-05 | cad_amount -7.58 | personal/TD Personal VISA | Amazon.ca*N65CG1BK1 AMAZON.CA
-  - delta 0.01 | tx-2025-cc-20251029-6c6347fa33 | 2025-10-29 | cad_amount -7.58 | personal/TD Personal VISA | Amazon.ca*NK5FM7CF0 866-216-1072
-  - delta 0.04 | tx-2025-cc-20250602-492abbe45f | 2025-06-02 | cad_amount -7.63 | corporate/TD Business VISA | UBER* TRIP UBER.COM/CA/
+  - delta 0.01 | tx-2025-cc-20250227-59eab993db | 2025-02-27 | cad_amount -7.58 | personal/TD Personal VISA | Amazon.ca*V03PM35S3 AMAZON.CA
+  - delta 0.01 | tx-2025-cc-20250605-b3fe6357cd | 2025-06-05 | cad_amount -7.58 | personal/TD Personal VISA | Amazon.ca*N65CG1BK1 AMAZON.CA
+  - delta 0.01 | tx-2025-cc-20251029-67aaccd812 | 2025-10-29 | cad_amount -7.58 | personal/TD Personal VISA | Amazon.ca*NK5FM7CF0 866-216-1072
 
 ### doc-20250930-digitalocean-5.94CAD-d7fcc6c381
 - document_date: `2025-09-30`
@@ -218,9 +198,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/DigitalOcean_2025-09-30.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.06 | tx-2025-cc-20250630-5fdfbba44b | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
-  - delta 0.10 | tx-2025-cc-20251028-140c46d7de | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
-  - delta 0.12 | tx-2025-cc-20250704-d3dde697c7 | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
+  - delta 0.06 | tx-2025-cc-20250630-a6570385f1 | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
+  - delta 0.10 | tx-2025-cc-20251028-95e2decb10 | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
+  - delta 0.12 | tx-2025-cc-20250704-83e8da542a | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
 
 ### doc-20250930-jinwei-heller-xu-4410.00CAD-00b09928bd
 - document_date: `2025-09-30`
@@ -240,9 +220,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/ScreenConnect_2025-10-01_Quantity_and_Payment.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.44 | tx-2025-cc-20250714-7c95ef8c53 | 2025-07-14 | cad_amount -217.19 | corporate/TD Business VISA | ANDONIS VANCOUVER VANCOUVER
-  - delta 0.45 | tx-2025-cc-20250520-761f5cdbcd | 2025-05-20 | cad_amount -216.30 | personal/TD Personal VISA | SP SWAGGER AJAX
-  - delta 1.58 | tx-2025-cc-20250505-aa9f92d4dd | 2025-05-05 | cad_amount -215.17 | corporate/TD Business VISA | TST-Brix and Mortar Vancouver
+  - delta 0.44 | tx-2025-cc-20250714-f576b0593e | 2025-07-14 | cad_amount -217.19 | corporate/TD Business VISA | ANDONIS VANCOUVER VANCOUVER
+  - delta 0.45 | tx-2025-cc-20250520-5b034e9917 | 2025-05-20 | cad_amount -216.30 | personal/TD Personal VISA | SP SWAGGER AJAX
+  - delta 1.58 | tx-2025-cc-20250505-abb72778af | 2025-05-05 | cad_amount -215.17 | corporate/TD Business VISA | TST-Brix and Mortar Vancouver
 
 ### doc-20251001-screenconnect-64.65CAD-9ba4e1bbd8
 - document_date: `2025-10-01`
@@ -252,9 +232,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.07 | tx-2025-cc-20251229-96916ab45c | 2025-12-29 | cad_amount -64.58 | personal/TD Personal VISA | CINEPLEX REC ROOM 1002 VANCOUVER
-  - delta 0.27 | tx-2025-cc-20250407-9c6cd23d2e | 2025-04-07 | cad_amount -64.38 | personal/TD Personal VISA | DAN DAN NOODLE VANCOUVER
-  - delta 0.28 | tx-2025-cc-20251208-1d3232b638 | 2025-12-08 | cad_amount -64.37 | corporate/TD Business VISA | AMZN Mktp CA*BI9S32WF1 866-216-1072
+  - delta 0.07 | tx-2025-cc-20251229-66831064de | 2025-12-29 | cad_amount -64.58 | personal/TD Personal VISA | CINEPLEX REC ROOM 1002 VANCOUVER
+  - delta 0.28 | tx-2025-cc-20251208-b8f91a333c | 2025-12-08 | cad_amount -64.37 | corporate/TD Business VISA | AMZN Mktp CA*BI9S32WF1 866-216-1072
+  - delta 1.01 | tx-2025-cc-20250610-53a010d7d7 | 2025-06-10 | cad_amount -65.66 | personal/TD Personal VISA | NELLA CUTLERY.CA MISSISSAUGA
 
 ### doc-20251031-digitalocean-5.94CAD-1d569b10f4
 - document_date: `2025-10-31`
@@ -263,9 +243,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/DigitalOcean_2025-10-31.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.06 | tx-2025-cc-20250630-5fdfbba44b | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
-  - delta 0.10 | tx-2025-cc-20251028-140c46d7de | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
-  - delta 0.12 | tx-2025-cc-20250704-d3dde697c7 | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
+  - delta 0.06 | tx-2025-cc-20250630-a6570385f1 | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
+  - delta 0.10 | tx-2025-cc-20251028-95e2decb10 | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
+  - delta 0.12 | tx-2025-cc-20250704-83e8da542a | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
 
 ### doc-20251031-jinwei-heller-xu-3780.00CAD-087dba246f
 - document_date: `2025-10-31`
@@ -285,9 +265,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-11-16_CA5MNKEYCL4I.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.01 | tx-2025-cc-20251201-476312b5c7 | 2025-12-01 | cad_amount -55.95 | corporate/TD Business VISA | PAYPAL *PP* FS TECHSMIT 4029357733
-  - delta 0.05 | tx-2025-cc-20250407-5daca7d8da | 2025-04-07 | cad_amount -55.99 | personal/TD Personal VISA | AMAZON.COM.CA www.amazon.c
-  - delta 0.06 | tx-2025-cc-20250112-83e39c7838 | 2025-01-12 | cad_amount -56.00 | personal/TD Personal VISA | PREVIOUS STATEMENT BALANCE $594.62
+  - delta 0.01 | tx-2025-cc-20251201-b6abf1ef87 | 2025-12-01 | cad_amount -55.95 | corporate/TD Business VISA | PAYPAL *PP* FS TECHSMIT 4029357733
+  - delta 0.06 | tx-2025-cc-20250206-5f31972301 | 2025-02-06 | cad_amount -56.00 | personal/TD Personal VISA | AMAZON.COM.CA www.amazon.c
+  - delta 0.06 | tx-2025-cc-20250310-15851bb42c | 2025-03-10 | cad_amount -56.00 | personal/TD Personal VISA | AMAZON.COM.CA www.amazon.c
 
 ### doc-20251128-staples-79.13CAD-57e67c636c
 - document_date: `2025-11-28`
@@ -296,9 +276,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Staples_2025-11-28_Invoice_for_Order_#45413109.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.39 | tx-2025-cc-20250630-41aa1e8e34 | 2025-06-30 | cad_amount 79.52 | personal/TD Personal VISA | PAYPAL *WGWSB JEANS 4029357733
-  - delta 0.51 | tx-2025-cc-20250624-522eb2f5a3 | 2025-06-24 | cad_amount -79.64 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
-  - delta 0.71 | tx-2025-cc-20250317-c208a8d4da | 2025-03-17 | cad_amount -78.42 | personal/TD Personal VISA | Amazon.ca*J71021A73 AMAZON.CA
+  - delta 0.13 | tx-2025-cc-20250806-12ee69a0c1 | 2025-08-06 | cad_amount -79.26 | personal/TD Personal VISA | CAFFE CENTRAL SAN FRANCISC
+  - delta 0.39 | tx-2025-cc-20250630-a7a890183b | 2025-06-30 | cad_amount 79.52 | personal/TD Personal VISA | PAYPAL *WGWSB JEANS 4029357733
+  - delta 0.51 | tx-2025-cc-20250624-6f68ccacca | 2025-06-24 | cad_amount -79.64 | corporate/TD Business VISA | NAMESPRO SOLUTIONS INC. RICHMOND
 
 ### doc-20251129-techsmith-53.29CAD-26e6f0b4fc
 - document_date: `2025-11-29`
@@ -307,9 +287,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/TechSmith_2025-11-29.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.05 | tx-2025-cc-20250730-7b775241c9 | 2025-07-30 | cad_amount -53.34 | personal/TD Personal VISA | SAFEWAY #4905 NORTH VANCOU
-  - delta 0.14 | tx-2025-cc-20250326-ff6876f4b5 | 2025-03-26 | cad_amount -53.15 | personal/TD Personal VISA | CHV43001 BURRARD CHEVR VANCOUVER
-  - delta 0.26 | tx-2025-cc-20250704-353b2056fa | 2025-07-04 | cad_amount -53.03 | personal/TD Personal VISA | Amazon.ca*N354W8WZ2 AMAZON.CA
+  - delta 0.01 | tx-2025-cc-20250814-db1ead71e8 | 2025-08-14 | cad_amount -53.28 | personal/TD Personal VISA | DOUBLE D PIZZA VANCOUVER
+  - delta 0.14 | tx-2025-cc-20250326-9a07cbd077 | 2025-03-26 | cad_amount -53.15 | personal/TD Personal VISA | CHV43001 BURRARD CHEVR VANCOUVER
+  - delta 0.26 | tx-2025-cc-20250704-8ab146b376 | 2025-07-04 | cad_amount -53.03 | personal/TD Personal VISA | Amazon.ca*N354W8WZ2 AMAZON.CA
 
 ### doc-20251130-digitalocean-5.94CAD-8833a892c5
 - document_date: `2025-11-30`
@@ -318,9 +298,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/DigitalOcean_2025-11-30.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.06 | tx-2025-cc-20250630-5fdfbba44b | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
-  - delta 0.10 | tx-2025-cc-20251028-140c46d7de | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
-  - delta 0.12 | tx-2025-cc-20250704-d3dde697c7 | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
+  - delta 0.06 | tx-2025-cc-20250630-a6570385f1 | 2025-06-30 | cad_amount -6.00 | personal/TD Personal VISA | FALSE CREEK FERRIES VANCOUVER
+  - delta 0.10 | tx-2025-cc-20251028-95e2decb10 | 2025-10-28 | cad_amount -6.04 | personal/TD Personal VISA | BC PLACE VANCOUVER
+  - delta 0.12 | tx-2025-cc-20250704-83e8da542a | 2025-07-04 | cad_amount -6.06 | personal/TD Personal VISA | Amazon.ca*N34ES0WO2 AMAZON.CA
 
 ### doc-20251130-jinwei-heller-xu-3150.00CAD-1a8522aa4b
 - document_date: `2025-11-30`
@@ -330,7 +310,7 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 110.76 | tx-2025-cc-20251015-e7b288b96b | 2025-10-15 | cad_amount -3039.24 | personal/TD Personal VISA | WHOLE FOODS MARKET VANCOUVER
+  - delta 150.00 | tx-2025-cc-20250818-8bc4001dfa | 2025-08-18 | cad_amount 3300.00 | personal/TD Personal VISA | PAYMENT - THANK YOU
   - delta 250.00 | tx-2025-bank-20250730-051d08f2ca | 2025-07-30 | cad_amount -2900.00 | corporate/TD Business Chequing | HJ544 TFR-TO 6084079
   - delta 250.00 | tx-2025-bank-20251031-2edbdb9506 | 2025-10-31 | cad_amount -2900.00 | corporate/TD Business Chequing | JW375 TFR-TO 6084079
 
@@ -341,20 +321,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-12-06_CA5488HJHZ6I.md`
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.04 | tx-2025-cc-20250324-a96c22c7e3 | 2025-03-24 | cad_amount -46.50 | personal/TD Personal VISA | VANCOUVER INTERNATIONAL A LANGLEY
-  - delta 0.96 | tx-2025-cc-20250514-6882b4f0c0 | 2025-05-14 | cad_amount -45.50 | personal/TD Personal VISA | VAGARO* BEAUTY VAULT V
-  - delta 1.00 | tx-2025-cc-20250414-bdcfa930e9 | 2025-04-14 | cad_amount -47.46 | personal/TD Personal VISA | BLACK TOP & CHECKER CABS
-
-### doc-20251209-amazon-canada-31.50CAD-dd8907308d
-- document_date: `2025-12-09`
-- vendor: `Amazon Canada`
-- amount: `31.50 CAD`
-- source_file: `FY2025/transactions/5_expenses/Amazon_Canada_2025-12-09_CA515LE4L7W30I.md`
-- linked_transactions: 0
-- nearest_statement_amounts (by abs amount delta):
-  - delta 0.19 | tx-2025-cc-20250416-98956827be | 2025-04-16 | cad_amount -31.31 | personal/TD Personal VISA | PAYPAL *UBERPAYMENT 35314369001
-  - delta 0.60 | tx-2025-cc-20250317-6c1f8a90fd | 2025-03-17 | cad_amount -30.90 | personal/TD Personal VISA | AIR CAN* 0144284504317 AIRCANADA.CO
-  - delta 0.60 | tx-2025-cc-20250317-71e1e4f254 | 2025-03-17 | cad_amount -30.90 | personal/TD Personal VISA | AIR CAN* 0144284504316 AIRCANADA.CO
+  - delta 0.04 | tx-2025-cc-20250324-2df4a168d4 | 2025-03-24 | cad_amount -46.50 | personal/TD Personal VISA | VANCOUVER INTERNATIONAL A LANGLEY
+  - delta 0.27 | tx-2025-cc-20250211-c697c17119 | 2025-02-11 | cad_amount -46.73 | personal/TD Personal VISA | MARUHACHI RA-MEN WESTE
+  - delta 0.37 | tx-2025-cc-20250120-86cb782c75 | 2025-01-20 | cad_amount -46.09 | personal/TD Personal VISA | WHOLE FOODS MARKET NORTH VANCOU
 
 ### doc-20251224-rogers-320.83CAD-b406ea952c
 - document_date: `2025-12-24`
@@ -364,8 +333,8 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
   - delta 3.28 | tx-2025-bank-20250225-c2700d8c8e | 2025-02-25 | cad_amount -317.55 | corporate/TD Business Chequing | GST-B 4245035    BUS
-  - delta 7.23 | tx-2025-cc-20251229-7145c94884 | 2025-12-29 | cad_amount -313.60 | personal/TD Personal VISA | AMAZON.COM.CA www.amazon.c
-  - delta 12.20 | tx-2025-cc-20250609-a0fa5b4868 | 2025-06-09 | cad_amount -308.63 | corporate/TD Business VISA | ROGERS ******1233 888-764-3771
+  - delta 7.23 | tx-2025-cc-20251229-54023b807b | 2025-12-29 | cad_amount -313.60 | personal/TD Personal VISA | AMAZON.COM.CA www.amazon.c
+  - delta 12.20 | tx-2025-cc-20250609-419783486f | 2025-06-09 | cad_amount -308.63 | corporate/TD Business VISA | ROGERS ******1233 888-764-3771
 
 ### doc-20261231-digitalocean-4.88CAD-441f190776
 - document_date: `2026-12-31`
@@ -375,9 +344,9 @@ This report lists *invoice* evidence documents whose **CAD totals** do not match
 - doc_notes: amount inferred (no explicit Total/Amount Due marker nearby)
 - linked_transactions: 0
 - nearest_statement_amounts (by abs amount delta):
-  - delta 0.04 | tx-2025-cc-20250602-195460e116 | 2025-06-02 | cad_amount -4.84 | corporate/TD Business VISA | GOOGLE*GSUITE KEFELAN. CC GOOGLE.CO
-  - delta 0.13 | tx-2025-cc-20250505-ca2b257034 | 2025-05-05 | cad_amount -4.75 | personal/TD Personal VISA | ZIPBY MISSISSAUGA
-  - delta 0.13 | tx-2025-cc-20250605-0ebb220f4f | 2025-06-05 | cad_amount -4.75 | personal/TD Personal VISA | Amazon.ca*N69EY3P50 AMAZON.CA
+  - delta 0.04 | tx-2025-cc-20250602-35b50bb050 | 2025-06-02 | cad_amount -4.84 | corporate/TD Business VISA | GOOGLE*GSUITE KEFELAN. CC GOOGLE.CO
+  - delta 0.11 | tx-2025-cc-20250218-651ff7eeac | 2025-02-18 | cad_amount -4.99 | personal/TD Personal VISA | GROUSE MOUNTAIN N-VANCOUVER
+  - delta 0.13 | tx-2025-cc-20250605-4212688577 | 2025-06-05 | cad_amount -4.75 | personal/TD Personal VISA | Amazon.ca*N69EY3P50 AMAZON.CA
 
 ## Non-CAD invoices (manual review)
 - doc-20250101-slack-18.73USD-f7fe2e63fd | 2025-01-01 | Slack | 18.73 USD | FY2025/transactions/5_expenses/Slack_2025-01-01_(ksi).md
