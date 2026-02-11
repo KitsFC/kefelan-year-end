@@ -1,0 +1,1 @@
+transaction_id,fiscal_year,txn_date,source_type,source_file,source_locator,account_owner,account_name,payment_method,card_last4,counterparty,description,amount,currency,cad_amount,fx_rate_to_cad,linked_document_ids,receipt_status,notes
